@@ -11,9 +11,6 @@ namespace TotovBuilder.Model.Items
         public double ExplosionDelay { get; set; }
 
         /// <inheritdoc/>
-        public string FragmentAmmunitionId { get; set; } = string.Empty;
-
-        /// <inheritdoc/>
         public double FragmentsAmount { get; set; }
 
         /// <inheritdoc/>

@@ -11,11 +11,6 @@
         double ExplosionDelay { get; set; }
 
         /// <summary>
-        /// Type of ammunition of the fragments.
-        /// </summary>
-        string FragmentAmmunitionId { get; set; }
-
-        /// <summary>
         /// Number of fragments.
         /// </summary>
         double FragmentsAmount { get; set; }

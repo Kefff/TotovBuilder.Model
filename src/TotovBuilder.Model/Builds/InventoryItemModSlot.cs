@@ -3,7 +3,7 @@
     /// <summary>
     /// Represents a mod slot in an inventory item.
     /// </summary>
-    public class InventoryModSlot
+    public class InventoryItemModSlot
     {
         /// <summary>
         /// Item.

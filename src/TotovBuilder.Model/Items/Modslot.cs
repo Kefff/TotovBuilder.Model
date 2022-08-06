@@ -21,7 +21,7 @@ namespace TotovBuilder.Model.Items
         /// Maximum number of times the item can be stacked in this mod slot.
         /// Mainly used to force the ammunition quantity to 1 in the special chamber mod slot.
         /// </summary>
-        public double MaxStackableAmount { get; set; }
+        public double MaxStackableAmount { get; set; } = 1;
 
         /// <summary>
         /// Name.

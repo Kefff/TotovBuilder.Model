@@ -26,7 +26,7 @@ namespace TotovBuilder.Model.Builds
         /// <summary>
         /// Mods slots.
         /// </summary>
-        public InventoryModSlot[] ModSlots = Array.Empty<InventoryModSlot>();
+        public InventoryItemModSlot[] ModSlots { get; set; } = Array.Empty<InventoryItemModSlot>();
 
         /// <summary>
         /// Number of items stacked.
