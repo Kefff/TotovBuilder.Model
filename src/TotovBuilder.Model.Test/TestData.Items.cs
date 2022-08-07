@@ -59,7 +59,6 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg",
                 MarketLink = "https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor",
                 Material = "Combined materials",
-                MaxStackableAmount = 1,
                 MovementSpeedPercentageModifier = -0.35,
                 Name = "6B43 6A Zabralo-Sh body armor",
                 //RicochetChance = , // TODO : MISSING FROM API
@@ -95,7 +94,6 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg",
                 MarketLink = "https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield",
                 Material = "Glass",
-                MaxStackableAmount = 1,
                 ModSlots = Array.Empty<ModSlot>(), // TODO : MISSING FROM API
                 MovementSpeedPercentageModifier = 0,
                 Name = "Ops-Core FAST multi-hit ballistic face shield",
@@ -114,7 +112,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5ab8ebf186f7742d8b372e80",
                 ImageLink = "https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-image.jpg",
                 MarketLink = "https://tarkov.dev/item/sso-attack-2-raid-backpack",
-                MaxStackableAmount = 1,
                 Name = "SSO Attack 2 raid backpack",
                 ShortName = "Attack 2",
                 Weight = 6.12,
@@ -129,7 +126,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5783c43d2459774bbe137486",
                 ImageLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-image.jpg",
                 MarketLink = "https://tarkov.dev/item/simple-wallet",
-                MaxStackableAmount = 1,
                 Name = "Simple wallet",
                 ShortName = "Wallet",
                 Weight = 0.23,
@@ -144,7 +140,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5c093ca986f7740a1867ab12",
                 ImageLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-image.jpg",
                 MarketLink = "https://tarkov.dev/item/secure-container-kappa",
-                MaxStackableAmount = 1,
                 Name = "Secure container Kappa",
                 ShortName = "Kappa",
                 Weight = 2,
@@ -159,7 +154,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5b432be65acfc433000ed01f",
                 ImageLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-image.jpg",
                 MarketLink = "https://tarkov.dev/item/6b34-anti-fragmentation-glasses",
-                MaxStackableAmount = 1,
                 Name = "6B34 anti-fragmentation glasses",
                 ShortName = "6B34",
                 Weight = 0.12,
@@ -177,7 +171,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5e32f56fcb6d5863cc5e5ee4",
                 ImageLink = "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-image.jpg",
                 MarketLink = "https://tarkov.dev/item/vog-17-khattabka-improvised-hand-grenade",
-                MaxStackableAmount = 1,
                 Name = "VOG-17 Khattabka improvised hand grenade",
                 ShortName = "VOG-17",
                 Type = "Grenade",
@@ -196,7 +189,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5a0c27731526d80618476ac4",
                 ImageLink = "https://assets.tarkov.dev/5a0c27731526d80618476ac4-image.jpg",
                 MarketLink = "https://tarkov.dev/item/zarya-stun-grenade",
-                MaxStackableAmount = 1,
                 Name = "\"Zarya\" stun grenade",
                 ShortName = "Zarya",
                 Type = "Flashbang",
@@ -221,7 +213,6 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.jpg",
                 MarketLink = "https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet",
                 Material = "Combined materials",
-                MaxStackableAmount = 1,
                 ModSlots = new ModSlot[] // TODO : MISSING FROM API
                 {
                     new ModSlot()
@@ -274,7 +265,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5f9949d869e2777a0e779ba5",
                 ImageLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-image.jpg",
                 MarketLink = "https://tarkov.dev/item/rivals-2020-armband",
-                MaxStackableAmount = 1,
                 Name = "Rivals 2020 armband",
                 ShortName = "Rivals",
                 Weight = 0.05,
@@ -302,7 +292,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5e54f76986f7740366043752",
                 ImageLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-image.jpg",
                 MarketLink = "https://tarkov.dev/item/shroud-half-mask",
-                MaxStackableAmount = 1,
                 Name = "Shroud half-mask",
                 ShortName = "Shroud",
                 Weight = 0.1,
@@ -316,7 +305,6 @@ namespace TotovBuilder.Model.Test
                 Id = "628e4e576d783146b124c64d",
                 ImageLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-image.jpg",
                 MarketLink = "https://tarkov.dev/item/peltor-comtac-4-hybrid-headset",
-                MaxStackableAmount = 1,
                 Name = "Peltor ComTac 4 Hybrid headset",
                 ShortName = "ComTac 4",
                 Weight = 0.6,
@@ -330,7 +318,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5c1d0c5f86f7744bb2683cf0",
                 ImageLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-image.jpg",
                 MarketLink = "https://tarkov.dev/item/terragroup-labs-keycard-blue",
-                MaxStackableAmount = 1,
                 Name = "TerraGroup Labs keycard (Blue)",
                 ShortName = "Blue",
                 Weight = 0.01,
@@ -344,7 +331,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5991b51486f77447b112d44f",
                 ImageLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-image.jpg",
                 MarketLink = "https://tarkov.dev/item/ms2000-marker",
-                MaxStackableAmount = 1,
                 Name = "MS2000 Marker",
                 ShortName = "MS2000",
                 Weight = 0.5,
@@ -371,7 +357,6 @@ namespace TotovBuilder.Model.Test
                 LoadSpeedPercentageModifier = -0.25,
                 MalfunctionPercentage = 0.04,
                 MarketLink = "https://tarkov.dev/item/m1911a1-45-acp-7-round-magazine",
-                MaxStackableAmount = 1,
                 ModSlots = Array.Empty<ModSlot>(),
                 Name = "M1911A1 .45 ACP 7-round magazine",
                 ShortName = "1911",
@@ -388,7 +373,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5c0126f40db834002a125382",
                 ImageLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-image.jpg",
                 MarketLink = "https://tarkov.dev/item/red-rebel-ice-pick",
-                MaxStackableAmount = 1,
                 Name = "Red Rebel ice pick",
                 ShortName = "RedRebel",
                 StabDamage = 30,
@@ -404,12 +388,39 @@ namespace TotovBuilder.Model.Test
                 Id = "59d790f486f77403cb06aec6",
                 ImageLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-image.jpg",
                 MarketLink = "https://tarkov.dev/item/armytek-predator-pro-v3-xhp35-hi-flashlight",
-                MaxStackableAmount = 1,
                 ModSlots = Array.Empty<ModSlot>(), // TODO : MISSING FROM API
                 Name = "Armytek Predator Pro v3 XHP35 HI flashlight",
                 ShortName = "XHP35",
                 Weight = 0.12,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Armytek_Predator_Pro_v3_XHP35_HI_flashlight"
+            },
+            new Mod()
+            {
+                CategoryId = "mod",
+                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
+                ErgonomicsModifier = -1,
+                IconLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-icon.jpg",
+                Id = "57d17e212459775a1179a0f5",
+                ImageLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.jpg",
+                MarketLink = "https://tarkov.dev/item/kiba-arms-25mm-accessory-ring-mount",
+                ModSlots = new ModSlot[] // TODO : MISSING FROM API
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "59d790f486f77403cb06aec6",
+                            "57d17c5e2459775a5c57d17d"
+                        },
+                        Id = "57d17f852459775aba1dae06",
+                        Name = "mod_flashlight",
+                        Required = false
+                    }
+                },
+                Name = "Kiba Arms 25mm accessory ring mount",
+                ShortName = "25mm ring",
+                Weight = 0.085,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_25mm_accessory_ring_mount"
             },
             new RangedWeapon()
             {
@@ -424,7 +435,6 @@ namespace TotovBuilder.Model.Test
                 Id = "57dc2fa62459775949412633",
                 ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.jpg",
                 MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle",
-                MaxStackableAmount = 1,
                 ModSlots = new ModSlot[] // TODO : MISSING FROM API
                 {
                     new ModSlot()
@@ -446,7 +456,6 @@ namespace TotovBuilder.Model.Test
                             "56dff4ecd2720b5f5a8b4568"
                         },
                         Id = "57dc318524597759805c1581",
-                        MaxStackableAmount = 1,
                         Name = "chamber0", // TODO : MISSING FROM API
                         Required = false
                     },
@@ -583,7 +592,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5e81c3cbac2bb513793cdc75",
                 ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.jpg",
                 MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol",
-                MaxStackableAmount = 1,
                 ModSlots = new ModSlot[] // TODO : MISSING FROM API
                 {
                     new ModSlot()
@@ -742,7 +750,6 @@ namespace TotovBuilder.Model.Test
                 Id = "5d2c76ed48f03532f2136169",
                 ImageLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.jpg",
                 MarketLink = "https://tarkov.dev/item/ak-akademia-bastion-dust-cover",
-                MaxStackableAmount = 1,
                 ModSlots = new ModSlot[] // TODO : MISSING FROM API
                 {
                     new ModSlot()
@@ -846,7 +853,6 @@ namespace TotovBuilder.Model.Test
                 Id = "61714eec290d254f5e6b2ffc",
                 ImageLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.jpg",
                 MarketLink = "https://tarkov.dev/item/schmidt-bender-pm-ii-3-12x50-scope",
-                MaxStackableAmount = 1,
                 ModSlots = Array.Empty<ModSlot>(), // TODO : MISSING FROM API
                 Name = "Schmidt & Bender PM II 3-12x50 34mm riflescope",
                 RecoilPercentageModifier = 0,
@@ -872,7 +878,6 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.jpg",
                 MarketLink = "https://tarkov.dev/item/6b3tm-01m-armored-rig",
                 Material = "Titan",
-                MaxStackableAmount = 1,
                 MovementSpeedPercentageModifier = -0.10,
                 Name = "6B3TM-01M armored rig",
                 //RicochetChance = , // TODO : MISSING FROM API
@@ -1344,6 +1349,33 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""55818b224bdc2dde698b456f""
+          },
+          {
+            ""id"": ""55802f3e4bdc2de7118b4584""
+          },
+          {
+            ""id"": ""5448fe124bdc2da5018b4567""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/57d17e212459775a1179a0f5-icon.jpg"",
+        ""id"": ""57d17e212459775a1179a0f5"",
+        ""imageLink"": ""https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/kiba-arms-25mm-accessory-ring-mount"",
+        ""name"": ""Kiba Arms 25mm accessory ring mount"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesWeaponMod"",
+          ""accuracyModifier"": 0,
+          ""ergonomics"": -1,
+          ""recoilModifier"": 0
+        },
+        ""shortName"": ""25mm ring"",
+        ""weight"": 0.085,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_25mm_accessory_ring_mount""
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""5447b5f14bdc2d61278b4567""
           },
           {
@@ -1558,6 +1590,24 @@ namespace TotovBuilder.Model.Test
                     "5ea2a8e200685063ec28c05a"
                 },
                 Id = "5e81c4ca763d9f754677befa",
+            },
+            new ItemMissingProperties()
+            {
+                Id = "57d17e212459775a1179a0f5",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "59d790f486f77403cb06aec6",
+                            "57d17c5e2459775a5c57d17d"
+                        },
+                        Id = "57d17f852459775aba1dae06",
+                        Name = "mod_flashlight",
+                        Required = false
+                    }
+                }
             },
             new ItemMissingProperties()
             {
@@ -2024,6 +2074,24 @@ namespace TotovBuilder.Model.Test
     ""id"": ""5e81c4ca763d9f754677befa"",
     ""maxStackableAmount"": 1,
     ""modSlots"": []
+  },
+  {
+    ""acceptedAmmunitionIds"": [],
+    ""conflictingItemIds"": [],
+    ""id"": ""57d17e212459775a1179a0f5"",
+    ""maxStackableAmount"": 1,
+    ""modSlots"": [
+      {
+        ""compatibleItemIds"": [
+          ""59d790f486f77403cb06aec6"",
+          ""57d17c5e2459775a5c57d17d""
+        ],
+        ""id"": ""57d17f852459775aba1dae06"",
+        ""maxStackableAmount"": 1,
+        ""name"": ""mod_flashlight"",
+        ""required"": false
+      }
+    ]
   },
   {
     ""acceptedAmmunitionIds"": [],
