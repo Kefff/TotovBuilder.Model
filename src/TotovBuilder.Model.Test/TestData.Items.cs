@@ -39,6 +39,11 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.012,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_MAI_AP"
             },
+            new Ammunition()
+            {
+                CategoryId = "ammunition",
+                Id = "testAmmunition",
+            },
             new Armor()
             {
                 ArmorClass = 6,
@@ -64,6 +69,11 @@ namespace TotovBuilder.Model.Test
                 TurningSpeedPercentageModifier = -0.21,
                 Weight = 20,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_6A_Zabralo-Sh_body_armor"
+            },
+            new Armor()
+            {
+                CategoryId = "armor",
+                Id = "testArmor",
             },
             new ArmorMod()
             {
@@ -99,6 +109,11 @@ namespace TotovBuilder.Model.Test
                 TurningSpeedPercentageModifier = -0.08,
                 Weight = 1.2,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Ops-Core_FAST_multi-hit_ballistic_face_shield",
+            },
+            new ArmorMod()
+            {
+                CategoryId = "armorMod",
+                Id = "testArmorMod",
             },
             new Container()
             {
@@ -139,6 +154,11 @@ namespace TotovBuilder.Model.Test
                 Weight = 2,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Secure_container_Kappa"
             },
+            new Container()
+            {
+                CategoryId = "securedContainer",
+                Id = "testContainer",
+            },
             new Eyewear()
             {
                 BlindnessProtectionPercentage = 0.1,
@@ -151,6 +171,11 @@ namespace TotovBuilder.Model.Test
                 ShortName = "6B34",
                 Weight = 0.12,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B34_anti-fragmentation_glasses"
+            },
+            new Eyewear()
+            {
+                CategoryId = "eyewear",
+                Id = "testEyewear",
             },
             new Grenade()
             {
@@ -185,6 +210,11 @@ namespace TotovBuilder.Model.Test
                 Type = "Flashbang",
                 Weight = 0.175,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/%22Zarya%22_stun_grenade"
+            },
+            new Grenade()
+            {
+                CategoryId = "grenade",
+                Id = "testGrenade",
             },
             new Headwear()
             {
@@ -246,6 +276,11 @@ namespace TotovBuilder.Model.Test
                 TurningSpeedPercentageModifier = -0.08,
                 Weight = 1.17,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/MSA_Gallet_TC_800_High_Cut_combat_helmet"
+            },
+            new Headwear()
+            {
+                CategoryId = "headwear",
+                Id = "testHeadwear",
             },
             new Item()
             {
@@ -346,6 +381,11 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.16,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/M1911A1_.45_ACP_7-round_magazine"
             },
+            new Magazine()
+            {
+                CategoryId = "magazine",
+                Id = "testMagazine",
+            },
             new MeleeWeapon()
             {
                 CategoryId = "meleeWeapon",
@@ -360,6 +400,11 @@ namespace TotovBuilder.Model.Test
                 StabDamage = 30,
                 Weight = 0.65,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Red_Rebel_ice_pick"
+            },
+            new MeleeWeapon()
+            {
+                CategoryId = "meleeWeapon",
+                Id = "testMeleeWeapon",
             },
             new Mod()
             {
@@ -400,6 +445,11 @@ namespace TotovBuilder.Model.Test
                 ShortName = "25mm ring",
                 Weight = 0.085,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_25mm_accessory_ring_mount"
+            },
+            new Mod()
+            {
+                CategoryId = "mod",
+                Id = "testMod",
             },
             new RangedWeapon()
             {
@@ -696,6 +746,11 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.231,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Colt_M1911A1_.45_ACP_pistol"
             },
+            new RangedWeapon()
+            {
+                CategoryId = "secondaryWeapon",
+                Id = "testRangedWeapon",
+            },
             new RangedWeaponMod()
             {
                 AccuracyPercentageModifier = 0,
@@ -837,6 +892,11 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.9,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Schmidt_%26_Bender_PM_II_3-12x50_34mm_riflescope"
             },
+            new RangedWeaponMod()
+            {
+                CategoryId = "rangedWeaponMod",
+                Id = "testRangedWeaponMod",
+            },
             new Vest()
             {
                 ArmorClass = 4,
@@ -874,6 +934,11 @@ namespace TotovBuilder.Model.Test
                 ShortName = "Scav Vest",
                 Weight = 0.4,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Scav_Vest"
+            },
+            new Vest()
+            {
+                CategoryId = "vest",
+                Id = "testVest",
             }
         };
 
@@ -917,6 +982,22 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""5485a8684bdc2da71d8b4567""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testAmmunition"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""5448e54d4bdc2dcc718b4568""
           },
           {
@@ -950,6 +1031,22 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""5448e54d4bdc2dcc718b4568""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testArmor"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""57bef4c42459772e8d35a53b""
           },
           {
@@ -977,6 +1074,22 @@ namespace TotovBuilder.Model.Test
         ""shortName"": ""FAST FS"",
         ""weight"": 1.2,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Ops-Core_FAST_multi-hit_ballistic_face_shield""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testArmorMod"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
       },
       {
         ""categories"": [
@@ -1038,6 +1151,22 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""5448bf274bdc2dfc2f8b456a""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testContainer"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""5448e5724bdc2ddf718b4568""
           },
           {
@@ -1062,6 +1191,22 @@ namespace TotovBuilder.Model.Test
         ""shortName"": ""6B34"",
         ""weight"": 0.12,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B34_anti-fragmentation_glasses""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5448e5724bdc2ddf718b4568""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testEyewear"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
       },
       {
         ""categories"": [
@@ -1114,6 +1259,22 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""543be6564bdc2df4348b4568""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testGrenade"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""5a341c4086f77401f2541505""
           },
           {
@@ -1144,6 +1305,22 @@ namespace TotovBuilder.Model.Test
         ""shortName"": ""TC 800"",
         ""weight"": 1.17,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MSA_Gallet_TC_800_High_Cut_combat_helmet""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5a341c4086f77401f2541505""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testHeadwear"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
       },
       {
         ""categories"": [
@@ -1290,6 +1467,22 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""5448bc234bdc2d3c308b4569""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testMagazine"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""5447e1d04bdc2dff2f8b4567""
           }
         ],
@@ -1307,6 +1500,22 @@ namespace TotovBuilder.Model.Test
         ""shortName"": ""RedRebel"",
         ""weight"": 0.65,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Red_Rebel_ice_pick""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5447e1d04bdc2dff2f8b4567""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testMeleeWeapon"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
       },
       {
         ""categories"": [
@@ -1365,6 +1574,22 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""55818b224bdc2dde698b456f""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testMod"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""5447b5f14bdc2d61278b4567""
           },
           {
@@ -1415,6 +1640,22 @@ namespace TotovBuilder.Model.Test
         ""shortName"": ""M1911A1"",
         ""weight"": 0.231,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Colt_M1911A1_.45_ACP_pistol""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5447b5cf4bdc2d65278b4567""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testRangedWeapon"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
       },
       {
         ""categories"": [
@@ -1476,6 +1717,22 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""55818ae44bdc2dde698b456c""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testRangedWeaponMod"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""5448e5284bdc2dcb718b4567""
           }
         ],
@@ -1526,6 +1783,22 @@ namespace TotovBuilder.Model.Test
         ""shortName"": ""Scav Vest"",
         ""weight"": 0.4,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Scav_Vest""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5448e5284bdc2dcb718b4567""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testVest"",
+        ""imageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
       }
     ]
   }
