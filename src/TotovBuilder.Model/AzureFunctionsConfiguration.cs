@@ -106,7 +106,9 @@ namespace TotovBuilder.Model
         public IEnumerable<string> GetBlobNames()
         {
             Type azureFunctionsConfigurationType = typeof(AzureFunctionsConfiguration);
-            IEnumerable<string> blobsToUpload = azureFunctionsConfigurationType.GetProperties().Where(p => p.Name.EndsWith("BlobName")).Select(p => p.Name);
+            IEnumerable<string> blobsToUpload = azureFunctionsConfigurationType.GetProperties()
+                .Where(p => p.Name.EndsWith("BlobName"))
+                .Select(p => (p.GetValue(this) as string) ?? string.Empty);
 
             return blobsToUpload;
         }

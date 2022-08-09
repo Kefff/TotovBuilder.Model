@@ -18,7 +18,6 @@ namespace TotovBuilder.Model.Test
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber762x39",
                 CategoryId = "ammunition",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 DurabilityBurnPercentageModifier = 0.7,
                 FleshDamage = 47,
                 FragmentationChancePercentage = 0.05,
@@ -50,7 +49,6 @@ namespace TotovBuilder.Model.Test
                     "Thorax",
                     "Stomach"
                 },
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 CategoryId = "armor",
                 Durability = 85,
                 ErgonomicsPercentageModifier = -0.27,
@@ -94,7 +92,6 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg",
                 MarketLink = "https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield",
                 Material = "Glass",
-                ModSlots = Array.Empty<ModSlot>(), // TODO : MISSING FROM API
                 MovementSpeedPercentageModifier = 0,
                 Name = "Ops-Core FAST multi-hit ballistic face shield",
                 //RicochetChance = , // TODO : MISSING FROM API
@@ -107,7 +104,6 @@ namespace TotovBuilder.Model.Test
             {
                 Capacity = 35,
                 CategoryId = "backpack",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-icon.jpg",
                 Id = "5ab8ebf186f7742d8b372e80",
                 ImageLink = "https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-image.jpg",
@@ -121,7 +117,6 @@ namespace TotovBuilder.Model.Test
             {
                 Capacity = 4,
                 CategoryId = "container",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-icon.jpg",
                 Id = "5783c43d2459774bbe137486",
                 ImageLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-image.jpg",
@@ -135,7 +130,6 @@ namespace TotovBuilder.Model.Test
             {
                 Capacity = 12,
                 CategoryId = "securedContainer",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-icon.jpg",
                 Id = "5c093ca986f7740a1867ab12",
                 ImageLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-image.jpg",
@@ -149,7 +143,6 @@ namespace TotovBuilder.Model.Test
             {
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "eyewear",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-icon.jpg",
                 Id = "5b432be65acfc433000ed01f",
                 ImageLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-image.jpg",
@@ -162,7 +155,6 @@ namespace TotovBuilder.Model.Test
             new Grenade()
             {
                 CategoryId = "grenade",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 ExplosionDelay = 3,
                 FragmentsAmount = 100,
                 MaximumExplosionRange = 6,
@@ -180,7 +172,6 @@ namespace TotovBuilder.Model.Test
             new Grenade()
             {
                 CategoryId = "grenade",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 ExplosionDelay = 2,
                 FragmentsAmount = 0,
                 MaximumExplosionRange = 10,
@@ -204,7 +195,6 @@ namespace TotovBuilder.Model.Test
                     "Nape"
                 },
                 CategoryId = "headwear",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 Deafening = "None",
                 Durability = 30,
                 ErgonomicsPercentageModifier = -0.06,
@@ -260,7 +250,6 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "armband",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-icon.jpg",
                 Id = "5f9949d869e2777a0e779ba5",
                 ImageLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-image.jpg",
@@ -273,7 +262,6 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "currency",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.jpg",
                 Id = "569668774bdc2da2298b4568",
                 ImageLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-image.jpg",
@@ -287,7 +275,6 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "faceCover",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-icon.jpg",
                 Id = "5e54f76986f7740366043752",
                 ImageLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-image.jpg",
@@ -300,7 +287,6 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "headphones",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-icon.jpg",
                 Id = "628e4e576d783146b124c64d",
                 ImageLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-image.jpg",
@@ -313,7 +299,6 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "other",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-icon.jpg",
                 Id = "5c1d0c5f86f7744bb2683cf0",
                 ImageLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-image.jpg",
@@ -326,7 +311,6 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "special",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 IconLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.jpg",
                 Id = "5991b51486f77447b112d44f",
                 ImageLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-image.jpg",
@@ -357,7 +341,6 @@ namespace TotovBuilder.Model.Test
                 LoadSpeedPercentageModifier = -0.25,
                 MalfunctionPercentage = 0.04,
                 MarketLink = "https://tarkov.dev/item/m1911a1-45-acp-7-round-magazine",
-                ModSlots = Array.Empty<ModSlot>(),
                 Name = "M1911A1 .45 ACP 7-round magazine",
                 ShortName = "1911",
                 Weight = 0.16,
@@ -367,7 +350,6 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "meleeWeapon",
                 ChopDamage = 25,
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 HitRadius = 0.6,
                 IconLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-icon.jpg",
                 Id = "5c0126f40db834002a125382",
@@ -382,13 +364,11 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 ErgonomicsModifier = -2,
                 IconLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-icon.jpg",
                 Id = "59d790f486f77403cb06aec6",
                 ImageLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-image.jpg",
                 MarketLink = "https://tarkov.dev/item/armytek-predator-pro-v3-xhp35-hi-flashlight",
-                ModSlots = Array.Empty<ModSlot>(), // TODO : MISSING FROM API
                 Name = "Armytek Predator Pro v3 XHP35 HI flashlight",
                 ShortName = "XHP35",
                 Weight = 0.12,
@@ -397,7 +377,6 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 ErgonomicsModifier = -1,
                 IconLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-icon.jpg",
                 Id = "57d17e212459775a1179a0f5",
@@ -426,7 +405,6 @@ namespace TotovBuilder.Model.Test
             {
                 Caliber = "Caliber545x39",
                 CategoryId = "mainWeapon",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 Ergonomics = 44,
                 FireModes = new string[] { "Single fire", "Full auto" },
                 FireRate = 650,
@@ -583,7 +561,6 @@ namespace TotovBuilder.Model.Test
             {
                 Caliber = "Caliber1143x23ACP",
                 CategoryId = "secondaryWeapon",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 Ergonomics = 75,
                 FireModes = new string[] { "Single fire" },
                 FireRate = 30,
@@ -870,7 +847,6 @@ namespace TotovBuilder.Model.Test
                 },
                 Capacity = 12,
                 CategoryId = "vest",
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.15,
                 IconLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.jpg",
@@ -885,6 +861,19 @@ namespace TotovBuilder.Model.Test
                 TurningSpeedPercentageModifier = -0.05,
                 Weight = 9.2,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B3TM-01M_armored_rig"
+            },
+            new Vest()
+            {
+                Capacity = 6,
+                CategoryId = "vest",
+                IconLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-icon.jpg",
+                Id = "572b7adb24597762ae139821",
+                ImageLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-image.jpg",
+                MarketLink = "https://tarkov.dev/item/scav-vest",
+                Name = "Scav Vest",
+                ShortName = "Scav Vest",
+                Weight = 0.4,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Scav_Vest"
             }
         };
 
@@ -1511,6 +1500,32 @@ namespace TotovBuilder.Model.Test
         ""shortName"": ""6B3TM-01M"",
         ""weight"": 9.2,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B3TM-01M_armored_rig""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5448e5284bdc2dcb718b4567""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/572b7adb24597762ae139821-icon.jpg"",
+        ""id"": ""572b7adb24597762ae139821"",
+        ""imageLink"": ""https://assets.tarkov.dev/572b7adb24597762ae139821-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/scav-vest"",
+        ""name"": ""Scav Vest"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesChestRig"",
+          ""capacity"": 6,
+          ""class"": null,
+          ""durability"": null,
+          ""ergoPenalty"": null,
+          ""material"": null,
+          ""speedPenalty"": null,
+          ""turnPenalty"": null,
+          ""zones"": null
+        },
+        ""shortName"": ""Scav Vest"",
+        ""weight"": 0.4,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Scav_Vest""
       }
     ]
   }
