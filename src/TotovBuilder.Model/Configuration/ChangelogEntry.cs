@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TotovBuilder.Model
+namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents a changelog entry.

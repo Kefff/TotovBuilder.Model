@@ -1,4 +1,4 @@
-﻿namespace TotovBuilder.Model
+﻿namespace TotovBuilder.Model.Items
 {
     /// <summary>
     /// Represents a barter item.

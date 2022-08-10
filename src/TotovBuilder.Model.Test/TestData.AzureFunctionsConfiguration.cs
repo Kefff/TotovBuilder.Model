@@ -1,4 +1,6 @@
-﻿namespace TotovBuilder.Model.Test
+﻿using TotovBuilder.Model.Configuration;
+
+namespace TotovBuilder.Model.Test
 {
     public static partial class TestData
     {

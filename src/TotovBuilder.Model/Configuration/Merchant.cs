@@ -1,4 +1,4 @@
-﻿namespace TotovBuilder.Model
+﻿namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents a merchant.

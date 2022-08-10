@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TotovBuilder.Model
+namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents values related to Tarkov gameplay.
@@ -13,7 +13,7 @@ namespace TotovBuilder.Model
         public string[] ArmorPenetrationEfficiencies { get; set; } = Array.Empty<string>();
 
         /// <summary>
-        /// Character chest HP.
+        /// Player character chest HP.
         /// </summary>
         public int ChestHp { get; set; }
 
@@ -26,7 +26,7 @@ namespace TotovBuilder.Model
         /// Weight at which the character is heavily encumbered.
         /// </summary>
         public int HeavyEncumbermentWeight { get; set; }
-        
+
         /// <summary>
         /// Weight at which the character is lightly encumbered.
         /// </summary>

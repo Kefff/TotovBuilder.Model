@@ -6,7 +6,7 @@
     public interface IHeadwear : IArmor, IModdable
     {
         /// <summary>
-        /// Indicates whether the headwear impairs earing or not.
+        /// Severity of the hearing impairement caused by the helmet.
         /// </summary>
         string Deafening { get; set; }
     }

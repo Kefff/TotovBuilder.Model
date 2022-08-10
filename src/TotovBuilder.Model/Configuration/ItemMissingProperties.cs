@@ -1,7 +1,7 @@
 ﻿using System;
 using TotovBuilder.Model.Items;
 
-namespace TotovBuilder.Model
+namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents the missing properties of an item.
@@ -17,7 +17,7 @@ namespace TotovBuilder.Model
         /// IDs of conflicting items.
         /// </summary>
         public string[] ConflictingItemIds { get; set; } = Array.Empty<string>();
-        
+
         /// <summary>
         /// ID.
         /// </summary>
@@ -29,8 +29,13 @@ namespace TotovBuilder.Model
         public double MaxStackableAmount { get; set; } = 1;
 
         /// <summary>
-        /// Mod slots for maddable items.
+        /// Mod slots for moddable items.
         /// </summary>
         public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();
+
+        /// <summary>
+        /// Value of the X parameter for ricochet chances.
+        /// </summary>
+        public double? RicochetXValue { get; set; }
     }
 }

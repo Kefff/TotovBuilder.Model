@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TotovBuilder.Model
+namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents the Totov Builder Azure functions configuration.
@@ -37,7 +37,7 @@ namespace TotovBuilder.Model
         /// <summary>
         /// Name of the Azure blob containing the armor penetrations.
         /// </summary>
-        public string AzureArmorPenetrationsBlobName { get; set; } = string.Empty;        
+        public string AzureArmorPenetrationsBlobName { get; set; } = string.Empty;
 
         /// <summary>
         /// Connection string to the Azure blob storage containing static data.
@@ -63,7 +63,7 @@ namespace TotovBuilder.Model
         /// Name of the Azure blob containing the item categories.
         /// </summary>
         public string AzureItemCategoriesBlobName { get; set; } = string.Empty;
-        
+
         /// <summary>
         /// Name of the Azure blob containing items data missing from the API.
         /// </summary>
@@ -78,7 +78,7 @@ namespace TotovBuilder.Model
         /// Name of the Azure blob containing the values related to Tarkov gameplay.
         /// </summary>
         public string AzureTarkovValuesBlobName { get; set; } = string.Empty;
-        
+
         /// <summary>
         /// Name of the Azure blob containing the website configuration.
         /// </summary>
@@ -108,7 +108,7 @@ namespace TotovBuilder.Model
             Type azureFunctionsConfigurationType = typeof(AzureFunctionsConfiguration);
             IEnumerable<string> blobsToUpload = azureFunctionsConfigurationType.GetProperties()
                 .Where(p => p.Name.EndsWith("BlobName"))
-                .Select(p => (p.GetValue(this) as string) ?? string.Empty);
+                .Select(p => p.GetValue(this) as string ?? string.Empty);
 
             return blobsToUpload;
         }

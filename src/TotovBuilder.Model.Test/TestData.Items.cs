@@ -1,4 +1,5 @@
 ﻿using System;
+using TotovBuilder.Model.Configuration;
 using TotovBuilder.Model.Items;
 
 namespace TotovBuilder.Model.Test
@@ -14,7 +15,7 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = -0.05,
                 ArmorDamagePercentage = 0.76,
-                //ArmorPenetrations = , // TODO : OBTAIN FROM WIKI
+                ArmorPenetrations = new double[] { 6, 6, 6, 6, 6, 5 }, // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber762x39",
                 CategoryId = "ammunition",
@@ -1823,7 +1824,8 @@ namespace TotovBuilder.Model.Test
                     "5c110624d174af029e69734c",
                     "5a16b8a9fcdbcb00165aa6ca"
                 },
-                Id = "5a16b7e1fcdbcb00165aa6c9"
+                Id = "5a16b7e1fcdbcb00165aa6c9",
+                RicochetXValue = 0.7
             },
             new ItemMissingProperties()
             {
@@ -1860,7 +1862,8 @@ namespace TotovBuilder.Model.Test
                         Id = "5e4bfc1586f774264f7582d7",
                         Name = "mod_mount"
                     }
-                }
+                },
+                RicochetXValue = 0.9
             },
             new ItemMissingProperties()
             {
@@ -2303,7 +2306,8 @@ namespace TotovBuilder.Model.Test
     ],
     ""id"": ""5a16b7e1fcdbcb00165aa6c9"",
     ""maxStackableAmount"": 1,
-    ""modSlots"": []
+    ""modSlots"": [],
+    ""ricochetXValue"": 0.7
   },
   {
     ""acceptedAmmunitionIds"": [],
@@ -2341,7 +2345,8 @@ namespace TotovBuilder.Model.Test
         ""name"": ""mod_mount"",
         ""required"": false
       }
-    ]
+    ],
+    ""ricochetXValue"": 0.9
   },
   {
     ""acceptedAmmunitionIds"": [],

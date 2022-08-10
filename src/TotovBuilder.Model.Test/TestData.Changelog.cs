@@ -1,4 +1,5 @@
 ﻿using System;
+using TotovBuilder.Model.Configuration;
 
 namespace TotovBuilder.Model.Test
 {

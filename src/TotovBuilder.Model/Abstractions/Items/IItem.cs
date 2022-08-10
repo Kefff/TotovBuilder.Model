@@ -1,4 +1,4 @@
-﻿using TotovBuilder.Model;
+﻿using TotovBuilder.Model.Items;
 
 namespace TotovBuilder.Model.Abstractions.Items
 {

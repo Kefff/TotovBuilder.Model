@@ -1,4 +1,4 @@
-﻿namespace TotovBuilder.Model
+﻿namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents the Totov Builder website configuration.
@@ -94,12 +94,12 @@
         /// Information notifications duration (in seconds).
         /// </summary>
         public int NotificationInformationDuration { get; set; }
-        
+
         /// <summary>
         /// Success notifications duration (in seconds).
         /// </summary>
         public int NotificationSuccessDuration { get; set; }
-        
+
         /// <summary>
         /// Warning notifications duration (in seconds).
         /// </summary>

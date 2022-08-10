@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TotovBuilder.Model.Test
+﻿namespace TotovBuilder.Model.Test
 {
     using System.Collections.Generic;
-using FluentAssertions;
-using Xunit;
+    using FluentAssertions;
+    using global::TotovBuilder.Model.Configuration;
+    using Xunit;
 
-namespace TotovBuilder.AzureFunctions.Test
-{
-    /// <summary>
-    /// Represents tests on the <see cref="AzureFunctionsConfiguration"/> class.
-    /// </summary>
-    public class AzureFunctionsConfigurationTest
+    namespace TotovBuilder.AzureFunctions.Test
+    {
+        /// <summary>
+        /// Represents tests on the <see cref="AzureFunctionsConfiguration"/> class.
+        /// </summary>
+        public class AzureFunctionsConfigurationTest
     {
         [Fact]
         public void GetBlobNames_ShouldGetBlobNames()

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TotovBuilder.Model
+namespace TotovBuilder.Model.Items
 {
     /// <summary>
     /// Represents a price.
@@ -28,7 +28,7 @@ namespace TotovBuilder.Model
         public double MerchantLevel { get; set; }
 
         /// <summary>
-        /// Requires a quest.
+        /// ID of the quest unlocking the trade.
         /// </summary>
         public string? QuestId { get; set; }
 

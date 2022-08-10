@@ -1,4 +1,6 @@
-﻿namespace TotovBuilder.Model.Test
+﻿using TotovBuilder.Model.Configuration;
+
+namespace TotovBuilder.Model.Test
 {
     /// <summary>
     /// Represents test data.
@@ -11,25 +13,31 @@
             {
                 AmmunitionId = "5d6e6772a4b936088465b17c",
                 AmmunitionName = "12/70 5.25mm Buckshot",
-                Values = new int[] { 3, 3, 3, 3, 3, 3 }
+                Values = new double[] { 3, 3, 3, 3, 3, 3 }
             },
             new ArmorPenetration()
             {
                 AmmunitionId = "5e85a9f4add9fe03027d9bf1",
                 AmmunitionName = "23x75mm \"Zvezda\" flashbang round",
-                Values = new int[] { 0, 0, 0, 0, 0, 0 }
+                Values = new double[] { 0, 0, 0, 0, 0, 0 }
             },
             new ArmorPenetration()
             {
                 AmmunitionId = "5e81f423763d9f754677bf2e",
                 AmmunitionName = ".45 ACP Match FMJ",
-                Values = new int[] { 6, 6, 3, 1, 0, 0 }
+                Values = new double[] { 6, 6, 3, 1, 0, 0 }
             },
             new ArmorPenetration()
             {
                 AmmunitionId = "6196365d58ef8c428c287da1",
                 AmmunitionName = ".300 Whisper",
-                Values = new int[] { 6, 4, 2, 1, 0, 0 }
+                Values = new double[] { 6, 4, 2, 1, 0, 0 }
+            },
+            new ArmorPenetration()
+            {
+                AmmunitionId = "601aa3d2b2bcb34913271e6d",
+                AmmunitionName = "7.62x39mm MAI AP",
+                Values = new double[] { 6, 6, 6, 6, 6, 5 }
             }
         };
 
@@ -53,6 +61,11 @@
     ""ammunitionId"": ""6196365d58ef8c428c287da1"",
     ""ammunitionName"": "".300 Whisper"",
     ""values"": [6, 4, 2, 1, 0, 0]
+  },
+  {
+    ""ammunitionId"": ""601aa3d2b2bcb34913271e6d"",
+    ""ammunitionName"": ""7.62x39mm MAI AP"",
+    ""values"": [6, 6, 6, 6, 6, 5]
   }
 ]";
     }
