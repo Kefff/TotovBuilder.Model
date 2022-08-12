@@ -6,6 +6,16 @@
     public class WebsiteConfiguration
     {
         /// <summary>
+        /// Bug report URL.
+        /// </summary>
+        public string BugReportUrl { get; set; } = string.Empty;
+
+        /// <summary>
+        /// URL for sharing builds.
+        /// </summary>
+        public string BuildSharingUrl { get; set; } = string.Empty;
+
+        /// <summary>
         /// Storage key prefix for builds.
         /// </summary>
         public string BuildStorageKeyPrefix { get; set; } = string.Empty;
@@ -26,7 +36,7 @@
         public string ChangelogApi { get; set; } = string.Empty;
 
         /// <summary>
-        /// Cache dureation (in seconds).
+        /// Cache duration (in seconds).
         /// </summary>
         public int CacheDuration { get; set; }
 
@@ -121,9 +131,9 @@
         public string QuestsApi { get; set; } = string.Empty;
 
         /// <summary>
-        /// Bug report URL.
+        /// Tarkov values API name.
         /// </summary>
-        public string BugReportUrl { get; set; } = string.Empty;
+        public string TarkovValuesApi { get; set; } = string.Empty;
 
         /// <summary>
         /// Storage key for the current version.

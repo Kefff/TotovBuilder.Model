@@ -13,7 +13,7 @@
         /// <summary>
         /// ID of the item corresponding to the currency.
         /// </summary>
-        public string ItemId { get; set; } = string.Empty;
+        public string? ItemId { get; set; }
 
         /// <summary>
         /// Indicates whether the currency is the main currency.

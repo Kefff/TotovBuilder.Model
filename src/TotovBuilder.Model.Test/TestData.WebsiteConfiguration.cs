@@ -9,6 +9,7 @@ namespace TotovBuilder.Model.Test
     {
         public static WebsiteConfiguration WebsiteConfiguration = new WebsiteConfiguration()
         {
+            BuildSharingUrl = "https://localhost:3000/s/",
             BugReportUrl = "https://discord.gg/bugreport",
             BuildsSortFieldStorageKey = "build_",
             BuildsSortOrderStorageKey = "builds_sort_field",
@@ -37,6 +38,7 @@ namespace TotovBuilder.Model.Test
         };
 
         public const string WebsiteConfigurationJson = @"{
+  ""buildSharingUrl"": ""https://localhost:3000/s/"",
   ""bugReportUrl"": ""https://discord.gg/bugreport"",
   ""buildsSortFieldStorageKey"": ""build_"",
   ""buildsSortOrderStorageKey"": ""builds_sort_field"",
