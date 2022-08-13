@@ -20,17 +20,17 @@ namespace TotovBuilder.Model.Items
         /// <summary>
         /// Merchant.
         /// </summary>
-        public string? Merchant { get; set; }
+        public string Merchant { get; set; } = string.Empty;
 
         /// <summary>
         /// Merchant level.
         /// </summary>
-        public double? MerchantLevel { get; set; }
+        public double MerchantLevel { get; set; }
 
         /// <summary>
         /// ID of the quest unlocking the trade.
         /// </summary>
-        public string? QuestId { get; set; }
+        public string QuestId { get; set; } = string.Empty;
 
         /// <summary>
         /// Value. 

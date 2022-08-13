@@ -50,8 +50,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas = new string[]
                 {
-                    "Left arm",
-                    "Right arm",
+                    "LeftArm",
+                    "RightArm",
                     "Thorax",
                     "Stomach"
                 },
@@ -62,7 +62,7 @@ namespace TotovBuilder.Model.Test
                 Id = "545cdb794bdc2d3a198b456a",
                 ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg",
                 MarketLink = "https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor",
-                Material = "Combined materials",
+                Material = "CombinedMaterials",
                 MovementSpeedPercentageModifier = -0.35,
                 Name = "6B43 6A Zabralo-Sh body armor",
                 //RicochetChance = , // TODO : MISSING FROM API
@@ -233,7 +233,7 @@ namespace TotovBuilder.Model.Test
                 Id = "5e4bfc1586f774264f7582d3",
                 ImageLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.jpg",
                 MarketLink = "https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet",
-                Material = "Combined materials",
+                Material = "CombinedMaterials",
                 ModSlots = new ModSlot[] // TODO : MISSING FROM API
                 {
                     new ModSlot()
@@ -272,11 +272,33 @@ namespace TotovBuilder.Model.Test
                 },
                 MovementSpeedPercentageModifier = -0.02,
                 Name = "MSA Gallet TC 800 High Cut combat helmet",
-                //RicochetChance = , // TODO : MISSING FROM API
+                RicochetChance = "High", // TODO : MISSING FROM API
                 ShortName = "TC 800",
                 TurningSpeedPercentageModifier = -0.08,
                 Weight = 1.17,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/MSA_Gallet_TC_800_High_Cut_combat_helmet"
+            },
+            new Headwear()
+            {
+                ArmorClass = 0,
+                ArmoredAreas = Array.Empty<string>(),
+                CategoryId = "headwear",
+                Deafening = string.Empty,
+                Durability = 0,
+                ErgonomicsPercentageModifier = 0,
+                IconLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.jpg",
+                Id = "5bd073c986f7747f627e796c",
+                ImageLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-image.jpg",
+                MarketLink = "https://tarkov.dev/item/kotton-beanie",
+                Material = string.Empty,
+                ModSlots = Array.Empty<ModSlot>(),
+                MovementSpeedPercentageModifier = 0,
+                Name = "Kotton beanie",
+                RicochetChance = string.Empty, // TODO : MISSING FROM API
+                ShortName = "Kotton",
+                TurningSpeedPercentageModifier = 0,
+                Weight = 0.2,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Kotton_beanie"
             },
             new Headwear()
             {
@@ -457,7 +479,7 @@ namespace TotovBuilder.Model.Test
                 Caliber = "Caliber545x39",
                 CategoryId = "mainWeapon",
                 Ergonomics = 44,
-                FireModes = new string[] { "Single fire", "Full auto" },
+                FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 650,
                 HorizontalRecoil = 445,
                 IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.jpg",
@@ -613,7 +635,7 @@ namespace TotovBuilder.Model.Test
                 Caliber = "Caliber1143x23ACP",
                 CategoryId = "secondaryWeapon",
                 Ergonomics = 75,
-                FireModes = new string[] { "Single fire" },
+                FireModes = new string[] { "SingleFire" },
                 FireRate = 30,
                 HorizontalRecoil = 355,
                 IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.jpg",
@@ -1308,6 +1330,28 @@ namespace TotovBuilder.Model.Test
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MSA_Gallet_TC_800_High_Cut_combat_helmet""
       },
       {
+          ""categories"": [
+          {
+              ""id"": ""5a341c4086f77401f2541505""
+          },
+          {
+              ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+              ""id"": ""543be5f84bdc2dd4348b456a""
+          }
+          ],
+          ""iconLink"": ""https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.jpg"",
+          ""id"": ""5bd073c986f7747f627e796c"",
+          ""imageLink"": ""https://assets.tarkov.dev/5bd073c986f7747f627e796c-image.jpg"",
+          ""link"": ""https://tarkov.dev/item/kotton-beanie"",
+          ""name"": ""Kotton beanie"",
+          ""properties"": null,
+          ""shortName"": ""Kotton"",
+          ""weight"": 0.2,
+          ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Kotton_beanie""
+      },
+      {
         ""categories"": [
           {
             ""id"": ""5a341c4086f77401f2541505""
@@ -1618,6 +1662,27 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""5447b5fc4bdc2d87278b4567""
+          },
+          {
+            ""id"": ""5422acb9af1c889c16000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/618aaeb931ddad66c15eb7e9-icon.jpg"",
+        ""id"": ""618aaeb931ddad66c15eb7e9"",
+        ""imageLink"": ""https://assets.tarkov.dev/unknown-item-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/as-val-9x39-special-assault-rifle-kobra"",
+        ""name"": ""AS VAL 9x39 special assault rifle Kobra"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset""
+        },
+        ""shortName"": ""AS VAL Kobra"",
+        ""weight"": 3.085,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AS_VAL_9x39_special_assault_rifle""
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""5447b5cf4bdc2d65278b4567""
           },
           {
@@ -1653,7 +1718,15 @@ namespace TotovBuilder.Model.Test
         ""imageLink"": """",
         ""link"": """",
         ""name"": """",
-        ""properties"": null,
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesWeapon"",
+          ""caliber"": """",
+          ""ergonomics"": 0,
+          ""fireModes"": [],
+          ""fireRate"": 0,
+          ""recoilHorizontal"": 0,
+          ""recoilVertical"": 0
+        },
         ""shortName"": """",
         ""weight"": 0,
         ""wikiLink"": """"

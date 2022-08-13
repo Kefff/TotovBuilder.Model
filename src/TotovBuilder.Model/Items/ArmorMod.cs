@@ -33,7 +33,7 @@ namespace TotovBuilder.Model.Items
         public double MovementSpeedPercentageModifier { get; set; }
 
         /// <inheritdoc/>
-        public string? RicochetChance { get; set; }
+        public string RicochetChance { get; set; } = string.Empty;
 
         /// <inheritdoc/>
         public double TurningSpeedPercentageModifier { get; set; }

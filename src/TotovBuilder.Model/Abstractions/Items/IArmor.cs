@@ -38,7 +38,7 @@
         /// <summary>
         /// Chance of ricochet.
         /// </summary>
-        string? RicochetChance { get; set; }
+        string RicochetChance { get; set; }
 
         /// <summary>
         /// Modifier added to the character turning speed in percentage.
