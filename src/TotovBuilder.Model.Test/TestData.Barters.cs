@@ -7,90 +7,73 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static Item[] Barters = new Item[]
+        public static Price[] Barters = new Price[]
         {
-            new Item()
+            new Price()
             {
-                Id = "545cdb794bdc2d3a198b456a",
-                Prices = new Price[]
+                BarterItems = new BarterItem[]
                 {
-                    new Price()
+                    new BarterItem()
                     {
-                        BarterItems = new BarterItem[]
-                        {
-                            new BarterItem()
-                            {
-                                ItemId = "5e32f56fcb6d5863cc5e5ee4",
-                                Quantity = 2
-                            },
-                            new BarterItem()
-                            {
-                                ItemId = "5b432be65acfc433000ed01f",
-                                Quantity = 1
-                            }
-                        },
-                        CurrencyName = "barter",
-                        Merchant = "prapor",
-                        MerchantLevel = 1,
-                        QuestId = "59675d6c86f7740a842fc482"
+                        ItemId = "5e32f56fcb6d5863cc5e5ee4",
+                        Quantity = 2
                     },
-                    new Price()
+                    new BarterItem()
                     {
-                        BarterItems = new BarterItem[]
-                        {
-                            new BarterItem()
-                            {
-                                ItemId = "5f9949d869e2777a0e779ba5",
-                                Quantity = 4
-                            }
-                        },
-                        CurrencyName = "barter",
-                        Merchant = "mechanic",
-                        MerchantLevel = 3
+                        ItemId = "5b432be65acfc433000ed01f",
+                        Quantity = 1
                     }
-                }
+                },
+                ItemId = "545cdb794bdc2d3a198b456a",
+                CurrencyName = "barter",
+                Merchant = "prapor",
+                MerchantLevel = 1,
+                QuestId = "59675d6c86f7740a842fc482"
             },
-            new Item()
+            new Price()
             {
-                Id = "5e32f56fcb6d5863cc5e5ee4",
-                Prices = new Price[]
+                BarterItems = new BarterItem[]
                 {
-                    new Price()
+                    new BarterItem()
                     {
-                        BarterItems = new BarterItem[]
-                        {
-                            new BarterItem()
-                            {
-                                ItemId = "5e4bfc1586f774264f7582d3",
-                                Quantity = 0.5
-                            }
-                        },
-                        CurrencyName = "barter",
-                        Merchant = "skier",
-                        MerchantLevel = 1
+                        ItemId = "5f9949d869e2777a0e779ba5",
+                        Quantity = 4
                     }
-                }
+                },
+                ItemId = "545cdb794bdc2d3a198b456a",
+                CurrencyName = "barter",
+                Merchant = "mechanic",
+                MerchantLevel = 3
             },
-            new Item()
+            new Price()
             {
-                Id = "5f9949d869e2777a0e779ba5",
-                Prices = new Price[]
+                BarterItems = new BarterItem[]
                 {
-                    new Price()
+                    new BarterItem()
                     {
-                        BarterItems = new BarterItem[]
-                        {
-                            new BarterItem()
-                            {
-                                ItemId = "5e4bfc1586f774264f7582d3",
-                                Quantity = 0.5
-                            }
-                        },
-                        CurrencyName = "barter",
-                        Merchant = "skier",
-                        MerchantLevel = 1
+                        ItemId = "5e4bfc1586f774264f7582d3",
+                        Quantity = 0.5
                     }
-                }
+                },
+                ItemId = "5e32f56fcb6d5863cc5e5ee4",
+                CurrencyName = "barter",
+                Merchant = "skier",
+                MerchantLevel = 1
+            },
+            new Price()
+            {
+                BarterItems = new BarterItem[]
+                {
+                    new BarterItem()
+                    {
+                        ItemId = "5e4bfc1586f774264f7582d3",
+                        Quantity = 0.5
+                    }
+                },
+                CurrencyName = "barter",
+                ItemId = "5f9949d869e2777a0e779ba5",
+                Merchant = "skier",
+                MerchantLevel = 1
             }
         };
 

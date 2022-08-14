@@ -7,327 +7,235 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static Item[] Prices = new Item[]
+        public static Price[] Prices = new Price[]
         {
-            new Item()
+            new Price()
             {
-                Id = "5783c43d2459774bbe137486",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 18111,
-                        ValueInMainCurrency = 18111
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5783c43d2459774bbe137486",
+                Merchant = "flea-market",
+                Value = 18111,
+                ValueInMainCurrency = 18111
             },
-            new Item()
+            new Price()
             {
-                Id = "5b432be65acfc433000ed01f",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "prapor",
-                        MerchantLevel = 1,
-                        Value = 3003,
-                        ValueInMainCurrency = 3003
-                    },                    
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 7003,
-                        ValueInMainCurrency = 7003
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5b432be65acfc433000ed01f",
+                Merchant = "prapor",
+                MerchantLevel = 1,
+                Value = 3003,
+                ValueInMainCurrency = 3003
             },
-            new Item()
+            new Price()
             {
-                Id = "5e32f56fcb6d5863cc5e5ee4",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 22864,
-                        ValueInMainCurrency = 22864
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5b432be65acfc433000ed01f",
+                Merchant = "flea-market",
+                Value = 7003,
+                ValueInMainCurrency = 7003
             },
-            new Item()
+            new Price()
             {
-                Id = "5a0c27731526d80618476ac4",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "prapor",
-                        MerchantLevel = 2,
-                        Value = 7320,
-                        ValueInMainCurrency = 7320
-                    },                    
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 8063,
-                        ValueInMainCurrency = 8063
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5e32f56fcb6d5863cc5e5ee4",
+                Merchant = "flea-market",
+                Value = 22864,
+                ValueInMainCurrency = 22864
             },
-            new Item()
+            new Price()
             {
-                Id = "5e4bfc1586f774264f7582d3",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 65774,
-                        ValueInMainCurrency = 65774
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5a0c27731526d80618476ac4",
+                Merchant = "prapor",
+                MerchantLevel = 2,
+                Value = 7320,
+                ValueInMainCurrency = 7320
             },
-            new Item()
+            new Price()
             {
-                Id = "569668774bdc2da2298b4568",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "skier",
-                        MerchantLevel = 2,
-                        Value = 118,
-                        ValueInMainCurrency = 118
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5a0c27731526d80618476ac4",
+                Merchant = "flea-market",
+                Value = 8063,
+                ValueInMainCurrency = 8063
             },
-            new Item()
+            new Price()
             {
-                Id = "5e54f76986f7740366043752",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 27131,
-                        ValueInMainCurrency = 27131
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5e4bfc1586f774264f7582d3",
+                Merchant = "flea-market",
+                Value = 65774,
+                ValueInMainCurrency = 65774
             },
-            new Item()
+            new Price()
             {
-                Id = "628e4e576d783146b124c64d",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "ragman",
-                        MerchantLevel = 4,
-                        Value = 84249,
-                        ValueInMainCurrency = 84249
-                    },
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 79807,
-                        ValueInMainCurrency = 79807
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "569668774bdc2da2298b4568",
+                Merchant = "skier",
+                MerchantLevel = 2,
+                Value = 118,
+                ValueInMainCurrency = 118
             },
-            new Item()
+            new Price()
             {
-                Id = "5991b51486f77447b112d44f",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "prapor",
-                        MerchantLevel = 1,
-                        Value = 15177,
-                        ValueInMainCurrency = 15177
-                    },
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 27571,
-                        ValueInMainCurrency = 27571
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5e54f76986f7740366043752",
+                Merchant = "flea-market",
+                Value = 27131,
+                ValueInMainCurrency = 27131
             },
-            new Item()
+            new Price()
             {
-                Id = "5e81c4ca763d9f754677befa",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "USD",
-                        Merchant = "peacekeeper",
-                        MerchantLevel = 1,
-                        Value = 13,
-                        ValueInMainCurrency = 1456
-                    },
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 12148,
-                        ValueInMainCurrency = 12148
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "628e4e576d783146b124c64d",
+                Merchant = "ragman",
+                MerchantLevel = 4,
+                Value = 84249,
+                ValueInMainCurrency = 84249
             },
-            new Item()
+            new Price()
             {
-                Id = "5c0126f40db834002a125382",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 3892587,
-                        ValueInMainCurrency = 3892587
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "628e4e576d783146b124c64d",
+                Merchant = "flea-market",
+                Value = 79807,
+                ValueInMainCurrency = 79807
             },
-            new Item()
+            new Price()
             {
-                Id = "59d790f486f77403cb06aec6",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "skier",
-                        MerchantLevel = 3,
-                        Value = 6957,
-                        ValueInMainCurrency = 6957
-                    },
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 10276,
-                        ValueInMainCurrency = 10276
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5991b51486f77447b112d44f",
+                Merchant = "prapor",
+                MerchantLevel = 1,
+                Value = 15177,
+                ValueInMainCurrency = 15177
             },
-            new Item()
+            new Price()
             {
-                Id = "57dc2fa62459775949412633",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "prapor",
-                        MerchantLevel = 1,
-                        QuestId = "5936d90786f7742b1420ba5b",
-                        Value = 24605,
-                        ValueInMainCurrency = 24605
-                    },
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 35000,
-                        ValueInMainCurrency = 35000
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5991b51486f77447b112d44f",
+                Merchant = "flea-market",
+                Value = 27571,
+                ValueInMainCurrency = 27571
             },
-            new Item()
+            new Price()
             {
-                Id = "5e81c3cbac2bb513793cdc75",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "USD",
-                        Merchant = "peacekeeper",
-                        MerchantLevel = 1,
-                        Value = 155,
-                        ValueInMainCurrency = 17360
-                    },
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 13333,
-                        ValueInMainCurrency = 13333
-                    }
-                }
+                CurrencyName = "USD",
+                ItemId = "5e81c4ca763d9f754677befa",
+                Merchant = "peacekeeper",
+                MerchantLevel = 1,
+                Value = 13,
+                ValueInMainCurrency = 1456
             },
-            new Item()
+            new Price()
             {
-                Id = "5d2c76ed48f03532f2136169",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "skier",
-                        MerchantLevel = 1,
-                        Value = 6325,
-                        ValueInMainCurrency = 6325
-                    },
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 9628,
-                        ValueInMainCurrency = 9628
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5e81c4ca763d9f754677befa",
+                Merchant = "flea-market",
+                Value = 12148,
+                ValueInMainCurrency = 12148
             },
-            new Item()
+            new Price()
             {
-                Id = "61714eec290d254f5e6b2ffc",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 41517,
-                        ValueInMainCurrency = 41517
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "5c0126f40db834002a125382",
+                Merchant = "flea-market",
+                Value = 3892587,
+                ValueInMainCurrency = 3892587
             },
-            new Item()
+            new Price()
             {
-                Id = "5d5d646386f7742797261fd9",
-                Prices = new Price[]
-                {
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "ragman",
-                        MerchantLevel = 2,
-                        Value = 55312,
-                        ValueInMainCurrency = 55312
-                    },
-                    new Price()
-                    {
-                        CurrencyName = "RUB",
-                        Merchant = "flea-market",
-                        Value = 68479,
-                        ValueInMainCurrency = 68479
-                    }
-                }
+                CurrencyName = "RUB",
+                ItemId = "59d790f486f77403cb06aec6",
+                Merchant = "skier",
+                MerchantLevel = 3,
+                Value = 6957,
+                ValueInMainCurrency = 6957
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "59d790f486f77403cb06aec6",
+                Merchant = "flea-market",
+                Value = 10276,
+                ValueInMainCurrency = 10276
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "57dc2fa62459775949412633",
+                Merchant = "prapor",
+                MerchantLevel = 1,
+                QuestId = "5936d90786f7742b1420ba5b",
+                Value = 24605,
+                ValueInMainCurrency = 24605
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "57dc2fa62459775949412633",
+                Merchant = "flea-market",
+                Value = 35000,
+                ValueInMainCurrency = 35000
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "5e81c3cbac2bb513793cdc75",
+                Merchant = "peacekeeper",
+                MerchantLevel = 1,
+                Value = 155,
+                ValueInMainCurrency = 17360
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5e81c3cbac2bb513793cdc75",
+                Merchant = "flea-market",
+                Value = 13333,
+                ValueInMainCurrency = 13333
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5d2c76ed48f03532f2136169",
+                Merchant = "skier",
+                MerchantLevel = 1,
+                Value = 6325,
+                ValueInMainCurrency = 6325
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5d2c76ed48f03532f2136169",
+                Merchant = "flea-market",
+                Value = 9628,
+                ValueInMainCurrency = 9628
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "61714eec290d254f5e6b2ffc",
+                Merchant = "flea-market",
+                Value = 41517,
+                ValueInMainCurrency = 41517
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5d5d646386f7742797261fd9",
+                Merchant = "ragman",
+                MerchantLevel = 2,
+                Value = 55312,
+                ValueInMainCurrency = 55312
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5d5d646386f7742797261fd9",
+                Merchant = "flea-market",
+                Value = 68479,
+                ValueInMainCurrency = 68479
             }
         };
 

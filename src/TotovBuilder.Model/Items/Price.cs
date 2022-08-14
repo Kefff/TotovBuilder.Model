@@ -18,6 +18,11 @@ namespace TotovBuilder.Model.Items
         public string CurrencyName { get; set; } = string.Empty;
 
         /// <summary>
+        /// Item ID.
+        /// </summary>
+        public string ItemId { get; set; } = string.Empty;
+
+        /// <summary>
         /// Merchant.
         /// </summary>
         public string Merchant { get; set; } = string.Empty;
