@@ -17,6 +17,12 @@ namespace TotovBuilder.Model.Test
             },
             new ArmorPenetration()
             {
+              AmmunitionId = "5d6e6806a4b936088465b17e",
+              AmmunitionName = "12/70 8.5mm Magnum buckshot",
+              Values = new double[] { 3, 3, 3, 3, 3, 3 }
+            },
+            new ArmorPenetration()
+            {
                 AmmunitionId = "5e85a9f4add9fe03027d9bf1",
                 AmmunitionName = "23x75mm \"Zvezda\" flashbang round",
                 Values = new double[] { 0, 0, 0, 0, 0, 0 }
@@ -46,6 +52,11 @@ namespace TotovBuilder.Model.Test
     ""ammunitionId"": ""5d6e6772a4b936088465b17c"",
     ""ammunitionName"": ""12/70 5.25mm Buckshot"",
     ""values"": [3, 3, 3, 3, 3, 3]
+  },
+  {
+      ""ammunitionId"": ""5d6e6806a4b936088465b17e"",
+      ""ammunitionName"": ""12/70 8.5mm Magnum buckshot"",
+      ""values"": [3, 3, 3, 3, 3, 3]
   },
   {
     ""ammunitionId"": ""5e85a9f4add9fe03027d9bf1"",

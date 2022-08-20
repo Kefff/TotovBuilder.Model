@@ -42,6 +42,35 @@ namespace TotovBuilder.Model.Test
             },
             new Ammunition()
             {
+                AccuracyPercentageModifier = -0.15,
+                ArmorDamagePercentage = 0.26,
+                ArmorPenetrations = new double[] { 3, 3, 3, 3, 3, 3 }, // TODO : OBTAIN FROM WIKI
+                //Blinding = , // TODO : MISSING FROM API
+                Caliber = "Caliber12g",
+                CategoryId = "ammunition",
+                DurabilityBurnPercentageModifier = 0,
+                FleshDamage = 50,
+                FragmentationChancePercentage = 0,
+                HeavyBleedingPercentageChance = 0.1,
+                IconLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.jpg",
+                Id = "5d6e6806a4b936088465b17e",
+                ImageLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.jpg",
+                LightBleedingPercentageChance = 0.2,
+                MarketLink = "https://tarkov.dev/item/1270-85mm-magnum-buckshot",
+                MaxStackableAmount = 20,
+                Name = "12/70 8.5mm Magnum buckshot",
+                PenetrationPower = 2,
+                Projectiles = 8,
+                RecoilPercentageModifier = 0.15,
+                ShortName = "Magnum",
+                Subsonic = false,
+                Tracer = false,
+                Velocity = 385,
+                Weight = 0.059,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/12/70_8.5mm_Magnum_buckshot"
+            },
+            new Ammunition()
+            {
                 CategoryId = "ammunition",
                 Id = "testAmmunition",
             },
@@ -1001,6 +1030,46 @@ namespace TotovBuilder.Model.Test
         ""shortName"": ""MAI AP"",
         ""weight"": 0.012,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/7.62x39mm_MAI_AP""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5485a8684bdc2da71d8b4567""
+          },
+          {
+            ""id"": ""5661632d4bdc2d903d8b456b""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.jpg"",
+        ""id"": ""5d6e6806a4b936088465b17e"",
+        ""imageLink"": ""https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/1270-85mm-magnum-buckshot"",
+        ""name"": ""12/70 8.5mm Magnum buckshot"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesAmmo"",
+          ""accuracyModifier"": -0.15,
+          ""armorDamage"": 26,
+          ""caliber"": ""Caliber12g"",
+          ""damage"": 50,
+          ""durabilityBurnFactor"": 1,
+          ""fragmentationChance"": 0,
+          ""heavyBleedModifier"": 0.1,
+          ""initialSpeed"": 385,
+          ""lightBleedModifier"": 0.2,
+          ""penetrationChance"": 0.05,
+          ""penetrationPower"": 2,
+          ""projectileCount"": 8,
+          ""recoilModifier"": 1.15,
+          ""ricochetChance"": 0,
+          ""stackMaxSize"": 20,
+          ""tracer"": false
+        },
+        ""shortName"": ""Magnum"",
+        ""weight"": 0.059,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/12/70_8.5mm_Magnum_buckshot""
       },
       {
         ""categories"": [
