@@ -13,11 +13,6 @@ namespace TotovBuilder.Model.Items
         public string[] CompatibleItemIds { get; set; } = Array.Empty<string>();
 
         /// <summary>
-        /// ID.
-        /// </summary>
-        public string Id { get; set; } = string.Empty;
-
-        /// <summary>
         /// Maximum number of times the item can be stacked in this mod slot.
         /// Mainly used to force the ammunition quantity to 1 in the special chamber mod slot.
         /// </summary>
@@ -31,6 +26,6 @@ namespace TotovBuilder.Model.Items
         /// <summary>
         /// Determines whether having an item in the mod slot is required for the parent item to be usable.
         /// </summary>
-        public bool Required { get; set; }
+        public bool Required { get; set; } // TODO : MISSING FROM API
     }
 }

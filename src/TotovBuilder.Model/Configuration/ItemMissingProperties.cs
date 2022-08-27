@@ -9,11 +9,6 @@ namespace TotovBuilder.Model.Configuration
     public class ItemMissingProperties
     {
         /// <summary>
-        /// IDs of accepted ammunition for magazines.
-        /// </summary>
-        public string[] AcceptedAmmunitionIds { get; set; } = Array.Empty<string>();
-
-        /// <summary>
         /// IDs of conflicting items.
         /// </summary>
         public string[] ConflictingItemIds { get; set; } = Array.Empty<string>();
@@ -29,9 +24,9 @@ namespace TotovBuilder.Model.Configuration
         public double MaxStackableAmount { get; set; } = 1;
 
         /// <summary>
-        /// Mod slots for moddable items.
+        /// Ranged weapon chambers.
         /// </summary>
-        public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();
+        public ModSlot[] RangedWeaponChambers { get; set; } = Array.Empty<ModSlot>();
 
         /// <summary>
         /// Value of the X parameter for ricochet chances.

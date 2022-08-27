@@ -132,6 +132,7 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg",
                 MarketLink = "https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield",
                 Material = "Glass",
+                //ModSlots = new ModSlot[], // TODO : MISSING FROM API
                 MovementSpeedPercentageModifier = 0,
                 Name = "Ops-Core FAST multi-hit ballistic face shield",
                 //RicochetChance = , // TODO : MISSING FROM API
@@ -263,7 +264,7 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.jpg",
                 MarketLink = "https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet",
                 Material = "CombinedMaterials",
-                ModSlots = new ModSlot[] // TODO : MISSING FROM API
+                ModSlots = new ModSlot[]
                 {
                     new ModSlot()
                     {
@@ -272,9 +273,8 @@ namespace TotovBuilder.Model.Test
                             "5a16b672fcdbcb001912fa83",
                             "5a16b7e1fcdbcb00165aa6c9"
                         },
-                        Id = "5e4bfc1586f774264f7582d5",
                         Name = "mod_equipment_000",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -283,9 +283,8 @@ namespace TotovBuilder.Model.Test
                             "5c0558060db834001b735271",
                             "5a16b8a9fcdbcb00165aa6ca"
                         },
-                        Id = "5e4bfc1586f774264f7582d6",
                         Name = "mod_nvg",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -294,9 +293,8 @@ namespace TotovBuilder.Model.Test
                             "5a398b75c4a282000a51a266",
                             "5a398ab9c4a282000c5a9842"
                         },
-                        Id = "5e4bfc1586f774264f7582d7",
                         Name = "mod_mount",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 MovementSpeedPercentageModifier = -0.02,
@@ -409,7 +407,7 @@ namespace TotovBuilder.Model.Test
             },
             new Magazine()
             {
-                AcceptedAmmunitionIds = new string[] // TODO : MISSING FROM API
+                AcceptedAmmunitionIds = new string[]
                 {
                     "5e81f423763d9f754677bf2e",
                     "5efb0cabfb3e451d70735af5",
@@ -479,7 +477,7 @@ namespace TotovBuilder.Model.Test
                 Id = "57d17e212459775a1179a0f5",
                 ImageLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.jpg",
                 MarketLink = "https://tarkov.dev/item/kiba-arms-25mm-accessory-ring-mount",
-                ModSlots = new ModSlot[] // TODO : MISSING FROM API
+                ModSlots = new ModSlot[]
                 {
                     new ModSlot()
                     {
@@ -488,9 +486,8 @@ namespace TotovBuilder.Model.Test
                             "59d790f486f77403cb06aec6",
                             "57d17c5e2459775a5c57d17d"
                         },
-                        Id = "57d17f852459775aba1dae06",
                         Name = "mod_flashlight",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 Name = "Kiba Arms 25mm accessory ring mount",
@@ -515,7 +512,7 @@ namespace TotovBuilder.Model.Test
                 Id = "57dc2fa62459775949412633",
                 ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.jpg",
                 MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle",
-                ModSlots = new ModSlot[] // TODO : MISSING FROM API
+                ModSlots = new ModSlot[]
                 {
                     new ModSlot()
                     {
@@ -535,8 +532,7 @@ namespace TotovBuilder.Model.Test
                             "56dff4a2d2720bbd668b456a",
                             "56dff4ecd2720b5f5a8b4568"
                         },
-                        Id = "57dc318524597759805c1581",
-                        Name = "chamber0", // TODO : MISSING FROM API
+                        Name = "chamber0",
                         Required = false
                     },
                     new ModSlot()
@@ -561,11 +557,13 @@ namespace TotovBuilder.Model.Test
                             "5947fa2486f77425b47c1a9b",
                             "5c6bf4aa2e2216001219b0ae",
                             "5649ae4a4bdc2d1b2b8b4588",
-                            "5998517986f7746017232f7e"
+                            "5998517986f7746017232f7e",
+                            "623c3be0484b5003161840dc",
+                            "628c9ab845c59e5b80768a81",
+                            "628a664bccaab13006640e47"
                         },
-                        Id = "57dc31bc245977596d4ef3d2",
                         Name = "mod_pistol_grip",
-                        Required = true
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -575,9 +573,8 @@ namespace TotovBuilder.Model.Test
                             "5ab626e4d8ce87272e4c6e43",
                             "57dc347d245977596754e7a1"
                         },
-                        Id = "57dc31ce245977593d4e1453",
                         Name = "mod_stock",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -586,9 +583,8 @@ namespace TotovBuilder.Model.Test
                             "6130ca3fd92c473c77020dbd",
                             "5648ac824bdc2ded0b8b457d"
                         },
-                        Id = "57dc31e1245977597164366e",
                         Name = "mod_charge",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -605,9 +601,8 @@ namespace TotovBuilder.Model.Test
                             "5bed61680db834001d2c45ab",
                             "5bed625c0db834001c062946"
                         },
-                        Id = "57dc31f2245977596c274b4f",
                         Name = "mod_magazine",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -627,9 +622,8 @@ namespace TotovBuilder.Model.Test
                             "564caa3d4bdc2d17108b458e",
                             "57ffb0e42459777d047111c5"
                         },
-                        Id = "57dc35ce2459775971643671",
                         Name = "mod_muzzle",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -638,9 +632,8 @@ namespace TotovBuilder.Model.Test
                             "57dc334d245977597164366f",
                             "5839a7742459773cf9693481"
                         },
-                        Id = "57dc35fb245977596d4ef3d7",
                         Name = "mod_reciever",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -648,9 +641,8 @@ namespace TotovBuilder.Model.Test
                         {
                             "59d36a0086f7747e673f3946"
                         },
-                        Id = "59d368ce86f7747e6a5beb03",
                         Name = "mod_gas_block",
-                        Required = true
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 Name = "Kalashnikov AKS-74U 5.45x39 assault rifle",
@@ -671,7 +663,7 @@ namespace TotovBuilder.Model.Test
                 Id = "5e81c3cbac2bb513793cdc75",
                 ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.jpg",
                 MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol",
-                ModSlots = new ModSlot[] // TODO : MISSING FROM API
+                ModSlots = new ModSlot[]
                 {
                     new ModSlot()
                     {
@@ -683,7 +675,6 @@ namespace TotovBuilder.Model.Test
                             "5efb0d4f4bc50b58e81710f3",
                             "5ea2a8e200685063ec28c05a"
                         },
-                        Id = "5e81c3cbac2bb513793cdc7e",
                         Name = "chamber0",
                         Required = false
                     },
@@ -695,20 +686,19 @@ namespace TotovBuilder.Model.Test
                             "5f3e7801153b8571434a924c",
                             "5f3e77f59103d430b93f94c1"
                         },
-                        Id = "5e81c3cbac2bb513793cdc77",
                         Name = "mod_barrel",
-                        Required = true
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
                         CompatibleItemIds = new string[]
                         {
                             "5e81c6bf763d9f754677beff",
-                            "5ef366938cef260c0642acad"
+                            "5ef366938cef260c0642acad",
+                            "626a9cb151cb5849f6002890"
                         },
-                        Id = "5e81c3cbac2bb513793cdc78",
                         Name = "mod_pistol_grip",
-                        Required = true
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -717,9 +707,8 @@ namespace TotovBuilder.Model.Test
                             "5e81edc13397a21db957f6a1",
                             "5f3e7823ddc4f03b010e2045"
                         },
-                        Id = "5e81c3cbac2bb513793cdc79",
                         Name = "mod_reciever",
-                        Required = true
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -729,9 +718,8 @@ namespace TotovBuilder.Model.Test
                             "5f3e77b26cda304dcc634057",
                             "5ef3448ab37dfd6af863525c"
                         },
-                        Id = "5e81c3cbac2bb513793cdc7a",
                         Name = "mod_magazine",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -741,9 +729,8 @@ namespace TotovBuilder.Model.Test
                             "5e81c6a2ac2bb513793cdc7f",
                             "5f3e772a670e2a7b01739a52"
                         },
-                        Id = "5e8206f4cb2b95385c17759c",
                         Name = "mod_trigger",
-                        Required = true
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -755,9 +742,8 @@ namespace TotovBuilder.Model.Test
                             "5ef35d2ac64c5d0dfc0571b0",
                             "5ef35bc243cb350a955a7ccd"
                         },
-                        Id = "5e820703ac2bb513793cdd0d",
                         Name = "mod_hammer",
-                        Required = true
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -767,9 +753,8 @@ namespace TotovBuilder.Model.Test
                             "5f3e777688ca2d00ad199d25",
                             "5ef3553c43cb350a955a7ccb"
                         },
-                        Id = "5e82070e763d9f754677bf93",
                         Name = "mod_catch",
-                        Required = true
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -777,9 +762,8 @@ namespace TotovBuilder.Model.Test
                         {
                             "5ef5d994dfbc9f3c660ded95"
                         },
-                        Id = "5ef5d9bc22584f36a62bc2a6",
                         Name = "mod_mount_000",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -787,9 +771,8 @@ namespace TotovBuilder.Model.Test
                         {
                             "5ef369b08cef260c0642acaf"
                         },
-                        Id = "5ef5d9c76b0e105bd96c76db",
                         Name = "mod_mount_001",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 Name = "Colt M1911A1 .45 ACP pistol",
@@ -834,7 +817,7 @@ namespace TotovBuilder.Model.Test
                 Id = "5d2c76ed48f03532f2136169",
                 ImageLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.jpg",
                 MarketLink = "https://tarkov.dev/item/ak-akademia-bastion-dust-cover",
-                ModSlots = new ModSlot[] // TODO : MISSING FROM API
+                ModSlots = new ModSlot[]
                 {
                     new ModSlot()
                     {
@@ -842,7 +825,6 @@ namespace TotovBuilder.Model.Test
                         {
                             "57ac965c24597706be5f975c",
                             "57aca93d2459771f2c7e26db",
-                            "544a3f024bdc2d1d388b4568",
                             "544a3a774bdc2d3a388b4567",
                             "5d2dc3e548f035404a1a4798",
                             "57adff4f24597737f373b6e6",
@@ -866,7 +848,6 @@ namespace TotovBuilder.Model.Test
                             "570fd721d2720bc5458b4596",
                             "57ae0171245977343c27bfcf",
                             "5dfe6104585a0c3e995c7b82",
-                            "544a3d0a4bdc2d1b388b4567",
                             "5d1b5e94d7ad1a2b865a96b0",
                             "609bab8b455afd752b2e6138",
                             "58d39d3d86f77445bb794ae7",
@@ -897,11 +878,12 @@ namespace TotovBuilder.Model.Test
                             "5a33b2c9c4a282000c5a9511",
                             "59db7eed86f77461f8380365",
                             "5a1ead28fcdbcb001912fa9f",
-                            "5dff77c759400025ea5150cf"
+                            "5dff77c759400025ea5150cf",
+                            "626bb8532c923541184624b4",
+                            "62811f461d5df4475f46a332"
                         },
-                        Id = "5d2c76ed48f03532f213616b",
                         Name = "mod_scope",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 Name = "AK AKademia Bastion dust cover",
@@ -937,7 +919,6 @@ namespace TotovBuilder.Model.Test
                 Id = "61714eec290d254f5e6b2ffc",
                 ImageLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.jpg",
                 MarketLink = "https://tarkov.dev/item/schmidt-bender-pm-ii-3-12x50-scope",
-                ModSlots = Array.Empty<ModSlot>(), // TODO : MISSING FROM API
                 Name = "Schmidt & Bender PM II 3-12x50 34mm riflescope",
                 RecoilPercentageModifier = 0,
                 ShortName = "PM II 3-12x50",
@@ -1391,6 +1372,47 @@ namespace TotovBuilder.Model.Test
           ""material"": {
             ""name"": ""Combined materials""
           },
+          ""slots"": [
+            {
+              ""nameId"": ""mod_equipment_000"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5a16b672fcdbcb001912fa83""
+                  },
+                  {
+                    ""id"": ""5a16b7e1fcdbcb00165aa6c9""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_nvg"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5c0558060db834001b735271""
+                  },
+                  {
+                    ""id"": ""5a16b8a9fcdbcb00165aa6ca""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_mount"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5a398b75c4a282000a51a266""
+                  },
+                  {
+                    ""id"": ""5a398ab9c4a282000c5a9842""
+                  }
+                ]
+              }
+            }
+          ],
           ""speedPenalty"": -0.02,
           ""turnPenalty"": -0.08
         },
@@ -1550,6 +1572,23 @@ namespace TotovBuilder.Model.Test
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MS2000_Marker""
       },
       {
+        ""allowedAmmo"": [
+          {
+            ""id"": ""5e81f423763d9f754677bf2e""
+          },
+          {
+            ""id"": ""5efb0cabfb3e451d70735af5""
+          },
+          {
+            ""id"": ""5efb0fc6aeb21837e749c801""
+          },
+          {
+            ""id"": ""5efb0d4f4bc50b58e81710f3""
+          },
+          {
+            ""id"": ""5ea2a8e200685063ec28c05a""
+          }
+        ],
         ""categories"": [
           {
             ""id"": ""5448bc234bdc2d3c308b4569""
@@ -1568,11 +1607,29 @@ namespace TotovBuilder.Model.Test
         ""name"": ""M1911A1 .45 ACP 7-round magazine"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesMagazine"",
+          ""allowedAmmo"": [
+            {
+              ""id"": ""5e81f423763d9f754677bf2e""
+            },
+            {
+              ""id"": ""5efb0cabfb3e451d70735af5""
+            },
+            {
+              ""id"": ""5efb0fc6aeb21837e749c801""
+            },
+            {
+              ""id"": ""5efb0d4f4bc50b58e81710f3""
+            },
+            {
+              ""id"": ""5ea2a8e200685063ec28c05a""
+            }
+          ],
           ""ammoCheckModifier"": -0.2,
           ""capacity"": 7,
           ""ergonomics"": -1,
           ""loadModifier"": -0.25,
-          ""malfunctionChance"": 0.04
+          ""malfunctionChance"": 0.04,
+          ""slots"": []
         },
         ""shortName"": ""1911"",
         ""weight"": 0.16,
@@ -1652,7 +1709,8 @@ namespace TotovBuilder.Model.Test
           ""__typename"": ""ItemPropertiesWeaponMod"",
           ""accuracyModifier"": 0,
           ""ergonomics"": -2,
-          ""recoilModifier"": 0
+          ""recoilModifier"": 0,
+          ""slots"": []
         },
         ""shortName"": ""XHP35"",
         ""weight"": 0.12,
@@ -1679,7 +1737,22 @@ namespace TotovBuilder.Model.Test
           ""__typename"": ""ItemPropertiesWeaponMod"",
           ""accuracyModifier"": 0,
           ""ergonomics"": -1,
-          ""recoilModifier"": 0
+          ""recoilModifier"": 0,
+          ""slots"": [
+            {
+              ""nameId"": ""mod_flashlight"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""59d790f486f77403cb06aec6""
+                  },
+                  {
+                    ""id"": ""57d17c5e2459775a5c57d17d""
+                  }
+                ]
+              }
+            }
+          ]
         },
         ""shortName"": ""25mm ring"",
         ""weight"": 0.085,
@@ -1722,7 +1795,217 @@ namespace TotovBuilder.Model.Test
           ""fireModes"": [""Single fire"", ""Full Auto""],
           ""fireRate"": 650,
           ""recoilHorizontal"": 445,
-          ""recoilVertical"": 141
+          ""recoilVertical"": 141,
+          ""slots"": [
+            {
+              ""nameId"": ""mod_pistol_grip"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5f6341043ada5942720e2dc5""
+                  },
+                  {
+                    ""id"": ""6087e663132d4d12c81fd96b""
+                  },
+                  {
+                    ""id"": ""5beec8ea0db834001a6f9dbf""
+                  },
+                  {
+                    ""id"": ""5649ad3f4bdc2df8348b4585""
+                  },
+                  {
+                    ""id"": ""5649ade84bdc2d1b2b8b4587""
+                  },
+                  {
+                    ""id"": ""59e62cc886f77440d40b52a1""
+                  },
+                  {
+                    ""id"": ""5a0071d486f77404e23a12b2""
+                  },
+                  {
+                    ""id"": ""57e3dba62459770f0c32322b""
+                  },
+                  {
+                    ""id"": ""5cf54404d7f00c108840b2ef""
+                  },
+                  {
+                    ""id"": ""5e2192a498a36665e8337386""
+                  },
+                  {
+                    ""id"": ""5b30ac585acfc433000eb79c""
+                  },
+                  {
+                    ""id"": ""59e6318286f77444dd62c4cc""
+                  },
+                  {
+                    ""id"": ""5cf50850d7f00c056e24104c""
+                  },
+                  {
+                    ""id"": ""5cf508bfd7f00c056e24104e""
+                  },
+                  {
+                    ""id"": ""5947f92f86f77427344a76b1""
+                  },
+                  {
+                    ""id"": ""5947fa2486f77425b47c1a9b""
+                  },
+                  {
+                    ""id"": ""5c6bf4aa2e2216001219b0ae""
+                  },
+                  {
+                    ""id"": ""5649ae4a4bdc2d1b2b8b4588""
+                  },
+                  {
+                    ""id"": ""5998517986f7746017232f7e""
+                  },
+                  {
+                    ""id"": ""623c3be0484b5003161840dc""
+                  },
+                  {
+                    ""id"": ""628c9ab845c59e5b80768a81""
+                  },
+                  {
+                    ""id"": ""628a664bccaab13006640e47""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_stock"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""59ecc28286f7746d7a68aa8c""
+                  },
+                  {
+                    ""id"": ""5ab626e4d8ce87272e4c6e43""
+                  },
+                  {
+                    ""id"": ""57dc347d245977596754e7a1""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_charge"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""6130ca3fd92c473c77020dbd""
+                  },
+                  {
+                    ""id"": ""5648ac824bdc2ded0b8b457d""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_magazine"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""564ca9df4bdc2d35148b4569""
+                  },
+                  {
+                    ""id"": ""564ca99c4bdc2d16268b4589""
+                  },
+                  {
+                    ""id"": ""55d480c04bdc2d1d4e8b456a""
+                  },
+                  {
+                    ""id"": ""5cbdaf89ae9215000e5b9c94""
+                  },
+                  {
+                    ""id"": ""55d481904bdc2d8c2f8b456a""
+                  },
+                  {
+                    ""id"": ""55d482194bdc2d1d4e8b456b""
+                  },
+                  {
+                    ""id"": ""55d4837c4bdc2d1d4e8b456c""
+                  },
+                  {
+                    ""id"": ""5aaa4194e5b5b055d06310a5""
+                  },
+                  {
+                    ""id"": ""5bed61680db834001d2c45ab""
+                  },
+                  {
+                    ""id"": ""5bed625c0db834001c062946""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_muzzle"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5ac72e945acfc43f3b691116""
+                  },
+                  {
+                    ""id"": ""5ac7655e5acfc40016339a19""
+                  },
+                  {
+                    ""id"": ""5649aa744bdc2ded0b8b457e""
+                  },
+                  {
+                    ""id"": ""5f633f791b231926f2329f13""
+                  },
+                  {
+                    ""id"": ""5943eeeb86f77412d6384f6b""
+                  },
+                  {
+                    ""id"": ""5cc9a96cd7f00c011c04e04a""
+                  },
+                  {
+                    ""id"": ""615d8f5dd92c473c770212ef""
+                  },
+                  {
+                    ""id"": ""5649ab884bdc2ded0b8b457f""
+                  },
+                  {
+                    ""id"": ""57dc324a24597759501edc20""
+                  },
+                  {
+                    ""id"": ""59bffc1f86f77435b128b872""
+                  },
+                  {
+                    ""id"": ""593d493f86f7745e6b2ceb22""
+                  },
+                  {
+                    ""id"": ""564caa3d4bdc2d17108b458e""
+                  },
+                  {
+                    ""id"": ""57ffb0e42459777d047111c5""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_reciever"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""57dc334d245977597164366f""
+                  },
+                  {
+                    ""id"": ""5839a7742459773cf9693481""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_gas_block"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""59d36a0086f7747e673f3946""
+                  }
+                ]
+              }
+            }
+          ]
         },
         ""shortName"": ""AKS-74U"",
         ""weight"": 1.809,
@@ -1770,7 +2053,144 @@ namespace TotovBuilder.Model.Test
           ""fireModes"": [""Single fire""],
           ""fireRate"": 30,
           ""recoilHorizontal"": 355,
-          ""recoilVertical"": 530
+          ""recoilVertical"": 530,
+          ""slots"": [
+            {
+              ""nameId"": ""mod_barrel"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5e81c519cb2b95385c177551""
+                  },
+                  {
+                    ""id"": ""5f3e7801153b8571434a924c""
+                  },
+                  {
+                    ""id"": ""5f3e77f59103d430b93f94c1""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_pistol_grip"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5e81c6bf763d9f754677beff""
+                  },
+                  {
+                    ""id"": ""5ef366938cef260c0642acad""
+                  },
+                  {
+                    ""id"": ""626a9cb151cb5849f6002890""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_reciever"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5e81edc13397a21db957f6a1""
+                  },
+                  {
+                    ""id"": ""5f3e7823ddc4f03b010e2045""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_magazine"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5e81c4ca763d9f754677befa""
+                  },
+                  {
+                    ""id"": ""5f3e77b26cda304dcc634057""
+                  },
+                  {
+                    ""id"": ""5ef3448ab37dfd6af863525c""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_trigger"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5ef32e4d1c1fd62aea6a150d""
+                  },
+                  {
+                    ""id"": ""5e81c6a2ac2bb513793cdc7f""
+                  },
+                  {
+                    ""id"": ""5f3e772a670e2a7b01739a52""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_hammer"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5e81c550763d9f754677befd""
+                  },
+                  {
+                    ""id"": ""5f3e76d86cda304dcc634054""
+                  },
+                  {
+                    ""id"": ""5ef35f46382a846010715a96""
+                  },
+                  {
+                    ""id"": ""5ef35d2ac64c5d0dfc0571b0""
+                  },
+                  {
+                    ""id"": ""5ef35bc243cb350a955a7ccd""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_catch"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5e81c539cb2b95385c177553""
+                  },
+                  {
+                    ""id"": ""5f3e777688ca2d00ad199d25""
+                  },
+                  {
+                    ""id"": ""5ef3553c43cb350a955a7ccb""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_mount_000"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5ef5d994dfbc9f3c660ded95""
+                  }
+                ]
+              }
+            },
+            {
+              ""nameId"": ""mod_mount_001"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5ef369b08cef260c0642acaf""
+                  }
+                ]
+              }
+            }
+          ]
         },
         ""shortName"": ""M1911A1"",
         ""weight"": 0.231,
@@ -1821,7 +2241,190 @@ namespace TotovBuilder.Model.Test
           ""__typename"": ""ItemPropertiesWeaponMod"",
           ""accuracyModifier"": 0,
           ""ergonomics"": 5,
-          ""recoilModifier"": -0.01
+          ""recoilModifier"": -0.01,
+          ""slots"": [
+            {
+              ""nameId"": ""mod_scope"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""57ac965c24597706be5f975c""
+                  },
+                  {
+                    ""id"": ""57aca93d2459771f2c7e26db""
+                  },
+                  {
+                    ""id"": ""544a3a774bdc2d3a388b4567""
+                  },
+                  {
+                    ""id"": ""5d2dc3e548f035404a1a4798""
+                  },
+                  {
+                    ""id"": ""57adff4f24597737f373b6e6""
+                  },
+                  {
+                    ""id"": ""5c0517910db83400232ffee5""
+                  },
+                  {
+                    ""id"": ""591c4efa86f7741030027726""
+                  },
+                  {
+                    ""id"": ""570fd79bd2720bc7458b4583""
+                  },
+                  {
+                    ""id"": ""570fd6c2d2720bc6458b457f""
+                  },
+                  {
+                    ""id"": ""558022b54bdc2dac148b458d""
+                  },
+                  {
+                    ""id"": ""5c07dd120db834001c39092d""
+                  },
+                  {
+                    ""id"": ""5c0a2cec0db834001b7ce47d""
+                  },
+                  {
+                    ""id"": ""58491f3324597764bc48fa02""
+                  },
+                  {
+                    ""id"": ""584924ec24597768f12ae244""
+                  },
+                  {
+                    ""id"": ""5b30b0dc5acfc400153b7124""
+                  },
+                  {
+                    ""id"": ""6165ac8c290d254f5e6b2f6c""
+                  },
+                  {
+                    ""id"": ""60a23797a37c940de7062d02""
+                  },
+                  {
+                    ""id"": ""5d2da1e948f035477b1ce2ba""
+                  },
+                  {
+                    ""id"": ""5c0505e00db834001b735073""
+                  },
+                  {
+                    ""id"": ""609a63b6e2ff132951242d09""
+                  },
+                  {
+                    ""id"": ""584984812459776a704a82a6""
+                  },
+                  {
+                    ""id"": ""59f9d81586f7744c7506ee62""
+                  },
+                  {
+                    ""id"": ""570fd721d2720bc5458b4596""
+                  },
+                  {
+                    ""id"": ""57ae0171245977343c27bfcf""
+                  },
+                  {
+                    ""id"": ""5dfe6104585a0c3e995c7b82""
+                  },
+                  {
+                    ""id"": ""5d1b5e94d7ad1a2b865a96b0""
+                  },
+                  {
+                    ""id"": ""609bab8b455afd752b2e6138""
+                  },
+                  {
+                    ""id"": ""58d39d3d86f77445bb794ae7""
+                  },
+                  {
+                    ""id"": ""616554fe50224f204c1da2aa""
+                  },
+                  {
+                    ""id"": ""5c7d55f52e221644f31bff6a""
+                  },
+                  {
+                    ""id"": ""616584766ef05c2ce828ef57""
+                  },
+                  {
+                    ""id"": ""5b3b6dc75acfc47a8773fb1e""
+                  },
+                  {
+                    ""id"": ""615d8d878004cc50514c3233""
+                  },
+                  {
+                    ""id"": ""5b2389515acfc4771e1be0c0""
+                  },
+                  {
+                    ""id"": ""577d128124597739d65d0e56""
+                  },
+                  {
+                    ""id"": ""618b9643526131765025ab35""
+                  },
+                  {
+                    ""id"": ""618bab21526131765025ab3f""
+                  },
+                  {
+                    ""id"": ""5c86592b2e2216000e69e77c""
+                  },
+                  {
+                    ""id"": ""5a37ca54c4a282000d72296a""
+                  },
+                  {
+                    ""id"": ""5d0a29fed7ad1a002769ad08""
+                  },
+                  {
+                    ""id"": ""5c064c400db834001d23f468""
+                  },
+                  {
+                    ""id"": ""58d2664f86f7747fec5834f6""
+                  },
+                  {
+                    ""id"": ""57c69dd424597774c03b7bbc""
+                  },
+                  {
+                    ""id"": ""5b3b99265acfc4704b4a1afb""
+                  },
+                  {
+                    ""id"": ""5aa66a9be5b5b0214e506e89""
+                  },
+                  {
+                    ""id"": ""5aa66c72e5b5b00016327c93""
+                  },
+                  {
+                    ""id"": ""5c1cdd302e221602b3137250""
+                  },
+                  {
+                    ""id"": ""61714b2467085e45ef140b2c""
+                  },
+                  {
+                    ""id"": ""6171407e50224f204c1da3c5""
+                  },
+                  {
+                    ""id"": ""61713cc4d8e3106d9806c109""
+                  },
+                  {
+                    ""id"": ""5b31163c5acfc400153b71cb""
+                  },
+                  {
+                    ""id"": ""5a33b652c4a28232996e407c""
+                  },
+                  {
+                    ""id"": ""5a33b2c9c4a282000c5a9511""
+                  },
+                  {
+                    ""id"": ""59db7eed86f77461f8380365""
+                  },
+                  {
+                    ""id"": ""5a1ead28fcdbcb001912fa9f""
+                  },
+                  {
+                    ""id"": ""5dff77c759400025ea5150cf""
+                  },
+                  {
+                    ""id"": ""626bb8532c923541184624b4""
+                  },
+                  {
+                    ""id"": ""62811f461d5df4475f46a332""
+                  }
+                ]
+              }
+            }
+          ]
         },
         ""shortName"": ""Bastion"",
         ""weight"": 0.237,
@@ -1851,6 +2454,7 @@ namespace TotovBuilder.Model.Test
           ""__typename"": ""ItemPropertiesScope"",
           ""ergonomics"": -6,
           ""recoilModifier"": 0,
+          ""slots"": [],
           ""zoomLevels"": [[12, 3]]
         },
         ""shortName"": ""PM II 3-12x50"",
@@ -1972,39 +2576,6 @@ namespace TotovBuilder.Model.Test
             new ItemMissingProperties()
             {
                 Id = "5e4bfc1586f774264f7582d3",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5a16b672fcdbcb001912fa83",
-                            "5a16b7e1fcdbcb00165aa6c9"
-                        },
-                        Id = "5e4bfc1586f774264f7582d5",
-                        Name = "mod_equipment_000"
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5c0558060db834001b735271",
-                            "5a16b8a9fcdbcb00165aa6ca"
-                        },
-                        Id = "5e4bfc1586f774264f7582d6",
-                        Name = "mod_nvg"
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5a398b75c4a282000a51a266",
-                            "5a398ab9c4a282000c5a9842"
-                        },
-                        Id = "5e4bfc1586f774264f7582d7",
-                        Name = "mod_mount"
-                    }
-                },
                 RicochetXValue = 0.9
             },
             new ItemMissingProperties()
@@ -2014,38 +2585,8 @@ namespace TotovBuilder.Model.Test
             },
             new ItemMissingProperties()
             {
-                AcceptedAmmunitionIds = new string[]
-                {
-                    "5e81f423763d9f754677bf2e",
-                    "5efb0cabfb3e451d70735af5",
-                    "5efb0fc6aeb21837e749c801",
-                    "5efb0d4f4bc50b58e81710f3",
-                    "5ea2a8e200685063ec28c05a"
-                },
-                Id = "5e81c4ca763d9f754677befa",
-            },
-            new ItemMissingProperties()
-            {
-                Id = "57d17e212459775a1179a0f5",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "59d790f486f77403cb06aec6",
-                            "57d17c5e2459775a5c57d17d"
-                        },
-                        Id = "57d17f852459775aba1dae06",
-                        Name = "mod_flashlight",
-                        Required = false
-                    }
-                }
-            },
-            new ItemMissingProperties()
-            {
                 Id = "57dc2fa62459775949412633",
-                ModSlots = new ModSlot[]
+                RangedWeaponChambers = new ModSlot[]
                 {
                     new ModSlot()
                     {
@@ -2065,128 +2606,14 @@ namespace TotovBuilder.Model.Test
                             "56dff4a2d2720bbd668b456a",
                             "56dff4ecd2720b5f5a8b4568"
                         },
-                        Id = "57dc318524597759805c1581",
                         Name = "chamber0"
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5f6341043ada5942720e2dc5",
-                            "6087e663132d4d12c81fd96b",
-                            "5beec8ea0db834001a6f9dbf",
-                            "5649ad3f4bdc2df8348b4585",
-                            "5649ade84bdc2d1b2b8b4587",
-                            "59e62cc886f77440d40b52a1",
-                            "5a0071d486f77404e23a12b2",
-                            "57e3dba62459770f0c32322b",
-                            "5cf54404d7f00c108840b2ef",
-                            "5e2192a498a36665e8337386",
-                            "5b30ac585acfc433000eb79c",
-                            "59e6318286f77444dd62c4cc",
-                            "5cf50850d7f00c056e24104c",
-                            "5cf508bfd7f00c056e24104e",
-                            "5947f92f86f77427344a76b1",
-                            "5947fa2486f77425b47c1a9b",
-                            "5c6bf4aa2e2216001219b0ae",
-                            "5649ae4a4bdc2d1b2b8b4588",
-                            "5998517986f7746017232f7e"
-                        },
-                        Id = "57dc31bc245977596d4ef3d2",
-                        Name = "mod_pistol_grip",
-                        Required = true
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "59ecc28286f7746d7a68aa8c",
-                            "5ab626e4d8ce87272e4c6e43",
-                            "57dc347d245977596754e7a1"
-                        },
-                        Id = "57dc31ce245977593d4e1453",
-                        Name = "mod_stock",
-                        Required = false
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "6130ca3fd92c473c77020dbd",
-                            "5648ac824bdc2ded0b8b457d"
-                        },
-                        Id = "57dc31e1245977597164366e",
-                        Name = "mod_charge",
-                        Required = false
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "564ca9df4bdc2d35148b4569",
-                            "564ca99c4bdc2d16268b4589",
-                            "55d480c04bdc2d1d4e8b456a",
-                            "5cbdaf89ae9215000e5b9c94",
-                            "55d481904bdc2d8c2f8b456a",
-                            "55d482194bdc2d1d4e8b456b",
-                            "55d4837c4bdc2d1d4e8b456c",
-                            "5aaa4194e5b5b055d06310a5",
-                            "5bed61680db834001d2c45ab",
-                            "5bed625c0db834001c062946"
-                        },
-                        Id = "57dc31f2245977596c274b4f",
-                        Name = "mod_magazine",
-                        Required = false
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5ac72e945acfc43f3b691116",
-                            "5ac7655e5acfc40016339a19",
-                            "5649aa744bdc2ded0b8b457e",
-                            "5f633f791b231926f2329f13",
-                            "5943eeeb86f77412d6384f6b",
-                            "5cc9a96cd7f00c011c04e04a",
-                            "615d8f5dd92c473c770212ef",
-                            "5649ab884bdc2ded0b8b457f",
-                            "57dc324a24597759501edc20",
-                            "59bffc1f86f77435b128b872",
-                            "593d493f86f7745e6b2ceb22",
-                            "564caa3d4bdc2d17108b458e",
-                            "57ffb0e42459777d047111c5"
-                        },
-                        Id = "57dc35ce2459775971643671",
-                        Name = "mod_muzzle",
-                        Required = false
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "57dc334d245977597164366f",
-                            "5839a7742459773cf9693481"
-                        },
-                        Id = "57dc35fb245977596d4ef3d7",
-                        Name = "mod_reciever",
-                        Required = false
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "59d36a0086f7747e673f3946"
-                        },
-                        Id = "59d368ce86f7747e6a5beb03",
-                        Name = "mod_gas_block",
-                        Required = true
                     }
                 }
             },
             new ItemMissingProperties()
             {
                 Id = "5e81c3cbac2bb513793cdc75",
-                ModSlots = new ModSlot[]
+                RangedWeaponChambers = new ModSlot[]
                 {
                     new ModSlot()
                     {
@@ -2198,112 +2625,7 @@ namespace TotovBuilder.Model.Test
                             "5efb0d4f4bc50b58e81710f3",
                             "5ea2a8e200685063ec28c05a"
                         },
-                        Id = "5e81c3cbac2bb513793cdc7e",
                         Name = "chamber0"
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c519cb2b95385c177551",
-                            "5f3e7801153b8571434a924c",
-                            "5f3e77f59103d430b93f94c1"
-                        },
-                        Id = "5e81c3cbac2bb513793cdc77",
-                        Name = "mod_barrel",
-                        Required = true
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c6bf763d9f754677beff",
-                            "5ef366938cef260c0642acad"
-                        },
-                        Id = "5e81c3cbac2bb513793cdc78",
-                        Name = "mod_pistol_grip",
-                        Required = true
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81edc13397a21db957f6a1",
-                            "5f3e7823ddc4f03b010e2045"
-                        },
-                        Id = "5e81c3cbac2bb513793cdc79",
-                        Name = "mod_reciever",
-                        Required = true
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c4ca763d9f754677befa",
-                            "5f3e77b26cda304dcc634057",
-                            "5ef3448ab37dfd6af863525c"
-                        },
-                        Id = "5e81c3cbac2bb513793cdc7a",
-                        Name = "mod_magazine",
-                        Required = false
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5ef32e4d1c1fd62aea6a150d",
-                            "5e81c6a2ac2bb513793cdc7f",
-                            "5f3e772a670e2a7b01739a52"
-                        },
-                        Id = "5e8206f4cb2b95385c17759c",
-                        Name = "mod_trigger",
-                        Required = true
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c550763d9f754677befd",
-                            "5f3e76d86cda304dcc634054",
-                            "5ef35f46382a846010715a96",
-                            "5ef35d2ac64c5d0dfc0571b0",
-                            "5ef35bc243cb350a955a7ccd"
-                        },
-                        Id = "5e820703ac2bb513793cdd0d",
-                        Name = "mod_hammer",
-                        Required = true
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c539cb2b95385c177553",
-                            "5f3e777688ca2d00ad199d25",
-                            "5ef3553c43cb350a955a7ccb"
-                        },
-                        Id = "5e82070e763d9f754677bf93",
-                        Name = "mod_catch",
-                        Required = true
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5ef5d994dfbc9f3c660ded95"
-                        },
-                        Id = "5ef5d9bc22584f36a62bc2a6",
-                        Name = "mod_mount_000",
-                        Required = false
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5ef369b08cef260c0642acaf"
-                        },
-                        Id = "5ef5d9c76b0e105bd96c76db",
-                        Name = "mod_mount_001",
-                        Required = false
                     }
                 }
             },
@@ -2331,77 +2653,7 @@ namespace TotovBuilder.Model.Test
                     "5c61a40d2e2216001403158d",
                     "5c90c3622e221601da359851"
                 },
-                Id = "5d2c76ed48f03532f2136169",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "57ac965c24597706be5f975c",
-                            "57aca93d2459771f2c7e26db",
-                            "544a3f024bdc2d1d388b4568",
-                            "544a3a774bdc2d3a388b4567",
-                            "5d2dc3e548f035404a1a4798",
-                            "57adff4f24597737f373b6e6",
-                            "5c0517910db83400232ffee5",
-                            "591c4efa86f7741030027726",
-                            "570fd79bd2720bc7458b4583",
-                            "570fd6c2d2720bc6458b457f",
-                            "558022b54bdc2dac148b458d",
-                            "5c07dd120db834001c39092d",
-                            "5c0a2cec0db834001b7ce47d",
-                            "58491f3324597764bc48fa02",
-                            "584924ec24597768f12ae244",
-                            "5b30b0dc5acfc400153b7124",
-                            "6165ac8c290d254f5e6b2f6c",
-                            "60a23797a37c940de7062d02",
-                            "5d2da1e948f035477b1ce2ba",
-                            "5c0505e00db834001b735073",
-                            "609a63b6e2ff132951242d09",
-                            "584984812459776a704a82a6",
-                            "59f9d81586f7744c7506ee62",
-                            "570fd721d2720bc5458b4596",
-                            "57ae0171245977343c27bfcf",
-                            "5dfe6104585a0c3e995c7b82",
-                            "544a3d0a4bdc2d1b388b4567",
-                            "5d1b5e94d7ad1a2b865a96b0",
-                            "609bab8b455afd752b2e6138",
-                            "58d39d3d86f77445bb794ae7",
-                            "616554fe50224f204c1da2aa",
-                            "5c7d55f52e221644f31bff6a",
-                            "616584766ef05c2ce828ef57",
-                            "5b3b6dc75acfc47a8773fb1e",
-                            "615d8d878004cc50514c3233",
-                            "5b2389515acfc4771e1be0c0",
-                            "577d128124597739d65d0e56",
-                            "618b9643526131765025ab35",
-                            "618bab21526131765025ab3f",
-                            "5c86592b2e2216000e69e77c",
-                            "5a37ca54c4a282000d72296a",
-                            "5d0a29fed7ad1a002769ad08",
-                            "5c064c400db834001d23f468",
-                            "58d2664f86f7747fec5834f6",
-                            "57c69dd424597774c03b7bbc",
-                            "5b3b99265acfc4704b4a1afb",
-                            "5aa66a9be5b5b0214e506e89",
-                            "5aa66c72e5b5b00016327c93",
-                            "5c1cdd302e221602b3137250",
-                            "61714b2467085e45ef140b2c",
-                            "6171407e50224f204c1da3c5",
-                            "61713cc4d8e3106d9806c109",
-                            "5b31163c5acfc400153b71cb",
-                            "5a33b652c4a28232996e407c",
-                            "5a33b2c9c4a282000c5a9511",
-                            "59db7eed86f77461f8380365",
-                            "5a1ead28fcdbcb001912fa9f",
-                            "5dff77c759400025ea5150cf"
-                        },
-                        Id = "5d2c76ed48f03532f213616b",
-                        Name = "mod_scope",
-                        Required = false
-                    }
-                }
+                Id = "5d2c76ed48f03532f2136169"
             },
             new ItemMissingProperties()
             {
@@ -2429,14 +2681,12 @@ namespace TotovBuilder.Model.Test
 
         public const string ItemMissingPropertiesJson = @"[
   {
-    ""acceptedAmmunitionIds"": [],
     ""conflictingItemIds"": [],
     ""id"": ""601aa3d2b2bcb34913271e6d"",
     ""maxStackableAmount"": 60,
-    ""modSlots"": []
+    ""rangedWeaponChambers"": []
   },
   {
-    ""acceptedAmmunitionIds"": [],
     ""conflictingItemIds"": [
       ""5c0e66e2d174af02a96252f4"",
       ""5c0696830db834001d23f5da"",
@@ -2448,46 +2698,14 @@ namespace TotovBuilder.Model.Test
     ],
     ""id"": ""5a16b7e1fcdbcb00165aa6c9"",
     ""maxStackableAmount"": 1,
-    ""modSlots"": [],
+    ""rangedWeaponChambers"": [],
     ""ricochetXValue"": 0.7
   },
   {
-    ""acceptedAmmunitionIds"": [],
     ""conflictingItemIds"": [],
     ""id"": ""5e4bfc1586f774264f7582d3"",
     ""maxStackableAmount"": 1,
-    ""modSlots"": [
-      {
-        ""compatibleItemIds"": [
-          ""5a16b672fcdbcb001912fa83"",
-          ""5a16b7e1fcdbcb00165aa6c9""
-        ],
-        ""id"": ""5e4bfc1586f774264f7582d5"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_equipment_000"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5c0558060db834001b735271"",
-          ""5a16b8a9fcdbcb00165aa6ca""
-        ],
-        ""id"": ""5e4bfc1586f774264f7582d6"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_nvg"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5a398b75c4a282000a51a266"",
-          ""5a398ab9c4a282000c5a9842""
-        ],
-        ""id"": ""5e4bfc1586f774264f7582d7"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_mount"",
-        ""required"": false
-      }
-    ],
+    ""rangedWeaponChambers"": [],
     ""ricochetXValue"": 0.9
   },
   {
@@ -2495,45 +2713,14 @@ namespace TotovBuilder.Model.Test
     ""conflictingItemIds"": [],
     ""id"": ""569668774bdc2da2298b4568"",
     ""maxStackableAmount"": 50000,
-    ""modSlots"": []
-  },
-  {
-    ""acceptedAmmunitionIds"": [
-      ""5e81f423763d9f754677bf2e"",
-      ""5efb0cabfb3e451d70735af5"",
-      ""5efb0fc6aeb21837e749c801"",
-      ""5efb0d4f4bc50b58e81710f3"",
-      ""5ea2a8e200685063ec28c05a""
-    ],
-    ""conflictingItemIds"": [],
-    ""id"": ""5e81c4ca763d9f754677befa"",
-    ""maxStackableAmount"": 1,
-    ""modSlots"": []
-  },
-  {
-    ""acceptedAmmunitionIds"": [],
-    ""conflictingItemIds"": [],
-    ""id"": ""57d17e212459775a1179a0f5"",
-    ""maxStackableAmount"": 1,
-    ""modSlots"": [
-      {
-        ""compatibleItemIds"": [
-          ""59d790f486f77403cb06aec6"",
-          ""57d17c5e2459775a5c57d17d""
-        ],
-        ""id"": ""57d17f852459775aba1dae06"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_flashlight"",
-        ""required"": false
-      }
-    ]
+    ""rangedWeaponChambers"": []
   },
   {
     ""acceptedAmmunitionIds"": [],
     ""conflictingItemIds"": [],
     ""id"": ""57dc2fa62459775949412633"",
     ""maxStackableAmount"": 1,
-    ""modSlots"": [
+    ""rangedWeaponChambers"": [
       {
         ""compatibleItemIds"": [
           ""5c0d5e4486f77478390952fe"",
@@ -2550,114 +2737,9 @@ namespace TotovBuilder.Model.Test
           ""56dff4a2d2720bbd668b456a"",
           ""56dff4ecd2720b5f5a8b4568""
         ],
-        ""id"": ""57dc318524597759805c1581"",
         ""maxStackableAmount"": 1,
         ""name"": ""chamber0"",
         ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5f6341043ada5942720e2dc5"",
-          ""6087e663132d4d12c81fd96b"",
-          ""5beec8ea0db834001a6f9dbf"",
-          ""5649ad3f4bdc2df8348b4585"",
-          ""5649ade84bdc2d1b2b8b4587"",
-          ""59e62cc886f77440d40b52a1"",
-          ""5a0071d486f77404e23a12b2"",
-          ""57e3dba62459770f0c32322b"",
-          ""5cf54404d7f00c108840b2ef"",
-          ""5e2192a498a36665e8337386"",
-          ""5b30ac585acfc433000eb79c"",
-          ""59e6318286f77444dd62c4cc"",
-          ""5cf50850d7f00c056e24104c"",
-          ""5cf508bfd7f00c056e24104e"",
-          ""5947f92f86f77427344a76b1"",
-          ""5947fa2486f77425b47c1a9b"",
-          ""5c6bf4aa2e2216001219b0ae"",
-          ""5649ae4a4bdc2d1b2b8b4588"",
-          ""5998517986f7746017232f7e""
-        ],
-        ""id"": ""57dc31bc245977596d4ef3d2"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_pistol_grip"",
-        ""required"": true
-      },
-      {
-        ""compatibleItemIds"": [
-          ""59ecc28286f7746d7a68aa8c"",
-          ""5ab626e4d8ce87272e4c6e43"",
-          ""57dc347d245977596754e7a1""
-        ],
-        ""id"": ""57dc31ce245977593d4e1453"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_stock"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [
-          ""6130ca3fd92c473c77020dbd"",
-          ""5648ac824bdc2ded0b8b457d""
-        ],
-        ""id"": ""57dc31e1245977597164366e"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_charge"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [
-          ""564ca9df4bdc2d35148b4569"",
-          ""564ca99c4bdc2d16268b4589"",
-          ""55d480c04bdc2d1d4e8b456a"",
-          ""5cbdaf89ae9215000e5b9c94"",
-          ""55d481904bdc2d8c2f8b456a"",
-          ""55d482194bdc2d1d4e8b456b"",
-          ""55d4837c4bdc2d1d4e8b456c"",
-          ""5aaa4194e5b5b055d06310a5"",
-          ""5bed61680db834001d2c45ab"",
-          ""5bed625c0db834001c062946""
-        ],
-        ""id"": ""57dc31f2245977596c274b4f"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_magazine"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5ac72e945acfc43f3b691116"",
-          ""5ac7655e5acfc40016339a19"",
-          ""5649aa744bdc2ded0b8b457e"",
-          ""5f633f791b231926f2329f13"",
-          ""5943eeeb86f77412d6384f6b"",
-          ""5cc9a96cd7f00c011c04e04a"",
-          ""615d8f5dd92c473c770212ef"",
-          ""5649ab884bdc2ded0b8b457f"",
-          ""57dc324a24597759501edc20"",
-          ""59bffc1f86f77435b128b872"",
-          ""593d493f86f7745e6b2ceb22"",
-          ""564caa3d4bdc2d17108b458e"",
-          ""57ffb0e42459777d047111c5""
-        ],
-        ""id"": ""57dc35ce2459775971643671"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_muzzle"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [
-          ""57dc334d245977597164366f"",
-          ""5839a7742459773cf9693481""
-        ],
-        ""id"": ""57dc35fb245977596d4ef3d7"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_reciever"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [""59d36a0086f7747e673f3946""],
-        ""id"": ""59d368ce86f7747e6a5beb03"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_gas_block"",
-        ""required"": true
       }
     ]
   },
@@ -2666,7 +2748,7 @@ namespace TotovBuilder.Model.Test
     ""conflictingItemIds"": [],
     ""id"": ""5e81c3cbac2bb513793cdc75"",
     ""maxStackableAmount"": 1,
-    ""modSlots"": [
+    ""rangedWeaponChambers"": [
       {
         ""compatibleItemIds"": [
           ""5e81f423763d9f754677bf2e"",
@@ -2675,100 +2757,8 @@ namespace TotovBuilder.Model.Test
           ""5efb0d4f4bc50b58e81710f3"",
           ""5ea2a8e200685063ec28c05a""
         ],
-        ""id"": ""5e81c3cbac2bb513793cdc7e"",
         ""maxStackableAmount"": 1,
         ""name"": ""chamber0"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5e81c519cb2b95385c177551"",
-          ""5f3e7801153b8571434a924c"",
-          ""5f3e77f59103d430b93f94c1""
-        ],
-        ""id"": ""5e81c3cbac2bb513793cdc77"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_barrel"",
-        ""required"": true
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5e81c6bf763d9f754677beff"",
-          ""5ef366938cef260c0642acad""
-        ],
-        ""id"": ""5e81c3cbac2bb513793cdc78"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_pistol_grip"",
-        ""required"": true
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5e81edc13397a21db957f6a1"",
-          ""5f3e7823ddc4f03b010e2045""
-        ],
-        ""id"": ""5e81c3cbac2bb513793cdc79"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_reciever"",
-        ""required"": true
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5e81c4ca763d9f754677befa"",
-          ""5f3e77b26cda304dcc634057"",
-          ""5ef3448ab37dfd6af863525c""
-        ],
-        ""id"": ""5e81c3cbac2bb513793cdc7a"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_magazine"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5ef32e4d1c1fd62aea6a150d"",
-          ""5e81c6a2ac2bb513793cdc7f"",
-          ""5f3e772a670e2a7b01739a52""
-        ],
-        ""id"": ""5e8206f4cb2b95385c17759c"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_trigger"",
-        ""required"": true
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5e81c550763d9f754677befd"",
-          ""5f3e76d86cda304dcc634054"",
-          ""5ef35f46382a846010715a96"",
-          ""5ef35d2ac64c5d0dfc0571b0"",
-          ""5ef35bc243cb350a955a7ccd""
-        ],
-        ""id"": ""5e820703ac2bb513793cdd0d"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_hammer"",
-        ""required"": true
-      },
-      {
-        ""compatibleItemIds"": [
-          ""5e81c539cb2b95385c177553"",
-          ""5f3e777688ca2d00ad199d25"",
-          ""5ef3553c43cb350a955a7ccb""
-        ],
-        ""id"": ""5e82070e763d9f754677bf93"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_catch"",
-        ""required"": true
-      },
-      {
-        ""compatibleItemIds"": [""5ef5d994dfbc9f3c660ded95""],
-        ""id"": ""5ef5d9bc22584f36a62bc2a6"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_mount_000"",
-        ""required"": false
-      },
-      {
-        ""compatibleItemIds"": [""5ef369b08cef260c0642acaf""],
-        ""id"": ""5ef5d9c76b0e105bd96c76db"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_mount_001"",
         ""required"": false
       }
     ]
@@ -2798,74 +2788,7 @@ namespace TotovBuilder.Model.Test
     ],
     ""id"": ""5d2c76ed48f03532f2136169"",
     ""maxStackableAmount"": 1,
-    ""modSlots"": [
-      {
-        ""compatibleItemIds"": [
-          ""57ac965c24597706be5f975c"",
-          ""57aca93d2459771f2c7e26db"",
-          ""544a3f024bdc2d1d388b4568"",
-          ""544a3a774bdc2d3a388b4567"",
-          ""5d2dc3e548f035404a1a4798"",
-          ""57adff4f24597737f373b6e6"",
-          ""5c0517910db83400232ffee5"",
-          ""591c4efa86f7741030027726"",
-          ""570fd79bd2720bc7458b4583"",
-          ""570fd6c2d2720bc6458b457f"",
-          ""558022b54bdc2dac148b458d"",
-          ""5c07dd120db834001c39092d"",
-          ""5c0a2cec0db834001b7ce47d"",
-          ""58491f3324597764bc48fa02"",
-          ""584924ec24597768f12ae244"",
-          ""5b30b0dc5acfc400153b7124"",
-          ""6165ac8c290d254f5e6b2f6c"",
-          ""60a23797a37c940de7062d02"",
-          ""5d2da1e948f035477b1ce2ba"",
-          ""5c0505e00db834001b735073"",
-          ""609a63b6e2ff132951242d09"",
-          ""584984812459776a704a82a6"",
-          ""59f9d81586f7744c7506ee62"",
-          ""570fd721d2720bc5458b4596"",
-          ""57ae0171245977343c27bfcf"",
-          ""5dfe6104585a0c3e995c7b82"",
-          ""544a3d0a4bdc2d1b388b4567"",
-          ""5d1b5e94d7ad1a2b865a96b0"",
-          ""609bab8b455afd752b2e6138"",
-          ""58d39d3d86f77445bb794ae7"",
-          ""616554fe50224f204c1da2aa"",
-          ""5c7d55f52e221644f31bff6a"",
-          ""616584766ef05c2ce828ef57"",
-          ""5b3b6dc75acfc47a8773fb1e"",
-          ""615d8d878004cc50514c3233"",
-          ""5b2389515acfc4771e1be0c0"",
-          ""577d128124597739d65d0e56"",
-          ""618b9643526131765025ab35"",
-          ""618bab21526131765025ab3f"",
-          ""5c86592b2e2216000e69e77c"",
-          ""5a37ca54c4a282000d72296a"",
-          ""5d0a29fed7ad1a002769ad08"",
-          ""5c064c400db834001d23f468"",
-          ""58d2664f86f7747fec5834f6"",
-          ""57c69dd424597774c03b7bbc"",
-          ""5b3b99265acfc4704b4a1afb"",
-          ""5aa66a9be5b5b0214e506e89"",
-          ""5aa66c72e5b5b00016327c93"",
-          ""5c1cdd302e221602b3137250"",
-          ""61714b2467085e45ef140b2c"",
-          ""6171407e50224f204c1da3c5"",
-          ""61713cc4d8e3106d9806c109"",
-          ""5b31163c5acfc400153b71cb"",
-          ""5a33b652c4a28232996e407c"",
-          ""5a33b2c9c4a282000c5a9511"",
-          ""59db7eed86f77461f8380365"",
-          ""5a1ead28fcdbcb001912fa9f"",
-          ""5dff77c759400025ea5150cf""
-        ],
-        ""id"": ""5d2c76ed48f03532f213616b"",
-        ""maxStackableAmount"": 1,
-        ""name"": ""mod_scope"",
-        ""required"": false
-      }
-    ]
+    ""rangedWeaponChambers"": []
   },
   {
     ""acceptedAmmunitionIds"": [],
@@ -2888,7 +2811,7 @@ namespace TotovBuilder.Model.Test
     ],
     ""id"": ""61714eec290d254f5e6b2ffc"",
     ""maxStackableAmount"": 1,
-    ""modSlots"": []
+    ""rangedWeaponChambers"": []
   }
 ]";
     }
