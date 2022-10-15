@@ -18,6 +18,9 @@ namespace TotovBuilder.Model.Items
         public string[] ArmoredAreas { get; set; } = Array.Empty<string>();
 
         /// <inheritdoc/>
+        public string DefaultPresetId { get; set; } = string.Empty;
+
+        /// <inheritdoc/>
         public double Durability { get; set; }
 
         /// <inheritdoc/>

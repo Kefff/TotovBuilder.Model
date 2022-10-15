@@ -255,6 +255,7 @@ namespace TotovBuilder.Model.Test
                     "Top",
                     "Nape"
                 },
+                BlocksHeadphones = false,
                 CategoryId = "headwear",
                 Deafening = "None",
                 Durability = 30,
@@ -299,7 +300,7 @@ namespace TotovBuilder.Model.Test
                 },
                 MovementSpeedPercentageModifier = -0.02,
                 Name = "MSA Gallet TC 800 High Cut combat helmet",
-                RicochetChance = "High", // TODO : MISSING FROM API
+                RicochetChance = "High",
                 ShortName = "TC 800",
                 TurningSpeedPercentageModifier = -0.08,
                 Weight = 1.17,
@@ -321,7 +322,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = Array.Empty<ModSlot>(),
                 MovementSpeedPercentageModifier = 0,
                 Name = "Kotton beanie",
-                RicochetChance = string.Empty, // TODO : MISSING FROM API
+                RicochetChance = string.Empty,
                 ShortName = "Kotton",
                 TurningSpeedPercentageModifier = 0,
                 Weight = 0.2,
@@ -504,13 +505,14 @@ namespace TotovBuilder.Model.Test
             {
                 Caliber = "Caliber545x39",
                 CategoryId = "mainWeapon",
+                DefaultPresetId = "584147732459775a2b6d9f12",
                 Ergonomics = 44,
                 FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 650,
                 HorizontalRecoil = 445,
-                IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/584147732459775a2b6d9f12-icon.jpg",
                 Id = "57dc2fa62459775949412633",
-                ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/584147732459775a2b6d9f12-image.jpg",
                 MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle",
                 ModSlots = new ModSlot[]
                 {
@@ -655,13 +657,14 @@ namespace TotovBuilder.Model.Test
             {
                 Caliber = "Caliber1143x23ACP",
                 CategoryId = "secondaryWeapon",
+                DefaultPresetId = "5eb2968186f7746d1f1a4fd5",
                 Ergonomics = 75,
                 FireModes = new string[] { "SingleFire" },
                 FireRate = 30,
                 HorizontalRecoil = 355,
-                IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-icon.jpg",
                 Id = "5e81c3cbac2bb513793cdc75",
-                ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-image.jpg",
                 MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol",
                 ModSlots = new ModSlot[]
                 {
@@ -780,6 +783,24 @@ namespace TotovBuilder.Model.Test
                 VerticalRecoil = 530,
                 Weight = 0.231,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Colt_M1911A1_.45_ACP_pistol"
+            },
+            new RangedWeapon()
+            {
+                Caliber = "Caliber26x75",
+                CategoryId = "mainWeapon",
+                Ergonomics = 51,
+                FireModes = new string[] { "SingleFire" },
+                FireRate = 30,
+                HorizontalRecoil = 400,
+                IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.jpg",
+                Id = "624c0b3340357b5f566e8766",
+                ImageLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.jpg",
+                MarketLink = "https://tarkov.dev/item/rsp-30-reactive-signal-cartridge-yellow",
+                Name = "RSP-30 reactive signal cartridge (Yellow)",
+                ShortName = "Yellow",
+                VerticalRecoil = 200,
+                Weight = 0.6,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/RSP-30_reactive_signal_cartridge_(Yellow)"
             },
             new RangedWeapon()
             {
@@ -986,7 +1007,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-icon.jpg"",
         ""id"": ""601aa3d2b2bcb34913271e6d"",
-        ""imageLink"": ""https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-image.jpg"",
         ""link"": ""https://tarkov.dev/item/762x39mm-mai-ap"",
         ""name"": ""7.62x39mm MAI AP"",
         ""properties"": {
@@ -1026,7 +1047,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.jpg"",
         ""id"": ""5d6e6806a4b936088465b17e"",
-        ""imageLink"": ""https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.jpg"",
         ""link"": ""https://tarkov.dev/item/1270-85mm-magnum-buckshot"",
         ""name"": ""12/70 8.5mm Magnum buckshot"",
         ""properties"": {
@@ -1060,7 +1081,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testAmmunition"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1082,7 +1103,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.jpg"",
         ""id"": ""545cdb794bdc2d3a198b456a"",
-        ""imageLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg"",
         ""link"": ""https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor"",
         ""name"": ""6B43 6A Zabralo-Sh body armor"",
         ""properties"": {
@@ -1109,7 +1130,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testArmor"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1128,7 +1149,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.jpg"",
         ""id"": ""5a16b7e1fcdbcb00165aa6c9"",
-        ""imageLink"": ""https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg"",
         ""link"": ""https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield"",
         ""name"": ""Ops-Core FAST multi-hit ballistic face shield"",
         ""properties"": {
@@ -1156,7 +1177,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testArmorMod"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1172,7 +1193,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-icon.jpg"",
         ""id"": ""5ab8ebf186f7742d8b372e80"",
-        ""imageLink"": ""https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-image.jpg"",
         ""link"": ""https://tarkov.dev/item/sso-attack-2-raid-backpack"",
         ""name"": ""SSO Attack 2 raid backpack"",
         ""properties"": {
@@ -1191,7 +1212,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5783c43d2459774bbe137486-icon.jpg"",
         ""id"": ""5783c43d2459774bbe137486"",
-        ""imageLink"": ""https://assets.tarkov.dev/5783c43d2459774bbe137486-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5783c43d2459774bbe137486-image.jpg"",
         ""link"": ""https://tarkov.dev/item/simple-wallet"",
         ""name"": ""Simple wallet"",
         ""properties"": {
@@ -1210,7 +1231,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5c093ca986f7740a1867ab12-icon.jpg"",
         ""id"": ""5c093ca986f7740a1867ab12"",
-        ""imageLink"": ""https://assets.tarkov.dev/5c093ca986f7740a1867ab12-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5c093ca986f7740a1867ab12-image.jpg"",
         ""link"": ""https://tarkov.dev/item/secure-container-kappa"",
         ""name"": ""Secure container Kappa"",
         ""properties"": {
@@ -1229,7 +1250,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testContainer"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1251,7 +1272,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5b432be65acfc433000ed01f-icon.jpg"",
         ""id"": ""5b432be65acfc433000ed01f"",
-        ""imageLink"": ""https://assets.tarkov.dev/5b432be65acfc433000ed01f-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5b432be65acfc433000ed01f-image.jpg"",
         ""link"": ""https://tarkov.dev/item/6b34-anti-fragmentation-glasses"",
         ""name"": ""6B34 anti-fragmentation glasses"",
         ""properties"": {
@@ -1273,7 +1294,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testEyewear"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1289,7 +1310,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-icon.jpg"",
         ""id"": ""5e32f56fcb6d5863cc5e5ee4"",
-        ""imageLink"": ""https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-image.jpg"",
         ""link"": ""https://tarkov.dev/item/vog-17-khattabka-improvised-hand-grenade"",
         ""name"": ""VOG-17 Khattabka improvised hand grenade"",
         ""properties"": {
@@ -1313,7 +1334,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5a0c27731526d80618476ac4-icon.jpg"",
         ""id"": ""5a0c27731526d80618476ac4"",
-        ""imageLink"": ""https://assets.tarkov.dev/5a0c27731526d80618476ac4-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5a0c27731526d80618476ac4-image.jpg"",
         ""link"": ""https://tarkov.dev/item/zarya-stun-grenade"",
         ""name"": ""\""Zarya\"" stun grenade"",
         ""properties"": {
@@ -1337,7 +1358,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testGrenade"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1359,11 +1380,12 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.jpg"",
         ""id"": ""5e4bfc1586f774264f7582d3"",
-        ""imageLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.jpg"",
         ""link"": ""https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet"",
         ""name"": ""MSA Gallet TC 800 High Cut combat helmet"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesHelmet"",
+          ""blocksHeadset"": false,
           ""class"": 4,
           ""deafening"": ""None"",
           ""durability"": 30,
@@ -1372,6 +1394,7 @@ namespace TotovBuilder.Model.Test
           ""material"": {
             ""name"": ""Combined materials""
           },
+          ""ricochetX"": 0.9,
           ""slots"": [
             {
               ""nameId"": ""mod_equipment_000"",
@@ -1434,7 +1457,7 @@ namespace TotovBuilder.Model.Test
           ],
           ""iconLink"": ""https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.jpg"",
           ""id"": ""5bd073c986f7747f627e796c"",
-          ""imageLink"": ""https://assets.tarkov.dev/5bd073c986f7747f627e796c-image.jpg"",
+          ""inspectImageLink"": ""https://assets.tarkov.dev/5bd073c986f7747f627e796c-image.jpg"",
           ""link"": ""https://tarkov.dev/item/kotton-beanie"",
           ""name"": ""Kotton beanie"",
           ""properties"": null,
@@ -1450,7 +1473,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testHeadwear"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1469,7 +1492,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-icon.jpg"",
         ""id"": ""5f9949d869e2777a0e779ba5"",
-        ""imageLink"": ""https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-image.jpg"",
         ""link"": ""https://tarkov.dev/item/rivals-2020-armband"",
         ""name"": ""Rivals 2020 armband"",
         ""properties"": null,
@@ -1485,7 +1508,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.jpg"",
         ""id"": ""569668774bdc2da2298b4568"",
-        ""imageLink"": ""https://assets.tarkov.dev/569668774bdc2da2298b4568-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/569668774bdc2da2298b4568-image.jpg"",
         ""link"": ""https://tarkov.dev/item/euros"",
         ""name"": ""Euros"",
         ""properties"": null,
@@ -1507,7 +1530,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5e54f76986f7740366043752-icon.jpg"",
         ""id"": ""5e54f76986f7740366043752"",
-        ""imageLink"": ""https://assets.tarkov.dev/5e54f76986f7740366043752-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5e54f76986f7740366043752-image.jpg"",
         ""link"": ""https://tarkov.dev/item/shroud-half-mask"",
         ""name"": ""Shroud half-mask"",
         ""properties"": null,
@@ -1526,7 +1549,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/628e4e576d783146b124c64d-icon.jpg"",
         ""id"": ""628e4e576d783146b124c64d"",
-        ""imageLink"": ""https://assets.tarkov.dev/628e4e576d783146b124c64d-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/628e4e576d783146b124c64d-image.jpg"",
         ""link"": ""https://tarkov.dev/item/peltor-comtac-4-hybrid-headset"",
         ""name"": ""Peltor ComTac 4 Hybrid headset"",
         ""properties"": null,
@@ -1545,7 +1568,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-icon.jpg"",
         ""id"": ""5c1d0c5f86f7744bb2683cf0"",
-        ""imageLink"": ""https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-image.jpg"",
         ""link"": ""https://tarkov.dev/item/terragroup-labs-keycard-blue"",
         ""name"": ""TerraGroup Labs keycard (Blue)"",
         ""properties"": {
@@ -1563,7 +1586,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.jpg"",
         ""id"": ""5991b51486f77447b112d44f"",
-        ""imageLink"": ""https://assets.tarkov.dev/5991b51486f77447b112d44f-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5991b51486f77447b112d44f-image.jpg"",
         ""link"": ""https://tarkov.dev/item/ms2000-marker"",
         ""name"": ""MS2000 Marker"",
         ""properties"": null,
@@ -1602,7 +1625,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5e81c4ca763d9f754677befa-icon.jpg"",
         ""id"": ""5e81c4ca763d9f754677befa"",
-        ""imageLink"": ""https://assets.tarkov.dev/5e81c4ca763d9f754677befa-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5e81c4ca763d9f754677befa-image.jpg"",
         ""link"": ""https://tarkov.dev/item/m1911a1-45-acp-7-round-magazine"",
         ""name"": ""M1911A1 .45 ACP 7-round magazine"",
         ""properties"": {
@@ -1643,7 +1666,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testMagazine"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1659,7 +1682,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5c0126f40db834002a125382-icon.jpg"",
         ""id"": ""5c0126f40db834002a125382"",
-        ""imageLink"": ""https://assets.tarkov.dev/5c0126f40db834002a125382-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5c0126f40db834002a125382-image.jpg"",
         ""link"": ""https://tarkov.dev/item/red-rebel-ice-pick"",
         ""name"": ""Red Rebel ice pick"",
         ""properties"": {
@@ -1680,7 +1703,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testMeleeWeapon"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1702,7 +1725,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/59d790f486f77403cb06aec6-icon.jpg"",
         ""id"": ""59d790f486f77403cb06aec6"",
-        ""imageLink"": ""https://assets.tarkov.dev/59d790f486f77403cb06aec6-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/59d790f486f77403cb06aec6-image.jpg"",
         ""link"": ""https://tarkov.dev/item/armytek-predator-pro-v3-xhp35-hi-flashlight"",
         ""name"": ""Armytek Predator Pro v3 XHP35 HI flashlight"",
         ""properties"": {
@@ -1730,7 +1753,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/57d17e212459775a1179a0f5-icon.jpg"",
         ""id"": ""57d17e212459775a1179a0f5"",
-        ""imageLink"": ""https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.jpg"",
         ""link"": ""https://tarkov.dev/item/kiba-arms-25mm-accessory-ring-mount"",
         ""name"": ""Kiba Arms 25mm accessory ring mount"",
         ""properties"": {
@@ -1766,7 +1789,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testMod"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -1785,7 +1808,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/57dc2fa62459775949412633-icon.jpg"",
         ""id"": ""57dc2fa62459775949412633"",
-        ""imageLink"": ""https://assets.tarkov.dev/57dc2fa62459775949412633-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/57dc2fa62459775949412633-image.jpg"",
         ""link"": ""https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle"",
         ""name"": ""Kalashnikov AKS-74U 5.45x39 assault rifle"",
         ""properties"": {
@@ -2005,7 +2028,12 @@ namespace TotovBuilder.Model.Test
                 ]
               }
             }
-          ]
+          ],
+          ""defaultPreset"": {
+            ""iconLink"": ""https://assets.tarkov.dev/584147732459775a2b6d9f12-icon.jpg"",
+            ""id"": ""584147732459775a2b6d9f12"",
+            ""inspectImageLink"": ""https://assets.tarkov.dev/584147732459775a2b6d9f12-image.jpg""
+          }
         },
         ""shortName"": ""AKS-74U"",
         ""weight"": 1.809,
@@ -2022,7 +2050,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/618aaeb931ddad66c15eb7e9-icon.jpg"",
         ""id"": ""618aaeb931ddad66c15eb7e9"",
-        ""imageLink"": ""https://assets.tarkov.dev/unknown-item-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/unknown-item-image.jpg"",
         ""link"": ""https://tarkov.dev/item/as-val-9x39-special-assault-rifle-kobra"",
         ""name"": ""AS VAL 9x39 special assault rifle Kobra"",
         ""properties"": {
@@ -2043,7 +2071,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.jpg"",
         ""id"": ""5e81c3cbac2bb513793cdc75"",
-        ""imageLink"": ""https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.jpg"",
         ""link"": ""https://tarkov.dev/item/colt-m1911a1-45-acp-pistol"",
         ""name"": ""Colt M1911A1 .45 ACP pistol"",
         ""properties"": {
@@ -2190,7 +2218,12 @@ namespace TotovBuilder.Model.Test
                 ]
               }
             }
-          ]
+          ],
+          ""defaultPreset"": {
+            ""iconLink"": ""https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-icon.jpg"",
+            ""id"": ""5eb2968186f7746d1f1a4fd5"",
+            ""inspectImageLink"": ""https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-image.jpg""
+          }
         },
         ""shortName"": ""M1911A1"",
         ""weight"": 0.231,
@@ -2204,7 +2237,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testRangedWeapon"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": {
@@ -2214,7 +2247,12 @@ namespace TotovBuilder.Model.Test
           ""fireModes"": [],
           ""fireRate"": 0,
           ""recoilHorizontal"": 0,
-          ""recoilVertical"": 0
+          ""recoilVertical"": 0,
+          ""defaultPreset"": {
+            ""iconLink"": """",
+            ""id"": """",
+            ""inspectImageLink"": """"
+          }
         },
         ""shortName"": """",
         ""weight"": 0,
@@ -2234,7 +2272,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5d2c76ed48f03532f2136169-icon.jpg"",
         ""id"": ""5d2c76ed48f03532f2136169"",
-        ""imageLink"": ""https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.jpg"",
         ""link"": ""https://tarkov.dev/item/ak-akademia-bastion-dust-cover"",
         ""name"": ""AK AKademia Bastion dust cover"",
         ""properties"": {
@@ -2447,7 +2485,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.jpg"",
         ""id"": ""61714eec290d254f5e6b2ffc"",
-        ""imageLink"": ""https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.jpg"",
         ""link"": ""https://tarkov.dev/item/schmidt-bender-pm-ii-3-12x50-scope"",
         ""name"": ""Schmidt & Bender PM II 3-12x50 34mm riflescope"",
         ""properties"": {
@@ -2464,12 +2502,49 @@ namespace TotovBuilder.Model.Test
       {
         ""categories"": [
           {
+            ""id"": ""5447bedf4bdc2d87278b4568""
+          },
+          {
+            ""id"": ""5422acb9af1c889c16000029""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.jpg"",
+        ""id"": ""624c0b3340357b5f566e8766"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/rsp-30-reactive-signal-cartridge-yellow"",
+        ""name"": ""RSP-30 reactive signal cartridge (Yellow)"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesWeapon"",
+          ""caliber"": ""Caliber26x75"",
+          ""ergonomics"": 51,
+          ""fireModes"": [
+            ""Single fire""
+          ],
+          ""fireRate"": 30,
+          ""recoilHorizontal"": 400,
+          ""recoilVertical"": 200,
+          ""slots"": [],
+          ""defaultPreset"": null
+        },
+        ""shortName"": ""Yellow"",
+        ""weight"": 0.6,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/RSP-30_reactive_signal_cartridge_(Yellow)""
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""55818ae44bdc2dde698b456c""
           }
         ],
         ""iconLink"": """",
         ""id"": ""testRangedWeaponMod"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -2485,7 +2560,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.jpg"",
         ""id"": ""5d5d646386f7742797261fd9"",
-        ""imageLink"": ""https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.jpg"",
         ""link"": ""https://tarkov.dev/item/6b3tm-01m-armored-rig"",
         ""name"": ""6B3TM-01M armored rig"",
         ""properties"": {
@@ -2513,7 +2588,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": ""https://assets.tarkov.dev/572b7adb24597762ae139821-icon.jpg"",
         ""id"": ""572b7adb24597762ae139821"",
-        ""imageLink"": ""https://assets.tarkov.dev/572b7adb24597762ae139821-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/572b7adb24597762ae139821-image.jpg"",
         ""link"": ""https://tarkov.dev/item/scav-vest"",
         ""name"": ""Scav Vest"",
         ""properties"": {
@@ -2539,7 +2614,7 @@ namespace TotovBuilder.Model.Test
         ],
         ""iconLink"": """",
         ""id"": ""testVest"",
-        ""imageLink"": """",
+        ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
         ""properties"": null,
@@ -2571,12 +2646,6 @@ namespace TotovBuilder.Model.Test
                     "5a16b8a9fcdbcb00165aa6ca"
                 },
                 Id = "5a16b7e1fcdbcb00165aa6c9",
-                RicochetXValue = 0.7
-            },
-            new ItemMissingProperties()
-            {
-                Id = "5e4bfc1586f774264f7582d3",
-                RicochetXValue = 0.9
             },
             new ItemMissingProperties()
             {
@@ -2698,15 +2767,7 @@ namespace TotovBuilder.Model.Test
     ],
     ""id"": ""5a16b7e1fcdbcb00165aa6c9"",
     ""maxStackableAmount"": 1,
-    ""rangedWeaponChambers"": [],
-    ""ricochetXValue"": 0.7
-  },
-  {
-    ""conflictingItemIds"": [],
-    ""id"": ""5e4bfc1586f774264f7582d3"",
-    ""maxStackableAmount"": 1,
-    ""rangedWeaponChambers"": [],
-    ""ricochetXValue"": 0.9
+    ""rangedWeaponChambers"": []
   },
   {
     ""acceptedAmmunitionIds"": [],

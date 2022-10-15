@@ -12,6 +12,9 @@ namespace TotovBuilder.Model.Items
         public string Caliber { get; set; } = string.Empty;
 
         /// <inheritdoc/>
+        public string DefaultPresetId { get; set; } = string.Empty;
+
+        /// <inheritdoc/>
         public double Ergonomics { get; set; }
 
         /// <inheritdoc/>

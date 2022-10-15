@@ -8,6 +8,11 @@ namespace TotovBuilder.Model.Abstractions.Items
     public interface IModdable : IItem
     {
         /// <summary>
+        /// Default preset ID.
+        /// </summary>
+        string DefaultPresetId { get; set; }
+
+        /// <summary>
         /// Mod slots.
         /// </summary>
         ModSlot[] ModSlots { get; set; }

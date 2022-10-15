@@ -13,9 +13,15 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         public string[] ArmoredAreas { get; set; } = Array.Empty<string>();
+        
+        /// <inheritdoc/>
+        public bool BlocksHeadphones { get; set; }
 
         /// <inheritdoc/>
         public string Deafening { get; set; } = string.Empty;
+
+        /// <inheritdoc/>
+        public string DefaultPresetId { get; set; } = string.Empty;
 
         /// <inheritdoc/>
         public double Durability { get; set; }

@@ -27,10 +27,5 @@ namespace TotovBuilder.Model.Configuration
         /// Ranged weapon chambers.
         /// </summary>
         public ModSlot[] RangedWeaponChambers { get; set; } = Array.Empty<ModSlot>();
-
-        /// <summary>
-        /// Value of the X parameter for ricochet chances.
-        /// </summary>
-        public double? RicochetXValue { get; set; }
     }
 }

@@ -15,6 +15,9 @@ namespace TotovBuilder.Model.Items
         public double CheckSpeedPercentageModifier { get; set; }
 
         /// <inheritdoc/>
+        public string DefaultPresetId { get; set; } = string.Empty;
+
+        /// <inheritdoc/>
         public double LoadSpeedPercentageModifier { get; set; }
 
         /// <inheritdoc/>
