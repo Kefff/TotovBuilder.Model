@@ -7,31 +7,31 @@
     {
         public const string EmptyApiData1 = @"{
   ""data"": {
-    ""tasks"": {}
+    ""items"": {}
   }
 }";
 
         public const string EmptyApiData2 = @"{
   ""data"": {
-    ""tasks"": []
+    ""items"": []
   }
 }";
 
         public const string EmptyApiData3 = @"{
   ""data"": {
-    ""tasks"": """"
+    ""items"": """"
   }
 }";
 
         public const string InvalidApiData1 = @"{
   data"": {
-    ""tasks"": null
+    ""items"": null
   }
 }";
 
         public const string InvalidApiData2 = @"{
   ""invalid"": {
-    ""tasks"": null
+    ""items"": null
   }
 }";
 

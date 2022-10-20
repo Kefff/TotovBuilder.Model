@@ -11,11 +11,6 @@
         public string Id { get; set; } = string.Empty;
 
         /// <summary>
-        /// Merchant.
-        /// </summary>
-        public string Merchant { get; set; } = string.Empty;
-
-        /// <summary>
         /// Name.
         /// </summary>
         public string Name { get; set; } = string.Empty;

@@ -1,4 +1,5 @@
-﻿using TotovBuilder.Model.Items;
+﻿using TotovBuilder.Model.Configuration;
+using TotovBuilder.Model.Items;
 
 namespace TotovBuilder.Model.Test
 {
@@ -166,7 +167,12 @@ namespace TotovBuilder.Model.Test
                 ItemId = "57dc2fa62459775949412633",
                 Merchant = "prapor",
                 MerchantLevel = 1,
-                QuestId = "5936d90786f7742b1420ba5b",
+                Quest = new Quest()
+                {
+                    Id = "5936d90786f7742b1420ba5b",
+                    Name = "Debut",
+                    WikiLink = "https://escapefromtarkov.fandom.com/wiki/Debut"
+                },
                 Value = 24605,
                 ValueInMainCurrency = 24605
             },
@@ -175,8 +181,8 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "57dc2fa62459775949412633",
                 Merchant = "flea-market",
-                Value = 35000,
-                ValueInMainCurrency = 35000
+                Value = 31666,
+                ValueInMainCurrency = 31666
             },
             new Price()
             {
@@ -529,7 +535,9 @@ namespace TotovBuilder.Model.Test
             ""vendor"": {
               ""minTraderLevel"": 1,
               ""taskUnlock"": {
-                ""id"": ""5936d90786f7742b1420ba5b""
+                ""id"": ""5936d90786f7742b1420ba5b"",
+                ""name"": ""Debut"",
+                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Debut""
               },
               ""trader"": {
                 ""normalizedName"": ""prapor""
@@ -538,8 +546,8 @@ namespace TotovBuilder.Model.Test
           },
           {
             ""currency"": ""RUB"",
-            ""price"": 35000,
-            ""priceRUB"": 35000,
+            ""price"": 31666,
+            ""priceRUB"": 31666,
             ""vendor"": {
               ""normalizedName"": ""flea-market""
             }
