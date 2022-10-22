@@ -41,6 +41,12 @@ namespace TotovBuilder.Model.Test
             },
             new ArmorPenetration()
             {
+                AmmunitionId = "56dff4ecd2720b5f5a8b4568",
+                AmmunitionName = "5.45x39mm US gs",
+                Values = new double[] { 6, 3, 0, 0, 0, 0 }
+            },
+            new ArmorPenetration()
+            {
                 AmmunitionId = "601aa3d2b2bcb34913271e6d",
                 AmmunitionName = "7.62x39mm MAI AP",
                 Values = new double[] { 6, 6, 6, 6, 6, 5 }
@@ -72,6 +78,11 @@ namespace TotovBuilder.Model.Test
     ""ammunitionId"": ""6196365d58ef8c428c287da1"",
     ""ammunitionName"": "".300 Whisper"",
     ""values"": [6, 4, 2, 1, 0, 0]
+  },
+  {
+    ""ammunitionId"": ""56dff4ecd2720b5f5a8b4568"",
+    ""ammunitionName"": ""5.45x39mm US gs"",
+    ""values"": [6, 3, 0, 0, 0, 0]
   },
   {
     ""ammunitionId"": ""601aa3d2b2bcb34913271e6d"",
