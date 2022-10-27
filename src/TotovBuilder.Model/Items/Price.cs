@@ -1,4 +1,5 @@
 ﻿using System;
+using TotovBuilder.Model.Configuration;
 
 namespace TotovBuilder.Model.Items
 {
@@ -35,7 +36,7 @@ namespace TotovBuilder.Model.Items
         /// <summary>
         /// ID of the quest unlocking the trade.
         /// </summary>
-        public string QuestId { get; set; } = string.Empty;
+        public Quest? Quest { get; set; }
 
         /// <summary>
         /// Value. 

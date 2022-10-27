@@ -71,6 +71,35 @@ namespace TotovBuilder.Model.Test
             },
             new Ammunition()
             {
+                AccuracyPercentageModifier = 0,
+                ArmorDamagePercentage = 0.34,
+                ArmorPenetrations = new double[] { 6, 3, 0, 0, 0, 0 }, // TODO : OBTAIN FROM WIKI
+                //Blinding = , // TODO : MISSING FROM API
+                Caliber = "Caliber545x39",
+                CategoryId = "ammunition",
+                DurabilityBurnPercentageModifier = -0.2,
+                FleshDamage = 65,
+                FragmentationChancePercentage = 0.1,
+                HeavyBleedingPercentageChance = 0,
+                IconLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.jpg",
+                Id = "56dff4ecd2720b5f5a8b4568",
+                ImageLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-image.jpg",
+                LightBleedingPercentageChance = 0,
+                MarketLink = "https://tarkov.dev/item/545x39mm-us-gs",
+                MaxStackableAmount = 60,
+                Name = "5.45x39mm US gs",
+                PenetrationPower = 15,
+                Projectiles = 1,
+                RecoilPercentageModifier = -0.25,
+                ShortName = "US",
+                Subsonic = true,
+                Tracer = false,
+                Velocity = 303,
+                Weight = 0.01,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_US_gs"
+            },
+            new Ammunition()
+            {
                 CategoryId = "ammunition",
                 Id = "testAmmunition",
             },
@@ -1072,6 +1101,46 @@ namespace TotovBuilder.Model.Test
         ""shortName"": ""Magnum"",
         ""weight"": 0.059,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/12/70_8.5mm_Magnum_buckshot""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5485a8684bdc2da71d8b4567""
+          },
+          {
+            ""id"": ""5661632d4bdc2d903d8b456b""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.jpg"",
+        ""id"": ""56dff4ecd2720b5f5a8b4568"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/545x39mm-us-gs"",
+        ""name"": ""5.45x39mm US gs"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesAmmo"",
+          ""accuracyModifier"": 0,
+          ""armorDamage"": 34,
+          ""caliber"": ""Caliber545x39"",
+          ""damage"": 65,
+          ""durabilityBurnFactor"": 0.8,
+          ""fragmentationChance"": 0.1,
+          ""heavyBleedModifier"": 0,
+          ""initialSpeed"": 303,
+          ""lightBleedModifier"": 0,
+          ""penetrationChance"": 0.45,
+          ""penetrationPower"": 15,
+          ""projectileCount"": 1,
+          ""recoilModifier"": -0.25,
+          ""ricochetChance"": 0.4,
+          ""stackMaxSize"": 60,
+          ""tracer"": false
+        },
+        ""shortName"": ""US"",
+        ""weight"": 0.01,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/5.45x39mm_US_gs""
       },
       {
         ""categories"": [

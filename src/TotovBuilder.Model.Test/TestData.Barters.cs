@@ -1,4 +1,6 @@
-﻿using TotovBuilder.Model.Items;
+﻿using TotovBuilder.Model.Configuration;
+using TotovBuilder.Model.Items;
+using static System.Net.WebRequestMethods;
 
 namespace TotovBuilder.Model.Test
 {
@@ -28,7 +30,12 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "barter",
                 Merchant = "prapor",
                 MerchantLevel = 1,
-                QuestId = "59675d6c86f7740a842fc482"
+                Quest = new Quest()
+                {
+                    Id = "59675d6c86f7740a842fc482",
+                    Name = "Ice Cream Cones",
+                    WikiLink = "https://escapefromtarkov.fandom.com/wiki/Ice_Cream_Cones"
+                }
             },
             new Price()
             {
@@ -108,7 +115,9 @@ namespace TotovBuilder.Model.Test
           ""normalizedName"": ""prapor""
         },
         ""taskUnlock"": {
-          ""id"": ""59675d6c86f7740a842fc482""
+          ""id"": ""59675d6c86f7740a842fc482"",
+          ""name"": ""Ice Cream Cones"",
+          ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Ice_Cream_Cones""
         }
       },
       {
