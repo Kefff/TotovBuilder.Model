@@ -9,7 +9,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static Item[] Items = new Item[]
+        public static Item[] Items { get; } = new Item[]
         {
             new Ammunition()
             {
@@ -2695,7 +2695,7 @@ namespace TotovBuilder.Model.Test
   }
 }";
 
-        public static ItemMissingProperties[] ItemMissingProperties = new ItemMissingProperties[]
+        public static ItemMissingProperties[] ItemMissingProperties { get; } = new ItemMissingProperties[]
         {
             new ItemMissingProperties()
             {

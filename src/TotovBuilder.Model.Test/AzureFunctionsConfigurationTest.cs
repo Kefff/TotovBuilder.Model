@@ -16,7 +16,7 @@
         public void GetBlobNames_ShouldGetBlobNames()
         {
             // Arrange
-            AzureFunctionsConfiguration azureFunctionsConfiguration = new AzureFunctionsConfiguration()
+            AzureFunctionsConfiguration azureFunctionsConfiguration = new()
             {
                 AzureArmorPenetrationsBlobName = "armor-penetrations.json",
                 AzureChangelogBlobName = "changelog.json",

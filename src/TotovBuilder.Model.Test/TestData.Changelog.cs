@@ -8,7 +8,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static ChangelogEntry[] Changelog = new ChangelogEntry[]
+        public static ChangelogEntry[] Changelog { get; } = new ChangelogEntry[]
         {
             new ChangelogEntry()
             {

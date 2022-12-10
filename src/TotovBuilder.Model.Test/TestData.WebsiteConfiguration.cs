@@ -7,7 +7,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static WebsiteConfiguration WebsiteConfiguration = new WebsiteConfiguration()
+        public static WebsiteConfiguration WebsiteConfiguration { get; } = new()
         {
             BuildSharingUrl = "https://localhost:3000/s/",
             BugReportUrl = "https://discord.gg/bugreport",
