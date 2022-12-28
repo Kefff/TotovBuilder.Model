@@ -26,6 +26,78 @@ namespace TotovBuilder.Model.Test
                     }
                 },
                 Date = new DateTime(2022, 1, 2),
+                Version = "1.5.0",
+            },
+            new ChangelogEntry()
+            {
+                Changes = new ChangelogChange[]
+                {
+                    new ChangelogChange()
+                    {
+                        Language = "en",
+                        Text = "Added a thing."
+                    },
+                    new ChangelogChange()
+                    {
+                        Language = "fr",
+                        Text = "Ajout d'une chose."
+                    }
+                },
+                Date = new DateTime(2022, 1, 2),
+                Version = "1.4.0",
+            },
+            new ChangelogEntry()
+            {
+                Changes = new ChangelogChange[]
+                {
+                    new ChangelogChange()
+                    {
+                        Language = "en",
+                        Text = "Added a thing."
+                    },
+                    new ChangelogChange()
+                    {
+                        Language = "fr",
+                        Text = "Ajout d'une chose."
+                    }
+                },
+                Date = new DateTime(2022, 1, 2),
+                Version = "1.3.0",
+            },
+            new ChangelogEntry()
+            {
+                Changes = new ChangelogChange[]
+                {
+                    new ChangelogChange()
+                    {
+                        Language = "en",
+                        Text = "Added a thing."
+                    },
+                    new ChangelogChange()
+                    {
+                        Language = "fr",
+                        Text = "Ajout d'une chose."
+                    }
+                },
+                Date = new DateTime(2022, 1, 2),
+                Version = "1.2.0",
+            },
+            new ChangelogEntry()
+            {
+                Changes = new ChangelogChange[]
+                {
+                    new ChangelogChange()
+                    {
+                        Language = "en",
+                        Text = "Added a thing."
+                    },
+                    new ChangelogChange()
+                    {
+                        Language = "fr",
+                        Text = "Ajout d'une chose."
+                    }
+                },
+                Date = new DateTime(2022, 1, 2),
                 Version = "1.1.0",
             },
             new ChangelogEntry()
@@ -49,6 +121,62 @@ namespace TotovBuilder.Model.Test
         };
 
         public const string ChangelogJson = @"[
+    {
+      ""version"": ""1.5.0"",
+      ""date"": ""2022-01-02T00:00:00+01:00"",
+      ""changes"": [
+        {
+          ""language"": ""en"",
+          ""text"": ""Added a thing.""
+        },
+        {
+          ""language"": ""fr"",
+          ""text"": ""Ajout d'une chose.""
+        }
+      ]
+    },
+    {
+      ""version"": ""1.4.0"",
+      ""date"": ""2022-01-02T00:00:00+01:00"",
+      ""changes"": [
+        {
+          ""language"": ""en"",
+          ""text"": ""Added a thing.""
+        },
+        {
+          ""language"": ""fr"",
+          ""text"": ""Ajout d'une chose.""
+        }
+      ]
+    },
+    {
+      ""version"": ""1.3.0"",
+      ""date"": ""2022-01-02T00:00:00+01:00"",
+      ""changes"": [
+        {
+          ""language"": ""en"",
+          ""text"": ""Added a thing.""
+        },
+        {
+          ""language"": ""fr"",
+          ""text"": ""Ajout d'une chose.""
+        }
+      ]
+    },
+    {
+      ""version"": ""1.2.0"",
+      ""date"": ""2022-01-02T00:00:00+01:00"",
+      ""changes"": [
+        {
+          ""language"": ""en"",
+          ""text"": ""Added a thing.""
+        },
+        {
+          ""language"": ""fr"",
+          ""text"": ""Ajout d'une chose.""
+        }
+      ]
+    },
     {
       ""version"": ""1.1.0"",
       ""date"": ""2022-01-02T00:00:00+01:00"",
