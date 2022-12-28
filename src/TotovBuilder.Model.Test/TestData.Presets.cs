@@ -7,7 +7,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static InventoryItem[] Presets = new InventoryItem[]
+        public static InventoryItem[] Presets { get; } = new InventoryItem[]
         {
             new InventoryItem()
             {

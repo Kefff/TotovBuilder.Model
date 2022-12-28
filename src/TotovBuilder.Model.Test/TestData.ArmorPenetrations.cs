@@ -7,7 +7,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static ArmorPenetration[] ArmorPenetrations = new ArmorPenetration[]
+        public static ArmorPenetration[] ArmorPenetrations { get; } = new ArmorPenetration[]
         {
             new ArmorPenetration()
             {

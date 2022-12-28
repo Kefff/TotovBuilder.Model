@@ -8,7 +8,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static Price[] Prices = new Price[]
+        public static Price[] Prices { get; } = new Price[]
         {
             new Price()
             {

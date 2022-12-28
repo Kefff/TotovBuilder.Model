@@ -7,7 +7,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static ItemCategory[] ItemCategories = new ItemCategory[]
+        public static ItemCategory[] ItemCategories { get; } = new ItemCategory[]
         {
             new ItemCategory()
             {

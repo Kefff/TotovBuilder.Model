@@ -1,6 +1,5 @@
 ﻿using TotovBuilder.Model.Configuration;
 using TotovBuilder.Model.Items;
-using static System.Net.WebRequestMethods;
 
 namespace TotovBuilder.Model.Test
 {
@@ -9,7 +8,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static Price[] Barters = new Price[]
+        public static Price[] Barters { get; } = new Price[]
         {
             new Price()
             {
