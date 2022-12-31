@@ -24,5 +24,10 @@
         /// Name.
         /// </summary>
         public string Name { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Value determining the position of the currency when a price containing multiple currencies is displayed.
+        /// </summary>
+        public int SortOrder { get; set; }
     }
 }
