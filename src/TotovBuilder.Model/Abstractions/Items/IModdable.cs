@@ -10,7 +10,7 @@ namespace TotovBuilder.Model.Abstractions.Items
         /// <summary>
         /// Default preset ID.
         /// </summary>
-        string DefaultPresetId { get; set; }
+        string? DefaultPresetId { get; set; }
 
         /// <summary>
         /// Mod slots.

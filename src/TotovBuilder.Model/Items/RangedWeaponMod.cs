@@ -13,7 +13,7 @@ namespace TotovBuilder.Model.Items
         public double AccuracyPercentageModifier { get; set; }
 
         /// <inheritdoc/>
-        public string DefaultPresetId { get; set; } = string.Empty;
+        public string? DefaultPresetId { get; set; }
 
         /// <inheritdoc/>
         public double RecoilPercentageModifier { get; set; }

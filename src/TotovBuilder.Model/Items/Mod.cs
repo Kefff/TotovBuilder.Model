@@ -9,7 +9,7 @@ namespace TotovBuilder.Model.Items
     public class Mod : Item, IMod
     {
         /// <inheritdoc/>
-        public string DefaultPresetId { get; set; } = string.Empty;
+        public string? DefaultPresetId { get; set; }
 
         /// <inheritdoc/>
         public double ErgonomicsModifier { get; set; }

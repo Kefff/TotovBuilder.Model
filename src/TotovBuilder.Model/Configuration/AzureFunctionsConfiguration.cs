@@ -20,6 +20,11 @@ namespace TotovBuilder.Model.Configuration
         public string ApiItemsQuery { get; set; } = string.Empty;
 
         /// <summary>
+        /// API query for getting presets.
+        /// </summary>
+        public string ApiPresetsQuery { get; set; } = string.Empty;
+
+        /// <summary>
         /// API query for getting prices.
         /// </summary>
         public string ApiPricesQuery { get; set; } = string.Empty;
@@ -72,6 +77,7 @@ namespace TotovBuilder.Model.Configuration
         /// <summary>
         /// Name of the Azure blob containing the presets.
         /// </summary>
+        [Obsolete]
         public string AzurePresetsBlobName { get; set; } = string.Empty;
 
         /// <summary>
