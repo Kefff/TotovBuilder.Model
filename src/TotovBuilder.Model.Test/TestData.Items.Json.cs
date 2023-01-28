@@ -1998,210 +1998,6 @@
       {
         ""categories"": [
           {
-            ""id"": ""55818a684bdc2ddd698b456d""
-          },
-          {
-            ""id"": ""55802f4a4bdc2ddb688b4569""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/57e3dba62459770f0c32322b-icon.jpg"",
-        ""id"": ""57e3dba62459770f0c32322b"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/57e3dba62459770f0c32322b-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/ak-bakelite-pistol-grip-6p4-sb9"",
-        ""name"": ""AK bakelite pistol grip (6P4 Sb.9)"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesWeaponMod"",
-          ""accuracyModifier"": 0,
-          ""ergonomics"": 6,
-          ""recoilModifier"": 0,
-          ""slots"": []
-        },
-        ""shortName"": ""6P4 Sb.9"",
-        ""weight"": 0.07,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AK_bakelite_pistol_grip_(6P4_Sb.9)""
-      },
-      {
-        ""categories"": [
-          {
-            ""id"": ""55818a594bdc2db9688b456a""
-          },
-          {
-            ""id"": ""55802f3e4bdc2de7118b4584""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/57dc347d245977596754e7a1-icon.jpg"",
-        ""id"": ""57dc347d245977596754e7a1"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/57dc347d245977596754e7a1-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/aks-74u-metal-skeleton-stock-6p26-sb5"",
-        ""name"": ""AKS-74U metal skeleton stock (6P26 Sb.5)"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesWeaponMod"",
-          ""accuracyModifier"": 0,
-          ""ergonomics"": 10,
-          ""recoilModifier"": -0.3,
-          ""slots"": [
-            {
-              ""nameId"": ""mod_stock"",
-              ""filters"": {
-                ""allowedItems"": [
-                  {
-                    ""id"": ""5a0c59791526d8dba737bba7""
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        ""shortName"": ""6P26 Sb.5"",
-        ""weight"": 0.218,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AKS-74U_metal_skeleton_stock_(6P26_Sb.5)""
-      },
-      {
-        ""categories"": [
-          {
-            ""id"": ""550aa4bf4bdc2dd6348b456b""
-          },
-          {
-            ""id"": ""5448fe394bdc2d0d028b456c""
-          },
-          {
-            ""id"": ""550aa4154bdc2dd8348b456b""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/57dc324a24597759501edc20-icon.jpg"",
-        ""id"": ""57dc324a24597759501edc20"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/57dc324a24597759501edc20-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/aks-74u-545x39-muzzle-brake-6p26-0-20"",
-        ""name"": ""AKS-74U 5.45x39 muzzle brake (6P26 0-20)"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesWeaponMod"",
-          ""accuracyModifier"": 0,
-          ""ergonomics"": -2,
-          ""recoilModifier"": -0.08,
-          ""slots"": []
-        },
-        ""shortName"": ""6P26 0-20"",
-        ""weight"": 0.1,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AKS-74U_5.45x39_muzzle_brake_(6P26_0-20)""
-      },
-      {
-        ""categories"": [
-          {
-            ""id"": ""56ea9461d2720b67698b456f""
-          },
-          {
-            ""id"": ""550aa4154bdc2dd8348b456b""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/59d36a0086f7747e673f3946-icon.jpg"",
-        ""id"": ""59d36a0086f7747e673f3946"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/59d36a0086f7747e673f3946-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/aks-74u-gas-tube-6p26-sb1-2"",
-        ""name"": ""AKS-74U gas tube (6P26 Sb.1-2)"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesWeaponMod"",
-          ""accuracyModifier"": 0,
-          ""ergonomics"": 0,
-          ""recoilModifier"": 0,
-          ""slots"": [
-            {
-              ""nameId"": ""mod_handguard"",
-              ""filters"": {
-                ""allowedItems"": [
-                  {
-                    ""id"": ""5d15ce51d7ad1a1eff619092""
-                  },
-                  {
-                    ""id"": ""5a957c3fa2750c00137fa5f7""
-                  },
-                  {
-                    ""id"": ""57dc32dc245977596d4ef3d3""
-                  },
-                  {
-                    ""id"": ""57ffa9f4245977728561e844""
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        ""shortName"": ""6P26 Sb.1-2"",
-        ""weight"": 0.03,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AKS-74U_gas_tube_(6P26_Sb.1-2)""
-      },
-      {
-        ""categories"": [
-          {
-            ""id"": ""55818a104bdc2db9688b4569""
-          },
-          {
-            ""id"": ""55802f4a4bdc2ddb688b4569""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-icon.jpg"",
-        ""id"": ""57dc32dc245977596d4ef3d3"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/aks-74u-wooden-handguard-6p26-sb6"",
-        ""name"": ""AKS-74U wooden handguard (6P26 Sb.6)"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesWeaponMod"",
-          ""accuracyModifier"": 0,
-          ""ergonomics"": 4,
-          ""recoilModifier"": 0,
-          ""slots"": []
-        },
-        ""shortName"": ""6P26 Sb.6"",
-        ""weight"": 0.116,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AKS-74U_wooden_handguard_(6P26_Sb.6)""
-      },
-      {
-        ""categories"": [
-          {
             ""id"": ""5447b5e04bdc2d62278b4567""
           },
           {
@@ -3602,6 +3398,192 @@
         ""shortName"": ""MPX MQB"",
         ""weight"": 3.87,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5a341c4086f77401f2541505""
+          },
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+            ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-icon.jpg"",
+        ""id"": ""5a16bb52fcdbcb001a3b00dc"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/wilcox-skull-lock-head-mount"",
+        ""name"": ""Wilcox Skull Lock head mount"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesHelmet"",
+          ""blocksHeadset"": false,
+          ""class"": 0,
+          ""deafening"": ""None"",
+          ""durability"": 0,
+          ""ergoPenalty"": 0,
+          ""headZones"": [],
+          ""material"": {
+            ""name"": """"
+          },
+          ""ricochetX"": 0,
+          ""slots"": [
+            {
+              ""nameId"": ""mod_nvg"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5a16b8a9fcdbcb00165aa6ca""
+                  }
+                ]
+              }
+            }
+          ],
+          ""speedPenalty"": 0,
+          ""turnPenalty"": 0
+        },
+        ""shortName"": ""Skull Lock"",
+        ""weight"": 0.5,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""55818b224bdc2dde698b456f""
+          },
+          {
+            ""id"": ""55802f3e4bdc2de7118b4584""
+          },
+          {
+            ""id"": ""5448fe124bdc2da5018b4567""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-icon.jpg"",
+        ""id"": ""5a16b8a9fcdbcb00165aa6ca"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/norotos-titanium-advanced-tactical-mount"",
+        ""name"": ""Norotos Titanium Advanced Tactical Mount"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesWeaponMod"",
+          ""accuracyModifier"": 0,
+          ""ergonomics"": 0,
+          ""recoilModifier"": 0,
+          ""slots"": [
+            {
+              ""nameId"": ""mod_nvg"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5c0695860db834001b735461""
+                  },
+                  {
+                    ""id"": ""5a16b93dfcdbcbcae6687261""
+                  },
+                  {
+                    ""id"": ""5c11046cd174af02a012e42b""
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        ""shortName"": ""TATM"",
+        ""weight"": 0.07,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Norotos_Titanium_Advanced_Tactical_Mount""
+      },
+      {
+        ""categories"": [
+            {
+            ""id"": ""55818b224bdc2dde698b456f""
+            },
+            {
+            ""id"": ""55802f3e4bdc2de7118b4584""
+            },
+            {
+            ""id"": ""5448fe124bdc2da5018b4567""
+            },
+            {
+            ""id"": ""566162e44bdc2d3f298b4573""
+            },
+            {
+            ""id"": ""54009119af1c881c07000029""
+            }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-icon.jpg"",
+        ""id"": ""5a16b93dfcdbcbcae6687261"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/anpvs-14-dual-dovetail-mount"",
+        ""name"": ""AN/PVS-14 Dual Dovetail Mount"",
+        ""properties"": {
+            ""__typename"": ""ItemPropertiesWeaponMod"",
+            ""accuracyModifier"": 0,
+            ""ergonomics"": 0,
+            ""recoilModifier"": 0,
+            ""slots"": [
+              {
+                ""nameId"": ""mod_nvg"",
+                ""filters"": {
+                  ""allowedItems"": [
+                    {
+                    ""id"": ""57235b6f24597759bf5a30f1""
+                    }
+                  ]
+                }
+              }
+            ]
+        },
+        ""shortName"": ""DDT"",
+        ""weight"": 0.07,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AN/PVS-14_Dual_Dovetail_Mount""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5a2c3a9486f774688b05e574""
+          },
+          {
+            ""id"": ""55818aeb4bdc2ddc698b456a""
+          },
+          {
+            ""id"": ""5448fe7a4bdc2d6f028b456b""
+          },
+          {
+            ""id"": ""550aa4154bdc2dd8348b456b""
+          },
+          {
+            ""id"": ""5448fe124bdc2da5018b4567""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/57235b6f24597759bf5a30f1-icon.jpg"",
+        ""id"": ""57235b6f24597759bf5a30f1"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/57235b6f24597759bf5a30f1-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/anpvs-14-night-vision-monocular"",
+        ""name"": ""AN/PVS-14 Night Vision Monocular"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesNightVision""
+        },
+        ""shortName"": ""PVS-14"",
+        ""weight"": 0.65,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AN/PVS-14_Night_Vision_Monocular""
       }
     ]
   }

@@ -203,10 +203,131 @@
                 },
                 ""shortName"": ""MPX MQB"",
                 ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun""
+              },
+              {
+                ""containsItems"": [
+                  {
+                    ""item"": {
+                      ""id"": ""5a16bb52fcdbcb001a3b00dc""
+                    },
+                    ""quantity"": 1
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""5a16b8a9fcdbcb00165aa6ca""
+                    },
+                    ""quantity"": 1
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""5a16b93dfcdbcbcae6687261""
+                    },
+                    ""quantity"": 1
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""57235b6f24597759bf5a30f1""
+                    },
+                    ""quantity"": 1
+                  }
+                ],
+                ""iconLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-icon.jpg"",
+                ""id"": ""5a3b898486f77467720a2f29"",
+                ""inspectImageLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-image.jpg"",
+                ""link"": ""https://tarkov.dev/item/wilcox-skull-lock-head-mount-pvs-14"",
+                ""name"": ""Wilcox Skull Lock head mount PVS-14"",
+                ""properties"": {
+                  ""baseItem"": {
+                    ""id"": ""5a16bb52fcdbcb001a3b00dc""
+                  },
+                  ""moa"": null
+                },
+                ""shortName"": ""Skull Lock PVS-14"",
+                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount""
+              },
+              {
+                ""containsItems"": [
+                  {
+                    ""item"": {
+                      ""id"": ""57d17e212459775a1179a0f5""
+                    },
+                    ""quantity"": 1
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""59d790f486f77403cb06aec6""
+                    },
+                    ""quantity"": 1
+                  }
+                ],
+                ""iconLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-icon.jpg"",
+                ""id"": ""preset-ring-flashlight"",
+                ""inspectImageLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-image.jpg"",
+                ""link"": ""https://tarkov.dev/item/preset-ring-flashlight"",
+                ""name"": ""Ring + flashlight"",
+                ""properties"": {
+                  ""baseItem"": {
+                    ""id"": ""57d17e212459775a1179a0f5""
+                  },
+                  ""moa"": null
+                },
+                ""shortName"": ""PR+F"",
+                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-ring-flashlight""
+              },
+              {
+                ""containsItems"": [
+                  {
+                    ""item"": {
+                      ""id"": ""59d36a0086f7747e673f3946""
+                    },
+                    ""quantity"": 1
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""57dc32dc245977596d4ef3d3""
+                    },
+                    ""quantity"": 1
+                  }
+                ],
+                ""iconLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-icon.jpg"",
+                ""id"": ""preset-gas-tube-handguard"",
+                ""inspectImageLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-image.jpg"",
+                ""link"": ""https://tarkov.dev/item/preset-gas-tube-handguard"",
+                ""name"": ""Gas tube + handguard"",
+                ""properties"": {
+                  ""baseItem"": {
+                    ""id"": ""59d36a0086f7747e673f3946""
+                  },
+                  ""moa"": null
+                },
+                ""shortName"": ""PGT+H"",
+                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-gas-tube-handguard""
+              },
+              {
+                ""containsItems"": [
+                  {
+                    ""item"": {
+                      ""id"": ""5a16b7e1fcdbcb00165aa6c9""
+                    },
+                    ""quantity"": 1
+                  }
+                ],
+                ""iconLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-icon.jpg"",
+                ""id"": ""preset-face-shield-alone"",
+                ""inspectImageLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-image.jpg"",
+                ""link"": ""https://tarkov.dev/item/preset-face-shield-alone"",
+                ""name"": ""Face shield alone"",
+                ""properties"": {
+                  ""baseItem"": {
+                    ""id"": ""5a16b7e1fcdbcb00165aa6c9""
+                  },
+                  ""moa"": null
+                },
+                ""shortName"": ""FSA"",
+                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-face-shield-alone""
               }
             ]
           }
-        }
-        ";
+        }";
     }
 }

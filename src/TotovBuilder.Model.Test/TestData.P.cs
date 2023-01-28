@@ -249,6 +249,77 @@ namespace TotovBuilder.Model.Test
                         ModSlotName = "mod_charge"
                     }
                 }
+            },
+            new InventoryItem()
+            {
+                ItemId = "5a3b898486f77467720a2f29",
+                ModSlots = new InventoryItemModSlot[]
+                {
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "5a16b8a9fcdbcb00165aa6ca",
+                            ModSlots = new InventoryItemModSlot[]
+                            {
+                                new InventoryItemModSlot()
+                                {
+                                    Item = new InventoryItem()
+                                    {
+                                        ItemId = "5a16b93dfcdbcbcae6687261",
+                                        ModSlots = new InventoryItemModSlot[]
+                                        {
+                                            new InventoryItemModSlot()
+                                            {
+                                                Item = new InventoryItem()
+                                                {
+                                                    ItemId = "57235b6f24597759bf5a30f1"
+                                                },
+                                                ModSlotName = "mod_nvg"
+                                            }
+                                        }
+                                    },
+                                    ModSlotName = "mod_nvg"
+                                }
+                            }
+                        },
+                        ModSlotName = "mod_nvg"
+                    }
+                }
+            },
+            new InventoryItem()
+            {
+                ItemId = "preset-ring-flashlight",
+                ModSlots = new InventoryItemModSlot[]
+                {
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "59d790f486f77403cb06aec6"
+                        },
+                        ModSlotName = "mod_flashlight"
+                    }
+                }
+            },
+            new InventoryItem()
+            {
+                ItemId = "preset-gas-tube-handguard",
+                ModSlots = new InventoryItemModSlot[]
+                {
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "57dc32dc245977596d4ef3d3"
+                        },
+                        ModSlotName = "mod_handguard"
+                    }
+                }
+            },
+            new InventoryItem()
+            {
+                ItemId = "preset-face-shield-alone"
             }
         };
     }

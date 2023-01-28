@@ -18,7 +18,7 @@ namespace TotovBuilder.Model.Items
         public bool BlocksHeadphones { get; set; }
 
         /// <inheritdoc/>
-        public string Deafening { get; set; } = string.Empty;
+        public string Deafening { get; set; } = "None";
 
         /// <inheritdoc/>
         public string? DefaultPresetId { get; set; }
