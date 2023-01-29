@@ -1077,12 +1077,7 @@
                 ]
               }
             }
-          ],
-          ""defaultPreset"": {
-            ""iconLink"": ""https://assets.tarkov.dev/584147732459775a2b6d9f12-icon.jpg"",
-            ""id"": ""584147732459775a2b6d9f12"",
-            ""inspectImageLink"": ""https://assets.tarkov.dev/584147732459775a2b6d9f12-image.jpg""
-          }
+          ]
         },
         ""shortName"": ""AKS-74U"",
         ""weight"": 1.809,
@@ -1267,12 +1262,7 @@
                 ]
               }
             }
-          ],
-          ""defaultPreset"": {
-            ""iconLink"": ""https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-icon.jpg"",
-            ""id"": ""5eb2968186f7746d1f1a4fd5"",
-            ""inspectImageLink"": ""https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-image.jpg""
-          }
+          ]
         },
         ""shortName"": ""M1911A1"",
         ""weight"": 0.231,
@@ -1296,12 +1286,7 @@
           ""fireModes"": [],
           ""fireRate"": 0,
           ""recoilHorizontal"": 0,
-          ""recoilVertical"": 0,
-          ""defaultPreset"": {
-            ""iconLink"": """",
-            ""id"": """",
-            ""inspectImageLink"": """"
-          }
+          ""recoilVertical"": 0
         },
         ""shortName"": """",
         ""weight"": 0,
@@ -1576,8 +1561,7 @@
           ""fireRate"": 30,
           ""recoilHorizontal"": 400,
           ""recoilVertical"": 200,
-          ""slots"": [],
-          ""defaultPreset"": null
+          ""slots"": []
         },
         ""shortName"": ""Yellow"",
         ""weight"": 0.6,
@@ -2182,12 +2166,7 @@
                 ]
               }
             }
-          ],
-          ""defaultPreset"": {
-            ""iconLink"": ""https://assets.tarkov.dev/58dffca786f774083a256ab1-icon.jpg"",
-            ""id"": ""58dffca786f774083a256ab1"",
-            ""inspectImageLink"": ""https://assets.tarkov.dev/58dffca786f774083a256ab1-image.jpg""
-          }
+          ]
         },
         ""shortName"": ""MPX"",
         ""weight"": 0.64,

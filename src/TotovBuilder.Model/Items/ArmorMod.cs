@@ -18,13 +18,13 @@ namespace TotovBuilder.Model.Items
         public string[] ArmoredAreas { get; set; } = Array.Empty<string>();
 
         /// <inheritdoc/>
-        public string? DefaultPresetId { get; set; } = string.Empty;
-
-        /// <inheritdoc/>
         public double Durability { get; set; }
 
         /// <inheritdoc/>
         public double ErgonomicsPercentageModifier { get; set; }
+
+        /// <inheritdoc/>
+        public bool IsPreset { get; set; }
 
         /// <inheritdoc/>
         public string Material { get; set; } = string.Empty;

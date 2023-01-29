@@ -171,18 +171,7 @@ namespace TotovBuilder.Model.Test
                                             {
                                                 Item = new InventoryItem()
                                                 {
-                                                    ItemId = "58a56f8d86f774651579314c",
-                                                    ModSlots = new InventoryItemModSlot[]
-                                                    {
-                                                        new InventoryItemModSlot()
-                                                        {
-                                                            Item = new InventoryItem()
-                                                            {
-                                                                ItemId = "5a7b483fe899ef0016170d15"
-                                                            },
-                                                            ModSlotName = "mod_tactical"
-                                                        }
-                                                    }
+                                                    ItemId = "58a56f8d86f774651579314c"
                                                 },
                                                 ModSlotName = "mod_mount_000"
                                             },
@@ -209,7 +198,18 @@ namespace TotovBuilder.Model.Test
                                             {
                                                 Item = new InventoryItem()
                                                 {
-                                                    ItemId = "58a56f8d86f774651579314c"
+                                                    ItemId = "58a56f8d86f774651579314c",
+                                                    ModSlots = new InventoryItemModSlot[]
+                                                    {
+                                                        new InventoryItemModSlot()
+                                                        {
+                                                            Item = new InventoryItem()
+                                                            {
+                                                                ItemId = "5a7b483fe899ef0016170d15"
+                                                            },
+                                                            ModSlotName = "mod_tactical"
+                                                        }
+                                                    }
                                                 },
                                                 ModSlotName = "mod_mount_002"
                                             },

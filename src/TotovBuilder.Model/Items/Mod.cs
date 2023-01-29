@@ -9,10 +9,10 @@ namespace TotovBuilder.Model.Items
     public class Mod : Item, IMod
     {
         /// <inheritdoc/>
-        public string? DefaultPresetId { get; set; }
+        public double ErgonomicsModifier { get; set; }
 
         /// <inheritdoc/>
-        public double ErgonomicsModifier { get; set; }
+        public bool IsPreset { get; set; }
 
         /// <inheritdoc/>
         public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();

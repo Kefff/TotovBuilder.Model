@@ -12,9 +12,6 @@ namespace TotovBuilder.Model.Items
         public string Caliber { get; set; } = string.Empty;
 
         /// <inheritdoc/>
-        public string? DefaultPresetId { get; set; }
-
-        /// <inheritdoc/>
         public double Ergonomics { get; set; }
 
         /// <inheritdoc/>
@@ -25,6 +22,9 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         public double HorizontalRecoil { get; set; }
+
+        /// <inheritdoc/>
+        public bool IsPreset { get; set; }
 
         /// <inheritdoc/>
         public double MinuteOfAngle { get; set; }

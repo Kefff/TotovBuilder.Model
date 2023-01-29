@@ -21,13 +21,13 @@ namespace TotovBuilder.Model.Items
         public string Deafening { get; set; } = "None";
 
         /// <inheritdoc/>
-        public string? DefaultPresetId { get; set; }
-
-        /// <inheritdoc/>
         public double Durability { get; set; }
 
         /// <inheritdoc/>
         public double ErgonomicsPercentageModifier { get; set; }
+
+        /// <inheritdoc/>
+        public bool IsPreset { get; set; }
 
         /// <inheritdoc/>
         public string Material { get; set; } = string.Empty;
