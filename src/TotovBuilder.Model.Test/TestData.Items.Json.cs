@@ -644,23 +644,6 @@
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MS2000_Marker""
       },
       {
-        ""allowedAmmo"": [
-          {
-            ""id"": ""5e81f423763d9f754677bf2e""
-          },
-          {
-            ""id"": ""5efb0cabfb3e451d70735af5""
-          },
-          {
-            ""id"": ""5efb0fc6aeb21837e749c801""
-          },
-          {
-            ""id"": ""5efb0d4f4bc50b58e81710f3""
-          },
-          {
-            ""id"": ""5ea2a8e200685063ec28c05a""
-          }
-        ],
         ""categories"": [
           {
             ""id"": ""5448bc234bdc2d3c308b4569""
@@ -1094,7 +1077,7 @@
         ],
         ""iconLink"": ""https://assets.tarkov.dev/618aaeb931ddad66c15eb7e9-icon.jpg"",
         ""id"": ""618aaeb931ddad66c15eb7e9"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/unknown-item-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/618aaeb931ddad66c15eb7e9-image.webp"",
         ""link"": ""https://tarkov.dev/item/as-val-9x39-special-assault-rifle-kobra"",
         ""name"": ""AS VAL 9x39 special assault rifle Kobra"",
         ""properties"": {
@@ -1279,15 +1262,7 @@
         ""inspectImageLink"": """",
         ""link"": """",
         ""name"": """",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesWeapon"",
-          ""caliber"": """",
-          ""ergonomics"": 0,
-          ""fireModes"": [],
-          ""fireRate"": 0,
-          ""recoilHorizontal"": 0,
-          ""recoilVertical"": 0
-        },
+        ""properties"": null,
         ""shortName"": """",
         ""weight"": 0,
         ""wikiLink"": """"
@@ -3563,6 +3538,174 @@
         ""shortName"": ""PVS-14"",
         ""weight"": 0.65,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AN/PVS-14_Night_Vision_Monocular""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5a341c4086f77401f2541505""
+          },
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+            ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-icon.webp"",
+        ""id"": ""5a3b898486f77467720a2f29"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-image.webp"",
+        ""link"": ""https://tarkov.dev/item/wilcox-skull-lock-head-mount-pvs-14"",
+        ""name"": ""Wilcox Skull Lock head mount PVS-14"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset""
+        },
+        ""shortName"": ""Skull Lock PVS-14"",
+        ""weight"": 1.29,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""55818b224bdc2dde698b456f""
+          },
+          {
+            ""id"": ""55802f3e4bdc2de7118b4584""
+          },
+          {
+            ""id"": ""5448fe124bdc2da5018b4567""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-icon.jpg"",
+        ""id"": ""preset-ring-flashlight"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/preset-ring-flashlight"",
+        ""name"": ""Ring + flashlight"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset""
+        },
+        ""shortName"": ""PR+F"",
+        ""weight"": 0.205,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-ring-flashlight""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""56ea9461d2720b67698b456f""
+          },
+          {
+            ""id"": ""550aa4154bdc2dd8348b456b""
+          },
+          {
+            ""id"": ""5448fe124bdc2da5018b4567""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-icon.jpg"",
+        ""id"": ""preset-gas-tube-handguard"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/preset-gas-tube-handguard"",
+        ""name"": ""Gas tube + handguard"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset""
+        },
+        ""shortName"": ""PGT+H"",
+        ""weight"": 0.146,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-gas-tube-handguard""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+            ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-icon.jpg"",
+        ""id"": ""preset-face-shield-alone"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/preset-face-shield-alone"",
+        ""name"": ""Face shield alone"",
+        ""properties"": {
+            ""__typename"": ""ItemPropertiesPreset""
+        },
+        ""shortName"": ""FSA"",
+        ""weight"": 1.2,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-face-shield-alone""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5448bc234bdc2d3c308b4569""
+          },
+          {
+            ""id"": ""55802f3e4bdc2de7118b4584""
+          },
+          {
+            ""id"": ""5448fe124bdc2da5018b4567""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/preset-magazine-alone-icon.jpg"",
+        ""id"": ""preset-magazine-alone"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-magazine-alone-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/preset-magazine-alone"",
+        ""name"": ""Magazine alone"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset""
+        },
+        ""shortName"": ""MA"",
+        ""weight"": 0.16,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-magazine-alone""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5447b5cf4bdc2d65278b4567""
+          },
+          {
+            ""id"": ""5422acb9af1c889c16000029""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-icon.webp"",
+        ""id"": ""5eb2968186f7746d1f1a4fd5"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-image.webp"",
+        ""link"": ""https://tarkov.dev/item/colt-m1911a1-45-acp-pistol-default"",
+        ""name"": ""Colt M1911A1 .45 ACP pistol Default"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset""
+        },
+        ""shortName"": ""M1911A1 Default"",
+        ""weight"": 1.214,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Colt_M1911A1_.45_ACP_pistol""
       }
     ]
   }

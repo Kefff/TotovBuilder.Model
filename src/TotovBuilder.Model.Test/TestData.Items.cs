@@ -174,6 +174,19 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "armorMod",
                 Id = "testArmorMod",
             },
+            new ArmorMod()
+            {
+                CategoryId = "armorMod",
+                IconLink = "https://assets.tarkov.dev/preset-face-shield-alone-icon.jpg",
+                Id = "preset-face-shield-alone",
+                ImageLink = "https://assets.tarkov.dev/preset-face-shield-alone-image.jpg",
+                IsPreset = true,
+                MarketLink = "https://tarkov.dev/item/preset-face-shield-alone",
+                Name = "Face shield alone",
+                ShortName = "FSA",
+                Weight = 1.2,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/preset-face-shield-alone"
+            },
             new Container()
             {
                 Capacity = 35,
@@ -285,7 +298,6 @@ namespace TotovBuilder.Model.Test
                 },
                 BlocksHeadphones = false,
                 CategoryId = "headwear",
-                Deafening = "None",
                 Durability = 30,
                 ErgonomicsPercentageModifier = -0.06,
                 IconLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.jpg",
@@ -339,7 +351,6 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 0,
                 ArmoredAreas = Array.Empty<string>(),
                 CategoryId = "headwear",
-                Deafening = "None",
                 Durability = 0,
                 ErgonomicsPercentageModifier = 0,
                 IconLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.jpg",
@@ -364,7 +375,6 @@ namespace TotovBuilder.Model.Test
             new Headwear()
             {
                 CategoryId = "headwear",
-                Deafening = "None",
                 IconLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-icon.jpg",
                 Id = "5a16bb52fcdbcb001a3b00dc",
                 ImageLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-image.jpg",
@@ -384,6 +394,19 @@ namespace TotovBuilder.Model.Test
                 Name = "Wilcox Skull Lock head mount",
                 ShortName = "Skull Lock",
                 Weight = 0.5,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount"
+            },
+            new Headwear()
+            {
+                CategoryId = "headwear",
+                IconLink = "https://assets.tarkov.dev/5a3b898486f77467720a2f29-icon.webp",
+                Id = "5a3b898486f77467720a2f29",
+                ImageLink = "https://assets.tarkov.dev/5a3b898486f77467720a2f29-image.webp",
+                IsPreset = true,
+                MarketLink = "https://tarkov.dev/item/wilcox-skull-lock-head-mount-pvs-14",
+                Name = "Wilcox Skull Lock head mount PVS-14",
+                ShortName = "Skull Lock PVS-14",
+                Weight = 1.29,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount"
             },
             new Item()
@@ -472,7 +495,6 @@ namespace TotovBuilder.Model.Test
                 Capacity = 7,
                 CategoryId = "magazine",
                 CheckSpeedPercentageModifier = -0.2,
-                ConflictingItemIds = Array.Empty<string>(), // TODO : MISSING FROM API
                 ErgonomicsModifier = -1,
                 IconLink = "https://assets.tarkov.dev/5e81c4ca763d9f754677befa-icon.jpg",
                 Id = "5e81c4ca763d9f754677befa",
@@ -547,6 +569,19 @@ namespace TotovBuilder.Model.Test
                 ShortName = "MPX",
                 Weight = 0.17,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX_9x19_30-round_magazine"
+            },
+            new Magazine()
+            {
+                CategoryId = "magazine",
+                IconLink = "https://assets.tarkov.dev/preset-magazine-alone-icon.jpg",
+                Id = "preset-magazine-alone",
+                ImageLink = "https://assets.tarkov.dev/preset-magazine-alone-image.jpg",
+                IsPreset = true,
+                MarketLink = "https://tarkov.dev/item/preset-magazine-alone",
+                Name = "Magazine alone",
+                ShortName = "MA",
+                Weight = 0.16,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/preset-magazine-alone"
             },
             new MeleeWeapon()
             {
@@ -783,6 +818,19 @@ namespace TotovBuilder.Model.Test
                 ShortName = "PVS-14",
                 Weight = 0.65,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/AN/PVS-14_Night_Vision_Monocular"
+            },
+            new Mod()
+            {
+                CategoryId = "mod",
+                IconLink = "https://assets.tarkov.dev/preset-ring-flashlight-icon.jpg",
+                Id = "preset-ring-flashlight",
+                ImageLink = "https://assets.tarkov.dev/preset-ring-flashlight-image.jpg",
+                IsPreset = true,
+                MarketLink = "https://tarkov.dev/item/preset-ring-flashlight",
+                Name = "Ring + flashlight",
+                ShortName = "PR+F",
+                Weight = 0.205,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/preset-ring-flashlight"
             },
             new RangedWeapon()
             {
@@ -1184,6 +1232,45 @@ namespace TotovBuilder.Model.Test
                 VerticalRecoil = 60,
                 Weight = 0.64,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun"
+            },
+            new RangedWeapon()
+            {
+                CategoryId = "mainWeapon",
+                IconLink = "https://assets.tarkov.dev/618aaeb931ddad66c15eb7e9-icon.jpg",
+                Id = "618aaeb931ddad66c15eb7e9",
+                IsPreset = true,
+                ImageLink = "https://assets.tarkov.dev/618aaeb931ddad66c15eb7e9-image.webp",
+                MarketLink = "https://tarkov.dev/item/as-val-9x39-special-assault-rifle-kobra",
+                Name = "AS VAL 9x39 special assault rifle Kobra",
+                ShortName = "AS VAL Kobra",
+                Weight = 3.085,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/AS_VAL_9x39_special_assault_rifle"
+            },
+            new RangedWeapon()
+            {
+                CategoryId = "mainWeapon",
+                IconLink = "https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-icon.jpg",
+                Id = "5a8ae43686f774377b73cfb3",
+                IsPreset = true,
+                ImageLink = "https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-image.jpg",
+                MarketLink = "https://tarkov.dev/item/sig-mpx-9x19-submachine-gun-mqb",
+                Name = "SIG MPX 9x19 submachine gun MQB",
+                ShortName = "MPX MQB",
+                Weight = 3.87,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun"
+            },
+            new RangedWeapon()
+            {
+                CategoryId = "secondaryWeapon",
+                IconLink = "https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-icon.webp",
+                Id = "5eb2968186f7746d1f1a4fd5",
+                IsPreset = true,
+                ImageLink = "https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-image.webp",
+                MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol-default",
+                Name = "Colt M1911A1 .45 ACP pistol Default",
+                ShortName = "M1911A1 Default",
+                Weight = 1.214,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Colt_M1911A1_.45_ACP_pistol"
             },
             new RangedWeaponMod()
             {
@@ -1818,6 +1905,19 @@ namespace TotovBuilder.Model.Test
                 ShortName = "MPX 2x",
                 Weight = 0.033,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX_double_latch_charging_handle"
+            },
+            new RangedWeaponMod()
+            {
+                CategoryId = "rangedWeaponMod",
+                IconLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-icon.jpg",
+                Id = "preset-gas-tube-handguard",
+                ImageLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-image.jpg",
+                IsPreset = true,
+                MarketLink = "https://tarkov.dev/item/preset-gas-tube-handguard",
+                Name = "Gas tube + handguard",
+                ShortName = "PGT+H",
+                Weight = 0.146,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/preset-gas-tube-handguard"
             },
             new Vest()
             {

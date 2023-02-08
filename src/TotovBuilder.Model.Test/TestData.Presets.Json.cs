@@ -5,7 +5,7 @@
     /// </summary>
     public partial class TestData
     {
-        public const string PJson = @"{
+        public const string PresetsJson = @"{
           ""data"": {
             ""items"": [
               {
@@ -71,6 +71,7 @@
                 ""link"": ""https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle-default"",
                 ""name"": ""Kalashnikov AKS-74U 5.45x39 assault rifle Default"",
                 ""properties"": {
+                  ""__typename"": ""ItemPropertiesPreset"",
                   ""baseItem"": {
                     ""id"": ""57dc2fa62459775949412633""
                   },
@@ -190,6 +191,7 @@
                 ""link"": ""https://tarkov.dev/item/sig-mpx-9x19-submachine-gun-mqb"",
                 ""name"": ""SIG MPX 9x19 submachine gun MQB"",
                 ""properties"": {
+                  ""__typename"": ""ItemPropertiesPreset"",
                   ""baseItem"": {
                     ""id"": ""58948c8e86f77409493f7266""
                   },
@@ -231,6 +233,7 @@
                 ""link"": ""https://tarkov.dev/item/wilcox-skull-lock-head-mount-pvs-14"",
                 ""name"": ""Wilcox Skull Lock head mount PVS-14"",
                 ""properties"": {
+                  ""__typename"": ""ItemPropertiesPreset"",
                   ""baseItem"": {
                     ""id"": ""5a16bb52fcdbcb001a3b00dc""
                   },
@@ -260,6 +263,7 @@
                 ""link"": ""https://tarkov.dev/item/preset-ring-flashlight"",
                 ""name"": ""Ring + flashlight"",
                 ""properties"": {
+                  ""__typename"": ""ItemPropertiesPreset"",
                   ""baseItem"": {
                     ""id"": ""57d17e212459775a1179a0f5""
                   },
@@ -289,6 +293,7 @@
                 ""link"": ""https://tarkov.dev/item/preset-gas-tube-handguard"",
                 ""name"": ""Gas tube + handguard"",
                 ""properties"": {
+                  ""__typename"": ""ItemPropertiesPreset"",
                   ""baseItem"": {
                     ""id"": ""59d36a0086f7747e673f3946""
                   },
@@ -312,6 +317,7 @@
                 ""link"": ""https://tarkov.dev/item/preset-face-shield-alone"",
                 ""name"": ""Face shield alone"",
                 ""properties"": {
+                  ""__typename"": ""ItemPropertiesPreset"",
                   ""baseItem"": {
                     ""id"": ""5a16b7e1fcdbcb00165aa6c9""
                   },

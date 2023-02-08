@@ -75,12 +75,6 @@ namespace TotovBuilder.Model.Configuration
         public string AzureItemMissingPropertiesBlobName { get; set; } = string.Empty;
 
         /// <summary>
-        /// Name of the Azure blob containing the presets.
-        /// </summary>
-        [Obsolete]
-        public string AzurePresetsBlobName { get; set; } = string.Empty;
-
-        /// <summary>
         /// Name of the Azure blob containing the values related to Tarkov gameplay.
         /// </summary>
         public string AzureTarkovValuesBlobName { get; set; } = string.Empty;

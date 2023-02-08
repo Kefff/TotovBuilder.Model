@@ -15,7 +15,6 @@
     ""AzureArmorPenetrationsBlobName"": ""armor-penetrations.json"",
     ""AzureChangelogBlobName"": ""changelog.json"",
     ""AzureItemCategoriesBlobName"": ""item-categories.json"",
-    ""AzurePresetsBlobName"": ""presets.json"",
     ""AzureTarkovValuesBlobName"": ""tarkov-values.json"",
     ""AzureWebsiteConfigurationBlobName"": ""website-configuration.json"",
     ""CacheDuration"": 43200,
