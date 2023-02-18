@@ -50,6 +50,18 @@ namespace TotovBuilder.Model.Test
                 AmmunitionId = "601aa3d2b2bcb34913271e6d",
                 AmmunitionName = "7.62x39mm MAI AP",
                 Values = new double[] { 6, 6, 6, 6, 6, 5 }
+            },
+            new ArmorPenetration()
+            {
+                AmmunitionId = "5efb0da7a29a85116f6ea05f",
+                AmmunitionName = "9x19mm PBP gzh",
+                Values = new double[] { 6, 6, 6, 5, 4, 3 }
+            },
+            new ArmorPenetration()
+            {
+                AmmunitionId = "5c3df7d588a4501f290594e5",
+                AmmunitionName = "9x19mm Green Tracer",
+                Values = new double[] { 6, 3, 1, 0, 0, 0 }
             }
         };
     }

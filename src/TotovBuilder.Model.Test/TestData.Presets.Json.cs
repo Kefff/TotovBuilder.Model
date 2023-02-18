@@ -75,7 +75,10 @@
                   ""baseItem"": {
                     ""id"": ""57dc2fa62459775949412633""
                   },
-                  ""moa"": 3.44
+                  ""ergonomics"": 64,
+                  ""moa"": 3.44,
+                  ""recoilVertical"": 75,
+                  ""recoilHorizontal"": 257
                 },
                 ""shortName"": ""AKS-74U Default"",
                 ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKS-74U_5.45x39_assault_rifle""
@@ -99,6 +102,18 @@
                       ""id"": ""5894a05586f774094708ef75""
                     },
                     ""quantity"": 1
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""5efb0da7a29a85116f6ea05f""
+                    },
+                    ""quantity"": 20
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""5c3df7d588a4501f290594e5""
+                    },
+                    ""quantity"": 10
                   },
                   {
                     ""item"": {
@@ -195,7 +210,10 @@
                   ""baseItem"": {
                     ""id"": ""58948c8e86f77409493f7266""
                   },
-                  ""moa"": 6.19
+                  ""ergonomics"": 72,
+                  ""moa"": 6.19,
+                  ""recoilVertical"": 33,
+                  ""recoilHorizontal"": 166
                 },
                 ""shortName"": ""MPX MQB"",
                 ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun""
@@ -237,7 +255,10 @@
                   ""baseItem"": {
                     ""id"": ""5a16bb52fcdbcb001a3b00dc""
                   },
-                  ""moa"": null
+                  ""ergonomics"": null,
+                  ""moa"": null,
+                  ""recoilVertical"": null,
+                  ""recoilHorizontal"": null
                 },
                 ""shortName"": ""Skull Lock PVS-14"",
                 ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount""
@@ -267,7 +288,10 @@
                   ""baseItem"": {
                     ""id"": ""57d17e212459775a1179a0f5""
                   },
-                  ""moa"": null
+                  ""ergonomics"": null,
+                  ""moa"": null,
+                  ""recoilVertical"": null,
+                  ""recoilHorizontal"": null
                 },
                 ""shortName"": ""PR+F"",
                 ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-ring-flashlight""
@@ -297,7 +321,10 @@
                   ""baseItem"": {
                     ""id"": ""59d36a0086f7747e673f3946""
                   },
-                  ""moa"": null
+                  ""ergonomics"": null,
+                  ""moa"": null,
+                  ""recoilVertical"": null,
+                  ""recoilHorizontal"": null
                 },
                 ""shortName"": ""PGT+H"",
                 ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-gas-tube-handguard""
@@ -321,7 +348,10 @@
                   ""baseItem"": {
                     ""id"": ""5a16b7e1fcdbcb00165aa6c9""
                   },
-                  ""moa"": null
+                  ""ergonomics"": null,
+                  ""moa"": null,
+                  ""recoilVertical"": null,
+                  ""recoilHorizontal"": null
                 },
                 ""shortName"": ""FSA"",
                 ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-face-shield-alone""

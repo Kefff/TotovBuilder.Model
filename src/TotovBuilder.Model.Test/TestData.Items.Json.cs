@@ -3542,170 +3542,82 @@
       {
         ""categories"": [
           {
-            ""id"": ""5a341c4086f77401f2541505""
+            ""id"": ""5485a8684bdc2da71d8b4567""
           },
           {
-            ""id"": ""57bef4c42459772e8d35a53b""
-          },
-          {
-            ""id"": ""543be5f84bdc2dd4348b456a""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
+            ""id"": ""5661632d4bdc2d903d8b456b""
           },
           {
             ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-icon.webp"",
-        ""id"": ""5a3b898486f77467720a2f29"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-image.webp"",
-        ""link"": ""https://tarkov.dev/item/wilcox-skull-lock-head-mount-pvs-14"",
-        ""name"": ""Wilcox Skull Lock head mount PVS-14"",
+        ""iconLink"": ""https://assets.tarkov.dev/5efb0da7a29a85116f6ea05f-icon.webp"",
+        ""id"": ""5efb0da7a29a85116f6ea05f"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5efb0da7a29a85116f6ea05f-image.webp"",
+        ""link"": ""https://tarkov.dev/item/9x19mm-pbp-gzh"",
+        ""name"": ""9x19mm PBP gzh"",
         ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset""
+          ""__typename"": ""ItemPropertiesAmmo"",
+          ""accuracyModifier"": 0.05,
+          ""armorDamage"": 55,
+          ""caliber"": ""Caliber9x19PARA"",
+          ""damage"": 52,
+          ""durabilityBurnFactor"": 1.7,
+          ""fragmentationChance"": 0.05,
+          ""heavyBleedModifier"": 0,
+          ""initialSpeed"": 560,
+          ""lightBleedModifier"": 0,
+          ""penetrationChance"": 0.4,
+          ""penetrationPower"": 39,
+          ""projectileCount"": 1,
+          ""recoilModifier"": 0.05,
+          ""ricochetChance"": 0.2,
+          ""stackMaxSize"": 50,
+          ""tracer"": false
         },
-        ""shortName"": ""Skull Lock PVS-14"",
-        ""weight"": 1.29,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount""
+        ""shortName"": ""PBP"",
+        ""weight"": 0.009,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/9x19mm_PBP_gzh""
       },
       {
         ""categories"": [
           {
-            ""id"": ""55818b224bdc2dde698b456f""
+            ""id"": ""5485a8684bdc2da71d8b4567""
           },
           {
-            ""id"": ""55802f3e4bdc2de7118b4584""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
+            ""id"": ""5661632d4bdc2d903d8b456b""
           },
           {
             ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-icon.jpg"",
-        ""id"": ""preset-ring-flashlight"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/preset-ring-flashlight"",
-        ""name"": ""Ring + flashlight"",
+        ""iconLink"": ""https://assets.tarkov.dev/5c3df7d588a4501f290594e5-icon.webp"",
+        ""id"": ""5c3df7d588a4501f290594e5"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5c3df7d588a4501f290594e5-image.webp"",
+        ""link"": ""https://tarkov.dev/item/9x19mm-green-tracer"",
+        ""name"": ""9x19mm Green Tracer"",
         ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset""
+          ""__typename"": ""ItemPropertiesAmmo"",
+          ""accuracyModifier"": -0.05,
+          ""armorDamage"": 33,
+          ""caliber"": ""Caliber9x19PARA"",
+          ""damage"": 58,
+          ""durabilityBurnFactor"": 1.15,
+          ""fragmentationChance"": 0.15,
+          ""heavyBleedModifier"": 0,
+          ""initialSpeed"": 365,
+          ""lightBleedModifier"": 0,
+          ""penetrationChance"": 0.2,
+          ""penetrationPower"": 14,
+          ""projectileCount"": 1,
+          ""recoilModifier"": -0.06,
+          ""ricochetChance"": 0.05,
+          ""stackMaxSize"": 50,
+          ""tracer"": true
         },
-        ""shortName"": ""PR+F"",
-        ""weight"": 0.205,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-ring-flashlight""
-      },
-      {
-        ""categories"": [
-          {
-            ""id"": ""56ea9461d2720b67698b456f""
-          },
-          {
-            ""id"": ""550aa4154bdc2dd8348b456b""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-icon.jpg"",
-        ""id"": ""preset-gas-tube-handguard"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/preset-gas-tube-handguard"",
-        ""name"": ""Gas tube + handguard"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset""
-        },
-        ""shortName"": ""PGT+H"",
-        ""weight"": 0.146,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-gas-tube-handguard""
-      },
-      {
-        ""categories"": [
-          {
-            ""id"": ""57bef4c42459772e8d35a53b""
-          },
-          {
-            ""id"": ""543be5f84bdc2dd4348b456a""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-icon.jpg"",
-        ""id"": ""preset-face-shield-alone"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/preset-face-shield-alone"",
-        ""name"": ""Face shield alone"",
-        ""properties"": {
-            ""__typename"": ""ItemPropertiesPreset""
-        },
-        ""shortName"": ""FSA"",
-        ""weight"": 1.2,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-face-shield-alone""
-      },
-      {
-        ""categories"": [
-          {
-            ""id"": ""5448bc234bdc2d3c308b4569""
-          },
-          {
-            ""id"": ""55802f3e4bdc2de7118b4584""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/preset-magazine-alone-icon.jpg"",
-        ""id"": ""preset-magazine-alone"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-magazine-alone-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/preset-magazine-alone"",
-        ""name"": ""Magazine alone"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset""
-        },
-        ""shortName"": ""MA"",
-        ""weight"": 0.16,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-magazine-alone""
-      },
-      {
-        ""categories"": [
-          {
-            ""id"": ""5447b5cf4bdc2d65278b4567""
-          },
-          {
-            ""id"": ""5422acb9af1c889c16000029""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-icon.webp"",
-        ""id"": ""5eb2968186f7746d1f1a4fd5"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/5eb2968186f7746d1f1a4fd5-image.webp"",
-        ""link"": ""https://tarkov.dev/item/colt-m1911a1-45-acp-pistol-default"",
-        ""name"": ""Colt M1911A1 .45 ACP pistol Default"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset""
-        },
-        ""shortName"": ""M1911A1 Default"",
-        ""weight"": 1.214,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Colt_M1911A1_.45_ACP_pistol""
+        ""shortName"": ""GT"",
+        ""weight"": 0.006,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/9x19mm_Green_Tracer""
       }
     ]
   }

@@ -100,6 +100,14 @@ namespace TotovBuilder.Model.Test
                     {
                         Item = new InventoryItem()
                         {
+                            Content = new InventoryItem[]
+                            {
+                                new InventoryItem()
+                                {
+                                    ItemId = "5efb0da7a29a85116f6ea05f",
+                                    Quantity = 30.0
+                                }
+                            },
                             ItemId = "5894a05586f774094708ef75"
                         },
                         ModSlotName = "mod_magazine"

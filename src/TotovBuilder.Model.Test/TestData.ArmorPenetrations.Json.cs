@@ -40,6 +40,16 @@
     ""ammunitionId"": ""601aa3d2b2bcb34913271e6d"",
     ""ammunitionName"": ""7.62x39mm MAI AP"",
     ""values"": [6, 6, 6, 6, 6, 5]
+  },
+  {
+    ""ammunitionId"": ""5efb0da7a29a85116f6ea05f"",
+    ""ammunitionName"": ""9x19mm PBP gzh"",
+    ""values"": [6, 6, 6, 5, 4, 3]
+  },
+  {
+    ""ammunitionId"": ""5c3df7d588a4501f290594e5"",
+    ""ammunitionName"": ""9x19mm Green Tracer"",
+    ""values"": [6, 3, 1, 0, 0, 0]
   }
 ]";
     }
