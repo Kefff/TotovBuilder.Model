@@ -846,6 +846,9 @@
         ""properties"": {
           ""__typename"": ""ItemPropertiesWeapon"",
           ""caliber"": ""Caliber545x39"",
+          ""defaultPreset"": {
+            ""id"": ""584147732459775a2b6d9f12""
+          },
           ""ergonomics"": 44,
           ""fireModes"": [""Single fire"", ""Full Auto""],
           ""fireRate"": 650,
@@ -1104,6 +1107,9 @@
         ""properties"": {
           ""__typename"": ""ItemPropertiesWeapon"",
           ""caliber"": ""Caliber1143x23ACP"",
+          ""defaultPreset"": {
+            ""id"": ""5eb2968186f7746d1f1a4fd5""
+          },
           ""ergonomics"": 75,
           ""fireModes"": [""Single fire""],
           ""fireRate"": 30,
@@ -1977,6 +1983,9 @@
         ""properties"": {
           ""__typename"": ""ItemPropertiesWeapon"",
           ""caliber"": ""Caliber9x19PARA"",
+          ""defaultPreset"": {
+            ""id"": ""58dffca786f774083a256ab1""
+          },
           ""ergonomics"": 40,
           ""fireModes"": [""Single fire"", ""Full Auto""],
           ""fireRate"": 850,
@@ -3329,33 +3338,6 @@
       {
         ""categories"": [
           {
-            ""id"": ""5447b5e04bdc2d62278b4567""
-          },
-          {
-            ""id"": ""5422acb9af1c889c16000029""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-icon.jpg"",
-        ""id"": ""5a8ae43686f774377b73cfb3"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/sig-mpx-9x19-submachine-gun-mqb"",
-        ""name"": ""SIG MPX 9x19 submachine gun MQB"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset""
-        },
-        ""shortName"": ""MPX MQB"",
-        ""weight"": 3.87,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun""
-      },
-      {
-        ""categories"": [
-          {
             ""id"": ""5a341c4086f77401f2541505""
           },
           {
@@ -3618,6 +3600,198 @@
         ""shortName"": ""GT"",
         ""weight"": 0.006,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/9x19mm_Green_Tracer""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5447b5f14bdc2d61278b4567""
+          },
+          {
+            ""id"": ""5422acb9af1c889c16000029""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/584147732459775a2b6d9f12-icon.webp"",
+        ""id"": ""584147732459775a2b6d9f12"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/584147732459775a2b6d9f12-image.webp"",
+        ""link"": ""https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle-default"",
+        ""name"": ""Kalashnikov AKS-74U 5.45x39 assault rifle Default"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset"",
+          ""baseItem"": {
+            ""id"": ""57dc2fa62459775949412633""
+          },
+          ""moa"": 3.44
+        },
+        ""shortName"": ""AKS-74U Default"",
+        ""weight"": 2.694,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKS-74U_5.45x39_assault_rifle""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5447b5e04bdc2d62278b4567""
+          },
+          {
+            ""id"": ""5422acb9af1c889c16000029""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-icon.webp"",
+        ""id"": ""5a8ae43686f774377b73cfb3"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-image.webp"",
+        ""link"": ""https://tarkov.dev/item/sig-mpx-9x19-submachine-gun-mqb"",
+        ""name"": ""SIG MPX 9x19 submachine gun MQB"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset"",
+          ""baseItem"": {
+            ""id"": ""58948c8e86f77409493f7266""
+          },
+          ""moa"": 6.19
+        },
+        ""shortName"": ""MPX MQB"",
+        ""weight"": 3.87,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5a341c4086f77401f2541505""
+          },
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+            ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-icon.webp"",
+        ""id"": ""5a3b898486f77467720a2f29"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-image.webp"",
+        ""link"": ""https://tarkov.dev/item/wilcox-skull-lock-head-mount-pvs-14"",
+        ""name"": ""Wilcox Skull Lock head mount PVS-14"",
+        ""properties"": {
+           ""__typename"": ""ItemPropertiesPreset"",
+           ""baseItem"": {
+             ""id"": ""5a16bb52fcdbcb001a3b00dc""
+           },
+           ""moa"": null
+        },
+        ""shortName"": ""Skull Lock PVS-14"",
+        ""weight"": 1.29,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""55818b224bdc2dde698b456f""
+          },
+          {
+            ""id"": ""55802f3e4bdc2de7118b4584""
+          },
+          {
+            ""id"": ""5448fe124bdc2da5018b4567""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-icon.jpg"",
+        ""id"": ""preset-ring-flashlight"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/preset-ring-flashlight"",
+        ""name"": ""Ring + flashlight"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset"",
+          ""baseItem"": {
+            ""id"": ""57d17e212459775a1179a0f5""
+          },
+          ""moa"": null
+        },
+        ""shortName"": ""PR+F"",
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-ring-flashlight""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""56ea9461d2720b67698b456f""
+          },
+          {
+            ""id"": ""550aa4154bdc2dd8348b456b""
+          },
+          {
+            ""id"": ""5448fe124bdc2da5018b4567""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-icon.jpg"",
+        ""id"": ""preset-gas-tube-handguard"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/preset-gas-tube-handguard"",
+        ""name"": ""Gas tube + handguard"",
+        ""properties"": {
+            ""__typename"": ""ItemPropertiesPreset"",
+            ""baseItem"": {
+              ""id"": ""59d36a0086f7747e673f3946""
+            },
+            ""moa"": null
+        },
+        ""shortName"": ""PGT+H"",
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-gas-tube-handguard""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+            ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-icon.jpg"",
+        ""id"": ""preset-face-shield-alone"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/preset-face-shield-alone"",
+        ""name"": ""Face shield alone"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset"",
+          ""baseItem"": {
+            ""id"": ""5a16b7e1fcdbcb00165aa6c9""
+          },
+          ""moa"": null
+        },
+        ""shortName"": ""FSA"",
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-face-shield-alone""
       }
     ]
   }

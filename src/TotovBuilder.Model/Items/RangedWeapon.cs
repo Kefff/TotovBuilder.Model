@@ -9,7 +9,13 @@ namespace TotovBuilder.Model.Items
     public class RangedWeapon : Item, IRangedWeapon
     {
         /// <inheritdoc/>
+        public string? BaseItemId { get; set; }
+
+        /// <inheritdoc/>
         public string Caliber { get; set; } = string.Empty;
+
+        /// <inheritdoc/>
+        public string? DefaultPresetId { get; set; }
 
         /// <inheritdoc/>
         public double Ergonomics { get; set; }
@@ -22,9 +28,6 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         public double HorizontalRecoil { get; set; }
-
-        /// <inheritdoc/>
-        public bool IsPreset { get; set; }
 
         /// <inheritdoc/>
         public double MinuteOfAngle { get; set; }

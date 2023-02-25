@@ -8,9 +8,14 @@ namespace TotovBuilder.Model.Abstractions.Items
     public interface IModdable : IItem
     {
         /// <summary>
-        /// Indicates whether the item is a preset.
+        /// ID of the base item when the item is a preset.
         /// </summary>
-        bool IsPreset { get; set; }
+        string? BaseItemId { get; set; }
+
+        /// <summary>
+        /// ID of the default preset.
+        /// </summary>
+        string? DefaultPresetId { get; set; }
 
         /// <summary>
         /// Mod slots.

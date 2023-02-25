@@ -65,23 +65,7 @@
                     ""quantity"": 1
                   }
                 ],
-                ""iconLink"": ""https://assets.tarkov.dev/584147732459775a2b6d9f12-icon.jpg"",
-                ""id"": ""584147732459775a2b6d9f12"",
-                ""inspectImageLink"": ""https://assets.tarkov.dev/584147732459775a2b6d9f12-image.jpg"",
-                ""link"": ""https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle-default"",
-                ""name"": ""Kalashnikov AKS-74U 5.45x39 assault rifle Default"",
-                ""properties"": {
-                  ""__typename"": ""ItemPropertiesPreset"",
-                  ""baseItem"": {
-                    ""id"": ""57dc2fa62459775949412633""
-                  },
-                  ""ergonomics"": 64,
-                  ""moa"": 3.44,
-                  ""recoilVertical"": 75,
-                  ""recoilHorizontal"": 257
-                },
-                ""shortName"": ""AKS-74U Default"",
-                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKS-74U_5.45x39_assault_rifle""
+                ""id"": ""584147732459775a2b6d9f12""
               },
               {
                 ""containsItems"": [
@@ -107,13 +91,7 @@
                     ""item"": {
                       ""id"": ""5efb0da7a29a85116f6ea05f""
                     },
-                    ""quantity"": 20
-                  },
-                  {
-                    ""item"": {
-                      ""id"": ""5c3df7d588a4501f290594e5""
-                    },
-                    ""quantity"": 10
+                    ""quantity"": 30
                   },
                   {
                     ""item"": {
@@ -200,23 +178,7 @@
                     ""quantity"": 1
                   }
                 ],
-                ""iconLink"": ""https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-icon.jpg"",
-                ""id"": ""5a8ae43686f774377b73cfb3"",
-                ""inspectImageLink"": ""https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-image.jpg"",
-                ""link"": ""https://tarkov.dev/item/sig-mpx-9x19-submachine-gun-mqb"",
-                ""name"": ""SIG MPX 9x19 submachine gun MQB"",
-                ""properties"": {
-                  ""__typename"": ""ItemPropertiesPreset"",
-                  ""baseItem"": {
-                    ""id"": ""58948c8e86f77409493f7266""
-                  },
-                  ""ergonomics"": 72,
-                  ""moa"": 6.19,
-                  ""recoilVertical"": 33,
-                  ""recoilHorizontal"": 166
-                },
-                ""shortName"": ""MPX MQB"",
-                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun""
+                ""id"": ""5a8ae43686f774377b73cfb3""
               },
               {
                 ""containsItems"": [
@@ -245,23 +207,7 @@
                     ""quantity"": 1
                   }
                 ],
-                ""iconLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-icon.jpg"",
-                ""id"": ""5a3b898486f77467720a2f29"",
-                ""inspectImageLink"": ""https://assets.tarkov.dev/5a3b898486f77467720a2f29-image.jpg"",
-                ""link"": ""https://tarkov.dev/item/wilcox-skull-lock-head-mount-pvs-14"",
-                ""name"": ""Wilcox Skull Lock head mount PVS-14"",
-                ""properties"": {
-                  ""__typename"": ""ItemPropertiesPreset"",
-                  ""baseItem"": {
-                    ""id"": ""5a16bb52fcdbcb001a3b00dc""
-                  },
-                  ""ergonomics"": null,
-                  ""moa"": null,
-                  ""recoilVertical"": null,
-                  ""recoilHorizontal"": null
-                },
-                ""shortName"": ""Skull Lock PVS-14"",
-                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount""
+                ""id"": ""5a3b898486f77467720a2f29""
               },
               {
                 ""containsItems"": [
@@ -278,23 +224,7 @@
                     ""quantity"": 1
                   }
                 ],
-                ""iconLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-icon.jpg"",
-                ""id"": ""preset-ring-flashlight"",
-                ""inspectImageLink"": ""https://assets.tarkov.dev/preset-ring-flashlight-image.jpg"",
-                ""link"": ""https://tarkov.dev/item/preset-ring-flashlight"",
-                ""name"": ""Ring + flashlight"",
-                ""properties"": {
-                  ""__typename"": ""ItemPropertiesPreset"",
-                  ""baseItem"": {
-                    ""id"": ""57d17e212459775a1179a0f5""
-                  },
-                  ""ergonomics"": null,
-                  ""moa"": null,
-                  ""recoilVertical"": null,
-                  ""recoilHorizontal"": null
-                },
-                ""shortName"": ""PR+F"",
-                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-ring-flashlight""
+                ""id"": ""preset-ring-flashlight""
               },
               {
                 ""containsItems"": [
@@ -311,23 +241,7 @@
                     ""quantity"": 1
                   }
                 ],
-                ""iconLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-icon.jpg"",
-                ""id"": ""preset-gas-tube-handguard"",
-                ""inspectImageLink"": ""https://assets.tarkov.dev/preset-gas-tube-handguard-image.jpg"",
-                ""link"": ""https://tarkov.dev/item/preset-gas-tube-handguard"",
-                ""name"": ""Gas tube + handguard"",
-                ""properties"": {
-                  ""__typename"": ""ItemPropertiesPreset"",
-                  ""baseItem"": {
-                    ""id"": ""59d36a0086f7747e673f3946""
-                  },
-                  ""ergonomics"": null,
-                  ""moa"": null,
-                  ""recoilVertical"": null,
-                  ""recoilHorizontal"": null
-                },
-                ""shortName"": ""PGT+H"",
-                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-gas-tube-handguard""
+                ""id"": ""preset-gas-tube-handguard""
               },
               {
                 ""containsItems"": [
@@ -338,23 +252,7 @@
                     ""quantity"": 1
                   }
                 ],
-                ""iconLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-icon.jpg"",
-                ""id"": ""preset-face-shield-alone"",
-                ""inspectImageLink"": ""https://assets.tarkov.dev/preset-face-shield-alone-image.jpg"",
-                ""link"": ""https://tarkov.dev/item/preset-face-shield-alone"",
-                ""name"": ""Face shield alone"",
-                ""properties"": {
-                  ""__typename"": ""ItemPropertiesPreset"",
-                  ""baseItem"": {
-                    ""id"": ""5a16b7e1fcdbcb00165aa6c9""
-                  },
-                  ""ergonomics"": null,
-                  ""moa"": null,
-                  ""recoilVertical"": null,
-                  ""recoilHorizontal"": null
-                },
-                ""shortName"": ""FSA"",
-                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-face-shield-alone""
+                ""id"": ""preset-face-shield-alone""
               }
             ]
           }

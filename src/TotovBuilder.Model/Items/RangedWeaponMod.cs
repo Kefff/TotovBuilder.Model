@@ -8,20 +8,22 @@ namespace TotovBuilder.Model.Items
     /// </summary>
     public class RangedWeaponMod : Item, IRangedWeaponMod
     {
-
         /// <inheritdoc/>
         public double AccuracyPercentageModifier { get; set; }
 
         /// <inheritdoc/>
-        public bool IsPreset { get; set; }
+        public string? BaseItemId { get; set; }
 
         /// <inheritdoc/>
-        public double RecoilPercentageModifier { get; set; }
+        public string? DefaultPresetId { get; set; }
 
         /// <inheritdoc/>
         public double ErgonomicsModifier { get; set; }
 
         /// <inheritdoc/>
         public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();
+
+        /// <inheritdoc/>
+        public double RecoilPercentageModifier { get; set; }
     }
 }
