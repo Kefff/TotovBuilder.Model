@@ -91,7 +91,13 @@
                     ""item"": {
                       ""id"": ""5efb0da7a29a85116f6ea05f""
                     },
-                    ""quantity"": 30
+                    ""quantity"": 20
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""5c3df7d588a4501f290594e5""
+                    },
+                    ""quantity"": 10
                   },
                   {
                     ""item"": {
