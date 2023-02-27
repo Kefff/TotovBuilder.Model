@@ -3792,6 +3792,36 @@
         },
         ""shortName"": ""FSA"",
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-face-shield-alone""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+            ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""iconLink"": ""https://assets.tarkov.dev/preset-magazine-alone-icon.jpg"",
+        ""id"": ""preset-magazine-alone"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/preset-magazine-alone-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/preset-magazine-alone"",
+        ""name"": ""Magazine alone"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset"",
+          ""baseItem"": {
+            ""id"": ""5e81c4ca763d9f754677befa""
+          },
+          ""moa"": null
+        },
+        ""shortName"": ""MA"",
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/preset-magazine-alone""
       }
     ]
   }
