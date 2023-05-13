@@ -76,6 +76,11 @@
         public string GithubUrl { get; set; } = string.Empty;
 
         /// <summary>
+        /// Storage key for the current global filter.
+        /// </summary>
+        public string GlobalFilterStorageKey { get; set; } = string.Empty;
+
+        /// <summary>
         /// Item categories API name.
         /// </summary>
         public string ItemCategoriesApi { get; set; } = string.Empty;
@@ -89,11 +94,6 @@
         /// Storage key for the current language.
         /// </summary>
         public string LanguageStorageKey { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key for the current merchant filter.
-        /// </summary>
-        public string MerchantFilterStorageKey { get; set; } = string.Empty;
 
         /// <summary>
         /// Error notifications duration (in seconds).

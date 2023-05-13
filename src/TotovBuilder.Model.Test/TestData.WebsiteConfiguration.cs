@@ -26,7 +26,7 @@ namespace TotovBuilder.Model.Test
             ItemCategoriesApi = "itemcategories",
             ItemsApi = "items",
             LanguageStorageKey = "language",
-            MerchantFilterStorageKey = "merchant_filter",
+            GlobalFilterStorageKey = "global_filter",
             NotificationErrorDuration = 10,
             NotificationInformationDuration = 5,
             NotificationSuccessDuration = 5,
