@@ -31,6 +31,7 @@
   ""presetsApi"": ""presets"",
   ""pricesApi"": ""prices"",
   ""questsApi"": ""quests"",
+  ""version"": ""1.6.0"",
   ""versionStorageKey"": ""version""
 }";
     }

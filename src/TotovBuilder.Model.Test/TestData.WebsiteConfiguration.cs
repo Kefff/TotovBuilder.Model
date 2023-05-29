@@ -34,6 +34,7 @@ namespace TotovBuilder.Model.Test
             PresetsApi = "presets",
             PricesApi = "prices",
             QuestsApi = "quests",
+            Version = "1.6.0",
             VersionStorageKey = "version"
         };
     }

@@ -136,6 +136,11 @@
         public string TarkovValuesApi { get; set; } = string.Empty;
 
         /// <summary>
+        /// Version of the website.
+        /// </summary>
+        public string Version { get; set; } = string.Empty;
+
+        /// <summary>
         /// Storage key for the current version.
         /// </summary>
         public string VersionStorageKey { get; set; } = string.Empty;
