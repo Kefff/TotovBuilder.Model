@@ -26,7 +26,7 @@ namespace TotovBuilder.Model.Test
             ItemCategoriesApi = "itemcategories",
             ItemsApi = "items",
             LanguageStorageKey = "language",
-            MerchantFilterStorageKey = "merchant_filter",
+            GlobalFilterStorageKey = "global_filter",
             NotificationErrorDuration = 10,
             NotificationInformationDuration = 5,
             NotificationSuccessDuration = 5,
@@ -34,36 +34,8 @@ namespace TotovBuilder.Model.Test
             PresetsApi = "presets",
             PricesApi = "prices",
             QuestsApi = "quests",
+            Version = "1.6.0",
             VersionStorageKey = "version"
         };
-
-        public const string WebsiteConfigurationJson = @"{
-  ""buildSharingUrl"": ""https://localhost:3000/s/"",
-  ""bugReportUrl"": ""https://discord.gg/bugreport"",
-  ""buildsSortFieldStorageKey"": ""builds_sort_field"",
-  ""buildsSortOrderStorageKey"": ""builds_sort_order"",
-  ""buildStorageKeyPrefix"": ""build_"",
-  ""cacheDuration"": 3600,
-  ""changelogApi"": ""changelog"",
-  ""contactAddress"": ""contact@address.com"",
-  ""discordUrl"": ""https://discord.gg/server"",
-  ""exportFileExtension"": "".ttb"",
-  ""exportFileNamePrefix"": ""TotovBuilder"",
-  ""exportWarningShowedStoregeKey"": ""export_warning"",
-  ""fetchTimeout"": 10,
-  ""githubUrl"": ""https://github.com/User/Reposiory"",
-  ""itemCategoriesApi"": ""itemcategories"",
-  ""itemsApi"": ""items"",
-  ""languageStorageKey"": ""language"",
-  ""merchantFilterStorageKey"": ""merchant_filter"",
-  ""notificationErrorDuration"": 10,
-  ""notificationInformationDuration"": 5,
-  ""notificationSuccessDuration"": 5,
-  ""notificationWarningDuration"": 10,
-  ""presetsApi"": ""presets"",
-  ""pricesApi"": ""prices"",
-  ""questsApi"": ""quests"",
-  ""versionStorageKey"": ""version""
-}";
     }
 }

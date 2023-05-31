@@ -12,22 +12,25 @@ namespace TotovBuilder.Model.Items
         public string[] AcceptedAmmunitionIds { get; set; } = Array.Empty<string>();
 
         /// <inheritdoc/>
+        public string? BaseItemId { get; set; }
+
+        /// <inheritdoc/>
+        public double Capacity { get; set; }
+
+        /// <inheritdoc/>
         public double CheckSpeedPercentageModifier { get; set; }
 
         /// <inheritdoc/>
-        public string DefaultPresetId { get; set; } = string.Empty;
+        public string? DefaultPresetId { get; set; }
+
+        /// <inheritdoc/>
+        public double ErgonomicsModifier { get; set; }
 
         /// <inheritdoc/>
         public double LoadSpeedPercentageModifier { get; set; }
 
         /// <inheritdoc/>
         public double MalfunctionPercentage { get; set; }
-
-        /// <inheritdoc/>
-        public double Capacity { get; set; }
-
-        /// <inheritdoc/>
-        public double ErgonomicsModifier { get; set; }
 
         /// <inheritdoc/>
         public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();

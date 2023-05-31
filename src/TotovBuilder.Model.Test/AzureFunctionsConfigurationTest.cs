@@ -23,7 +23,6 @@
                     AzureFunctionsConfigurationBlobName = "azure-functions-configuration.json",
                     AzureItemCategoriesBlobName = "item-categories.json",
                     AzureItemMissingPropertiesBlobName = "item-missing-properties.json",
-                    AzurePresetsBlobName = "presets.json",
                     AzureTarkovValuesBlobName = "tarkov-values.json",
                     AzureWebsiteConfigurationBlobName = "website-configuration.json"
                 };
@@ -34,14 +33,13 @@
                 // Assert
                 blobNames.Should().BeEquivalentTo(new string[]
                 {
-                "armor-penetrations.json",
-                "changelog.json",
-                "azure-functions-configuration.json",
-                "item-categories.json",
-                "item-missing-properties.json",
-                "presets.json",
-                "tarkov-values.json",
-                "website-configuration.json"
+                    "armor-penetrations.json",
+                    "changelog.json",
+                    "azure-functions-configuration.json",
+                    "item-categories.json",
+                    "item-missing-properties.json",
+                    "tarkov-values.json",
+                    "website-configuration.json"
                 });
             }
         }

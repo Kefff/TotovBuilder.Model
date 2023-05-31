@@ -11,7 +11,7 @@ namespace TotovBuilder.Model.Test
         {
             new InventoryItem()
             {
-                ItemId = "57dc2fa62459775949412633",
+                ItemId = "584147732459775a2b6d9f12",
                 ModSlots = new InventoryItemModSlot[]
                 {
                     new InventoryItemModSlot()
@@ -26,7 +26,7 @@ namespace TotovBuilder.Model.Test
                     {
                         Item = new InventoryItem()
                         {
-                            ItemId = "57dc347d245977596754e7a1",
+                            ItemId = "57dc347d245977596754e7a1"
                         },
                         ModSlotName = "mod_stock"
                     },
@@ -34,6 +34,14 @@ namespace TotovBuilder.Model.Test
                     {
                         Item = new InventoryItem()
                         {
+                            Content = new InventoryItem[]
+                            {
+                                new InventoryItem()
+                                {
+                                    ItemId = "56dff4ecd2720b5f5a8b4568",
+                                    Quantity = 30
+                                }
+                            },
                             ItemId = "564ca99c4bdc2d16268b4589",
                         },
                         ModSlotName = "mod_magazine"
@@ -50,7 +58,7 @@ namespace TotovBuilder.Model.Test
                     {
                         Item = new InventoryItem()
                         {
-                            ItemId = "57dc334d245977597164366f",
+                            ItemId = "57dc334d245977597164366f"
                         },
                         ModSlotName = "mod_reciever"
                     },
@@ -77,275 +85,250 @@ namespace TotovBuilder.Model.Test
             },
             new InventoryItem()
             {
-                ItemId = "5fc22d7c187fea44d52eda44",
+                ItemId = "5a8ae43686f774377b73cfb3",
                 ModSlots = new InventoryItemModSlot[]
                 {
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
                         {
-                            ItemId = "57c55efc2459772d2c6271e7",
+                            ItemId = "57c55efc2459772d2c6271e7"
                         },
-                        ModSlotName = "mod_pistol_grip",
+                        ModSlotName = "mod_pistol_grip"
                     },
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
                         {
-                            ItemId = "5fc23426900b1d5091531e15",
-                        },
-                        ModSlotName = "mod_magazine",
-                    },
-                    new InventoryItemModSlot()
-                    {
-                        Item = new InventoryItem()
-                        {
-                            ItemId = "5649be884bdc2d79388b4577",
-                            ModSlots = new InventoryItemModSlot[]
+                            Content = new InventoryItem[]
                             {
-                                new InventoryItemModSlot()
+                                new InventoryItem()
                                 {
-                                    Item = new InventoryItem()
-                                    {
-                                        ItemId = "5fc2369685fd526b824a5713"
-                                    },
-                                    ModSlotName = "mod_stock_000"
+                                    ItemId = "5efb0da7a29a85116f6ea05f",
+                                    Quantity = 30.0
                                 }
-                            }
+                            },
+                            ItemId = "5894a05586f774094708ef75"
                         },
-                        ModSlotName = "mod_stock_001",
+                        ModSlotName = "mod_magazine"
                     },
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
                         {
-                            ItemId = "5fc278107283c4046c581489",
+                            ItemId = "5894a5b586f77426d2590767",
                             ModSlots = new InventoryItemModSlot[]
                             {
                                 new InventoryItemModSlot()
                                 {
                                     Item = new InventoryItem()
                                     {
-                                        ItemId = "5fc23678ab884124df0cd590",
+                                        ItemId = "57adff4f24597737f373b6e6",
                                         ModSlots = new InventoryItemModSlot[]
                                         {
                                             new InventoryItemModSlot()
                                             {
                                                 Item = new InventoryItem()
                                                 {
-                                                    ItemId = "5fc23636016cce60e8341b05"
+                                                    ItemId = "58d2664f86f7747fec5834f6",
+                                                    ModSlots = new InventoryItemModSlot[]
+                                                    {
+                                                        new InventoryItemModSlot()
+                                                        {
+                                                            Item = new InventoryItem()
+                                                            {
+                                                                ItemId = "58d268fc86f774111273f8c2"
+                                                            },
+                                                            ModSlotName = "mod_scope"
+                                                        }
+                                                    }
                                                 },
-                                                ModSlotName = "mod_muzzle",
-                                            },
-                                            new InventoryItemModSlot()
-                                            {
-                                                Item = new InventoryItem()
-                                                {
-                                                    ItemId = "5fc2360f900b1d5091531e19"
-                                                },
-                                                ModSlotName = "mod_gas_block",
+                                                ModSlotName = "mod_scope"
                                             }
                                         }
                                     },
-                                    ModSlotName = "mod_barrel",
+                                    ModSlotName = "mod_scope"
                                 },
                                 new InventoryItemModSlot()
                                 {
                                     Item = new InventoryItem()
                                     {
-                                        ItemId = "5fc235db2770a0045c59c683",
+                                        ItemId = "58aeaaa886f7744fc1560f81",
+                                        ModSlots = new InventoryItemModSlot[]
+                                        {
+                                            new InventoryItemModSlot()
+                                            {
+                                                Item = new InventoryItem()
+                                                {
+                                                    ItemId = "58aeac1b86f77457c419f475"
+                                                },
+                                                ModSlotName = "mod_muzzle"
+                                            }
+                                        }
                                     },
-                                    ModSlotName = "mod_handguard",
+                                    ModSlotName = "mod_barrel"
+                                },
+                                new InventoryItemModSlot()
+                                {
+                                    Item = new InventoryItem()
+                                    {
+                                        ItemId = "5894a42086f77426d2590762",
+                                        ModSlots = new InventoryItemModSlot[]
+                                        {
+                                            new InventoryItemModSlot()
+                                            {
+                                                Item = new InventoryItem()
+                                                {
+                                                    ItemId = "58a56f8d86f774651579314c"
+                                                },
+                                                ModSlotName = "mod_mount_000"
+                                            },
+                                            new InventoryItemModSlot()
+                                            {
+                                                Item = new InventoryItem()
+                                                {
+                                                    ItemId = "58a5c12e86f7745d585a2b9e",
+                                                    ModSlots = new InventoryItemModSlot[]
+                                                    {
+                                                        new InventoryItemModSlot()
+                                                        {
+                                                            Item = new InventoryItem()
+                                                            {
+                                                                ItemId = "59f8a37386f7747af3328f06"
+                                                            },
+                                                            ModSlotName = "mod_foregrip"
+                                                        }
+                                                    }
+                                                },
+                                                ModSlotName = "mod_mount_001"
+                                            },
+                                            new InventoryItemModSlot()
+                                            {
+                                                Item = new InventoryItem()
+                                                {
+                                                    ItemId = "58a56f8d86f774651579314c",
+                                                    ModSlots = new InventoryItemModSlot[]
+                                                    {
+                                                        new InventoryItemModSlot()
+                                                        {
+                                                            Item = new InventoryItem()
+                                                            {
+                                                                ItemId = "5a7b483fe899ef0016170d15"
+                                                            },
+                                                            ModSlotName = "mod_tactical"
+                                                        }
+                                                    }
+                                                },
+                                                ModSlotName = "mod_mount_002"
+                                            },
+                                        }
+                                    },
+                                    ModSlotName = "mod_handguard"
                                 }
                             }
                         },
                         ModSlotName = "mod_reciever",
+                    },
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "58ac1bf086f77420ed183f9f",
+                            ModSlots = new InventoryItemModSlot[]
+                            {
+                                new InventoryItemModSlot()
+                                {
+                                    Item = new InventoryItem()
+                                    {
+                                        ItemId = "591aef7986f774139d495f03"
+                                    },
+                                    ModSlotName = "mod_stock"
+                                }
+                            }
+                        },
+                        ModSlotName = "mod_stock"
+                    },
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "58949edd86f77409483e16a9"
+                        },
+                        ModSlotName = "mod_charge"
                     }
                 }
+            },
+            new InventoryItem()
+            {
+                ItemId = "5a3b898486f77467720a2f29",
+                ModSlots = new InventoryItemModSlot[]
+                {
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "5a16b8a9fcdbcb00165aa6ca",
+                            ModSlots = new InventoryItemModSlot[]
+                            {
+                                new InventoryItemModSlot()
+                                {
+                                    Item = new InventoryItem()
+                                    {
+                                        ItemId = "5a16b93dfcdbcbcae6687261",
+                                        ModSlots = new InventoryItemModSlot[]
+                                        {
+                                            new InventoryItemModSlot()
+                                            {
+                                                Item = new InventoryItem()
+                                                {
+                                                    ItemId = "57235b6f24597759bf5a30f1"
+                                                },
+                                                ModSlotName = "mod_nvg"
+                                            }
+                                        }
+                                    },
+                                    ModSlotName = "mod_nvg"
+                                }
+                            }
+                        },
+                        ModSlotName = "mod_nvg"
+                    }
+                }
+            },
+            new InventoryItem()
+            {
+                ItemId = "preset-ring-flashlight",
+                ModSlots = new InventoryItemModSlot[]
+                {
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "59d790f486f77403cb06aec6"
+                        },
+                        ModSlotName = "mod_flashlight"
+                    }
+                }
+            },
+            new InventoryItem()
+            {
+                ItemId = "preset-gas-tube-handguard",
+                ModSlots = new InventoryItemModSlot[]
+                {
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "57dc32dc245977596d4ef3d3"
+                        },
+                        ModSlotName = "mod_handguard"
+                    }
+                }
+            },
+            new InventoryItem()
+            {
+                ItemId = "preset-face-shield-alone"
             }
         };
-
-        public const string PresetsJson = @"[
-  {
-    ""content"": [],
-    ""ignorePrice"": false,
-    ""itemId"": ""57dc2fa62459775949412633"",
-    ""modSlots"": [
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""57e3dba62459770f0c32322b"",
-          ""modSlots"": [],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_pistol_grip""
-      },
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""57dc347d245977596754e7a1"",
-          ""modSlots"": [],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_stock""
-      },
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""564ca99c4bdc2d16268b4589"",
-          ""modSlots"": [],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_magazine""
-      },
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""57dc324a24597759501edc20"",
-          ""modSlots"": [],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_muzzle""
-      },
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""57dc334d245977597164366f"",
-          ""modSlots"": [],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_reciever""
-      },
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""59d36a0086f7747e673f3946"",
-          ""modSlots"": [
-            {
-              ""item"": {
-                ""content"": [],
-                ""ignorePrice"": false,
-                ""itemId"": ""57dc32dc245977596d4ef3d3"",
-                ""modSlots"": [],
-                ""quantity"": 1
-              },
-              ""modSlotName"": ""mod_handguard""
-            }
-          ],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_gas_block""
-      }
-    ],
-    ""quantity"": 1
-  },
-  {
-    ""content"": [],
-    ""ignorePrice"": false,
-    ""itemId"": ""5fc22d7c187fea44d52eda44"",
-    ""modSlots"": [
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""57c55efc2459772d2c6271e7"",
-          ""modSlots"": [],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_pistol_grip""
-      },
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""5fc23426900b1d5091531e15"",
-          ""modSlots"": [],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_magazine""
-      },
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""5649be884bdc2d79388b4577"",
-          ""modSlots"": [
-            {
-              ""item"": {
-                ""content"": [],
-                ""ignorePrice"": false,
-                ""itemId"": ""5fc2369685fd526b824a5713"",
-                ""modSlots"": [],
-                ""quantity"": 1
-              },
-              ""modSlotName"": ""mod_stock_000""
-            }
-          ],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_stock_001""
-      },
-      {
-        ""item"": {
-          ""content"": [],
-          ""ignorePrice"": false,
-          ""itemId"": ""5fc278107283c4046c581489"",
-          ""modSlots"": [
-            {
-              ""item"": {
-                ""content"": [],
-                ""ignorePrice"": false,
-                ""itemId"": ""5fc23678ab884124df0cd590"",
-                ""modSlots"": [
-                  {
-                    ""item"": {
-                      ""content"": [],
-                      ""ignorePrice"": false,
-                      ""itemId"": ""5fc23636016cce60e8341b05"",
-                      ""modSlots"": [],
-                      ""quantity"": 1
-                    },
-                    ""modSlotName"": ""mod_muzzle""
-                  },
-                  {
-                    ""item"": {
-                      ""content"": [],
-                      ""ignorePrice"": false,
-                      ""itemId"": ""5fc2360f900b1d5091531e19"",
-                      ""modSlots"": [],
-                      ""quantity"": 1
-                    },
-                    ""modSlotName"": ""mod_gas_block""
-                  }
-                ],
-                ""quantity"": 1
-              },
-              ""modSlotName"": ""mod_barrel""
-            },
-            {
-              ""item"": {
-                ""content"": [],
-                ""ignorePrice"": false,
-                ""itemId"": ""5fc235db2770a0045c59c683"",
-                ""modSlots"": [],
-                ""quantity"": 1
-              },
-              ""modSlotName"": ""mod_handguard""
-            }
-          ],
-          ""quantity"": 1
-        },
-        ""modSlotName"": ""mod_reciever""
-      }
-    ],
-    ""quantity"": 1
-  }
-]";
     }
 }
