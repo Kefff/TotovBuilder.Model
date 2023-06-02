@@ -15,13 +15,16 @@ namespace TotovBuilder.Model.Items
         public string[] ArmoredAreas { get; set; } = Array.Empty<string>();
 
         /// <inheritdoc/>
+        public string? BaseItemId { get; set; }
+
+        /// <inheritdoc/>
         public bool BlocksHeadphones { get; set; }
 
         /// <inheritdoc/>
-        public string Deafening { get; set; } = string.Empty;
+        public string Deafening { get; set; } = "None";
 
         /// <inheritdoc/>
-        public string DefaultPresetId { get; set; } = string.Empty;
+        public string? DefaultPresetId { get; set; }
 
         /// <inheritdoc/>
         public double Durability { get; set; }
@@ -33,6 +36,9 @@ namespace TotovBuilder.Model.Items
         public string Material { get; set; } = string.Empty;
 
         /// <inheritdoc/>
+        public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();
+
+        /// <inheritdoc/>
         public double MovementSpeedPercentageModifier { get; set; }
 
         /// <inheritdoc/>
@@ -40,8 +46,5 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         public double TurningSpeedPercentageModifier { get; set; }
-
-        /// <inheritdoc/>
-        public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();
     }
 }

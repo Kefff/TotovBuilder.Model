@@ -20,6 +20,11 @@ namespace TotovBuilder.Model.Configuration
         public string ApiItemsQuery { get; set; } = string.Empty;
 
         /// <summary>
+        /// API query for getting presets.
+        /// </summary>
+        public string ApiPresetsQuery { get; set; } = string.Empty;
+
+        /// <summary>
         /// API query for getting prices.
         /// </summary>
         public string ApiPricesQuery { get; set; } = string.Empty;
@@ -68,11 +73,6 @@ namespace TotovBuilder.Model.Configuration
         /// Name of the Azure blob containing items data missing from the API.
         /// </summary>
         public string AzureItemMissingPropertiesBlobName { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Name of the Azure blob containing the presets.
-        /// </summary>
-        public string AzurePresetsBlobName { get; set; } = string.Empty;
 
         /// <summary>
         /// Name of the Azure blob containing the values related to Tarkov gameplay.

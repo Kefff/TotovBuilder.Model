@@ -242,409 +242,293 @@ namespace TotovBuilder.Model.Test
                 Merchant = "flea-market",
                 Value = 68479,
                 ValueInMainCurrency = 68479
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "58948c8e86f77409493f7266",
+                Merchant = "peacekeeper",
+                MerchantLevel = 2,
+                Value = 410,
+                ValueInMainCurrency = 48790
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "58948c8e86f77409493f7266",
+                Merchant = "peacekeeper",
+                MerchantLevel = 2,
+                Quest = new()
+                {
+                    Id = "5a27b80086f774429a5d7e20",
+                    Name = "Eagle Eye",
+                    WikiLink = "https://escapefromtarkov.fandom.com/wiki/Eagle_Eye"
+                },
+                Value = 539,
+                ValueInMainCurrency = 64141
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58948c8e86f77409493f7266",
+                Merchant = "flea-market",
+                Value = 47085,
+                ValueInMainCurrency = 47085
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "57c55efc2459772d2c6271e7",
+                Merchant = "peacekeeper",
+                MerchantLevel = 3,
+                Value = 37,
+                ValueInMainCurrency = 4403
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "57c55efc2459772d2c6271e7",
+                Merchant = "flea-market",
+                Value = 17885,
+                ValueInMainCurrency = 17885
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "5894a05586f774094708ef75",
+                Merchant = "peacekeeper",
+                MerchantLevel = 1,
+                Value = 22,
+                ValueInMainCurrency = 2618
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5894a05586f774094708ef75",
+                Merchant = "flea-market",
+                Value = 7623,
+                ValueInMainCurrency = 7623
+            },
+            new Price()
+            {
+                CurrencyName = "EUR",
+                ItemId = "5894a5b586f77426d2590767",
+                Merchant = "mechanic",
+                MerchantLevel = 1,
+                Value = 35,
+                ValueInMainCurrency = 4585
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5894a5b586f77426d2590767",
+                Merchant = "flea-market",
+                Value = 15911,
+                ValueInMainCurrency = 15911
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "57adff4f24597737f373b6e6",
+                Merchant = "peacekeeper",
+                MerchantLevel = 4,
+                Value = 433,
+                ValueInMainCurrency = 51527
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "57adff4f24597737f373b6e6",
+                Merchant = "flea-market",
+                Value = 49460,
+                ValueInMainCurrency = 49460
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "58d2664f86f7747fec5834f6",
+                Merchant = "peacekeeper",
+                MerchantLevel = 1,
+                Value = 17,
+                ValueInMainCurrency = 2023
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58d2664f86f7747fec5834f6",
+                Merchant = "flea-market",
+                Value = 17381,
+                ValueInMainCurrency = 17381
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "58d268fc86f774111273f8c2",
+                Merchant = "peacekeeper",
+                MerchantLevel = 2,
+                Value = 184,
+                ValueInMainCurrency = 21896
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58d268fc86f774111273f8c2",
+                Merchant = "flea-market",
+                Value = 38056,
+                ValueInMainCurrency = 38056
+            },
+            new Price()
+            {
+                CurrencyName = "EUR",
+                ItemId = "58aeaaa886f7744fc1560f81",
+                Merchant = "mechanic",
+                MerchantLevel = 2,
+                Value = 56,
+                ValueInMainCurrency = 7336
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58aeaaa886f7744fc1560f81",
+                Merchant = "flea-market",
+                Value = 16886,
+                ValueInMainCurrency = 16886
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58aeac1b86f77457c419f475",
+                Merchant = "mechanic",
+                MerchantLevel = 2,
+                Value = 24084,
+                ValueInMainCurrency = 24084
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58aeac1b86f77457c419f475",
+                Merchant = "flea-market",
+                Value = 14293,
+                ValueInMainCurrency = 14293
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5894a42086f77426d2590762",
+                Merchant = "flea-market",
+                Value = 7897,
+                ValueInMainCurrency = 7897
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58a56f8d86f774651579314c",
+                Merchant = "mechanic",
+                MerchantLevel = 2,
+                Value = 2081,
+                ValueInMainCurrency = 2081
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58a56f8d86f774651579314c",
+                Merchant = "flea-market",
+                Value = 17595,
+                ValueInMainCurrency = 17595
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5a7b483fe899ef0016170d15",
+                Merchant = "mechanic",
+                MerchantLevel = 1,
+                Value = 18866,
+                ValueInMainCurrency = 18866
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5a7b483fe899ef0016170d15",
+                Merchant = "flea-market",
+                Value = 19103,
+                ValueInMainCurrency = 19103
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58a5c12e86f7745d585a2b9e",
+                Merchant = "mechanic",
+                MerchantLevel = 2,
+                Value = 2674,
+                ValueInMainCurrency = 2674
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58a5c12e86f7745d585a2b9e",
+                Merchant = "flea-market",
+                Value = 11945,
+                ValueInMainCurrency = 11945
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "59f8a37386f7747af3328f06",
+                Merchant = "peacekeeper",
+                MerchantLevel = 4,
+                Value = 165,
+                ValueInMainCurrency = 19635
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "59f8a37386f7747af3328f06",
+                Merchant = "flea-market",
+                Value = 150000,
+                ValueInMainCurrency = 150000
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "58ac1bf086f77420ed183f9f",
+                Merchant = "peacekeeper",
+                MerchantLevel = 3,
+                Value = 34,
+                ValueInMainCurrency = 4046
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58ac1bf086f77420ed183f9f",
+                Merchant = "flea-market",
+                Value = 50000,
+                ValueInMainCurrency = 50000
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "591aef7986f774139d495f03",
+                Merchant = "mechanic",
+                MerchantLevel = 2,
+                Value = 6181,
+                ValueInMainCurrency = 6181
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "591aef7986f774139d495f03",
+                Merchant = "flea-market",
+                Value = 15522,
+                ValueInMainCurrency = 15522
+            },
+            new Price()
+            {
+                CurrencyName = "RUB",
+                ItemId = "58949edd86f77409483e16a9",
+                Merchant = "flea-market",
+                Value = 26497,
+                ValueInMainCurrency = 26497
             }
         };
-
-        public const string PricesJson = @"{
-  ""data"": {
-    ""items"": [
-      {
-        ""buyFor"": [],
-        ""id"": ""601aa3d2b2bcb34913271e6d""
-      },
-      {
-        ""buyFor"": [],
-        ""id"": ""545cdb794bdc2d3a198b456a""
-      },
-      {
-        ""buyFor"": [],
-        ""id"": ""5ca2113f86f7740b2547e1d2""
-      },
-      {
-        ""buyFor"": [],
-        ""id"": ""5ab8ebf186f7742d8b372e80""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 18111,
-            ""priceRUB"": 18111,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5783c43d2459774bbe137486""
-      },
-      {
-        ""buyFor"": [],
-        ""id"": ""5c093ca986f7740a1867ab12""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 3003,
-            ""priceRUB"": 3003,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""prapor""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 7003,
-            ""priceRUB"": 7003,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5b432be65acfc433000ed01f""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 22864,
-            ""priceRUB"": 22864,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5e32f56fcb6d5863cc5e5ee4""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 7320,
-            ""priceRUB"": 7320,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""prapor""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 8063,
-            ""priceRUB"": 8063,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5a0c27731526d80618476ac4""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 65774,
-            ""priceRUB"": 65774,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5e4bfc1586f774264f7582d3""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 0,
-            ""priceRUB"": 0,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5f9949d869e2777a0e779ba5""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 118,
-            ""priceRUB"": 118,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""skier""
-              }
-            }
-          }
-        ],
-        ""id"": ""569668774bdc2da2298b4568""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 27131,
-            ""priceRUB"": 27131,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5e54f76986f7740366043752""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 84249,
-            ""priceRUB"": 84249,
-            ""vendor"": {
-              ""minTraderLevel"": 4,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""ragman""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 79807,
-            ""priceRUB"": 79807,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""628e4e576d783146b124c64d""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 0,
-            ""priceRUB"": 0,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5c1d0c5f86f7744bb2683cf0""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 15177,
-            ""priceRUB"": 15177,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""prapor""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 27571,
-            ""priceRUB"": 27571,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5991b51486f77447b112d44f""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""USD"",
-            ""price"": 13,
-            ""priceRUB"": 1456,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 12148,
-            ""priceRUB"": 12148,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5e81c4ca763d9f754677befa""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 3892587,
-            ""priceRUB"": 3892587,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5c0126f40db834002a125382""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 6957,
-            ""priceRUB"": 6957,
-            ""vendor"": {
-              ""minTraderLevel"": 3,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""skier""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 10276,
-            ""priceRUB"": 10276,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""59d790f486f77403cb06aec6""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 24605,
-            ""priceRUB"": 24605,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": {
-                ""id"": ""5936d90786f7742b1420ba5b"",
-                ""name"": ""Debut"",
-                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Debut""
-              },
-              ""trader"": {
-                ""normalizedName"": ""prapor""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 31666,
-            ""priceRUB"": 31666,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""57dc2fa62459775949412633""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""USD"",
-            ""price"": 155,
-            ""priceRUB"": 17360,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 13333,
-            ""priceRUB"": 13333,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5e81c3cbac2bb513793cdc75""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 6325,
-            ""priceRUB"": 6325,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""skier""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 9628,
-            ""priceRUB"": 9628,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5d2c76ed48f03532f2136169""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 41517,
-            ""priceRUB"": 41517,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""61714eec290d254f5e6b2ffc""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 55312,
-            ""priceRUB"": 55312,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""ragman""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 68479,
-            ""priceRUB"": 68479,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
-          }
-        ],
-        ""id"": ""5d5d646386f7742797261fd9""
-      }
-    ]
-  }
-}";
     }
 }

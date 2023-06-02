@@ -9,16 +9,19 @@ namespace TotovBuilder.Model.Items
     public class ArmorMod : Item, IArmorMod
     {
         /// <inheritdoc/>
-        public double BlindnessProtectionPercentage { get; set; }
-
-        /// <inheritdoc/>
         public double ArmorClass { get; set; }
 
         /// <inheritdoc/>
         public string[] ArmoredAreas { get; set; } = Array.Empty<string>();
 
         /// <inheritdoc/>
-        public string DefaultPresetId { get; set; } = string.Empty;
+        public string? BaseItemId { get; set; }
+
+        /// <inheritdoc/>
+        public double BlindnessProtectionPercentage { get; set; }
+
+        /// <inheritdoc/>
+        public string? DefaultPresetId { get; set; }
 
         /// <inheritdoc/>
         public double Durability { get; set; }
