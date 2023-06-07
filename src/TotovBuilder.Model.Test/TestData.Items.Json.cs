@@ -238,19 +238,31 @@
         ""categories"": [
           {
             ""id"": ""5448e53e4bdc2d60728b4567""
+          },
+          {
+            ""id"": ""566168634bdc2d144c8b456c""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-icon.jpg"",
+        ""iconLink"": ""https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-icon.webp"",
         ""id"": ""5ab8ebf186f7742d8b372e80"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-image.webp"",
         ""link"": ""https://tarkov.dev/item/sso-attack-2-raid-backpack"",
         ""name"": ""SSO Attack 2 raid backpack"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesBackpack"",
-          ""capacity"": 35
+          ""capacity"": 35,
+          ""ergoPenalty"": -7,
+          ""speedPenalty"": -0.05,
+          ""turnPenalty"": -0.03
         },
         ""shortName"": ""Attack 2"",
-        ""weight"": 6.12,
+        ""weight"": 2.8,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/SSO_Attack_2_raid_backpack""
       },
       {
