@@ -3,7 +3,7 @@
     /// <summary>
     /// Provides the functionalities of an armor.
     /// </summary>
-    public interface IArmor : IItem
+    public interface IArmor : IWearable
     {
         /// <summary>
         /// Armor class.
@@ -21,28 +21,13 @@
         double Durability { get; set; }
 
         /// <summary>
-        /// Modifier added to the weapon ergonomics in percentage.
-        /// </summary>
-        double ErgonomicsPercentageModifier { get; set; }
-
-        /// <summary>
         /// Material which composes the armor.
         /// </summary>
         string Material { get; set; }
 
         /// <summary>
-        /// Modifier added to the character movement speed in percentage.
-        /// </summary>
-        double MovementSpeedPercentageModifier { get; set; }
-
-        /// <summary>
         /// Chance of ricochet.
         /// </summary>
         string RicochetChance { get; set; }
-
-        /// <summary>
-        /// Modifier added to the character turning speed in percentage.
-        /// </summary>
-        double TurningSpeedPercentageModifier { get; set; }
     }
 }
