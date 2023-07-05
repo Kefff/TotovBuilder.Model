@@ -66,9 +66,19 @@
         public string ExportWarningShowedStoregeKey { get; set; } = string.Empty;
 
         /// <summary>
+        /// Maximum number of tries when an error occurs when fetching data.
+        /// </summary>
+        public int FetchMaxTries { get; set; }
+
+        /// <summary>
         /// Fetch timeout (in seconds).
         /// </summary>
         public int FetchTimeout { get; set; }
+
+        /// <summary>
+        /// Time to wait between retries when an error occurs whent fetching data (in seconds).
+        /// </summary>
+        public int FetchWaitTimeBetweenRetries { get; set; }
 
         /// <summary>
         /// Github project URL.
