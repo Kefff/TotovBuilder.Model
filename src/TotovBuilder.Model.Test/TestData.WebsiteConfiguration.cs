@@ -9,6 +9,7 @@ namespace TotovBuilder.Model.Test
     {
         public static WebsiteConfiguration WebsiteConfiguration { get; } = new()
         {
+            AllowCookiesStorageKey = "allow_cookies",
             BuildSharingUrl = "https://localhost:3000/s/",
             BugReportUrl = "https://discord.gg/bugreport",
             BuildsSortFieldStorageKey = "builds_sort_field",
@@ -23,10 +24,10 @@ namespace TotovBuilder.Model.Test
             ExportWarningShowedStoregeKey = "export_warning",
             FetchTimeout = 10,
             GithubUrl = "https://github.com/User/Reposiory",
+            GlobalFilterStorageKey = "global_filter",
             ItemCategoriesApi = "itemcategories",
             ItemsApi = "items",
             LanguageStorageKey = "language",
-            GlobalFilterStorageKey = "global_filter",
             NotificationErrorDuration = 10,
             NotificationInformationDuration = 5,
             NotificationSuccessDuration = 5,
