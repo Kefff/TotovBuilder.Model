@@ -6,6 +6,7 @@
     public partial class TestData
     {
         public const string WebsiteConfigurationJson = @"{
+  ""allowCookiesStorageKey"": ""allow_cookies"",
   ""buildSharingUrl"": ""https://localhost:3000/s/"",
   ""bugReportUrl"": ""https://discord.gg/bugreport"",
   ""buildsSortFieldStorageKey"": ""builds_sort_field"",

@@ -106,6 +106,11 @@
         public string LanguageStorageKey { get; set; } = string.Empty;
 
         /// <summary>
+        /// Storage key for the no cookies indicator.
+        /// </summary>
+        public string AllowCookiesStorageKey { get; set; } = string.Empty;
+
+        /// <summary>
         /// Error notifications duration (in seconds).
         /// </summary>
         public int NotificationErrorDuration { get; set; }
