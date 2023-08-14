@@ -129,6 +129,11 @@
         /// Warning notifications duration (in seconds).
         /// </summary>
         public int NotificationWarningDuration { get; set; }
+        
+        /// <summary>
+        /// Indicates whether we are in a post-update period and items and prices are being updated.
+        /// </summary>
+        public bool PostUpdatePeriod { get; set; } = false;
 
         /// <summary>
         /// Presets API name.
