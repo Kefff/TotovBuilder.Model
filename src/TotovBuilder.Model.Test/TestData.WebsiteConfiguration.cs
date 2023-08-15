@@ -32,6 +32,7 @@ namespace TotovBuilder.Model.Test
             NotificationInformationDuration = 5,
             NotificationSuccessDuration = 5,
             NotificationWarningDuration = 10,
+            PostUpdatePeriod = false,
             PresetsApi = "presets",
             PricesApi = "prices",
             QuestsApi = "quests",
