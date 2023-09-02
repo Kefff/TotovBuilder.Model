@@ -285,6 +285,11 @@ namespace TotovBuilder.Model.Test
                 Weight = 2.8,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/SSO_Attack_2_raid_backpack"
             },
+            new Backpack()
+            {
+                CategoryId = "backpack",
+                Id = "testBackpack",
+            },
             new Container()
             {
                 Capacity = 4,
@@ -2569,6 +2574,11 @@ namespace TotovBuilder.Model.Test
                 TurningSpeedPercentageModifier = -0.03,
                 Weight = 2.8,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/SSO_Attack_2_raid_backpack"
+            },
+            new Backpack()
+            {
+                CategoryId = "backpack",
+                Id = "testBackpack",
             },
             new Container()
             {

@@ -268,6 +268,22 @@
       {
         ""categories"": [
           {
+            ""id"": ""5448e53e4bdc2d60728b4567""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testBackpack"",
+        ""inspectImageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
+      },
+      {
+        ""categories"": [
+          {
             ""id"": ""5795f317245977243854e041""
           }
         ],
