@@ -7,7 +7,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static WebsiteConfiguration WebsiteConfiguration { get; } = new()
+        public static WebsiteConfiguration WebsiteConfiguration { get; } = new WebsiteConfiguration()
         {
             AllowCookiesStorageKey = "allow_cookies",
             BuildSharingUrl = "https://localhost:3000/s/",

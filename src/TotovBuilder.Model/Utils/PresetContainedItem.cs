@@ -1,6 +1,6 @@
 ﻿using TotovBuilder.Model.Items;
 
-namespace TotovBuilder.Model
+namespace TotovBuilder.Model.Utils
 {
     /// <summary>
     /// Represents a preset contained item.
