@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace TotovBuilder.Model.Configuration
+﻿namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents the Totov Builder Azure functions configuration.
