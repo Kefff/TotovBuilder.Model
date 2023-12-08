@@ -19,7 +19,7 @@ namespace TotovBuilder.Model.Test
             AzureBlobStorageWebsiteDataContainerName = "$web",
             AzureFunctionsConfigurationBlobName = "azure-functions-configuration.json",
             CacheDuration = 43200,
-            FetchTimeout = 30,
+            ExecutionTimeout = 30,
             PriceCacheDuration = 3600,
             RawArmorPenetrationsBlobName = "armor-penetrations.json",
             RawChangelogBlobName = "changelog.json",

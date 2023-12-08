@@ -57,9 +57,9 @@
         public int CacheDuration { get; set; } = 43200;
 
         /// <summary>
-        /// Time (in seconds) before a fetch is timed out.
+        /// Time (in seconds) before a an operation is timed out.
         /// </summary>
-        public int FetchTimeout { get; set; } = 30;
+        public int ExecutionTimeout { get; set; } = 30;
 
         /// <summary>
         /// Time (in seconds) fetched API prices are kept before needing to refresh them.
