@@ -6,6 +6,11 @@
     public class WebsiteConfiguration
     {
         /// <summary>
+        /// Storage key for the allow cookies indicator.
+        /// </summary>
+        public string AllowCookiesStorageKey { get; set; } = string.Empty;
+
+        /// <summary>
         /// Bug report URL.
         /// </summary>
         public string BugReportUrl { get; set; } = string.Empty;
@@ -14,11 +19,6 @@
         /// URL for sharing builds.
         /// </summary>
         public string BuildSharingUrl { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key prefix for builds.
-        /// </summary>
-        public string BuildStorageKeyPrefix { get; set; } = string.Empty;
 
         /// <summary>
         /// Storage key for the current build sorting colum.
@@ -31,9 +31,9 @@
         public string BuildsSortOrderStorageKey { get; set; } = string.Empty;
 
         /// <summary>
-        /// Changelog API name.
+        /// Storage key prefix for builds.
         /// </summary>
-        public string ChangelogApi { get; set; } = string.Empty;
+        public string BuildStorageKeyPrefix { get; set; } = string.Empty;
 
         /// <summary>
         /// Cache duration (in seconds).
@@ -51,6 +51,41 @@
         public string DiscordUrl { get; set; } = string.Empty;
 
         /// <summary>
+        /// Changelog endpoint.
+        /// </summary>
+        public string EndpointChangelog { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Item categories endpoint.
+        /// </summary>
+        public string EndpointItemCategories { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Items endpoint.
+        /// </summary>
+        public string EndpointItems { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Presets endpoint.
+        /// </summary>
+        public string EndpointPresets { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Prices endpoint.
+        /// </summary>
+        public string EndpointPrices { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Quests endpoint.
+        /// </summary>
+        public string EndpointQuests { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Tarkov values endpoint.
+        /// </summary>
+        public string EndpointTarkovValues { get; set; } = string.Empty;
+
+        /// <summary>
         /// Export file extension.
         /// </summary>
         public string ExportFileExtension { get; set; } = string.Empty;
@@ -63,7 +98,7 @@
         /// <summary>
         /// Storage key for the value indicating whether the warning about builds not exported has been displayed.
         /// </summary>
-        public string ExportWarningShowedStoregeKey { get; set; } = string.Empty;
+        public string ExportWarningShowedStorageKey { get; set; } = string.Empty;
 
         /// <summary>
         /// Maximum number of tries when an error occurs when fetching data.
@@ -91,24 +126,9 @@
         public string GlobalFilterStorageKey { get; set; } = string.Empty;
 
         /// <summary>
-        /// Item categories API name.
-        /// </summary>
-        public string ItemCategoriesApi { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Items API name.
-        /// </summary>
-        public string ItemsApi { get; set; } = string.Empty;
-
-        /// <summary>
         /// Storage key for the current language.
         /// </summary>
         public string LanguageStorageKey { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key for the no cookies indicator.
-        /// </summary>
-        public string AllowCookiesStorageKey { get; set; } = string.Empty;
 
         /// <summary>
         /// Error notifications duration (in seconds).
@@ -134,26 +154,6 @@
         /// Indicates whether we are in a post-update period and items and prices are being updated.
         /// </summary>
         public bool PostUpdatePeriod { get; set; } = false;
-
-        /// <summary>
-        /// Presets API name.
-        /// </summary>
-        public string PresetsApi { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Prices API name.
-        /// </summary>
-        public string PricesApi { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Quests API name.
-        /// </summary>
-        public string QuestsApi { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Tarkov values API name.
-        /// </summary>
-        public string TarkovValuesApi { get; set; } = string.Empty;
 
         /// <summary>
         /// Version of the website.
