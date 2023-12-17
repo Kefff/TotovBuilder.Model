@@ -8,13 +8,13 @@ namespace TotovBuilder.Model.Test
     {
         public const string ItemMissingPropertiesJson = @"[
   {
-    ""conflictingItemIds"": [],
-    ""id"": ""601aa3d2b2bcb34913271e6d"",
-    ""maxStackableAmount"": 60,
-    ""rangedWeaponChambers"": []
+    ""c"": [],
+    ""i"": ""601aa3d2b2bcb34913271e6d"",
+    ""a"": 60,
+    ""ch"": []
   },
   {
-    ""conflictingItemIds"": [
+    ""c"": [
       ""5c0e66e2d174af02a96252f4"",
       ""5c0696830db834001d23f5da"",
       ""5c066e3a0db834001b7353f0"",
@@ -23,25 +23,23 @@ namespace TotovBuilder.Model.Test
       ""5c110624d174af029e69734c"",
       ""5a16b8a9fcdbcb00165aa6ca""
     ],
-    ""id"": ""5a16b7e1fcdbcb00165aa6c9"",
-    ""maxStackableAmount"": 1,
-    ""rangedWeaponChambers"": []
+    ""i"": ""5a16b7e1fcdbcb00165aa6c9"",
+    ""a"": 1,
+    ""ch"": []
   },
   {
-    ""acceptedAmmunitionIds"": [],
-    ""conflictingItemIds"": [],
-    ""id"": ""569668774bdc2da2298b4568"",
-    ""maxStackableAmount"": 50000,
-    ""rangedWeaponChambers"": []
+    ""c"": [],
+    ""i"": ""569668774bdc2da2298b4568"",
+    ""a"": 50000,
+    ""ch"": []
   },
   {
-    ""acceptedAmmunitionIds"": [],
-    ""conflictingItemIds"": [],
-    ""id"": ""57dc2fa62459775949412633"",
-    ""maxStackableAmount"": 1,
-    ""rangedWeaponChambers"": [
+    ""c"": [],
+    ""i"": ""57dc2fa62459775949412633"",
+    ""a"": 1,
+    ""ch"": [
       {
-        ""compatibleItemIds"": [
+        ""i"": [
           ""5c0d5e4486f77478390952fe"",
           ""61962b617c6c7b169525f168"",
           ""56dfef82d2720bbd668b4567"",
@@ -56,35 +54,33 @@ namespace TotovBuilder.Model.Test
           ""56dff4a2d2720bbd668b456a"",
           ""56dff4ecd2720b5f5a8b4568""
         ],
-        ""maxStackableAmount"": 1,
-        ""name"": ""chamber0"",
-        ""required"": false
+        ""a"": 1,
+        ""n"": ""chamber0"",
+        ""r"": false
       }
     ]
   },
   {
-    ""acceptedAmmunitionIds"": [],
-    ""conflictingItemIds"": [],
-    ""id"": ""5e81c3cbac2bb513793cdc75"",
-    ""maxStackableAmount"": 1,
-    ""rangedWeaponChambers"": [
+    ""c"": [],
+    ""i"": ""5e81c3cbac2bb513793cdc75"",
+    ""a"": 1,
+    ""ch"": [
       {
-        ""compatibleItemIds"": [
+        ""i"": [
           ""5e81f423763d9f754677bf2e"",
           ""5efb0cabfb3e451d70735af5"",
           ""5efb0fc6aeb21837e749c801"",
           ""5efb0d4f4bc50b58e81710f3"",
           ""5ea2a8e200685063ec28c05a""
         ],
-        ""maxStackableAmount"": 1,
-        ""name"": ""chamber0"",
-        ""required"": false
+        ""a"": 1,
+        ""n"": ""chamber0"",
+        ""r"": false
       }
     ]
   },
   {
-    ""acceptedAmmunitionIds"": [],
-    ""conflictingItemIds"": [
+    ""c"": [
       ""5947db3f86f77447880cf76f"",
       ""57486e672459770abd687134"",
       ""5ac733a45acfc400192630e2"",
@@ -105,13 +101,12 @@ namespace TotovBuilder.Model.Test
       ""5c61a40d2e2216001403158d"",
       ""5c90c3622e221601da359851""
     ],
-    ""id"": ""5d2c76ed48f03532f2136169"",
-    ""maxStackableAmount"": 1,
-    ""rangedWeaponChambers"": []
+    ""i"": ""5d2c76ed48f03532f2136169"",
+    ""a"": 1,
+    ""ch"": []
   },
   {
-    ""acceptedAmmunitionIds"": [],
-    ""conflictingItemIds"": [
+    ""c"": [
       ""591c4efa86f7741030027726"",
       ""570fd79bd2720bc7458b4583"",
       ""570fd6c2d2720bc6458b457f"",
@@ -128,9 +123,9 @@ namespace TotovBuilder.Model.Test
       ""570fd721d2720bc5458b4596"",
       ""5c7d55f52e221644f31bff6a""
     ],
-    ""id"": ""61714eec290d254f5e6b2ffc"",
-    ""maxStackableAmount"": 1,
-    ""rangedWeaponChambers"": []
+    ""i"": ""61714eec290d254f5e6b2ffc"",
+    ""a"": 1,
+    ""ch"": []
   }
 ]";
     }

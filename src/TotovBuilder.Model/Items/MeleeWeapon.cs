@@ -1,4 +1,5 @@
-﻿using TotovBuilder.Model.Abstractions.Items;
+﻿using System.Text.Json.Serialization;
+using TotovBuilder.Model.Abstractions.Items;
 
 namespace TotovBuilder.Model.Items
 {
@@ -8,12 +9,15 @@ namespace TotovBuilder.Model.Items
     public class MeleeWeapon : Item, IMeleeWeapon
     {
         /// <inheritdoc/>
+        [JsonPropertyName("ch")]
         public double ChopDamage { get; set; }
 
         /// <inheritdoc/>
+        [JsonPropertyName("r")]
         public double HitRadius { get; set; }
 
         /// <inheritdoc/>
+        [JsonPropertyName("st")]
         public double StabDamage { get; set; }
     }
 }
