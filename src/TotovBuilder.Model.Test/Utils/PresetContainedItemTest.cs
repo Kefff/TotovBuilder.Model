@@ -3,7 +3,7 @@ using TotovBuilder.Model.Items;
 using TotovBuilder.Model.Utils;
 using Xunit;
 
-namespace TotovBuilder.Model.Test
+namespace TotovBuilder.Model.Test.Utils
 {
     /// <summary>
     /// Represents tests on the <see cref="PresetContainedItem"/> class.

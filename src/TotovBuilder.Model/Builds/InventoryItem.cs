@@ -1,11 +1,14 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text.Json.Serialization;
+using TotovBuilder.Model.Utils;
 
 namespace TotovBuilder.Model.Builds
 {
     /// <summary>
     /// Represents an item in the inventory.
     /// </summary>
+    [JsonConverter(typeof(InventoryItemJsonConverter))]
     public class InventoryItem
     {
         /// <summary>
@@ -38,5 +41,34 @@ namespace TotovBuilder.Model.Builds
         /// </summary>
         [JsonPropertyName("q")]
         public double Quantity { get; set; } = 1;
+    }
+
+    /// <summary>
+    /// Represents a JSON converter for the <see cref="InventoryItem"/> class.
+    /// </summary>
+    public class InventoryItemJsonConverter : ReducedSerializationBaseConverter<InventoryItem>
+    {
+        /// <inheritdoc/>
+        protected override Dictionary<string, Func<InventoryItem, bool>> PropertyExclusionConditions
+        {
+            get { return _propertyExclusionConditions; }
+        }
+        private readonly Dictionary<string, Func<InventoryItem, bool>> _propertyExclusionConditions = new Dictionary<string, Func<InventoryItem, bool>>()
+        {
+            { nameof(InventoryItem.Content), ii => ii.Content.Length == 0 },
+            { nameof(InventoryItem.IgnorePrice), ii => !ii.IgnorePrice },
+            { nameof(InventoryItem.ModSlots), ii => ii.ModSlots.Length == 0 },
+            { nameof(InventoryItem.Quantity), ii => ii.Quantity == 1 }
+        };
+
+        /// <inheritdoc/>
+        protected override Dictionary<string, Func<InventoryItem, object?>> PropertyValuesObtentions
+        {
+            get { return _propertyValuesObtentions; }
+        }
+        private readonly Dictionary<string, Func<InventoryItem, object?>> _propertyValuesObtentions = new Dictionary<string, Func<InventoryItem, object?>>()
+        {
+            { nameof(InventoryItem.IgnorePrice), ii => string.Empty }
+        };
     }
 }
