@@ -49,11 +49,7 @@ namespace TotovBuilder.Model.Builds
     public class InventoryItemJsonConverter : ReducedSerializationBaseConverter<InventoryItem>
     {
         /// <inheritdoc/>
-        protected override Dictionary<string, Func<InventoryItem, bool>> PropertyExclusionConditions
-        {
-            get { return _propertyExclusionConditions; }
-        }
-        private readonly Dictionary<string, Func<InventoryItem, bool>> _propertyExclusionConditions = new Dictionary<string, Func<InventoryItem, bool>>()
+        protected override Dictionary<string, Func<InventoryItem, bool>> PropertyExclusionConditions { get; } = new Dictionary<string, Func<InventoryItem, bool>>()
         {
             { nameof(InventoryItem.Content), ii => ii.Content.Length == 0 },
             { nameof(InventoryItem.IgnorePrice), ii => !ii.IgnorePrice },
@@ -62,11 +58,7 @@ namespace TotovBuilder.Model.Builds
         };
 
         /// <inheritdoc/>
-        protected override Dictionary<string, Func<InventoryItem, object?>> PropertyValuesObtentions
-        {
-            get { return _propertyValuesObtentions; }
-        }
-        private readonly Dictionary<string, Func<InventoryItem, object?>> _propertyValuesObtentions = new Dictionary<string, Func<InventoryItem, object?>>()
+        protected override Dictionary<string, Func<InventoryItem, object?>> PropertyValuesObtentions { get; } = new Dictionary<string, Func<InventoryItem, object?>>()
         {
             { nameof(InventoryItem.IgnorePrice), ii => string.Empty }
         };

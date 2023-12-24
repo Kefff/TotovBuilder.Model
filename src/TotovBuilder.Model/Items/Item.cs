@@ -42,10 +42,6 @@ namespace TotovBuilder.Model.Items
         public string Name { get; set; } = string.Empty;
 
         /// <inheritdoc/>
-        [JsonPropertyName("p")]
-        public Price[] Prices { get; set; } = Array.Empty<Price>();
-
-        /// <inheritdoc/>
         [JsonPropertyName("s")]
         public string ShortName { get; set; } = string.Empty;
 

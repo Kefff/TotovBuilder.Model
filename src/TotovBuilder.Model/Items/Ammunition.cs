@@ -54,7 +54,7 @@ namespace TotovBuilder.Model.Items
         public double PenetrationPower { get; set; }
 
         /// <inheritdoc/>
-        [JsonPropertyName("pr")]
+        [JsonPropertyName("p")]
         public double Projectiles { get; set; }
 
         /// <inheritdoc/>

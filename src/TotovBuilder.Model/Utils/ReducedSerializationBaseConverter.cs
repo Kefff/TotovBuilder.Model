@@ -17,12 +17,12 @@ namespace TotovBuilder.Model.Utils
         /// <summary>
         /// List of functions indicating whether the associated property must be excluded from the serialization.
         /// </summary>
-        protected abstract Dictionary<string, Func<T, bool>> PropertyExclusionConditions { get; }
+        protected virtual Dictionary<string, Func<T, bool>> PropertyExclusionConditions { get; } = new Dictionary<string, Func<T, bool>>();
 
         /// <summary>
         /// List of functions for customizing the value used for serializing the associated property.
         /// </summary>
-        protected abstract Dictionary<string, Func<T, object?>> PropertyValuesObtentions { get; }
+        protected virtual Dictionary<string, Func<T, object?>> PropertyValuesObtentions { get; } = new Dictionary<string, Func<T, object?>>();
 
         /// <inheritdoc/>
         [ExcludeFromCodeCoverage]
@@ -58,7 +58,7 @@ namespace TotovBuilder.Model.Utils
                 {
                     propertyValueToSerialize = propertyToSerialize.GetValue(objectToSerialize);
                 }
-                
+
                 writer.WritePropertyName(propertyName);
                 JsonSerializer.Serialize(writer, propertyValueToSerialize, options);
             }
