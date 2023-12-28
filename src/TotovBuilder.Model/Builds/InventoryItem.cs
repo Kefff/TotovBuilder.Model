@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using TotovBuilder.Model.Utils;
+using TotovBuilder.Model.Utils.JsonConverters.Builds;
 
 namespace TotovBuilder.Model.Builds
 {
@@ -41,26 +40,5 @@ namespace TotovBuilder.Model.Builds
         /// </summary>
         [JsonPropertyName("q")]
         public double Quantity { get; set; } = 1;
-    }
-
-    /// <summary>
-    /// Represents a JSON converter for the <see cref="InventoryItem"/> class.
-    /// </summary>
-    public class InventoryItemJsonConverter : ReducedSerializationBaseConverter<InventoryItem>
-    {
-        /// <inheritdoc/>
-        protected override Dictionary<string, Func<InventoryItem, bool>> PropertyExclusionConditions { get; } = new Dictionary<string, Func<InventoryItem, bool>>()
-        {
-            { nameof(InventoryItem.Content), ii => ii.Content.Length == 0 },
-            { nameof(InventoryItem.IgnorePrice), ii => !ii.IgnorePrice },
-            { nameof(InventoryItem.ModSlots), ii => ii.ModSlots.Length == 0 },
-            { nameof(InventoryItem.Quantity), ii => ii.Quantity == 1 }
-        };
-
-        /// <inheritdoc/>
-        protected override Dictionary<string, Func<InventoryItem, object?>> PropertyValuesObtentions { get; } = new Dictionary<string, Func<InventoryItem, object?>>()
-        {
-            { nameof(InventoryItem.IgnorePrice), ii => string.Empty }
-        };
     }
 }

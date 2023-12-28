@@ -194,6 +194,82 @@
           },
           {
             ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""conflictingItems"": [
+          {
+            ""id"": ""5a16ba61fcdbcb098008728a""
+          },
+          {
+            ""id"": ""5a16b672fcdbcb001912fa83""
+          },
+          {
+            ""id"": ""5a16b7e1fcdbcb00165aa6c9""
+          },
+          {
+            ""id"": ""5aa7e3abe5b5b000171d064d""
+          },
+          {
+            ""id"": ""5c0e66e2d174af02a96252f4""
+          },
+          {
+            ""id"": ""5e00cdd986f7747473332240""
+          }
+        ],
+        ""conflictingSlotIds"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-icon.webp"",
+        ""id"": ""5ea18c84ecf1982c7712d9a2"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-image.webp"",
+        ""link"": ""https://tarkov.dev/item/diamond-age-bastion-helmet-armor-plate"",
+        ""name"": ""Diamond Age Bastion helmet armor plate"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesArmorAttachment"",
+          ""blindnessProtection"": 0,
+          ""class"": 6,
+          ""durability"": 40,
+          ""ergoPenalty"": -5,
+          ""headZones"": [
+            ""Top of the head"",
+            ""Nape""
+          ],
+          ""material"": {
+            ""name"": ""Ceramic""
+          },
+          ""slots"": [
+            {
+              ""nameId"": ""mod_nvg"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5c0558060db834001b735271""
+                  },
+                  {
+                    ""id"": ""5a16b8a9fcdbcb00165aa6ca""
+                  }
+                ]
+              }
+            }
+          ],
+          ""speedPenalty"": 0,
+          ""turnPenalty"": -0.06
+        },
+        ""shortName"": ""Bastion plate"",
+        ""weight"": 0.99,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Diamond_Age_Bastion_helmet_armor_plate""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+            ""id"": ""543be5f84bdc2dd4348b456a""
           }
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.jpg"",

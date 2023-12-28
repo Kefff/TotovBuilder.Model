@@ -1,11 +1,13 @@
 ﻿using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
+using TotovBuilder.Model.Utils.JsonConverters.Items;
 
 namespace TotovBuilder.Model.Items
 {
     /// <summary>
     /// Represents a backpack.
     /// </summary>
+    [JsonConverter(typeof(BackpackJsonConverter<IBackpack, Backpack>))]
     public class Backpack : Item, IBackpack
     {
         /// <inheritdoc/>

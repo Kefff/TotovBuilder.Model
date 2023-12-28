@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
+using TotovBuilder.Model.Utils.JsonConverters.Items;
 
 namespace TotovBuilder.Model.Items
 {
     /// <summary>
     /// Represents an item.
     /// </summary>
+    [JsonConverter(typeof(ItemJsonConverter<IItem, Item>))]
     public class Item : IItem
     {
         /// <inheritdoc/>

@@ -1,16 +1,17 @@
 ﻿using FluentAssertions;
 using TotovBuilder.Model.Builds;
+using TotovBuilder.Model.Utils.JsonConverters.Builds;
 using Xunit;
 
-namespace TotovBuilder.Model.Test.Builds
+namespace TotovBuilder.Model.Test.Utils.JsonConverters.Builds
 {
     /// <summary>
-    /// Represents test on the <see cref="InventoryItem"/> class.
+    /// Represents test on the <see cref="InventoryItemJsonConverter"/> class.
     /// </summary>
-    public class InventoryItemTest : SerializationTestBase
+    public class InventoryItemJsonConverterTest : SerializationTestBase
     {
         [Fact]
-        public void Serialization_ShouldSerializeObject()
+        public void Serialization_ShouldSerializeInventoryItem()
         {
             // Arrange
             InventoryItem inventoryItem = InventoryItem;
@@ -19,11 +20,11 @@ namespace TotovBuilder.Model.Test.Builds
             string result = Serialize(inventoryItem);
 
             // Assert
-            result.Should().Be("{\"c\":[{\"i\":\"584147732459775a2b6d9f12\",\"m\":[{\"i\":{\"i\":\"57e3dba62459770f0c32322b\"},\"n\":\"mod_pistol_grip\"}]}],\"p\":\"\",\"i\":\"5ab8ebf186f7742d8b372e80\",\"q\":2}");
+            result.Should().Be("{\"c\":[{\"i\":\"584147732459775a2b6d9f12\",\"m\":[{\"i\":{\"i\":\"57e3dba62459770f0c32322b\"},\"n\":\"mod_pistol_grip\"}]}],\"p\":1,\"i\":\"5ab8ebf186f7742d8b372e80\",\"q\":2}");
         }
 
         [Fact]
-        public void Serialization_ShouldSerializeArray()
+        public void Serialization_ShouldSerializeInventoryItems()
         {
             // Arrange
             InventoryItem[] inventoryItems = new InventoryItem[]
@@ -35,7 +36,7 @@ namespace TotovBuilder.Model.Test.Builds
             string result = Serialize(inventoryItems);
 
             // Assert
-            result.Should().Be("[{\"c\":[{\"i\":\"584147732459775a2b6d9f12\",\"m\":[{\"i\":{\"i\":\"57e3dba62459770f0c32322b\"},\"n\":\"mod_pistol_grip\"}]}],\"p\":\"\",\"i\":\"5ab8ebf186f7742d8b372e80\",\"q\":2}]");
+            result.Should().Be("[{\"c\":[{\"i\":\"584147732459775a2b6d9f12\",\"m\":[{\"i\":{\"i\":\"57e3dba62459770f0c32322b\"},\"n\":\"mod_pistol_grip\"}]}],\"p\":1,\"i\":\"5ab8ebf186f7742d8b372e80\",\"q\":2}]");
         }
 
         private readonly InventoryItem InventoryItem = new InventoryItem()

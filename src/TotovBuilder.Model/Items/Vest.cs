@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
+using TotovBuilder.Model.Utils.JsonConverters.Items;
 
 namespace TotovBuilder.Model.Items
 {
     /// <summary>
     /// Represents a vest.
     /// </summary>
+    [JsonConverter(typeof(VestJsonConverter<IVest, Vest>))]
     public class Vest : Item, IVest
     {
         /// <inheritdoc/>

@@ -193,6 +193,54 @@ namespace TotovBuilder.Model.Test
             },
             new ArmorMod()
             {
+                ArmorClass = 6,
+                ArmoredAreas = new string[]
+                {
+                    "TopOfTheHead",
+                    "Nape"
+                },
+                BlindnessProtectionPercentage = 0,
+                ConflictingItemIds = new string[]
+                {
+                    "5a16ba61fcdbcb098008728a",
+                    "5a16b672fcdbcb001912fa83",
+                    "5a16b7e1fcdbcb00165aa6c9",
+                    "5aa7e3abe5b5b000171d064d",
+                    "5c0e66e2d174af02a96252f4",
+                    "5e00cdd986f7747473332240"
+                },
+                CategoryId = "armorMod",
+                Durability = 40,
+                ErgonomicsPercentageModifier = -0.05,
+                IconLink = "https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-icon.webp",
+                Id = "5ea18c84ecf1982c7712d9a2",
+                ImageLink = "https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-image.webp",
+                MarketLink = "https://tarkov.dev/item/diamond-age-bastion-helmet-armor-plate",
+                Material = "Ceramic",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5c0558060db834001b735271",
+                            "5a16b8a9fcdbcb00165aa6ca"
+                        },
+                        MaxStackableAmount = 1,
+                        Name = "mod_nvg",
+                        Required = false
+                    }
+                },
+                MovementSpeedPercentageModifier = 0,
+                Name = "Diamond Age Bastion helmet armor plate",
+                //RicochetChance = , // TODO : MISSING FROM API
+                ShortName = "Bastion plate",
+                TurningSpeedPercentageModifier = -0.06,
+                Weight = 0.99,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Diamond_Age_Bastion_helmet_armor_plate",
+            },
+            new ArmorMod()
+            {
                 ArmorClass = 3,
                 ArmoredAreas = new string[]
                 {
@@ -201,7 +249,7 @@ namespace TotovBuilder.Model.Test
                 },
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
-                ConflictingItemIds = new string[] // TODO : MISSING FROM API
+                ConflictingItemIds = new string[]
                 {
                     "5c0e66e2d174af02a96252f4",
                     "5c0696830db834001d23f5da",
@@ -218,7 +266,7 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg",
                 MarketLink = "https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield",
                 Material = "Glass",
-                //ModSlots = new ModSlot[], // TODO : MISSING FROM API
+                ModSlots = Array.Empty<ModSlot>(),
                 MovementSpeedPercentageModifier = 0,
                 Name = "Ops-Core FAST multi-hit ballistic face shield",
                 //RicochetChance = , // TODO : MISSING FROM API
@@ -243,7 +291,7 @@ namespace TotovBuilder.Model.Test
                 BaseItemId = "5a16b7e1fcdbcb00165aa6c9",
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
-                ConflictingItemIds = new string[] // TODO : MISSING FROM API
+                ConflictingItemIds = new string[]
                 {
                     "5c0e66e2d174af02a96252f4",
                     "5c0696830db834001d23f5da",
@@ -260,7 +308,6 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/preset-face-shield-alone-image.jpg",
                 MarketLink = "https://tarkov.dev/item/preset-face-shield-alone",
                 Material = "Glass",
-                //ModSlots = new ModSlot[], // TODO : MISSING FROM API
                 MovementSpeedPercentageModifier = 0,
                 Name = "Face shield alone",
                 //RicochetChance = , // TODO : MISSING FROM API
@@ -1621,7 +1668,7 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = 0,
                 CategoryId = "rangedWeaponMod",
-                ConflictingItemIds = new string[] // TODO : MISSING FROM API
+                ConflictingItemIds = new string[]
                 {
                     "5947db3f86f77447880cf76f",
                     "57486e672459770abd687134",
@@ -1727,7 +1774,7 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = 0,
                 CategoryId = "rangedWeaponMod",
-                ConflictingItemIds = new string[] // TODO : MISSING FROM API
+                ConflictingItemIds = new string[]
                 {
                     "591c4efa86f7741030027726",
                     "570fd79bd2720bc7458b4583",
@@ -2504,6 +2551,45 @@ namespace TotovBuilder.Model.Test
             },
             new ArmorMod()
             {
+                ArmorClass = 6,
+                ArmoredAreas = new string[]
+                {
+                    "TopOfTheHead",
+                    "Nape"
+                },
+                BlindnessProtectionPercentage = 0,
+                CategoryId = "armorMod",
+                Durability = 40,
+                ErgonomicsPercentageModifier = -0.05,
+                IconLink = "https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-icon.webp",
+                Id = "5ea18c84ecf1982c7712d9a2",
+                ImageLink = "https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-image.webp",
+                MarketLink = "https://tarkov.dev/item/diamond-age-bastion-helmet-armor-plate",
+                Material = "Ceramic",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5c0558060db834001b735271",
+                            "5a16b8a9fcdbcb00165aa6ca"
+                        },
+                        MaxStackableAmount = 1,
+                        Name = "mod_nvg",
+                        Required = false
+                    }
+                },
+                MovementSpeedPercentageModifier = 0,
+                Name = "Diamond Age Bastion helmet armor plate",
+                //RicochetChance = , // TODO : MISSING FROM API
+                ShortName = "Bastion plate",
+                TurningSpeedPercentageModifier = -0.06,
+                Weight = 0.99,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Diamond_Age_Bastion_helmet_armor_plate",
+            },
+            new ArmorMod()
+            {
                 ArmorClass = 3,
                 ArmoredAreas = new string[]
                 {
@@ -2550,7 +2636,7 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/preset-face-shield-alone-image.jpg",
                 MarketLink = "https://tarkov.dev/item/preset-face-shield-alone",
                 Material = "Glass",
-                //ModSlots = new ModSlot[], // TODO : MISSING FROM API
+                ModSlots = Array.Empty<ModSlot>(),
                 MovementSpeedPercentageModifier = 0,
                 Name = "Face shield alone",
                 //RicochetChance = , // TODO : MISSING FROM API

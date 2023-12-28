@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
+using TotovBuilder.Model.Utils.JsonConverters.Items;
 
 namespace TotovBuilder.Model.Items
 {
     /// <summary>
     /// Represents a ranged weapon.
     /// </summary>
+    [JsonConverter(typeof(RangedWeaponJsonConverter<IRangedWeapon, RangedWeapon>))]
     public class RangedWeapon : Item, IRangedWeapon
     {
         /// <inheritdoc/>

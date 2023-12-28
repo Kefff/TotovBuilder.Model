@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.Json;
 
-namespace TotovBuilder.Model.Test
+namespace TotovBuilder.Model.Test.Utils.JsonConverters
 {
     /// <summary>
     /// Represents a base class for testing serialization.

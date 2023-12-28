@@ -19,6 +19,19 @@ namespace TotovBuilder.Model.Test
             {
                 ConflictingItemIds = new string[]
                 {
+                    "5a16ba61fcdbcb098008728a",
+                    "5a16b672fcdbcb001912fa83",
+                    "5a16b7e1fcdbcb00165aa6c9",
+                    "5aa7e3abe5b5b000171d064d",
+                    "5c0e66e2d174af02a96252f4",
+                    "5e00cdd986f7747473332240"
+                },
+                Id = "5ea18c84ecf1982c7712d9a2",
+            },
+            new ItemMissingProperties()
+            {
+                ConflictingItemIds = new string[]
+                {
                     "5c0e66e2d174af02a96252f4",
                     "5c0696830db834001d23f5da",
                     "5c066e3a0db834001b7353f0",

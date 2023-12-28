@@ -1,27 +1,18 @@
 ﻿using FluentAssertions;
 using TotovBuilder.Model.Configuration;
 using TotovBuilder.Model.Items;
+using TotovBuilder.Model.Utils.JsonConverters.Items;
 using Xunit;
 
-namespace TotovBuilder.Model.Test.Items
+namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
 {
     /// <summary>
-    /// Represents tests on the <see cref="Price"/> class.
+    /// Represents tests on the <see cref="PriceJsonConverter"/> class.
     /// </summary>
-    public class PriceTest : SerializationTestBase
+    public class PriceJsonConverterTest : SerializationTestBase
     {
         [Fact]
-        public void Serialization_ShouldSerializeObject()
-        {
-            // Act
-            string result = Serialize(Price1);
-
-            // Assert
-            result.Should().Be("{\"i\":\"5447a9cd4bdc2dbd208b4567\",\"v\":89934,\"vm\":89934}");
-        }
-
-        [Fact]
-        public void Serialization_ShouldSerializeArray()
+        public void Serialization_ShouldSerializePrice()
         {
             // Arrange
             Price[] prices = new Price[]

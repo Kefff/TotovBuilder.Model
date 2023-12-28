@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
+using TotovBuilder.Model.Utils.JsonConverters.Items;
 
 namespace TotovBuilder.Model.Items
 {
     /// <summary>
     /// Represents headwear.
     /// </summary>
+    [JsonConverter(typeof(HeadwearJsonConverter<IHeadwear, Headwear>))]
     public class Headwear : Item, IHeadwear
     {
         /// <inheritdoc/>

@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
+using TotovBuilder.Model.Utils.JsonConverters.Items;
 
 namespace TotovBuilder.Model.Items
 {
     /// <summary>
     /// Represents ammunition.
     /// </summary>
+    [JsonConverter(typeof(AmmunitionJsonConverter<IAmmunition, Ammunition>))]
     public class Ammunition : Item, IAmmunition
     {
         /// <inheritdoc/>
@@ -55,7 +57,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("p")]
-        public double Projectiles { get; set; }
+        public double Projectiles { get; set; } = 1;
 
         /// <inheritdoc/>
         [JsonPropertyName("r")]
