@@ -1027,27 +1027,6 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[]
                         {
-                            "5c0d5e4486f77478390952fe",
-                            "61962b617c6c7b169525f168",
-                            "56dfef82d2720bbd668b4567",
-                            "56dff026d2720bb8668b4567",
-                            "56dff061d2720bb5668b4567",
-                            "56dff0bed2720bb0668b4567",
-                            "56dff216d2720bbd668b4568",
-                            "56dff2ced2720bb4668b4567",
-                            "56dff338d2720bbd668b4569",
-                            "56dff3afd2720bba668b4567",
-                            "56dff421d2720b5f5a8b4567",
-                            "56dff4a2d2720bbd668b456a",
-                            "56dff4ecd2720b5f5a8b4568"
-                        },
-                        Name = "chamber0",
-                        Required = false
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
                             "5f6341043ada5942720e2dc5",
                             "6087e663132d4d12c81fd96b",
                             "5beec8ea0db834001a6f9dbf",
@@ -1175,19 +1154,6 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol",
                 ModSlots = new ModSlot[]
                 {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81f423763d9f754677bf2e",
-                            "5efb0cabfb3e451d70735af5",
-                            "5efb0fc6aeb21837e749c801",
-                            "5efb0d4f4bc50b58e81710f3",
-                            "5ea2a8e200685063ec28c05a"
-                        },
-                        Name = "chamber0",
-                        Required = false
-                    },
                     new ModSlot()
                     {
                         CompatibleItemIds = new string[]
@@ -1428,27 +1394,6 @@ namespace TotovBuilder.Model.Test
                 MinuteOfAngle = 3.44,
                 ModSlots = new ModSlot[]
                 {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5c0d5e4486f77478390952fe",
-                            "61962b617c6c7b169525f168",
-                            "56dfef82d2720bbd668b4567",
-                            "56dff026d2720bb8668b4567",
-                            "56dff061d2720bb5668b4567",
-                            "56dff0bed2720bb0668b4567",
-                            "56dff216d2720bbd668b4568",
-                            "56dff2ced2720bb4668b4567",
-                            "56dff338d2720bbd668b4569",
-                            "56dff3afd2720bba668b4567",
-                            "56dff421d2720b5f5a8b4567",
-                            "56dff4a2d2720bbd668b456a",
-                            "56dff4ecd2720b5f5a8b4568"
-                        },
-                        Name = "chamber0",
-                        Required = false
-                    },
                     new ModSlot()
                     {
                         CompatibleItemIds = new string[]
@@ -2376,7 +2321,7 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = -0.05,
                 ArmorDamagePercentage = 0.76,
-                ArmorPenetrations = Array.Empty<double>(),
+                //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber762x39",
                 CategoryId = "ammunition",
                 DurabilityBurnPercentageModifier = 0.7,
@@ -2404,7 +2349,7 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = -0.15,
                 ArmorDamagePercentage = 0.26,
-                ArmorPenetrations = Array.Empty<double>(),
+                //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber12g",
                 CategoryId = "ammunition",
                 DurabilityBurnPercentageModifier = 0,
@@ -2432,7 +2377,7 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = 0,
                 ArmorDamagePercentage = 0.34,
-                ArmorPenetrations = Array.Empty<double>(),
+                //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber545x39",
                 CategoryId = "ammunition",
                 DurabilityBurnPercentageModifier = -0.2,
@@ -2465,7 +2410,6 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = 0.05,
                 ArmorDamagePercentage = 0.55,
-                ArmorPenetrations = Array.Empty<double>(), // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber9x19PARA",
                 CategoryId = "ammunition",
@@ -2494,7 +2438,6 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = -0.05,
                 ArmorDamagePercentage = 0.33,
-                ArmorPenetrations = Array.Empty<double>(), // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber9x19PARA",
                 CategoryId = "ammunition",
@@ -2539,6 +2482,7 @@ namespace TotovBuilder.Model.Test
                 Material = "CombinedMaterials",
                 MovementSpeedPercentageModifier = -0.35,
                 Name = "6B43 6A Zabralo-Sh body armor",
+                //RicochetChance = , // TODO : MISSING FROM API
                 ShortName = "6B43 6A",
                 TurningSpeedPercentageModifier = -0.21,
                 Weight = 20,
@@ -2558,6 +2502,15 @@ namespace TotovBuilder.Model.Test
                     "Nape"
                 },
                 BlindnessProtectionPercentage = 0,
+                ConflictingItemIds = new string[]
+                {
+                    "5a16ba61fcdbcb098008728a",
+                    "5a16b672fcdbcb001912fa83",
+                    "5a16b7e1fcdbcb00165aa6c9",
+                    "5aa7e3abe5b5b000171d064d",
+                    "5c0e66e2d174af02a96252f4",
+                    "5e00cdd986f7747473332240"
+                },
                 CategoryId = "armorMod",
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.05,
@@ -2598,7 +2551,16 @@ namespace TotovBuilder.Model.Test
                 },
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
-                ConflictingItemIds = Array.Empty<string>(),
+                ConflictingItemIds = new string[]
+                {
+                    "5c0e66e2d174af02a96252f4",
+                    "5c0696830db834001d23f5da",
+                    "5c066e3a0db834001b7353f0",
+                    "5c0558060db834001b735271",
+                    "57235b6f24597759bf5a30f1",
+                    "5c110624d174af029e69734c",
+                    "5a16b8a9fcdbcb00165aa6ca"
+                },
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.08,
                 IconLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.jpg",
@@ -2606,8 +2568,10 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg",
                 MarketLink = "https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield",
                 Material = "Glass",
+                ModSlots = Array.Empty<ModSlot>(),
                 MovementSpeedPercentageModifier = 0,
                 Name = "Ops-Core FAST multi-hit ballistic face shield",
+                //RicochetChance = , // TODO : MISSING FROM API
                 ShortName = "FAST FS",
                 TurningSpeedPercentageModifier = -0.08,
                 Weight = 1.2,
@@ -2629,6 +2593,16 @@ namespace TotovBuilder.Model.Test
                 BaseItemId = "5a16b7e1fcdbcb00165aa6c9",
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
+                ConflictingItemIds = new string[]
+                {
+                    "5c0e66e2d174af02a96252f4",
+                    "5c0696830db834001d23f5da",
+                    "5c066e3a0db834001b7353f0",
+                    "5c0558060db834001b735271",
+                    "57235b6f24597759bf5a30f1",
+                    "5c110624d174af029e69734c",
+                    "5a16b8a9fcdbcb00165aa6ca"
+                },
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.08,
                 IconLink = "https://assets.tarkov.dev/preset-face-shield-alone-icon.jpg",
@@ -2636,7 +2610,6 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/preset-face-shield-alone-image.jpg",
                 MarketLink = "https://tarkov.dev/item/preset-face-shield-alone",
                 Material = "Glass",
-                ModSlots = Array.Empty<ModSlot>(),
                 MovementSpeedPercentageModifier = 0,
                 Name = "Face shield alone",
                 //RicochetChance = , // TODO : MISSING FROM API
@@ -2762,8 +2735,8 @@ namespace TotovBuilder.Model.Test
                     "Top",
                     "Nape"
                 },
+                BlocksHeadphones = false,
                 CategoryId = "headwear",
-                Deafening = "None",
                 Durability = 30,
                 ErgonomicsPercentageModifier = -0.06,
                 IconLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.jpg",
@@ -2781,7 +2754,7 @@ namespace TotovBuilder.Model.Test
                             "5a16b7e1fcdbcb00165aa6c9"
                         },
                         Name = "mod_equipment_000",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -2791,7 +2764,7 @@ namespace TotovBuilder.Model.Test
                             "5a16b8a9fcdbcb00165aa6ca"
                         },
                         Name = "mod_nvg",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -2801,12 +2774,11 @@ namespace TotovBuilder.Model.Test
                             "5a398ab9c4a282000c5a9842"
                         },
                         Name = "mod_mount",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 MovementSpeedPercentageModifier = -0.02,
                 Name = "MSA Gallet TC 800 High Cut combat helmet",
-                RicochetChance = string.Empty,
                 ShortName = "TC 800",
                 TurningSpeedPercentageModifier = -0.08,
                 Weight = 1.17,
@@ -2817,7 +2789,6 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 0,
                 ArmoredAreas = Array.Empty<string>(),
                 CategoryId = "headwear",
-                Deafening = "None",
                 Durability = 0,
                 ErgonomicsPercentageModifier = 0,
                 IconLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.jpg",
@@ -2842,7 +2813,6 @@ namespace TotovBuilder.Model.Test
             new Headwear()
             {
                 CategoryId = "headwear",
-                Deafening = "None",
                 IconLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-icon.jpg",
                 Id = "5a16bb52fcdbcb001a3b00dc",
                 ImageLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-image.jpg",
@@ -3125,7 +3095,8 @@ namespace TotovBuilder.Model.Test
                             "59d790f486f77403cb06aec6",
                             "57d17c5e2459775a5c57d17d"
                         },
-                        Name = "mod_flashlight"
+                        Name = "mod_flashlight",
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 Name = "Kiba Arms 25mm accessory ring mount",
@@ -3380,6 +3351,7 @@ namespace TotovBuilder.Model.Test
                             "628a664bccaab13006640e47"
                         },
                         Name = "mod_pistol_grip",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3390,6 +3362,7 @@ namespace TotovBuilder.Model.Test
                             "57dc347d245977596754e7a1"
                         },
                         Name = "mod_stock",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3399,6 +3372,7 @@ namespace TotovBuilder.Model.Test
                             "5648ac824bdc2ded0b8b457d"
                         },
                         Name = "mod_charge",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3415,7 +3389,8 @@ namespace TotovBuilder.Model.Test
                             "5bed61680db834001d2c45ab",
                             "5bed625c0db834001c062946"
                         },
-                        Name = "mod_magazine"
+                        Name = "mod_magazine",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3435,7 +3410,8 @@ namespace TotovBuilder.Model.Test
                             "564caa3d4bdc2d17108b458e",
                             "57ffb0e42459777d047111c5"
                         },
-                        Name = "mod_muzzle"
+                        Name = "mod_muzzle",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3444,7 +3420,8 @@ namespace TotovBuilder.Model.Test
                             "57dc334d245977597164366f",
                             "5839a7742459773cf9693481"
                         },
-                        Name = "mod_reciever"
+                        Name = "mod_reciever",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3452,7 +3429,8 @@ namespace TotovBuilder.Model.Test
                         {
                             "59d36a0086f7747e673f3946"
                         },
-                        Name = "mod_gas_block"
+                        Name = "mod_gas_block",
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 Name = "Kalashnikov AKS-74U 5.45x39 assault rifle",
@@ -3485,6 +3463,7 @@ namespace TotovBuilder.Model.Test
                             "5f3e77f59103d430b93f94c1"
                         },
                         Name = "mod_barrel",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3494,7 +3473,8 @@ namespace TotovBuilder.Model.Test
                             "5ef366938cef260c0642acad",
                             "626a9cb151cb5849f6002890"
                         },
-                        Name = "mod_pistol_grip"
+                        Name = "mod_pistol_grip",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3503,7 +3483,8 @@ namespace TotovBuilder.Model.Test
                             "5e81edc13397a21db957f6a1",
                             "5f3e7823ddc4f03b010e2045"
                         },
-                        Name = "mod_reciever"
+                        Name = "mod_reciever",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3513,7 +3494,8 @@ namespace TotovBuilder.Model.Test
                             "5f3e77b26cda304dcc634057",
                             "5ef3448ab37dfd6af863525c"
                         },
-                        Name = "mod_magazine"
+                        Name = "mod_magazine",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3523,7 +3505,8 @@ namespace TotovBuilder.Model.Test
                             "5e81c6a2ac2bb513793cdc7f",
                             "5f3e772a670e2a7b01739a52"
                         },
-                        Name = "mod_trigger"
+                        Name = "mod_trigger",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3535,7 +3518,8 @@ namespace TotovBuilder.Model.Test
                             "5ef35d2ac64c5d0dfc0571b0",
                             "5ef35bc243cb350a955a7ccd"
                         },
-                        Name = "mod_hammer"
+                        Name = "mod_hammer",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3545,7 +3529,8 @@ namespace TotovBuilder.Model.Test
                             "5f3e777688ca2d00ad199d25",
                             "5ef3553c43cb350a955a7ccb"
                         },
-                        Name = "mod_catch"
+                        Name = "mod_catch",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3553,7 +3538,8 @@ namespace TotovBuilder.Model.Test
                         {
                             "5ef5d994dfbc9f3c660ded95"
                         },
-                        Name = "mod_mount_000"
+                        Name = "mod_mount_000",
+                        Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -3561,7 +3547,8 @@ namespace TotovBuilder.Model.Test
                         {
                             "5ef369b08cef260c0642acaf"
                         },
-                        Name = "mod_mount_001"
+                        Name = "mod_mount_001",
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 Name = "Colt M1911A1 .45 ACP pistol",
@@ -3926,7 +3913,28 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = 0,
                 CategoryId = "rangedWeaponMod",
-                ConflictingItemIds = Array.Empty<string>(),
+                ConflictingItemIds = new string[]
+                {
+                    "5947db3f86f77447880cf76f",
+                    "57486e672459770abd687134",
+                    "5ac733a45acfc400192630e2",
+                    "5649b0544bdc2d1b2b8b458a",
+                    "5ac72e475acfc400180ae6fe",
+                    "59d650cf86f7741b846413a4",
+                    "5a0eb980fcdbcb001a3b00a6",
+                    "59e8977386f77415a553c453",
+                    "5649d9a14bdc2d79388b4580",
+                    "5c82342f2e221644f31c060e",
+                    "576fd4ec2459777f0b518431",
+                    "5c82343a2e221644f31c0611",
+                    "5cf638cbd7f00c06595bc936",
+                    "5a7c74b3e899ef0014332c29",
+                    "591ee00d86f774592f7b841e",
+                    "5d0a29ead7ad1a0026013f27",
+                    "57acb6222459771ec34b5cb0",
+                    "5c61a40d2e2216001403158d",
+                    "5c90c3622e221601da359851"
+                },
                 ErgonomicsModifier = 5,
                 IconLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-icon.jpg",
                 Id = "5d2c76ed48f03532f2136169",
@@ -3997,7 +4005,8 @@ namespace TotovBuilder.Model.Test
                             "626bb8532c923541184624b4",
                             "62811f461d5df4475f46a332"
                         },
-                        Name = "mod_scope"
+                        Name = "mod_scope",
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 Name = "AK AKademia Bastion dust cover",
@@ -4010,7 +4019,24 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyPercentageModifier = 0,
                 CategoryId = "rangedWeaponMod",
-                ConflictingItemIds = Array.Empty<string>(),
+                ConflictingItemIds = new string[]
+                {
+                    "591c4efa86f7741030027726",
+                    "570fd79bd2720bc7458b4583",
+                    "570fd6c2d2720bc6458b457f",
+                    "558022b54bdc2dac148b458d",
+                    "58491f3324597764bc48fa02",
+                    "584924ec24597768f12ae244",
+                    "5b30b0dc5acfc400153b7124",
+                    "60a23797a37c940de7062d02",
+                    "5d2da1e948f035477b1ce2ba",
+                    "5c0505e00db834001b735073",
+                    "609a63b6e2ff132951242d09",
+                    "584984812459776a704a82a6",
+                    "59f9d81586f7744c7506ee62",
+                    "570fd721d2720bc5458b4596",
+                    "5c7d55f52e221644f31bff6a"
+                },
                 ErgonomicsModifier = -6,
                 IconLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.jpg",
                 Id = "61714eec290d254f5e6b2ffc",
@@ -4563,6 +4589,7 @@ namespace TotovBuilder.Model.Test
                 Material = "Titan",
                 MovementSpeedPercentageModifier = -0.10,
                 Name = "6B3TM-01M armored rig",
+                //RicochetChance = , // TODO : MISSING FROM API
                 ShortName = "6B3TM-01M",
                 TurningSpeedPercentageModifier = -0.05,
                 Weight = 9.2,

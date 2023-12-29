@@ -1,6 +1,4 @@
-﻿using System;
-using System.Text.Json.Serialization;
-using TotovBuilder.Model.Items;
+﻿using System.Text.Json.Serialization;
 
 namespace TotovBuilder.Model.Configuration
 {
@@ -9,12 +7,6 @@ namespace TotovBuilder.Model.Configuration
     /// </summary>
     public class ItemMissingProperties
     {
-        /// <summary>
-        /// IDs of conflicting items.
-        /// </summary>
-        [JsonPropertyName("c")]
-        public string[] ConflictingItemIds { get; set; } = Array.Empty<string>();
-
         /// <summary>
         /// ID.
         /// </summary>
@@ -26,11 +18,5 @@ namespace TotovBuilder.Model.Configuration
         /// </summary>
         [JsonPropertyName("a")]
         public double MaxStackableAmount { get; set; } = 1;
-
-        /// <summary>
-        /// Ranged weapon chambers.
-        /// </summary>
-        [JsonPropertyName("ch")]
-        public ModSlot[] RangedWeaponChambers { get; set; } = Array.Empty<ModSlot>();
     }
 }
