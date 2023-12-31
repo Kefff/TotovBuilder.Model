@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using TotovBuilder.Model.Abstractions.Items;
 
 namespace TotovBuilder.Model.Utils.JsonConverters.Items
@@ -18,7 +19,8 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
         {
-            { nameof(IRangedWeapon.MinuteOfAngle), c => c.MinuteOfAngle == null }
+            { nameof(IRangedWeapon.MinuteOfAngle), rw => rw.MinuteOfAngle == null },
+            { nameof(IRangedWeapon.FireModes), rw => rw.FireModes.Length == 1 && rw.FireModes.Contains("SingleFire") } 
         };
 
         /// <inheritdoc/>
