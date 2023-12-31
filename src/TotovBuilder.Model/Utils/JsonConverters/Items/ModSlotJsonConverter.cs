@@ -14,9 +14,9 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<ModSlot, bool>> PropertyExclusionConditions = new Dictionary<string, Func<ModSlot, bool>>()
         {
-            { nameof(ModSlot.CompatibleItemIds), c => c.CompatibleItemIds.Length == 0 },
-            { nameof(ModSlot.MaxStackableAmount), c => c.MaxStackableAmount == 1 },
-            { nameof(ModSlot.Required), c => !c.Required }
+            { nameof(ModSlot.CompatibleItemIds), ms => ms.CompatibleItemIds.Length == 0 },
+            { nameof(ModSlot.MaxStackableAmount), ms => ms.MaxStackableAmount == 1 },
+            { nameof(ModSlot.Required), ms => !ms.Required }
         };
 
         /// <summary>
@@ -24,7 +24,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<ModSlot, object?>> PropertyValuesObtentions = new Dictionary<string, Func<ModSlot, object?>>()
         {
-            { nameof(ModSlot.Required), a => 1 }
+            { nameof(ModSlot.Required), ms => 1 }
         };
 
         /// <inheritdoc/>

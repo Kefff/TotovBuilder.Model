@@ -18,9 +18,9 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
         {
-            { nameof(IWearable.ErgonomicsPercentageModifier), a => a.ErgonomicsPercentageModifier == 0 },
-            { nameof(IWearable.MovementSpeedPercentageModifier), a => a.MovementSpeedPercentageModifier == 0 },
-            { nameof(IWearable.TurningSpeedPercentageModifier), a => a.TurningSpeedPercentageModifier == 0 },
+            { nameof(IWearable.ErgonomicsPercentageModifier), v => v.ErgonomicsPercentageModifier == 0 },
+            { nameof(IWearable.MovementSpeedPercentageModifier), v => v.MovementSpeedPercentageModifier == 0 },
+            { nameof(IWearable.TurningSpeedPercentageModifier), v => v.TurningSpeedPercentageModifier == 0 }
         };
     }
 }

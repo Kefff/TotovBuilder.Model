@@ -18,9 +18,9 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
         {
-            { nameof(IGrenade.FragmentsAmount), c => c.FragmentsAmount == 0 },
-            { nameof(IGrenade.MaximumExplosionRange), c => c.MaximumExplosionRange == 0 },
-            { nameof(IGrenade.MinimumExplosionRange), c => c.MinimumExplosionRange == 0 }
+            { nameof(IGrenade.FragmentsAmount), g => g.FragmentsAmount == 0 },
+            { nameof(IGrenade.MaximumExplosionRange), g => g.MaximumExplosionRange == 0 },
+            { nameof(IGrenade.MinimumExplosionRange), g => g.MinimumExplosionRange == 0 }
         };
 
         /// <inheritdoc/>
