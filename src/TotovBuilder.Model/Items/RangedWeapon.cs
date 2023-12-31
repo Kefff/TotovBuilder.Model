@@ -41,7 +41,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("ma")]
-        public double MinuteOfAngle { get; set; }
+        public double? MinuteOfAngle { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("mo")]

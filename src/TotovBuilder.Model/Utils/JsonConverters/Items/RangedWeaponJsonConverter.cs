@@ -18,7 +18,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
         {
-            { nameof(IRangedWeapon.MinuteOfAngle), c => c.MinuteOfAngle == 0 }
+            { nameof(IRangedWeapon.MinuteOfAngle), c => c.MinuteOfAngle == null }
         };
 
         /// <inheritdoc/>

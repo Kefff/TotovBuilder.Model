@@ -18,6 +18,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
         {
+            { nameof(IItem.CategoryId), i => i.CategoryId == "other" },
             { nameof(IItem.ConflictingItemIds), i => i.ConflictingItemIds.Length == 0 },
             { nameof(IItem.MaxStackableAmount), i => i.MaxStackableAmount == 1 },
             { nameof(IItem.Weight), i => i.Weight == 0 }

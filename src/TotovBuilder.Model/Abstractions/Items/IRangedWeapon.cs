@@ -35,7 +35,7 @@
         /// <summary>
         /// Minute of angle. Represents the weapon accuracy.
         /// </summary>
-        double MinuteOfAngle { get; set; }
+        double? MinuteOfAngle { get; set; }
 
         /// <summary>
         /// Vertical recoil.
