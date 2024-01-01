@@ -7,7 +7,7 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static TarkovValues TarkovValues { get; } = new()
+        public static TarkovValues TarkovValues { get; } = new TarkovValues()
         {
             ArmorPenetrationEfficiencies = new string[]
             {

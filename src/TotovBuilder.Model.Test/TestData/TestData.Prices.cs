@@ -258,7 +258,7 @@ namespace TotovBuilder.Model.Test
                 ItemId = "58948c8e86f77409493f7266",
                 Merchant = "peacekeeper",
                 MerchantLevel = 2,
-                Quest = new()
+                Quest = new Quest()
                 {
                     Id = "5a27b80086f774429a5d7e20",
                     Name = "Eagle Eye",

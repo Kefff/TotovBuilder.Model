@@ -194,6 +194,105 @@
           },
           {
             ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""conflictingItems"": [
+          {
+            ""id"": ""5a16ba61fcdbcb098008728a""
+          },
+          {
+            ""id"": ""5a16b672fcdbcb001912fa83""
+          },
+          {
+            ""id"": ""5a16b7e1fcdbcb00165aa6c9""
+          },
+          {
+            ""id"": ""5aa7e3abe5b5b000171d064d""
+          },
+          {
+            ""id"": ""5c0e66e2d174af02a96252f4""
+          },
+          {
+            ""id"": ""5e00cdd986f7747473332240""
+          }
+        ],
+        ""conflictingSlotIds"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-icon.webp"",
+        ""id"": ""5ea18c84ecf1982c7712d9a2"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-image.webp"",
+        ""link"": ""https://tarkov.dev/item/diamond-age-bastion-helmet-armor-plate"",
+        ""name"": ""Diamond Age Bastion helmet armor plate"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesArmorAttachment"",
+          ""blindnessProtection"": 0,
+          ""class"": 6,
+          ""durability"": 40,
+          ""ergoPenalty"": -5,
+          ""headZones"": [
+            ""Top of the head"",
+            ""Nape""
+          ],
+          ""material"": {
+            ""name"": ""Ceramic""
+          },
+          ""slots"": [
+            {
+              ""nameId"": ""mod_nvg"",
+              ""filters"": {
+                ""allowedItems"": [
+                  {
+                    ""id"": ""5c0558060db834001b735271""
+                  },
+                  {
+                    ""id"": ""5a16b8a9fcdbcb00165aa6ca""
+                  }
+                ]
+              }
+            }
+          ],
+          ""speedPenalty"": 0,
+          ""turnPenalty"": -0.06
+        },
+        ""shortName"": ""Bastion plate"",
+        ""weight"": 0.99,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Diamond_Age_Bastion_helmet_armor_plate""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+            ""id"": ""543be5f84bdc2dd4348b456a""
+          }
+        ],
+        ""conflictingItems"": [
+          {
+            ""id"": ""5c0e66e2d174af02a96252f4""
+          },
+          {
+            ""id"": ""5c0696830db834001d23f5da""
+          },
+          {
+            ""id"": ""5c066e3a0db834001b7353f0""
+          },
+          {
+            ""id"": ""5c0558060db834001b735271""
+          },
+          {
+            ""id"": ""57235b6f24597759bf5a30f1""
+          },
+          {
+            ""id"": ""5c110624d174af029e69734c""
+          },
+          {
+            ""id"": ""5a16b8a9fcdbcb00165aa6ca""
           }
         ],
         ""iconLink"": ""https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.jpg"",
@@ -264,6 +363,22 @@
         ""shortName"": ""Attack 2"",
         ""weight"": 2.8,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/SSO_Attack_2_raid_backpack""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5448e53e4bdc2d60728b4567""
+          }
+        ],
+        ""iconLink"": """",
+        ""id"": ""testBackpack"",
+        ""inspectImageLink"": """",
+        ""link"": """",
+        ""name"": """",
+        ""properties"": null,
+        ""shortName"": """",
+        ""weight"": 0,
+        ""wikiLink"": """"
       },
       {
         ""categories"": [
@@ -1297,6 +1412,65 @@
             ""id"": ""5448fe124bdc2da5018b4567""
           }
         ],
+        ""conflictingItems"": [
+            {
+                ""id"": ""5947db3f86f77447880cf76f""
+            },
+            {
+                ""id"": ""57486e672459770abd687134""
+            },
+            {
+                ""id"": ""5ac733a45acfc400192630e2""
+            },
+            {
+                ""id"": ""5649b0544bdc2d1b2b8b458a""
+            },
+            {
+                ""id"": ""5ac72e475acfc400180ae6fe""
+            },
+            {
+                ""id"": ""59d650cf86f7741b846413a4""
+            },
+            {
+                ""id"": ""5a0eb980fcdbcb001a3b00a6""
+            },
+            {
+                ""id"": ""59e8977386f77415a553c453""
+            },
+            {
+                ""id"": ""5649d9a14bdc2d79388b4580""
+            },
+            {
+                ""id"": ""5c82342f2e221644f31c060e""
+            },
+            {
+                ""id"": ""576fd4ec2459777f0b518431""
+            },
+            {
+                ""id"": ""5c82343a2e221644f31c0611""
+            },
+            {
+                ""id"": ""5cf638cbd7f00c06595bc936""
+            },
+            {
+                ""id"": ""5a7c74b3e899ef0014332c29""
+            },
+            {
+                ""id"": ""591ee00d86f774592f7b841e""
+            },
+            {
+                ""id"": ""5d0a29ead7ad1a0026013f27""
+            },
+            {
+                ""id"": ""57acb6222459771ec34b5cb0""
+            },
+            {
+                ""id"": ""5c61a40d2e2216001403158d""
+            },
+            {
+                ""id"": ""5c90c3622e221601da359851""
+            }
+        ],
         ""iconLink"": ""https://assets.tarkov.dev/5d2c76ed48f03532f2136169-icon.jpg"",
         ""id"": ""5d2c76ed48f03532f2136169"",
         ""inspectImageLink"": ""https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.jpg"",
@@ -1508,6 +1682,53 @@
           },
           {
             ""id"": ""5448fe124bdc2da5018b4567""
+          }
+        ],
+        ""conflictingItems"": [
+          {
+            ""id"": ""591c4efa86f7741030027726""
+          },
+          {
+            ""id"": ""570fd79bd2720bc7458b4583""
+          },
+          {
+            ""id"": ""570fd6c2d2720bc6458b457f""
+          },
+          {
+            ""id"": ""558022b54bdc2dac148b458d""
+          },
+          {
+            ""id"": ""58491f3324597764bc48fa02""
+          },
+          {
+            ""id"": ""584924ec24597768f12ae244""
+          },
+          {
+            ""id"": ""5b30b0dc5acfc400153b7124""
+          },
+          {
+            ""id"": ""60a23797a37c940de7062d02""
+          },
+          {
+            ""id"": ""5d2da1e948f035477b1ce2ba""
+          },
+          {
+            ""id"": ""5c0505e00db834001b735073""
+          },
+          {
+            ""id"": ""609a63b6e2ff132951242d09""
+          },
+          {
+            ""id"": ""584984812459776a704a82a6""
+          },
+          {
+            ""id"": ""59f9d81586f7744c7506ee62""
+          },
+          {
+            ""id"": ""570fd721d2720bc5458b4596""
+          },
+          {
+            ""id"": ""5c7d55f52e221644f31bff6a""
           }
         ],
         ""iconLink"": ""https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.jpg"",

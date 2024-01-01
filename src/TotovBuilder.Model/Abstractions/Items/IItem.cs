@@ -1,6 +1,4 @@
-﻿using TotovBuilder.Model.Items;
-
-namespace TotovBuilder.Model.Abstractions.Items
+﻿namespace TotovBuilder.Model.Abstractions.Items
 {
     /// <summary>
     /// Provides the functionalities of an item.
@@ -46,11 +44,6 @@ namespace TotovBuilder.Model.Abstractions.Items
         /// Name.
         /// </summary>
         string Name { get; set; }
-
-        /// <summary>
-        /// Prices.
-        /// </summary>
-        Price[] Prices { get; set; }
 
         /// <summary>
         /// Short name.
