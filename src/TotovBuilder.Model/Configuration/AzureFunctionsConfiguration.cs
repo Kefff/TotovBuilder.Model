@@ -57,7 +57,7 @@
         public int CacheDuration { get; set; } = 43200;
 
         /// <summary>
-        /// Time (in seconds) before a an operation is timed out.
+        /// Time (in seconds) before an operation is timed out.
         /// </summary>
         public int ExecutionTimeout { get; set; } = 30;
 
