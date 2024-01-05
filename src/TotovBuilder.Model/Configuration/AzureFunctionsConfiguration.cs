@@ -41,9 +41,9 @@
         public string AzureBlobStorageRawDataContainerName { get; set; } = string.Empty;
 
         /// <summary>
-        /// Name of the Azure blob storage containing the generated data used by the website.
+        /// Name of the Azure blob storage containing the website.
         /// </summary>
-        public string AzureBlobStorageWebsiteDataContainerName { get; set; } = string.Empty;
+        public string AzureBlobStorageWebsiteContainerName { get; set; } = string.Empty;
 
         /// <summary>
         /// Name of the Azure blob containing Azure Functions configuration data.

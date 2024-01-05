@@ -14,7 +14,7 @@
     ""ApiUrl"": ""https://api.tarkov.dev/graphql"",
     ""AzureBlobStorageConnectionString"": ""DefaultEndpointsProtocol=https;AccountName=;AccountKey=;EndpointSuffix=core.windows.net"",
     ""AzureBlobStorageRawDataContainerName"": ""totov-builder-raw-data"",
-    ""AzureBlobStorageWebsiteDataContainerName"": ""$web"",
+    ""AzureBlobStorageWebsiteContainerName"": ""$web"",
     ""AzureFunctionsConfigurationBlobName"": ""azure-functions-configuration.json"",
     ""CacheDuration"": 43200,
     ""FetchTimeout"": 30,
