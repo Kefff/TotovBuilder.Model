@@ -52,19 +52,9 @@
         public string AzureFunctionsConfigurationBlobName { get; set; } = string.Empty;
 
         /// <summary>
-        /// Time (in seconds) fetched API data is kept before needing to refresh it.
-        /// </summary>
-        public int CacheDuration { get; set; } = 43200;
-
-        /// <summary>
         /// Time (in seconds) before an operation is timed out.
         /// </summary>
         public int ExecutionTimeout { get; set; } = 30;
-
-        /// <summary>
-        /// Time (in seconds) fetched API prices are kept before needing to refresh them.
-        /// </summary>
-        public int PriceCacheDuration { get; set; } = 3600;
 
         /// <summary>
         /// Name of the Azure blob containing raw armor penetrations data.
@@ -95,6 +85,16 @@
         /// Name of the Azure blob containing raw website configuration data.
         /// </summary>
         public string RawWebsiteConfigurationBlobName { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Value of the <c>Cache-Control</c> HTTP header to apply to website data.
+        /// </summary>
+        public string WebsiteDataCacheControl { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Value of the <c>Cache-Control</c> HTTP header to apply to website files.
+        /// </summary>
+        public string WebsiteFileCacheControl { get; set; } = string.Empty;
 
         /// <summary>
         /// Name of the Azure blob containing changelog data for the website.
