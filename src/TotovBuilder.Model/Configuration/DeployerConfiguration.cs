@@ -43,7 +43,7 @@
         /// <summary>
         /// Path to the Tarkov executable file.
         /// </summary>
-        public string TarkovExecutableFilePath { get; set; } = string.Empty;
+        public string TarkovLauncherExecutableFilePath { get; set; } = string.Empty;
 
         /// <summary>
         /// Path of the Tarkov file data are extracted from.
@@ -54,6 +54,16 @@
         /// Name of the directory containing the TotovBuilder website build result.
         /// </summary>
         public string WebsiteBuildDirectory { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Command for compiling the TotovBuilder website project.
+        /// </summary>
+        public string WebsiteCompilationCommand { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Pattern to avoid having website data files being deleted when deploying the website to Azure.
+        /// </summary>
+        public string WebsiteDeploymentFileNotToDeletePattern { get; set; } = string.Empty;
 
         /// <summary>
         /// Path to the directory containing the TotovBuilder website project.

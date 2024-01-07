@@ -18,7 +18,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters
         where TClass : class, TInterface
     {
         /// <inheritdoc/>
-        [ExcludeFromCodeCoverage(Justification = "Should never be called")]
+        [ExcludeFromCodeCoverage(Justification = "Should never be called.")]
         public override TClass? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
         {
             throw new NotImplementedException();
