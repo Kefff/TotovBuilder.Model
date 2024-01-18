@@ -228,7 +228,7 @@ namespace TotovBuilder.Model.Test
                         },
                         MaxStackableAmount = 1,
                         Name = "mod_nvg",
-                        Required = false
+                        Required = false // TODO : MISSING FROM API
                     }
                 },
                 MovementSpeedPercentageModifier = 0,
