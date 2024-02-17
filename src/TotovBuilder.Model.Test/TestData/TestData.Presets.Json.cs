@@ -259,6 +259,29 @@
                   }
                 ],
                 ""id"": ""preset-face-shield-alone""
+              },
+              {
+                ""containsItems"": [
+                  {
+                    ""item"": {
+                      ""id"": ""545cdb794bdc2d3a198b456a""
+                    },
+                    ""quantity"": 1
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""64afc71497cf3a403c01ff38""
+                    },
+                    ""quantity"": 2
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""64afd81707e2cf40e903a316""
+                    },
+                    ""quantity"": 2
+                  }
+                ],
+                ""id"": ""65766adc234b9f6e050a431a""
               }
             ]
           }

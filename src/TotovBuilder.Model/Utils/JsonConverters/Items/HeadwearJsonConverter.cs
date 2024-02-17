@@ -20,6 +20,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         {
             { nameof(IHeadwear.BlocksHeadphones), h => !h.BlocksHeadphones },
             { nameof(IHeadwear.Deafening), h => h.Deafening == "None" },
+            { nameof(IHeadwear.RicochetChance), a => a.RicochetChance == string.Empty }
         };
 
         /// <summary>

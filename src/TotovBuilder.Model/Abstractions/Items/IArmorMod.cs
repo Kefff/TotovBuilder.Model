@@ -3,7 +3,7 @@
     /// <summary>
     /// Provides the functionalities of an armor mod.
     /// </summary>
-    public interface IArmorMod : IArmor, IModdable
+    public interface IArmorMod : IArmor
     {
         /// <summary>
         /// Blindness protection percentage.

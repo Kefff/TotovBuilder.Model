@@ -12,11 +12,18 @@
         ""categories"": [
           {
             ""id"": ""5485a8684bdc2da71d8b4567""
+          },
+          {
+            ""id"": ""5661632d4bdc2d903d8b456b""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-icon.jpg"",
+        ""conflictingItems"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-icon.webp"",
         ""id"": ""601aa3d2b2bcb34913271e6d"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-image.webp"",
         ""link"": ""https://tarkov.dev/item/762x39mm-mai-ap"",
         ""name"": ""7.62x39mm MAI AP"",
         ""properties"": {
@@ -28,7 +35,7 @@
           ""durabilityBurnFactor"": 1.7,
           ""fragmentationChance"": 0.05,
           ""heavyBleedModifier"": 0.1,
-          ""initialSpeed"": 730,
+          ""initialSpeed"": 875,
           ""lightBleedModifier"": 0.1,
           ""penetrationChance"": 0.65,
           ""penetrationPower"": 58,
@@ -39,7 +46,7 @@
           ""tracer"": false
         },
         ""shortName"": ""MAI AP"",
-        ""weight"": 0.012,
+        ""weight"": 0.015,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/7.62x39mm_MAI_AP""
       },
       {
@@ -54,9 +61,10 @@
             ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.jpg"",
+        ""conflictingItems"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.webp"",
         ""id"": ""5d6e6806a4b936088465b17e"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.webp"",
         ""link"": ""https://tarkov.dev/item/1270-85mm-magnum-buckshot"",
         ""name"": ""12/70 8.5mm Magnum buckshot"",
         ""properties"": {
@@ -94,26 +102,27 @@
             ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.jpg"",
+        ""conflictingItems"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.webp"",
         ""id"": ""56dff4ecd2720b5f5a8b4568"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-image.webp"",
         ""link"": ""https://tarkov.dev/item/545x39mm-us-gs"",
         ""name"": ""5.45x39mm US gs"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesAmmo"",
           ""accuracyModifier"": 0,
-          ""armorDamage"": 34,
+          ""armorDamage"": 33,
           ""caliber"": ""Caliber545x39"",
-          ""damage"": 65,
+          ""damage"": 63,
           ""durabilityBurnFactor"": 0.8,
           ""fragmentationChance"": 0.1,
           ""heavyBleedModifier"": 0,
           ""initialSpeed"": 303,
           ""lightBleedModifier"": 0,
           ""penetrationChance"": 0.45,
-          ""penetrationPower"": 15,
+          ""penetrationPower"": 17,
           ""projectileCount"": 1,
-          ""recoilModifier"": -0.25,
+          ""recoilModifier"": -0.15,
           ""ricochetChance"": 0.4,
           ""stackMaxSize"": 60,
           ""tracer"": false
@@ -148,44 +157,123 @@
           },
           {
             ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.jpg"",
+        ""conflictingItems"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp"",
         ""id"": ""545cdb794bdc2d3a198b456a"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor"",
-        ""name"": ""6B43 6A Zabralo-Sh body armor"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp"",
+        ""link"": ""https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora"",
+        ""name"": ""6B43 Zabralo-Sh body armor (Digital Flora)"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesArmor"",
+          ""armorSlots"": [
+            {
+              ""__typename"": ""ItemArmorSlotOpen"",
+              ""nameId"": ""Front_plate"",
+              ""zones"": [
+                ""FR. PLATE""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotOpen"",
+              ""nameId"": ""Back_plate"",
+              ""zones"": [
+                ""BCK. PLATE""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotOpen"",
+              ""nameId"": ""Left_side_plate"",
+              ""zones"": [
+                ""L. PLATE""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotOpen"",
+              ""nameId"": ""Right_side_plate"",
+              ""zones"": [
+                ""R. PLATE""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Soft_armor_front"",
+              ""zones"": [
+                ""Stomach"",
+                ""Chest""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Soft_armor_back"",
+              ""zones"": [
+                ""Thorax, Upper back"",
+                ""Stomach, Lower back""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Soft_armor_left"",
+              ""zones"": [
+                ""Stomach, Left Side""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""soft_armor_right"",
+              ""zones"": [
+                ""Stomach, Right Side""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Collar"",
+              ""zones"": [
+                ""Head, Throat"",
+                ""Head, Neck""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Shoulder_l"",
+              ""zones"": [
+                ""Left arm, Shoulder""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Shoulder_r"",
+              ""zones"": [
+                ""Right arm, Shoulder""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Groin"",
+              ""zones"": [
+                ""Stomach, Groin""
+              ]
+            }
+          ],
           ""class"": 6,
-          ""durability"": 85,
-          ""ergoPenalty"": -27,
+          ""durability"": 0,
+          ""ergoPenalty"": -0.1,
           ""material"": {
-            ""name"": ""Combined materials""
+            ""name"": ""Aramid""
           },
-          ""speedPenalty"": -0.35,
-          ""turnPenalty"": -0.21,
-          ""zones"": [""Left Arm"", ""Right Arm"", ""THORAX"", ""STOMACH""]
+          ""speedPenalty"": -0.115,
+          ""turnPenalty"": -0.055
         },
-        ""shortName"": ""6B43 6A"",
-        ""weight"": 20,
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B43_6A_Zabralo-Sh_body_armor""
-      },
-      {
-        ""categories"": [
-          {
-            ""id"": ""5448e54d4bdc2dcc718b4568""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testArmor"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""shortName"": ""6B43"",
+        ""weight"": 10.8,
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)""
       },
       {
         ""categories"": [
@@ -222,7 +310,6 @@
             ""id"": ""5e00cdd986f7747473332240""
           }
         ],
-        ""conflictingSlotIds"": [],
         ""iconLink"": ""https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-icon.webp"",
         ""id"": ""5ea18c84ecf1982c7712d9a2"",
         ""inspectImageLink"": ""https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-image.webp"",
@@ -233,10 +320,10 @@
           ""blindnessProtection"": 0,
           ""class"": 6,
           ""durability"": 40,
-          ""ergoPenalty"": -5,
+          ""ergoPenalty"": -0.05,
           ""headZones"": [
-            ""Top of the head"",
-            ""Nape""
+            ""Head, Top of the head"",
+            ""Head, Nape""
           ],
           ""material"": {
             ""name"": ""Ceramic""
@@ -270,6 +357,12 @@
           },
           {
             ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
           }
         ],
         ""conflictingItems"": [
@@ -293,11 +386,17 @@
           },
           {
             ""id"": ""5a16b8a9fcdbcb00165aa6ca""
+          },
+          {
+            ""id"": ""5a398b75c4a282000a51a266""
+          },
+          {
+            ""id"": ""5a398ab9c4a282000c5a9842""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.jpg"",
+        ""iconLink"": ""https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.webp"",
         ""id"": ""5a16b7e1fcdbcb00165aa6c9"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.webp"",
         ""link"": ""https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield"",
         ""name"": ""Ops-Core FAST multi-hit ballistic face shield"",
         ""properties"": {
@@ -305,11 +404,16 @@
           ""blindnessProtection"": 0.1,
           ""class"": 3,
           ""durability"": 40,
-          ""ergoPenalty"": -8,
-          ""headZones"": [""Eyes"", ""Jaws""],
+          ""ergoPenalty"": -0.04,
+          ""headZones"": [
+            ""Head, Face"",
+            ""Head, Eyes"",
+            ""Head, Jaws""
+          ],
           ""material"": {
             ""name"": ""Glass""
           },
+          ""slots"": [],
           ""speedPenalty"": 0,
           ""turnPenalty"": -0.08
         },
@@ -552,21 +656,43 @@
           },
           {
             ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.jpg"",
+        ""conflictingItems"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.webp"",
         ""id"": ""5e4bfc1586f774264f7582d3"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet"",
-        ""name"": ""MSA Gallet TC 800 High Cut combat helmet"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.webp"",
+        ""link"": ""https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet-black"",
+        ""name"": ""MSA Gallet TC 800 High Cut combat helmet (Black)"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesHelmet"",
+          ""armorSlots"": [
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Helmet_top"",
+              ""zones"": [
+                ""Head, Top of the head""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Helmet_back"",
+              ""zones"": [
+                ""Head, Nape""
+              ]
+            }
+          ],
           ""blocksHeadset"": false,
           ""class"": 4,
           ""deafening"": ""None"",
-          ""durability"": 30,
-          ""ergoPenalty"": -6,
-          ""headZones"": [""Top"", ""Nape""],
+          ""durability"": 0,
+          ""ergoPenalty"": -1,
           ""material"": {
             ""name"": ""Combined materials""
           },
@@ -612,8 +738,8 @@
               }
             }
           ],
-          ""speedPenalty"": -0.02,
-          ""turnPenalty"": -0.08
+          ""speedPenalty"": 0,
+          ""turnPenalty"": -0.02
         },
         ""shortName"": ""TC 800"",
         ""weight"": 1.17,
@@ -1801,51 +1927,102 @@
         ""categories"": [
           {
             ""id"": ""5448e5284bdc2dcb718b4567""
+          },
+          {
+            ""id"": ""566168634bdc2d144c8b456c""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.jpg"",
+        ""conflictingItems"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.webp"",
         ""id"": ""5d5d646386f7742797261fd9"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/6b3tm-01m-armored-rig"",
-        ""name"": ""6B3TM-01M armored rig"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.webp"",
+        ""link"": ""https://tarkov.dev/item/6b3tm-01-armored-rig-khaki"",
+        ""name"": ""6B3TM-01 armored rig (Khaki)"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesChestRig"",
+          ""armorSlots"": [
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Soft_armor_front"",
+              ""zones"": [
+                ""Chest"",
+                ""Stomach""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Soft_armor_back"",
+              ""zones"": [
+                ""Thorax, Upper back"",
+                ""Stomach, Lower back""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Groin"",
+              ""zones"": [
+                ""Stomach, Groin""
+              ]
+            },
+            {
+              ""__typename"": ""ItemArmorSlotLocked"",
+              ""nameId"": ""Groin_back"",
+              ""zones"": [
+                ""Stomach, Buttocks""
+              ]
+            }
+          ],
           ""capacity"": 12,
           ""class"": 4,
-          ""durability"": 40,
-          ""ergoPenalty"": -15,
+          ""durability"": null,
+          ""ergoPenalty"": -7,
           ""material"": {
             ""name"": ""Titan""
           },
-          ""speedPenalty"": -0.1,
-          ""turnPenalty"": -0.05,
-          ""zones"": [""THORAX"", ""STOMACH""]
+          ""speedPenalty"": -0.05,
+          ""turnPenalty"": -0.01
         },
-        ""shortName"": ""6B3TM-01M"",
-        ""weight"": 9.2,
+        ""shortName"": ""6B3TM-01"",
+        ""weight"": 8.2,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B3TM-01M_armored_rig""
       },
       {
         ""categories"": [
           {
             ""id"": ""5448e5284bdc2dcb718b4567""
+          },
+          {
+            ""id"": ""566168634bdc2d144c8b456c""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https://assets.tarkov.dev/572b7adb24597762ae139821-icon.jpg"",
+        ""conflictingItems"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/572b7adb24597762ae139821-icon.webp"",
         ""id"": ""572b7adb24597762ae139821"",
-        ""inspectImageLink"": ""https://assets.tarkov.dev/572b7adb24597762ae139821-image.jpg"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/572b7adb24597762ae139821-image.webp"",
         ""link"": ""https://tarkov.dev/item/scav-vest"",
         ""name"": ""Scav Vest"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesChestRig"",
+          ""armorSlots"": null,
           ""capacity"": 6,
           ""class"": null,
           ""durability"": null,
           ""ergoPenalty"": null,
           ""material"": null,
           ""speedPenalty"": null,
-          ""turnPenalty"": null,
-          ""zones"": null
+          ""turnPenalty"": null
         },
         ""shortName"": ""Scav Vest"",
         ""weight"": 0.4,
@@ -3833,6 +4010,41 @@
         ""shortName"": ""GT"",
         ""weight"": 0.006,
         ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/9x19mm_Green_Tracer""
+      },
+      {
+        ""categories"": [
+          {
+            ""id"": ""5448e54d4bdc2dcc718b4568""
+          },
+          {
+            ""id"": ""57bef4c42459772e8d35a53b""
+          },
+          {
+            ""id"": ""543be5f84bdc2dd4348b456a""
+          },
+          {
+            ""id"": ""566162e44bdc2d3f298b4573""
+          },
+          {
+            ""id"": ""54009119af1c881c07000029""
+          }
+        ],
+        ""conflictingItems"": [],
+        ""iconLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp"",
+        ""id"": ""65766adc234b9f6e050a431a"",
+        ""inspectImageLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp"",
+        ""link"": ""https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora-default"",
+        ""name"": ""6B43 Zabralo-Sh body armor (Digital Flora) Default"",
+        ""properties"": {
+          ""__typename"": ""ItemPropertiesPreset"",
+          ""baseItem"": {
+            ""id"": ""545cdb794bdc2d3a198b456a""
+          },
+          ""moa"": null
+        },
+        ""shortName"": ""6B43 Default"",
+        ""weight"": 20,
+        ""wikiLink"": """"
       },
       {
         ""categories"": [

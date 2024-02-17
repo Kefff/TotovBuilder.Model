@@ -194,11 +194,6 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 6,
-                ArmoredAreas = new string[]
-                {
-                    "TopOfTheHead",
-                    "Nape"
-                },
                 BlindnessProtectionPercentage = 0,
                 ConflictingItemIds = new string[]
                 {
@@ -242,11 +237,6 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 3,
-                ArmoredAreas = new string[]
-                {
-                    "Eyes",
-                    "Jaws"
-                },
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
                 ConflictingItemIds = new string[]
@@ -283,11 +273,6 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 3,
-                ArmoredAreas = new string[]
-                {
-                    "Eyes",
-                    "Jaws"
-                },
                 BaseItemId = "5a16b7e1fcdbcb00165aa6c9",
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
@@ -2482,7 +2467,6 @@ namespace TotovBuilder.Model.Test
                 Material = "CombinedMaterials",
                 MovementSpeedPercentageModifier = -0.35,
                 Name = "6B43 6A Zabralo-Sh body armor",
-                //RicochetChance = , // TODO : MISSING FROM API
                 ShortName = "6B43 6A",
                 TurningSpeedPercentageModifier = -0.21,
                 Weight = 20,
@@ -2496,11 +2480,6 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 6,
-                ArmoredAreas = new string[]
-                {
-                    "TopOfTheHead",
-                    "Nape"
-                },
                 BlindnessProtectionPercentage = 0,
                 ConflictingItemIds = new string[]
                 {
@@ -2535,7 +2514,6 @@ namespace TotovBuilder.Model.Test
                 },
                 MovementSpeedPercentageModifier = 0,
                 Name = "Diamond Age Bastion helmet armor plate",
-                //RicochetChance = , // TODO : MISSING FROM API
                 ShortName = "Bastion plate",
                 TurningSpeedPercentageModifier = -0.06,
                 Weight = 0.99,
@@ -2544,11 +2522,6 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 3,
-                ArmoredAreas = new string[]
-                {
-                    "Eyes",
-                    "Jaws"
-                },
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
                 ConflictingItemIds = new string[]
@@ -2571,7 +2544,6 @@ namespace TotovBuilder.Model.Test
                 ModSlots = Array.Empty<ModSlot>(),
                 MovementSpeedPercentageModifier = 0,
                 Name = "Ops-Core FAST multi-hit ballistic face shield",
-                //RicochetChance = , // TODO : MISSING FROM API
                 ShortName = "FAST FS",
                 TurningSpeedPercentageModifier = -0.08,
                 Weight = 1.2,
@@ -2585,11 +2557,6 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 3,
-                ArmoredAreas = new string[]
-                {
-                    "Eyes",
-                    "Jaws"
-                },
                 BaseItemId = "5a16b7e1fcdbcb00165aa6c9",
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
@@ -2612,7 +2579,6 @@ namespace TotovBuilder.Model.Test
                 Material = "Glass",
                 MovementSpeedPercentageModifier = 0,
                 Name = "Face shield alone",
-                //RicochetChance = , // TODO : MISSING FROM API
                 ShortName = "FSA",
                 TurningSpeedPercentageModifier = -0.08,
                 Weight = 1.2,

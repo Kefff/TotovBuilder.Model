@@ -3,7 +3,7 @@
     /// <summary>
     /// Provides the functionalities of an armor.
     /// </summary>
-    public interface IArmor : IWearable
+    public interface IArmor : IModdable, IWearable
     {
         /// <summary>
         /// Armor class.
@@ -24,10 +24,5 @@
         /// Material which composes the armor.
         /// </summary>
         string Material { get; set; }
-
-        /// <summary>
-        /// Chance of ricochet.
-        /// </summary>
-        string RicochetChance { get; set; }
     }
 }

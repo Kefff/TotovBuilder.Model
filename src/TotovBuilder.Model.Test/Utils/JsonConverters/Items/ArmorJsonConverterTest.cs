@@ -47,7 +47,6 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Material = "CombinedMaterials",
                     MovementSpeedPercentageModifier = -0.35,
                     Name = "6B43 6A Zabralo-Sh body armor",
-                    RicochetChance = "High",
                     ShortName = "6B43 6A",
                     TurningSpeedPercentageModifier = -0.21,
                     Weight = 20,
@@ -59,7 +58,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
             string result = Serialize(armors);
 
             // Assert
-            result.Should().Be("[{\"c\":\"armor\",\"ic\":\"https://assets.tarkov.dev/unknown-icon.jpg\",\"i\":\"unknown\",\"im\":\"https://assets.tarkov.dev/unknown-image.jpg\",\"m\":\"https://tarkov.dev/item/unknown\",\"n\":\"Unknown\",\"s\":\"Unknown\",\"w\":0.2,\"wi\":\"https://escapefromtarkov.fandom.com/wiki/Unknown\"},{\"ac\":6,\"aa\":[\"LeftArm\",\"RightArm\",\"Thorax\",\"Stomach\"],\"d\":85,\"e\":-0.27,\"ma\":\"CombinedMaterials\",\"ms\":-0.35,\"r\":\"High\",\"t\":-0.21,\"c\":\"armor\",\"ic\":\"https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.jpg\",\"i\":\"545cdb794bdc2d3a198b456a\",\"im\":\"https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg\",\"m\":\"https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor\",\"n\":\"6B43 6A Zabralo-Sh body armor\",\"s\":\"6B43 6A\",\"w\":20,\"wi\":\"https://escapefromtarkov.fandom.com/wiki/6B43_6A_Zabralo-Sh_body_armor\"}]");
+            result.Should().Be("[{\"c\":\"armor\",\"ic\":\"https://assets.tarkov.dev/unknown-icon.jpg\",\"i\":\"unknown\",\"im\":\"https://assets.tarkov.dev/unknown-image.jpg\",\"m\":\"https://tarkov.dev/item/unknown\",\"n\":\"Unknown\",\"s\":\"Unknown\",\"w\":0.2,\"wi\":\"https://escapefromtarkov.fandom.com/wiki/Unknown\"},{\"ac\":6,\"aa\":[\"LeftArm\",\"RightArm\",\"Thorax\",\"Stomach\"],\"d\":85,\"e\":-0.27,\"ma\":\"CombinedMaterials\",\"ms\":-0.35,\"t\":-0.21,\"c\":\"armor\",\"ic\":\"https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.jpg\",\"i\":\"545cdb794bdc2d3a198b456a\",\"im\":\"https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg\",\"m\":\"https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor\",\"n\":\"6B43 6A Zabralo-Sh body armor\",\"s\":\"6B43 6A\",\"w\":20,\"wi\":\"https://escapefromtarkov.fandom.com/wiki/6B43_6A_Zabralo-Sh_body_armor\"}]");
         }
     }
 }
