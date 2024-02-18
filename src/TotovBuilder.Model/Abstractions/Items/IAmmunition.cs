@@ -67,9 +67,9 @@
         double Projectiles { get; set; }
 
         /// <summary>
-        /// Modifier added to the weapon recoil in percentage.
+        /// Modifier added to the weapon recoil.
         /// </summary>
-        double RecoilPercentageModifier { get; set; }
+        double RecoilModifier { get; set; }
 
         /// <summary>
         /// Indicates whether the ammunition is subsonic or not.

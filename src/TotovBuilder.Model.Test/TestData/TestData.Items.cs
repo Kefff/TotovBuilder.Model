@@ -22,16 +22,16 @@ namespace TotovBuilder.Model.Test
                 FleshDamage = 47,
                 FragmentationChancePercentage = 0.05,
                 HeavyBleedingPercentageChance = 0.1,
-                IconLink = "https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-icon.webp",
                 Id = "601aa3d2b2bcb34913271e6d",
-                ImageLink = "https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-image.webp",
                 LightBleedingPercentageChance = 0.1,
                 MarketLink = "https://tarkov.dev/item/762x39mm-mai-ap",
                 MaxStackableAmount = 60,
                 Name = "7.62x39mm MAI AP",
                 PenetrationPower = 58,
                 Projectiles = 1,
-                RecoilPercentageModifier = 0.10,
+                RecoilModifier = 0.10,
                 ShortName = "MAI AP",
                 Subsonic = false,
                 Tracer = false,
@@ -51,16 +51,16 @@ namespace TotovBuilder.Model.Test
                 FleshDamage = 50,
                 FragmentationChancePercentage = 0,
                 HeavyBleedingPercentageChance = 0.1,
-                IconLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.webp",
                 Id = "5d6e6806a4b936088465b17e",
-                ImageLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.webp",
                 LightBleedingPercentageChance = 0.2,
                 MarketLink = "https://tarkov.dev/item/1270-85mm-magnum-buckshot",
                 MaxStackableAmount = 20,
                 Name = "12/70 8.5mm Magnum buckshot",
                 PenetrationPower = 2,
                 Projectiles = 8,
-                RecoilPercentageModifier = 0.15,
+                RecoilModifier = 0.15,
                 ShortName = "Magnum",
                 Subsonic = false,
                 Tracer = false,
@@ -80,16 +80,16 @@ namespace TotovBuilder.Model.Test
                 FleshDamage = 65,
                 FragmentationChancePercentage = 0.1,
                 HeavyBleedingPercentageChance = 0,
-                IconLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.webp",
                 Id = "56dff4ecd2720b5f5a8b4568",
-                ImageLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-image.webp",
                 LightBleedingPercentageChance = 0,
                 MarketLink = "https://tarkov.dev/item/545x39mm-us-gs",
                 MaxStackableAmount = 60,
                 Name = "5.45x39mm US gs",
                 PenetrationPower = 15,
                 Projectiles = 1,
-                RecoilPercentageModifier = -0.25,
+                RecoilModifier = -0.25,
                 ShortName = "US",
                 Subsonic = true,
                 Tracer = false,
@@ -123,7 +123,7 @@ namespace TotovBuilder.Model.Test
                 Name = "9x19mm PBP gzh",
                 PenetrationPower = 39,
                 Projectiles = 1,
-                RecoilPercentageModifier = 0.05,
+                RecoilModifier = 0.05,
                 ShortName = "PBP",
                 Subsonic = false,
                 Tracer = false,
@@ -152,7 +152,7 @@ namespace TotovBuilder.Model.Test
                 Name = "9x19mm Green Tracer",
                 PenetrationPower = 14,
                 Projectiles = 1,
-                RecoilPercentageModifier = -0.06,
+                RecoilModifier = -0.06,
                 ShortName = "GT",
                 Subsonic = false,
                 Tracer = true,
@@ -173,9 +173,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "armor",
                 Durability = 85,
                 ErgonomicsPercentageModifier = -0.27,
-                IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp",
                 Id = "545cdb794bdc2d3a198b456a",
-                ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor",
                 Material = "CombinedMaterials",
                 MovementSpeedPercentageModifier = -0.35,
@@ -251,9 +251,9 @@ namespace TotovBuilder.Model.Test
                 },
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.08,
-                IconLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.webp",
                 Id = "5a16b7e1fcdbcb00165aa6c9",
-                ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.webp",
                 MarketLink = "https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield",
                 Material = "Glass",
                 ModSlots = Array.Empty<ModSlot>(),
@@ -288,9 +288,9 @@ namespace TotovBuilder.Model.Test
                 },
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.08,
-                IconLink = "https://assets.tarkov.dev/preset-face-shield-alone-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/preset-face-shield-alone-icon.webp",
                 Id = "preset-face-shield-alone",
-                ImageLink = "https://assets.tarkov.dev/preset-face-shield-alone-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/preset-face-shield-alone-image.webp",
                 MarketLink = "https://tarkov.dev/item/preset-face-shield-alone",
                 Material = "Glass",
                 MovementSpeedPercentageModifier = 0,
@@ -326,9 +326,9 @@ namespace TotovBuilder.Model.Test
             {
                 Capacity = 4,
                 CategoryId = "container",
-                IconLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-icon.webp",
                 Id = "5783c43d2459774bbe137486",
-                ImageLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-image.webp",
                 MarketLink = "https://tarkov.dev/item/simple-wallet",
                 Name = "Simple wallet",
                 ShortName = "Wallet",
@@ -339,9 +339,9 @@ namespace TotovBuilder.Model.Test
             {
                 Capacity = 12,
                 CategoryId = "securedContainer",
-                IconLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-icon.webp",
                 Id = "5c093ca986f7740a1867ab12",
-                ImageLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-image.webp",
                 MarketLink = "https://tarkov.dev/item/secure-container-kappa",
                 Name = "Secure container Kappa",
                 ShortName = "Kappa",
@@ -357,9 +357,9 @@ namespace TotovBuilder.Model.Test
             {
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "eyewear",
-                IconLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-icon.webp",
                 Id = "5b432be65acfc433000ed01f",
-                ImageLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b34-anti-fragmentation-glasses",
                 Name = "6B34 anti-fragmentation glasses",
                 ShortName = "6B34",
@@ -378,9 +378,9 @@ namespace TotovBuilder.Model.Test
                 FragmentsAmount = 100,
                 MaximumExplosionRange = 6,
                 MinimumExplosionRange = 2,
-                IconLink = "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-icon.webp",
                 Id = "5e32f56fcb6d5863cc5e5ee4",
-                ImageLink = "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-image.webp",
                 MarketLink = "https://tarkov.dev/item/vog-17-khattabka-improvised-hand-grenade",
                 Name = "VOG-17 Khattabka improvised hand grenade",
                 ShortName = "VOG-17",
@@ -395,9 +395,9 @@ namespace TotovBuilder.Model.Test
                 FragmentsAmount = 0,
                 MaximumExplosionRange = 10,
                 MinimumExplosionRange = 10,
-                IconLink = "https://assets.tarkov.dev/5a0c27731526d80618476ac4-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a0c27731526d80618476ac4-icon.webp",
                 Id = "5a0c27731526d80618476ac4",
-                ImageLink = "https://assets.tarkov.dev/5a0c27731526d80618476ac4-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a0c27731526d80618476ac4-image.webp",
                 MarketLink = "https://tarkov.dev/item/zarya-stun-grenade",
                 Name = "\"Zarya\" stun grenade",
                 ShortName = "Zarya",
@@ -422,9 +422,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "headwear",
                 Durability = 30,
                 ErgonomicsPercentageModifier = -0.06,
-                IconLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.webp",
                 Id = "5e4bfc1586f774264f7582d3",
-                ImageLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.webp",
                 MarketLink = "https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet",
                 Material = "CombinedMaterials",
                 ModSlots = new ModSlot[]
@@ -475,9 +475,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "headwear",
                 Durability = 0,
                 ErgonomicsPercentageModifier = 0,
-                IconLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.webp",
                 Id = "5bd073c986f7747f627e796c",
-                ImageLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-image.webp",
                 MarketLink = "https://tarkov.dev/item/kotton-beanie",
                 Material = string.Empty,
                 ModSlots = Array.Empty<ModSlot>(),
@@ -497,9 +497,9 @@ namespace TotovBuilder.Model.Test
             new Headwear()
             {
                 CategoryId = "headwear",
-                IconLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-icon.webp",
                 Id = "5a16bb52fcdbcb001a3b00dc",
-                ImageLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-image.webp",
                 MarketLink = "https://tarkov.dev/item/wilcox-skull-lock-head-mount",
                 ModSlots = new ModSlot[]
                 {
@@ -546,9 +546,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "armband",
-                IconLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-icon.webp",
                 Id = "5f9949d869e2777a0e779ba5",
-                ImageLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-image.webp",
                 MarketLink = "https://tarkov.dev/item/rivals-2020-armband",
                 Name = "Rivals 2020 armband",
                 ShortName = "Rivals",
@@ -558,9 +558,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "currency",
-                IconLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.webp",
                 Id = "569668774bdc2da2298b4568",
-                ImageLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-image.webp",
                 MarketLink = "https://tarkov.dev/item/euros",
                 MaxStackableAmount = 50000, // TODO : MISSING FROM API
                 Name = "Euros",
@@ -571,9 +571,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "faceCover",
-                IconLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-icon.webp",
                 Id = "5e54f76986f7740366043752",
-                ImageLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-image.webp",
                 MarketLink = "https://tarkov.dev/item/shroud-half-mask",
                 Name = "Shroud half-mask",
                 ShortName = "Shroud",
@@ -583,9 +583,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "headphones",
-                IconLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-icon.webp",
                 Id = "628e4e576d783146b124c64d",
-                ImageLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-image.webp",
                 MarketLink = "https://tarkov.dev/item/peltor-comtac-4-hybrid-headset",
                 Name = "Peltor ComTac 4 Hybrid headset",
                 ShortName = "ComTac 4",
@@ -595,9 +595,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "other",
-                IconLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-icon.webp",
                 Id = "5c1d0c5f86f7744bb2683cf0",
-                ImageLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-image.webp",
                 MarketLink = "https://tarkov.dev/item/terragroup-labs-keycard-blue",
                 Name = "TerraGroup Labs keycard (Blue)",
                 ShortName = "Blue",
@@ -607,9 +607,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "special",
-                IconLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.webp",
                 Id = "5991b51486f77447b112d44f",
-                ImageLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-image.webp",
                 MarketLink = "https://tarkov.dev/item/ms2000-marker",
                 Name = "MS2000 Marker",
                 ShortName = "MS2000",
@@ -630,9 +630,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "magazine",
                 CheckSpeedPercentageModifier = -0.2,
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/5e81c4ca763d9f754677befa-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e81c4ca763d9f754677befa-icon.webp",
                 Id = "5e81c4ca763d9f754677befa",
-                ImageLink = "https://assets.tarkov.dev/5e81c4ca763d9f754677befa-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e81c4ca763d9f754677befa-image.webp",
                 LoadSpeedPercentageModifier = -0.25,
                 MalfunctionPercentage = 0.04,
                 MarketLink = "https://tarkov.dev/item/m1911a1-45-acp-7-round-magazine",
@@ -667,9 +667,9 @@ namespace TotovBuilder.Model.Test
                 Capacity = 30,
                 CategoryId = "magazine",
                 ErgonomicsModifier = -3,
-                IconLink = "https://assets.tarkov.dev/564ca99c4bdc2d16268b4589-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/564ca99c4bdc2d16268b4589-icon.webp",
                 Id = "564ca99c4bdc2d16268b4589",
-                ImageLink = "https://assets.tarkov.dev/564ca99c4bdc2d16268b4589-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/564ca99c4bdc2d16268b4589-image.webp",
                 MalfunctionPercentage = 0.07,
                 MarketLink = "https://tarkov.dev/item/ak-74-545x39-6l20-30-round-magazine",
                 Name = "AK-74 5.45x39 6L20 30-round magazine",
@@ -694,9 +694,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "magazine",
                 CheckSpeedPercentageModifier = -0.5,
                 ErgonomicsModifier = -3,
-                IconLink = "https://assets.tarkov.dev/5894a05586f774094708ef75-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5894a05586f774094708ef75-icon.webp",
                 Id = "5894a05586f774094708ef75",
-                ImageLink = "https://assets.tarkov.dev/5894a05586f774094708ef75-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5894a05586f774094708ef75-image.webp",
                 MalfunctionPercentage = 0.05,
                 MarketLink = "https://tarkov.dev/item/mpx-9x19-30-round-magazine",
                 Name = "MPX 9x19 30-round magazine",
@@ -719,9 +719,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "magazine",
                 CheckSpeedPercentageModifier = -0.2,
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/preset-magazine-alone-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/preset-magazine-alone-icon.webp",
                 Id = "preset-magazine-alone",
-                ImageLink = "https://assets.tarkov.dev/preset-magazine-alone-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/preset-magazine-alone-image.webp",
                 LoadSpeedPercentageModifier = -0.25,
                 MalfunctionPercentage = 0.04,
                 MarketLink = "https://tarkov.dev/item/preset-magazine-alone",
@@ -735,9 +735,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "meleeWeapon",
                 ChopDamage = 25,
                 HitRadius = 0.6,
-                IconLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-icon.webp",
                 Id = "5c0126f40db834002a125382",
-                ImageLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-image.webp",
                 MarketLink = "https://tarkov.dev/item/red-rebel-ice-pick",
                 Name = "Red Rebel ice pick",
                 ShortName = "RedRebel",
@@ -754,9 +754,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "mod",
                 ErgonomicsModifier = -2,
-                IconLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-icon.webp",
                 Id = "59d790f486f77403cb06aec6",
-                ImageLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-image.webp",
                 MarketLink = "https://tarkov.dev/item/armytek-predator-pro-v3-xhp35-hi-flashlight",
                 Name = "Armytek Predator Pro v3 XHP35 HI flashlight",
                 ShortName = "XHP35",
@@ -767,9 +767,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "mod",
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-icon.webp",
                 Id = "57d17e212459775a1179a0f5",
-                ImageLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.webp",
                 MarketLink = "https://tarkov.dev/item/kiba-arms-25mm-accessory-ring-mount",
                 ModSlots = new ModSlot[]
                 {
@@ -797,9 +797,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-icon.webp",
                 Id = "58a56f8d86f774651579314c",
-                ImageLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard-2-inch-rail",
                 ModSlots = new ModSlot[]
                 {
@@ -838,9 +838,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/58a5c12e86f7745d585a2b9e-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58a5c12e86f7745d585a2b9e-icon.webp",
                 Id = "58a5c12e86f7745d585a2b9e",
-                ImageLink = "https://assets.tarkov.dev/58a5c12e86f7745d585a2b9e-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58a5c12e86f7745d585a2b9e-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard-4-inch-rail",
                 ModSlots = new ModSlot[]
                 {
@@ -886,9 +886,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-icon.webp",
                 Id = "58d2664f86f7747fec5834f6",
-                ImageLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-image.webp",
                 MarketLink = "https://tarkov.dev/item/deltapoint-cross-slot-mount-base",
                 ModSlots = new ModSlot[]
                 {
@@ -909,9 +909,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-icon.webp",
                 Id = "5a16b8a9fcdbcb00165aa6ca",
-                ImageLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-image.webp",
                 MarketLink = "https://tarkov.dev/item/norotos-titanium-advanced-tactical-mount",
                 ModSlots = new ModSlot[]
                 {
@@ -934,9 +934,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-icon.webp",
                 Id = "5a16b93dfcdbcbcae6687261",
-                ImageLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-image.webp",
                 MarketLink = "https://tarkov.dev/item/anpvs-14-dual-dovetail-mount",
                 ModSlots = new ModSlot[]
                 {
@@ -957,9 +957,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/57235b6f24597759bf5a30f1-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57235b6f24597759bf5a30f1-icon.webp",
                 Id = "57235b6f24597759bf5a30f1",
-                ImageLink = "https://assets.tarkov.dev/57235b6f24597759bf5a30f1-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57235b6f24597759bf5a30f1-image.webp",
                 MarketLink = "https://tarkov.dev/item/anpvs-14-night-vision-monocular",
                 Name = "AN/PVS-14 Night Vision Monocular",
                 ShortName = "PVS-14",
@@ -971,9 +971,9 @@ namespace TotovBuilder.Model.Test
                 BaseItemId = "57d17e212459775a1179a0f5",
                 CategoryId = "mod",
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/preset-ring-flashlight-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/preset-ring-flashlight-icon.webp",
                 Id = "preset-ring-flashlight",
-                ImageLink = "https://assets.tarkov.dev/preset-ring-flashlight-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/preset-ring-flashlight-image.webp",
                 MarketLink = "https://tarkov.dev/item/preset-ring-flashlight",
                 ModSlots = new ModSlot[]
                 {
@@ -1002,9 +1002,9 @@ namespace TotovBuilder.Model.Test
                 FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 650,
                 HorizontalRecoil = 445,
-                IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.webp",
                 Id = "57dc2fa62459775949412633",
-                ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.webp",
                 MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle",
                 ModSlots = new ModSlot[]
                 {
@@ -1133,9 +1133,9 @@ namespace TotovBuilder.Model.Test
                 FireModes = new string[] { "SingleFire" },
                 FireRate = 30,
                 HorizontalRecoil = 355,
-                IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.webp",
                 Id = "5e81c3cbac2bb513793cdc75",
-                ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.webp",
                 MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol",
                 ModSlots = new ModSlot[]
                 {
@@ -1250,9 +1250,9 @@ namespace TotovBuilder.Model.Test
                 FireModes = new string[] { "SingleFire" },
                 FireRate = 30,
                 HorizontalRecoil = 400,
-                IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.webp",
                 Id = "624c0b3340357b5f566e8766",
-                ImageLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.webp",
                 MarketLink = "https://tarkov.dev/item/rsp-30-reactive-signal-cartridge-yellow",
                 Name = "RSP-30 reactive signal cartridge (Yellow)",
                 ShortName = "Yellow",
@@ -1274,9 +1274,9 @@ namespace TotovBuilder.Model.Test
                 FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 850,
                 HorizontalRecoil = 299,
-                IconLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-icon.webp",
                 Id = "58948c8e86f77409493f7266",
-                ImageLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-image.webp",
                 MarketLink = "https://tarkov.dev/item/sig-mpx-9x19-submachine-gun",
                 ModSlots = new ModSlot[]
                 {
@@ -1621,9 +1621,9 @@ namespace TotovBuilder.Model.Test
                     "5c90c3622e221601da359851"
                 },
                 ErgonomicsModifier = 5,
-                IconLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-icon.webp",
                 Id = "5d2c76ed48f03532f2136169",
-                ImageLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.webp",
                 MarketLink = "https://tarkov.dev/item/ak-akademia-bastion-dust-cover",
                 ModSlots = new ModSlot[]
                 {
@@ -1723,9 +1723,9 @@ namespace TotovBuilder.Model.Test
                     "5c7d55f52e221644f31bff6a"
                 },
                 ErgonomicsModifier = -6,
-                IconLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.webp",
                 Id = "61714eec290d254f5e6b2ffc",
-                ImageLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.webp",
                 MarketLink = "https://tarkov.dev/item/schmidt-bender-pm-ii-3-12x50-scope",
                 Name = "Schmidt & Bender PM II 3-12x50 34mm riflescope",
                 RecoilPercentageModifier = 0,
@@ -1742,9 +1742,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 6,
-                IconLink = "https://assets.tarkov.dev/57e3dba62459770f0c32322b-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57e3dba62459770f0c32322b-icon.webp",
                 Id = "57e3dba62459770f0c32322b",
-                ImageLink = "https://assets.tarkov.dev/57e3dba62459770f0c32322b-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57e3dba62459770f0c32322b-image.webp",
                 MarketLink = "https://tarkov.dev/item/ak-bakelite-pistol-grip-6p4-sb9",
                 Name = "AK bakelite pistol grip (6P4 Sb.9)",
                 ShortName = "6P4 Sb.9",
@@ -1755,9 +1755,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 10,
-                IconLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-icon.webp",
                 Id = "57dc347d245977596754e7a1",
-                ImageLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-metal-skeleton-stock-6p26-sb5",
                 ModSlots = new ModSlot[]
                 {
@@ -1780,9 +1780,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -2,
-                IconLink = "https://assets.tarkov.dev/57dc324a24597759501edc20-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc324a24597759501edc20-icon.webp",
                 Id = "57dc324a24597759501edc20",
-                ImageLink = "https://assets.tarkov.dev/57dc324a24597759501edc20-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc324a24597759501edc20-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-545x39-muzzle-brake-6p26-0-20",
                 Name = "AKS-74U 5.45x39 muzzle brake (6P26 0-20)",
                 RecoilPercentageModifier = -0.08,
@@ -1794,9 +1794,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 5,
-                IconLink = "https://assets.tarkov.dev/57dc334d245977597164366f-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc334d245977597164366f-icon.webp",
                 Id = "57dc334d245977597164366f",
-                ImageLink = "https://assets.tarkov.dev/57dc334d245977597164366f-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc334d245977597164366f-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-dust-cover-6p26-sb7",
                 ModSlots = new ModSlot[]
                 {
@@ -1817,9 +1817,9 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                IconLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-icon.webp",
                 Id = "59d36a0086f7747e673f3946",
-                ImageLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-gas-tube-6p26-sb1-2",
                 ModSlots = new ModSlot[]
                 {
@@ -1844,9 +1844,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 4,
-                IconLink = "https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-icon.webp",
                 Id = "57dc32dc245977596d4ef3d3",
-                ImageLink = "https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-wooden-handguard-6p26-sb6",
                 Name = "AKS-74U wooden handguard (6P26 Sb.6)",
                 ShortName = "6P26 Sb.6",
@@ -1857,9 +1857,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 9,
-                IconLink = "https://assets.tarkov.dev/57c55efc2459772d2c6271e7-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57c55efc2459772d2c6271e7-icon.webp",
                 Id = "57c55efc2459772d2c6271e7",
-                ImageLink = "https://assets.tarkov.dev/57c55efc2459772d2c6271e7-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57c55efc2459772d2c6271e7-image.webp",
                 MarketLink = "https://tarkov.dev/item/hogue-overmolded-rubber-grip-black",
                 Name = "Hogue OverMolded Rubber Grip (Black)",
                 ShortName = "OMRG BLK",
@@ -1870,9 +1870,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 5,
-                IconLink = "https://assets.tarkov.dev/5894a5b586f77426d2590767-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5894a5b586f77426d2590767-icon.webp",
                 Id = "5894a5b586f77426d2590767",
-                ImageLink = "https://assets.tarkov.dev/5894a5b586f77426d2590767-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5894a5b586f77426d2590767-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-9x19-upper-receiver",
                 ModSlots = new ModSlot[]
                 {
@@ -2004,9 +2004,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -2,
-                IconLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-icon.webp",
                 Id = "57adff4f24597737f373b6e6",
-                ImageLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-image.webp",
                 MarketLink = "https://tarkov.dev/item/sig-sauer-bravo4-4x30-scope",
                 ModSlots = new ModSlot[]
                 {
@@ -2031,9 +2031,9 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                IconLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-icon.webp",
                 Id = "58d268fc86f774111273f8c2",
-                ImageLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-image.webp",
                 MarketLink = "https://tarkov.dev/item/leupold-deltapoint-reflex-sight",
                 Name = "Leupold DeltaPoint Reflex Sight",
                 ShortName = "DP",
@@ -2044,9 +2044,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -3,
-                IconLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-icon.webp",
                 Id = "58aeaaa886f7744fc1560f81",
-                ImageLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-sd-9x19-165mm-barrel",
                 ModSlots = new ModSlot[]
                 {
@@ -2070,9 +2070,9 @@ namespace TotovBuilder.Model.Test
                 AccuracyPercentageModifier = -0.01,
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -5,
-                IconLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-icon.webp",
                 Id = "58aeac1b86f77457c419f475",
-                ImageLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-sd-9x19-integrated-sound-suppressor",
                 Name = "MPX-SD 9x19 integrated sound suppressor",
                 RecoilPercentageModifier = -0.15,
@@ -2084,9 +2084,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 7,
-                IconLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-icon.webp",
                 Id = "5894a42086f77426d2590762",
-                ImageLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard",
                 ModSlots = new ModSlot[]
                 {
@@ -2139,9 +2139,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-icon.webp",
                 Id = "5a7b483fe899ef0016170d15",
-                ImageLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-image.webp",
                 MarketLink = "https://tarkov.dev/item/surefire-xc1-tactical-flashlight",
                 Name = "SureFire XC1 tactical flashlight",
                 ShortName = "XC1",
@@ -2152,9 +2152,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 8,
-                IconLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-icon.webp",
                 Id = "59f8a37386f7747af3328f06",
-                ImageLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-image.webp",
                 MarketLink = "https://tarkov.dev/item/fortis-shift-tactical-foregrip",
                 Name = "Fortis Shift tactical foregrip",
                 RecoilPercentageModifier = -0.015,
@@ -2166,9 +2166,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -2,
-                IconLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-icon.webp",
                 Id = "58ac1bf086f77420ed183f9f",
-                ImageLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpxmcx-retractable-stock-pipe-adapter",
                 ModSlots = new ModSlot[]
                 {
@@ -2205,9 +2205,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 18,
-                IconLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-icon.webp",
                 Id = "591aef7986f774139d495f03",
-                ImageLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-image.webp",
                 MarketLink = "https://tarkov.dev/item/troy-m7a1-pdw-stock-black",
                 Name = "TROY M7A1 PDW stock (Black)",
                 RecoilPercentageModifier = -0.26,
@@ -2219,9 +2219,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 1,
-                IconLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-icon.webp",
                 Id = "58949edd86f77409483e16a9",
-                ImageLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-double-latch-charging-handle",
                 Name = "MPX double latch charging handle",
                 ShortName = "MPX 2x",
@@ -2232,9 +2232,9 @@ namespace TotovBuilder.Model.Test
             {
                 BaseItemId = "59d36a0086f7747e673f3946",
                 CategoryId = "rangedWeaponMod",
-                IconLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-icon.webp",
                 Id = "preset-gas-tube-handguard",
-                ImageLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-image.webp",
                 MarketLink = "https://tarkov.dev/item/preset-gas-tube-handguard",
                 ModSlots = new ModSlot[]
                 {
@@ -2267,9 +2267,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "vest",
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.15,
-                IconLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.webp",
                 Id = "5d5d646386f7742797261fd9",
-                ImageLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b3tm-01m-armored-rig",
                 Material = "Titan",
                 MovementSpeedPercentageModifier = -0.10,
@@ -2284,9 +2284,9 @@ namespace TotovBuilder.Model.Test
             {
                 Capacity = 6,
                 CategoryId = "vest",
-                IconLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-icon.webp",
                 Id = "572b7adb24597762ae139821",
-                ImageLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-image.webp",
                 MarketLink = "https://tarkov.dev/item/scav-vest",
                 Name = "Scav Vest",
                 ShortName = "Scav Vest",
@@ -2313,16 +2313,16 @@ namespace TotovBuilder.Model.Test
                 FleshDamage = 47,
                 FragmentationChancePercentage = 0.05,
                 HeavyBleedingPercentageChance = 0.1,
-                IconLink = "https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-icon.webp",
                 Id = "601aa3d2b2bcb34913271e6d",
-                ImageLink = "https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/601aa3d2b2bcb34913271e6d-image.webp",
                 LightBleedingPercentageChance = 0.1,
                 MarketLink = "https://tarkov.dev/item/762x39mm-mai-ap",
                 MaxStackableAmount = 60,
                 Name = "7.62x39mm MAI AP",
                 PenetrationPower = 58,
                 Projectiles = 1,
-                RecoilPercentageModifier = 0.10,
+                RecoilModifier = 0.10,
                 ShortName = "MAI AP",
                 Subsonic = false,
                 Tracer = false,
@@ -2341,16 +2341,16 @@ namespace TotovBuilder.Model.Test
                 FleshDamage = 50,
                 FragmentationChancePercentage = 0,
                 HeavyBleedingPercentageChance = 0.1,
-                IconLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-icon.webp",
                 Id = "5d6e6806a4b936088465b17e",
-                ImageLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5d6e6806a4b936088465b17e-image.webp",
                 LightBleedingPercentageChance = 0.2,
                 MarketLink = "https://tarkov.dev/item/1270-85mm-magnum-buckshot",
                 MaxStackableAmount = 20,
                 Name = "12/70 8.5mm Magnum buckshot",
                 PenetrationPower = 2,
                 Projectiles = 8,
-                RecoilPercentageModifier = 0.15,
+                RecoilModifier = 0.15,
                 ShortName = "Magnum",
                 Subsonic = false,
                 Tracer = false,
@@ -2369,16 +2369,16 @@ namespace TotovBuilder.Model.Test
                 FleshDamage = 65,
                 FragmentationChancePercentage = 0.1,
                 HeavyBleedingPercentageChance = 0,
-                IconLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.webp",
                 Id = "56dff4ecd2720b5f5a8b4568",
-                ImageLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-image.webp",
                 LightBleedingPercentageChance = 0,
                 MarketLink = "https://tarkov.dev/item/545x39mm-us-gs",
                 MaxStackableAmount = 60,
                 Name = "5.45x39mm US gs",
                 PenetrationPower = 15,
                 Projectiles = 1,
-                RecoilPercentageModifier = -0.25,
+                RecoilModifier = -0.25,
                 ShortName = "US",
                 Subsonic = true,
                 Tracer = false,
@@ -2411,7 +2411,7 @@ namespace TotovBuilder.Model.Test
                 Name = "9x19mm PBP gzh",
                 PenetrationPower = 39,
                 Projectiles = 1,
-                RecoilPercentageModifier = 0.05,
+                RecoilModifier = 0.05,
                 ShortName = "PBP",
                 Subsonic = false,
                 Tracer = false,
@@ -2439,7 +2439,7 @@ namespace TotovBuilder.Model.Test
                 Name = "9x19mm Green Tracer",
                 PenetrationPower = 14,
                 Projectiles = 1,
-                RecoilPercentageModifier = -0.06,
+                RecoilModifier = -0.06,
                 ShortName = "GT",
                 Subsonic = false,
                 Tracer = true,
@@ -2460,9 +2460,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "armor",
                 Durability = 85,
                 ErgonomicsPercentageModifier = -0.27,
-                IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp",
                 Id = "545cdb794bdc2d3a198b456a",
-                ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor",
                 Material = "CombinedMaterials",
                 MovementSpeedPercentageModifier = -0.35,
@@ -2536,9 +2536,9 @@ namespace TotovBuilder.Model.Test
                 },
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.08,
-                IconLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.webp",
                 Id = "5a16b7e1fcdbcb00165aa6c9",
-                ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.webp",
                 MarketLink = "https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield",
                 Material = "Glass",
                 ModSlots = Array.Empty<ModSlot>(),
@@ -2572,9 +2572,9 @@ namespace TotovBuilder.Model.Test
                 },
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.08,
-                IconLink = "https://assets.tarkov.dev/preset-face-shield-alone-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/preset-face-shield-alone-icon.webp",
                 Id = "preset-face-shield-alone",
-                ImageLink = "https://assets.tarkov.dev/preset-face-shield-alone-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/preset-face-shield-alone-image.webp",
                 MarketLink = "https://tarkov.dev/item/preset-face-shield-alone",
                 Material = "Glass",
                 MovementSpeedPercentageModifier = 0,
@@ -2609,9 +2609,9 @@ namespace TotovBuilder.Model.Test
             {
                 Capacity = 4,
                 CategoryId = "container",
-                IconLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-icon.webp",
                 Id = "5783c43d2459774bbe137486",
-                ImageLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5783c43d2459774bbe137486-image.webp",
                 MarketLink = "https://tarkov.dev/item/simple-wallet",
                 Name = "Simple wallet",
                 ShortName = "Wallet",
@@ -2622,9 +2622,9 @@ namespace TotovBuilder.Model.Test
             {
                 Capacity = 12,
                 CategoryId = "securedContainer",
-                IconLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-icon.webp",
                 Id = "5c093ca986f7740a1867ab12",
-                ImageLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5c093ca986f7740a1867ab12-image.webp",
                 MarketLink = "https://tarkov.dev/item/secure-container-kappa",
                 Name = "Secure container Kappa",
                 ShortName = "Kappa",
@@ -2640,9 +2640,9 @@ namespace TotovBuilder.Model.Test
             {
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "eyewear",
-                IconLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-icon.webp",
                 Id = "5b432be65acfc433000ed01f",
-                ImageLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b34-anti-fragmentation-glasses",
                 Name = "6B34 anti-fragmentation glasses",
                 ShortName = "6B34",
@@ -2661,9 +2661,9 @@ namespace TotovBuilder.Model.Test
                 FragmentsAmount = 100,
                 MaximumExplosionRange = 6,
                 MinimumExplosionRange = 2,
-                IconLink = "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-icon.webp",
                 Id = "5e32f56fcb6d5863cc5e5ee4",
-                ImageLink = "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-image.webp",
                 MarketLink = "https://tarkov.dev/item/vog-17-khattabka-improvised-hand-grenade",
                 Name = "VOG-17 Khattabka improvised hand grenade",
                 ShortName = "VOG-17",
@@ -2678,9 +2678,9 @@ namespace TotovBuilder.Model.Test
                 FragmentsAmount = 0,
                 MaximumExplosionRange = 10,
                 MinimumExplosionRange = 10,
-                IconLink = "https://assets.tarkov.dev/5a0c27731526d80618476ac4-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a0c27731526d80618476ac4-icon.webp",
                 Id = "5a0c27731526d80618476ac4",
-                ImageLink = "https://assets.tarkov.dev/5a0c27731526d80618476ac4-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a0c27731526d80618476ac4-image.webp",
                 MarketLink = "https://tarkov.dev/item/zarya-stun-grenade",
                 Name = "\"Zarya\" stun grenade",
                 ShortName = "Zarya",
@@ -2705,9 +2705,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "headwear",
                 Durability = 30,
                 ErgonomicsPercentageModifier = -0.06,
-                IconLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.webp",
                 Id = "5e4bfc1586f774264f7582d3",
-                ImageLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.webp",
                 MarketLink = "https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet",
                 Material = "CombinedMaterials",
                 ModSlots = new ModSlot[]
@@ -2757,9 +2757,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "headwear",
                 Durability = 0,
                 ErgonomicsPercentageModifier = 0,
-                IconLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.webp",
                 Id = "5bd073c986f7747f627e796c",
-                ImageLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-image.webp",
                 MarketLink = "https://tarkov.dev/item/kotton-beanie",
                 Material = string.Empty,
                 ModSlots = Array.Empty<ModSlot>(),
@@ -2779,9 +2779,9 @@ namespace TotovBuilder.Model.Test
             new Headwear()
             {
                 CategoryId = "headwear",
-                IconLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-icon.webp",
                 Id = "5a16bb52fcdbcb001a3b00dc",
-                ImageLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-image.webp",
                 MarketLink = "https://tarkov.dev/item/wilcox-skull-lock-head-mount",
                 ModSlots = new ModSlot[]
                 {
@@ -2828,9 +2828,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "armband",
-                IconLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-icon.webp",
                 Id = "5f9949d869e2777a0e779ba5",
-                ImageLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-image.webp",
                 MarketLink = "https://tarkov.dev/item/rivals-2020-armband",
                 Name = "Rivals 2020 armband",
                 ShortName = "Rivals",
@@ -2840,9 +2840,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "currency",
-                IconLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.webp",
                 Id = "569668774bdc2da2298b4568",
-                ImageLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-image.webp",
                 MarketLink = "https://tarkov.dev/item/euros",
                 Name = "Euros",
                 ShortName = "EUR",
@@ -2852,9 +2852,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "faceCover",
-                IconLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-icon.webp",
                 Id = "5e54f76986f7740366043752",
-                ImageLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-image.webp",
                 MarketLink = "https://tarkov.dev/item/shroud-half-mask",
                 Name = "Shroud half-mask",
                 ShortName = "Shroud",
@@ -2864,9 +2864,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "headphones",
-                IconLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-icon.webp",
                 Id = "628e4e576d783146b124c64d",
-                ImageLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-image.webp",
                 MarketLink = "https://tarkov.dev/item/peltor-comtac-4-hybrid-headset",
                 Name = "Peltor ComTac 4 Hybrid headset",
                 ShortName = "ComTac 4",
@@ -2876,9 +2876,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "other",
-                IconLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-icon.webp",
                 Id = "5c1d0c5f86f7744bb2683cf0",
-                ImageLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-image.webp",
                 MarketLink = "https://tarkov.dev/item/terragroup-labs-keycard-blue",
                 Name = "TerraGroup Labs keycard (Blue)",
                 ShortName = "Blue",
@@ -2888,9 +2888,9 @@ namespace TotovBuilder.Model.Test
             new Item()
             {
                 CategoryId = "special",
-                IconLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.webp",
                 Id = "5991b51486f77447b112d44f",
-                ImageLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-image.webp",
                 MarketLink = "https://tarkov.dev/item/ms2000-marker",
                 Name = "MS2000 Marker",
                 ShortName = "MS2000",
@@ -2911,9 +2911,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "magazine",
                 CheckSpeedPercentageModifier = -0.2,
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/5e81c4ca763d9f754677befa-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e81c4ca763d9f754677befa-icon.webp",
                 Id = "5e81c4ca763d9f754677befa",
-                ImageLink = "https://assets.tarkov.dev/5e81c4ca763d9f754677befa-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e81c4ca763d9f754677befa-image.webp",
                 LoadSpeedPercentageModifier = -0.25,
                 MalfunctionPercentage = 0.04,
                 MarketLink = "https://tarkov.dev/item/m1911a1-45-acp-7-round-magazine",
@@ -2948,9 +2948,9 @@ namespace TotovBuilder.Model.Test
                 Capacity = 30,
                 CategoryId = "magazine",
                 ErgonomicsModifier = -3,
-                IconLink = "https://assets.tarkov.dev/564ca99c4bdc2d16268b4589-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/564ca99c4bdc2d16268b4589-icon.webp",
                 Id = "564ca99c4bdc2d16268b4589",
-                ImageLink = "https://assets.tarkov.dev/564ca99c4bdc2d16268b4589-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/564ca99c4bdc2d16268b4589-image.webp",
                 MalfunctionPercentage = 0.07,
                 MarketLink = "https://tarkov.dev/item/ak-74-545x39-6l20-30-round-magazine",
                 Name = "AK-74 5.45x39 6L20 30-round magazine",
@@ -2975,9 +2975,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "magazine",
                 CheckSpeedPercentageModifier = -0.5,
                 ErgonomicsModifier = -3,
-                IconLink = "https://assets.tarkov.dev/5894a05586f774094708ef75-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5894a05586f774094708ef75-icon.webp",
                 Id = "5894a05586f774094708ef75",
-                ImageLink = "https://assets.tarkov.dev/5894a05586f774094708ef75-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5894a05586f774094708ef75-image.webp",
                 MalfunctionPercentage = 0.05,
                 MarketLink = "https://tarkov.dev/item/mpx-9x19-30-round-magazine",
                 Name = "MPX 9x19 30-round magazine",
@@ -3000,9 +3000,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "magazine",
                 CheckSpeedPercentageModifier = -0.2,
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/preset-magazine-alone-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/preset-magazine-alone-icon.webp",
                 Id = "preset-magazine-alone",
-                ImageLink = "https://assets.tarkov.dev/preset-magazine-alone-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/preset-magazine-alone-image.webp",
                 LoadSpeedPercentageModifier = -0.25,
                 MalfunctionPercentage = 0.04,
                 MarketLink = "https://tarkov.dev/item/preset-magazine-alone",
@@ -3016,9 +3016,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "meleeWeapon",
                 ChopDamage = 25,
                 HitRadius = 0.6,
-                IconLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-icon.webp",
                 Id = "5c0126f40db834002a125382",
-                ImageLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5c0126f40db834002a125382-image.webp",
                 MarketLink = "https://tarkov.dev/item/red-rebel-ice-pick",
                 Name = "Red Rebel ice pick",
                 ShortName = "RedRebel",
@@ -3035,9 +3035,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "mod",
                 ErgonomicsModifier = -2,
-                IconLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-icon.webp",
                 Id = "59d790f486f77403cb06aec6",
-                ImageLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-image.webp",
                 MarketLink = "https://tarkov.dev/item/armytek-predator-pro-v3-xhp35-hi-flashlight",
                 Name = "Armytek Predator Pro v3 XHP35 HI flashlight",
                 ShortName = "XHP35",
@@ -3048,9 +3048,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "mod",
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-icon.webp",
                 Id = "57d17e212459775a1179a0f5",
-                ImageLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.webp",
                 MarketLink = "https://tarkov.dev/item/kiba-arms-25mm-accessory-ring-mount",
                 ModSlots = new ModSlot[]
                 {
@@ -3078,9 +3078,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-icon.webp",
                 Id = "58a56f8d86f774651579314c",
-                ImageLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard-2-inch-rail",
                 ModSlots = new ModSlot[]
                 {
@@ -3119,9 +3119,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/58a5c12e86f7745d585a2b9e-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58a5c12e86f7745d585a2b9e-icon.webp",
                 Id = "58a5c12e86f7745d585a2b9e",
-                ImageLink = "https://assets.tarkov.dev/58a5c12e86f7745d585a2b9e-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58a5c12e86f7745d585a2b9e-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard-4-inch-rail",
                 ModSlots = new ModSlot[]
                 {
@@ -3167,9 +3167,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-icon.webp",
                 Id = "58d2664f86f7747fec5834f6",
-                ImageLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-image.webp",
                 MarketLink = "https://tarkov.dev/item/deltapoint-cross-slot-mount-base",
                 ModSlots = new ModSlot[]
                 {
@@ -3190,9 +3190,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-icon.webp",
                 Id = "5a16b8a9fcdbcb00165aa6ca",
-                ImageLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-image.webp",
                 MarketLink = "https://tarkov.dev/item/norotos-titanium-advanced-tactical-mount",
                 ModSlots = new ModSlot[]
                 {
@@ -3215,9 +3215,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-icon.webp",
                 Id = "5a16b93dfcdbcbcae6687261",
-                ImageLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-image.webp",
                 MarketLink = "https://tarkov.dev/item/anpvs-14-dual-dovetail-mount",
                 ModSlots = new ModSlot[]
                 {
@@ -3238,9 +3238,9 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/57235b6f24597759bf5a30f1-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57235b6f24597759bf5a30f1-icon.webp",
                 Id = "57235b6f24597759bf5a30f1",
-                ImageLink = "https://assets.tarkov.dev/57235b6f24597759bf5a30f1-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57235b6f24597759bf5a30f1-image.webp",
                 MarketLink = "https://tarkov.dev/item/anpvs-14-night-vision-monocular",
                 Name = "AN/PVS-14 Night Vision Monocular",
                 ShortName = "PVS-14",
@@ -3252,9 +3252,9 @@ namespace TotovBuilder.Model.Test
                 BaseItemId = "57d17e212459775a1179a0f5",
                 CategoryId = "mod",
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/preset-ring-flashlight-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/preset-ring-flashlight-icon.webp",
                 Id = "preset-ring-flashlight",
-                ImageLink = "https://assets.tarkov.dev/preset-ring-flashlight-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/preset-ring-flashlight-image.webp",
                 MarketLink = "https://tarkov.dev/item/preset-ring-flashlight",
                 ModSlots = new ModSlot[]
                 {
@@ -3283,9 +3283,9 @@ namespace TotovBuilder.Model.Test
                 FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 650,
                 HorizontalRecoil = 445,
-                IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.webp",
                 Id = "57dc2fa62459775949412633",
-                ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.webp",
                 MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle",
                 ModSlots = new ModSlot[]
                 {
@@ -3414,9 +3414,9 @@ namespace TotovBuilder.Model.Test
                 FireModes = new string[] { "SingleFire" },
                 FireRate = 30,
                 HorizontalRecoil = 355,
-                IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.webp",
                 Id = "5e81c3cbac2bb513793cdc75",
-                ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.webp",
                 MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol",
                 ModSlots = new ModSlot[]
                 {
@@ -3531,9 +3531,9 @@ namespace TotovBuilder.Model.Test
                 FireModes = new string[] { "SingleFire" },
                 FireRate = 30,
                 HorizontalRecoil = 400,
-                IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.webp",
                 Id = "624c0b3340357b5f566e8766",
-                ImageLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.webp",
                 MarketLink = "https://tarkov.dev/item/rsp-30-reactive-signal-cartridge-yellow",
                 Name = "RSP-30 reactive signal cartridge (Yellow)",
                 ShortName = "Yellow",
@@ -3555,9 +3555,9 @@ namespace TotovBuilder.Model.Test
                 FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 850,
                 HorizontalRecoil = 299,
-                IconLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-icon.webp",
                 Id = "58948c8e86f77409493f7266",
-                ImageLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-image.webp",
                 MarketLink = "https://tarkov.dev/item/sig-mpx-9x19-submachine-gun",
                 ModSlots = new ModSlot[]
                 {
@@ -3902,9 +3902,9 @@ namespace TotovBuilder.Model.Test
                     "5c90c3622e221601da359851"
                 },
                 ErgonomicsModifier = 5,
-                IconLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-icon.webp",
                 Id = "5d2c76ed48f03532f2136169",
-                ImageLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.webp",
                 MarketLink = "https://tarkov.dev/item/ak-akademia-bastion-dust-cover",
                 ModSlots = new ModSlot[]
                 {
@@ -4004,9 +4004,9 @@ namespace TotovBuilder.Model.Test
                     "5c7d55f52e221644f31bff6a"
                 },
                 ErgonomicsModifier = -6,
-                IconLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.webp",
                 Id = "61714eec290d254f5e6b2ffc",
-                ImageLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.webp",
                 MarketLink = "https://tarkov.dev/item/schmidt-bender-pm-ii-3-12x50-scope",
                 Name = "Schmidt & Bender PM II 3-12x50 34mm riflescope",
                 RecoilPercentageModifier = 0,
@@ -4023,9 +4023,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 6,
-                IconLink = "https://assets.tarkov.dev/57e3dba62459770f0c32322b-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57e3dba62459770f0c32322b-icon.webp",
                 Id = "57e3dba62459770f0c32322b",
-                ImageLink = "https://assets.tarkov.dev/57e3dba62459770f0c32322b-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57e3dba62459770f0c32322b-image.webp",
                 MarketLink = "https://tarkov.dev/item/ak-bakelite-pistol-grip-6p4-sb9",
                 Name = "AK bakelite pistol grip (6P4 Sb.9)",
                 ShortName = "6P4 Sb.9",
@@ -4036,9 +4036,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 10,
-                IconLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-icon.webp",
                 Id = "57dc347d245977596754e7a1",
-                ImageLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-metal-skeleton-stock-6p26-sb5",
                 ModSlots = new ModSlot[]
                 {
@@ -4061,9 +4061,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -2,
-                IconLink = "https://assets.tarkov.dev/57dc324a24597759501edc20-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc324a24597759501edc20-icon.webp",
                 Id = "57dc324a24597759501edc20",
-                ImageLink = "https://assets.tarkov.dev/57dc324a24597759501edc20-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc324a24597759501edc20-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-545x39-muzzle-brake-6p26-0-20",
                 Name = "AKS-74U 5.45x39 muzzle brake (6P26 0-20)",
                 RecoilPercentageModifier = -0.08,
@@ -4075,9 +4075,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 5,
-                IconLink = "https://assets.tarkov.dev/57dc334d245977597164366f-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc334d245977597164366f-icon.webp",
                 Id = "57dc334d245977597164366f",
-                ImageLink = "https://assets.tarkov.dev/57dc334d245977597164366f-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc334d245977597164366f-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-dust-cover-6p26-sb7",
                 ModSlots = new ModSlot[]
                 {
@@ -4098,9 +4098,9 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                IconLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-icon.webp",
                 Id = "59d36a0086f7747e673f3946",
-                ImageLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-gas-tube-6p26-sb1-2",
                 ModSlots = new ModSlot[]
                 {
@@ -4125,9 +4125,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 4,
-                IconLink = "https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-icon.webp",
                 Id = "57dc32dc245977596d4ef3d3",
-                ImageLink = "https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-wooden-handguard-6p26-sb6",
                 Name = "AKS-74U wooden handguard (6P26 Sb.6)",
                 ShortName = "6P26 Sb.6",
@@ -4138,9 +4138,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 9,
-                IconLink = "https://assets.tarkov.dev/57c55efc2459772d2c6271e7-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57c55efc2459772d2c6271e7-icon.webp",
                 Id = "57c55efc2459772d2c6271e7",
-                ImageLink = "https://assets.tarkov.dev/57c55efc2459772d2c6271e7-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57c55efc2459772d2c6271e7-image.webp",
                 MarketLink = "https://tarkov.dev/item/hogue-overmolded-rubber-grip-black",
                 Name = "Hogue OverMolded Rubber Grip (Black)",
                 ShortName = "OMRG BLK",
@@ -4151,9 +4151,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 5,
-                IconLink = "https://assets.tarkov.dev/5894a5b586f77426d2590767-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5894a5b586f77426d2590767-icon.webp",
                 Id = "5894a5b586f77426d2590767",
-                ImageLink = "https://assets.tarkov.dev/5894a5b586f77426d2590767-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5894a5b586f77426d2590767-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-9x19-upper-receiver",
                 ModSlots = new ModSlot[]
                 {
@@ -4285,9 +4285,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -2,
-                IconLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-icon.webp",
                 Id = "57adff4f24597737f373b6e6",
-                ImageLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-image.webp",
                 MarketLink = "https://tarkov.dev/item/sig-sauer-bravo4-4x30-scope",
                 ModSlots = new ModSlot[]
                 {
@@ -4312,9 +4312,9 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                IconLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-icon.webp",
                 Id = "58d268fc86f774111273f8c2",
-                ImageLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-image.webp",
                 MarketLink = "https://tarkov.dev/item/leupold-deltapoint-reflex-sight",
                 Name = "Leupold DeltaPoint Reflex Sight",
                 ShortName = "DP",
@@ -4325,9 +4325,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -3,
-                IconLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-icon.webp",
                 Id = "58aeaaa886f7744fc1560f81",
-                ImageLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-sd-9x19-165mm-barrel",
                 ModSlots = new ModSlot[]
                 {
@@ -4351,9 +4351,9 @@ namespace TotovBuilder.Model.Test
                 AccuracyPercentageModifier = -0.01,
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -5,
-                IconLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-icon.webp",
                 Id = "58aeac1b86f77457c419f475",
-                ImageLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-sd-9x19-integrated-sound-suppressor",
                 Name = "MPX-SD 9x19 integrated sound suppressor",
                 RecoilPercentageModifier = -0.15,
@@ -4365,9 +4365,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 7,
-                IconLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-icon.webp",
                 Id = "5894a42086f77426d2590762",
-                ImageLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard",
                 ModSlots = new ModSlot[]
                 {
@@ -4420,9 +4420,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-icon.webp",
                 Id = "5a7b483fe899ef0016170d15",
-                ImageLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-image.webp",
                 MarketLink = "https://tarkov.dev/item/surefire-xc1-tactical-flashlight",
                 Name = "SureFire XC1 tactical flashlight",
                 ShortName = "XC1",
@@ -4433,9 +4433,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 8,
-                IconLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-icon.webp",
                 Id = "59f8a37386f7747af3328f06",
-                ImageLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-image.webp",
                 MarketLink = "https://tarkov.dev/item/fortis-shift-tactical-foregrip",
                 Name = "Fortis Shift tactical foregrip",
                 RecoilPercentageModifier = -0.015,
@@ -4447,9 +4447,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = -2,
-                IconLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-icon.webp",
                 Id = "58ac1bf086f77420ed183f9f",
-                ImageLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpxmcx-retractable-stock-pipe-adapter",
                 ModSlots = new ModSlot[]
                 {
@@ -4486,9 +4486,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 18,
-                IconLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-icon.webp",
                 Id = "591aef7986f774139d495f03",
-                ImageLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-image.webp",
                 MarketLink = "https://tarkov.dev/item/troy-m7a1-pdw-stock-black",
                 Name = "TROY M7A1 PDW stock (Black)",
                 RecoilPercentageModifier = -0.26,
@@ -4500,9 +4500,9 @@ namespace TotovBuilder.Model.Test
             {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 1,
-                IconLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-icon.webp",
                 Id = "58949edd86f77409483e16a9",
-                ImageLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-double-latch-charging-handle",
                 Name = "MPX double latch charging handle",
                 ShortName = "MPX 2x",
@@ -4513,9 +4513,9 @@ namespace TotovBuilder.Model.Test
             {
                 BaseItemId = "59d36a0086f7747e673f3946",
                 CategoryId = "rangedWeaponMod",
-                IconLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-icon.webp",
                 Id = "preset-gas-tube-handguard",
-                ImageLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-image.webp",
                 MarketLink = "https://tarkov.dev/item/preset-gas-tube-handguard",
                 ModSlots = new ModSlot[]
                 {
@@ -4548,9 +4548,9 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "vest",
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.15,
-                IconLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.webp",
                 Id = "5d5d646386f7742797261fd9",
-                ImageLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b3tm-01m-armored-rig",
                 Material = "Titan",
                 MovementSpeedPercentageModifier = -0.10,
@@ -4565,9 +4565,9 @@ namespace TotovBuilder.Model.Test
             {
                 Capacity = 6,
                 CategoryId = "vest",
-                IconLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-icon.jpg",
+                IconLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-icon.webp",
                 Id = "572b7adb24597762ae139821",
-                ImageLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-image.jpg",
+                ImageLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-image.webp",
                 MarketLink = "https://tarkov.dev/item/scav-vest",
                 Name = "Scav Vest",
                 ShortName = "Scav Vest",

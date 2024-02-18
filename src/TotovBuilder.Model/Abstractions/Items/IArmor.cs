@@ -6,7 +6,7 @@
     public interface IArmor : IModdable, IWearable
     {
         /// <summary>
-        /// Armor class.
+        /// Armor class (without ballistic plates).
         /// </summary>
         double ArmorClass { get; set; }
 
