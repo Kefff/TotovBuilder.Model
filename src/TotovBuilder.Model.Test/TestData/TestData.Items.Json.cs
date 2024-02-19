@@ -240,10 +240,10 @@
             ""id"": ""54009119af1c881c07000029""
           }
         ],
-        ""iconLink"": ""https: //localhost/test-preset-magazine-alone-icon.jpg"",
+        ""iconLink"": ""https://localhost/test-preset-magazine-alone-icon.jpg"",
         ""id"": ""test-preset-magazine-alone"",
-        ""inspectImageLink"": ""https: //localhost/test-preset-magazine-alone-image.jpg"",
-        ""link"": ""https: //tarkov.dev/item/test-preset-magazine-alone"",
+        ""inspectImageLink"": ""https://localhost/test-preset-magazine-alone-image.jpg"",
+        ""link"": ""https://tarkov.dev/item/test-preset-magazine-alone"",
         ""name"": ""Magazine alone"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesPreset"",
@@ -253,7 +253,7 @@
           ""moa"": null
         },
         ""shortName"": ""MA"",
-        ""wikiLink"": ""https: //escapefromtarkov.fandom.com/wiki/test-preset-magazine-alone""
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-magazine-alone""
       },
       {
         ""categories"": [
@@ -276,7 +276,7 @@
         ""iconLink"": ""https://localhost/test-preset-gas-tube-handguard-icon.jpg"",
         ""id"": ""test-preset-gas-tube-handguard"",
         ""inspectImageLink"": ""https://localhost/test-preset-gas-tube-handguard-image.jpg"",
-        ""link"": ""https: //tarkov.dev/item/test-preset-gas-tube-handguard"",
+        ""link"": ""https://tarkov.dev/item/test-preset-gas-tube-handguard"",
         ""name"": ""Gas tube + handguard"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesPreset"",
@@ -286,7 +286,7 @@
           ""moa"": null
         },
         ""shortName"": ""PGT+H"",
-        ""wikiLink"": ""https: //escapefromtarkov.fandom.com/wiki/test-preset-gas-tube-handguard""
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-gas-tube-handguard""
       },
       {
         ""categories"": [
@@ -309,7 +309,7 @@
         ""iconLink"": ""https://localhost/test-preset-ring-flashlight-icon.jpg"",
         ""id"": ""test-preset-ring-flashlight"",
         ""inspectImageLink"": ""https://localhost/test-preset-ring-flashlight-image.jpg"",
-        ""link"": ""https: //tarkov.dev/item/test-preset-ring-flashlight"",
+        ""link"": ""https://tarkov.dev/item/test-preset-ring-flashlight"",
         ""name"": ""Ring + flashlight"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesPreset"",
@@ -319,7 +319,7 @@
           ""moa"": null
         },
         ""shortName"": ""PR+F"",
-        ""wikiLink"": ""https: //escapefromtarkov.fandom.com/wiki/test-preset-ring-flashlight""
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-ring-flashlight""
       },
       {
         ""categories"": [
@@ -339,7 +339,7 @@
         ""iconLink"": ""https://localhost/test-preset-face-shield-alone-icon.jpg"",
         ""id"": ""test-preset-face-shield-alone"",
         ""inspectImageLink"": ""https://localhost/test-preset-face-shield-alone-image.jpg"",
-        ""link"": ""https: //tarkov.dev/item/test-preset-face-shield-alone"",
+        ""link"": ""https://tarkov.dev/item/test-preset-face-shield-alone"",
         ""name"": ""Face shield alone"",
         ""properties"": {
           ""__typename"": ""ItemPropertiesPreset"",
@@ -349,7 +349,7 @@
           ""moa"": null
         },
         ""shortName"": ""FSA"",
-        ""wikiLink"": ""https: //escapefromtarkov.fandom.com/wiki/test-preset-face-shield-alone""
+        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-face-shield-alone""
       }";
 
         /// <summary>
@@ -359,7 +359,7 @@
         /// Exepression to sort them in Visual Studio Code using the Sort JSON extension :
         /// (a.properties == null && b.properties != null) ? 1 : (a.properties != null && b.properties == null) ? -1 : ((a.properties == null && b.properties == null) || (a.properties != null && b.properties != null && a.properties.__typename === b.properties.__typename)) ? (a.name === b.name ? 0 : (a.name > b.name ? 1 : -1)) : (a.properties?.__typename > b.properties?.__typename) ? 1 : -1
         /// </remarks>
-        private const string RealItems = @"[
+        private const string RealItems = @"[[
   {
     ""categories"": [
       {
@@ -1058,58 +1058,80 @@
       }
     ],
     ""conflictingItems"": [],
-    ""iconLink"": ""https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.webp"",
-    ""id"": ""5d5d646386f7742797261fd9"",
-    ""inspectImageLink"": ""https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.webp"",
-    ""link"": ""https://tarkov.dev/item/6b3tm-01-armored-rig-khaki"",
-    ""name"": ""6B3TM-01 armored rig (Khaki)"",
+    ""iconLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp"",
+    ""id"": ""61bc85697113f767765c7fe7"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp"",
+    ""link"": ""https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green"",
+    ""name"": ""Eagle Industries MMAC plate carrier (Ranger Green)"",
     ""properties"": {
       ""__typename"": ""ItemPropertiesChestRig"",
       ""armorSlots"": [
         {
+          ""__typename"": ""ItemArmorSlotOpen"",
+          ""nameId"": ""Front_plate"",
+          ""zones"": [
+            ""FR. PLATE""
+          ]
+        },
+        {
+          ""__typename"": ""ItemArmorSlotOpen"",
+          ""nameId"": ""Back_plate"",
+          ""zones"": [
+            ""BCK. PLATE""
+          ]
+        },
+        {
+          ""__typename"": ""ItemArmorSlotOpen"",
+          ""nameId"": ""Left_side_plate"",
+          ""zones"": [
+            ""L. PLATE""
+          ]
+        },
+        {
+          ""__typename"": ""ItemArmorSlotOpen"",
+          ""nameId"": ""Right_side_plate"",
+          ""zones"": [
+            ""R. PLATE""
+          ]
+        },
+        {
           ""__typename"": ""ItemArmorSlotLocked"",
           ""nameId"": ""Soft_armor_front"",
-          ""zones"": [
-            ""Chest"",
-            ""Stomach""
-          ]
+          ""zones"": []
         },
         {
           ""__typename"": ""ItemArmorSlotLocked"",
           ""nameId"": ""Soft_armor_back"",
+          ""zones"": []
+        },
+        {
+          ""__typename"": ""ItemArmorSlotLocked"",
+          ""nameId"": ""Soft_armor_left"",
           ""zones"": [
-            ""Stomach, Lower back"",
-            ""Thorax, Upper back""
+            ""Stomach, Left Side""
           ]
         },
         {
           ""__typename"": ""ItemArmorSlotLocked"",
-          ""nameId"": ""Groin"",
+          ""nameId"": ""soft_armor_right"",
           ""zones"": [
-            ""Stomach, Groin""
-          ]
-        },
-        {
-          ""__typename"": ""ItemArmorSlotLocked"",
-          ""nameId"": ""Groin_back"",
-          ""zones"": [
-            ""Stomach, Buttocks""
+            ""Stomach, Right Side""
           ]
         }
       ],
-      ""capacity"": 12,
+      ""capacity"": 14,
       ""class"": 4,
       ""durability"": null,
-      ""ergoPenalty"": -0.07,
+      ""ergoPenalty"": -0.01,
       ""material"": {
-        ""name"": ""Titan""
+        ""name"": ""Aramid""
       },
-      ""speedPenalty"": -0.05,
+      ""speedPenalty"": -0.01,
       ""turnPenalty"": -0.01
     },
-    ""shortName"": ""6B3TM-01"",
-    ""weight"": 8.2,
-    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B3TM-01_armored_rig_(Khaki)""
+    ""shortName"": ""MMAC"",
+    ""weight"": 2.83,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)""
   },
   {
     ""categories"": [
@@ -1785,6 +1807,41 @@
   {
     ""categories"": [
       {
+        ""id"": ""5448e54d4bdc2dcc718b4568""
+      },
+      {
+        ""id"": ""57bef4c42459772e8d35a53b""
+      },
+      {
+        ""id"": ""543be5f84bdc2dd4348b456a""
+      },
+      {
+        ""id"": ""566162e44bdc2d3f298b4573""
+      },
+      {
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""conflictingItems"": [],
+    ""iconLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp"",
+    ""id"": ""65766adc234b9f6e050a431a"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp"",
+    ""link"": ""https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora-default"",
+    ""name"": ""6B43 Zabralo-Sh body armor (Digital Flora) Default"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesPreset"",
+      ""baseItem"": {
+        ""id"": ""545cdb794bdc2d3a198b456a""
+      },
+      ""moa"": null
+    },
+    ""shortName"": ""6B43 Default"",
+    ""weight"": 20,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)""
+  },
+  {
+    ""categories"": [
+      {
         ""id"": ""5447b5fc4bdc2d87278b4567""
       },
       {
@@ -1813,6 +1870,38 @@
     ""shortName"": ""AS VAL Kobra"",
     ""weight"": 3.085,
     ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AS_VAL_9x39_special_assault_rifle""
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5448e5284bdc2dcb718b4567""
+      },
+      {
+        ""id"": ""566168634bdc2d144c8b456c""
+      },
+      {
+        ""id"": ""566162e44bdc2d3f298b4573""
+      },
+      {
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""conflictingItems"": [],
+    ""iconLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp"",
+    ""id"": ""657660eb86f11bca4106d34f"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp"",
+    ""link"": ""https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green-default"",
+    ""name"": ""Eagle Industries MMAC plate carrier (Ranger Green) Default"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesPreset"",
+      ""baseItem"": {
+        ""id"": ""61bc85697113f767765c7fe7""
+      },
+      ""moa"": null
+    },
+    ""shortName"": ""MMAC Default"",
+    ""weight"": 5.53,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)""
   },
   {
     ""categories"": [

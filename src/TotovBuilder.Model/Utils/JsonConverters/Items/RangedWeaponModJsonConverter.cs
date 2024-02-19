@@ -28,8 +28,8 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
             return ConcatenateDictionaries(
                 PropertyExclusionConditions,
                 ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
-                ModJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
-                ModdableJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
+                ModdableJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
+                ModJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
         }
     }
 }

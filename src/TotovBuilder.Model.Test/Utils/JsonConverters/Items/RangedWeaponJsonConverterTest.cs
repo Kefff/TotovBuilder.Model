@@ -21,7 +21,6 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     BaseItemId = "57dc2fa62459775949412633",
                     Caliber = "Caliber545x39",
                     CategoryId = "mainWeapon",
-                    DefaultPresetId = "584147732459775a2b6d9f12",
                     Ergonomics = 44,
                     FireModes = new string[] { "SingleFire", "FullAuto" },
                     FireRate = 650,

@@ -229,19 +229,27 @@ namespace TotovBuilder.Model.Test
             new Price()
             {
                 CurrencyName = "RUB",
-                ItemId = "5d5d646386f7742797261fd9",
-                Merchant = "ragman",
-                MerchantLevel = 2,
-                Value = 55312,
-                ValueInMainCurrency = 55312
+                ItemId = "61bc85697113f767765c7fe7",
+                Merchant = "flea-market",
+                Value = 31180,
+                ValueInMainCurrency = 31180
+            },
+            new Price()
+            {
+                CurrencyName = "USD",
+                ItemId = "657660eb86f11bca4106d34f",
+                Merchant = "peacekeeper",
+                MerchantLevel = 3,
+                Value = 569,
+                ValueInMainCurrency = 83100
             },
             new Price()
             {
                 CurrencyName = "RUB",
-                ItemId = "5d5d646386f7742797261fd9",
+                ItemId = "657660eb86f11bca4106d34f",
                 Merchant = "flea-market",
-                Value = 68479,
-                ValueInMainCurrency = 68479
+                Value = 65822,
+                ValueInMainCurrency = 65822
             },
             new Price()
             {

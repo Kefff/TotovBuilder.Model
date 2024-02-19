@@ -18,10 +18,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
         {
-            { nameof(IArmorMod.ArmorClass), a => a.ArmorClass == 0 },
             { nameof(IArmorMod.BlindnessProtectionPercentage), am => am.BlindnessProtectionPercentage == 0 },
-            { nameof(IArmorMod.Durability), a => a.Durability == 0 },
-            { nameof(IArmorMod.Material), a => a.Material == string.Empty }
         };
 
         /// <inheritdoc/>
@@ -29,10 +26,10 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         {
             return ConcatenateDictionaries(
                 PropertyExclusionConditions,
-                ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
                 ArmorJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
-                WearableJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
-                ModdableJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
+                ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
+                ModdableJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
+                WearableJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
         }
     }
 }

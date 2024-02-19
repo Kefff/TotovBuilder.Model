@@ -2257,31 +2257,6 @@ namespace TotovBuilder.Model.Test
             },
             new Vest()
             {
-                ArmorClass = 4,
-                ArmoredAreas = new string[]
-                {
-                    "Thorax",
-                    "Stomach"
-                },
-                Capacity = 12,
-                CategoryId = "vest",
-                Durability = 40,
-                ErgonomicsPercentageModifier = -0.15,
-                IconLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.webp",
-                Id = "5d5d646386f7742797261fd9",
-                ImageLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.webp",
-                MarketLink = "https://tarkov.dev/item/6b3tm-01m-armored-rig",
-                Material = "Titan",
-                MovementSpeedPercentageModifier = -0.10,
-                Name = "6B3TM-01M armored rig",
-                //RicochetChance = , // TODO : MISSING FROM API
-                ShortName = "6B3TM-01M",
-                TurningSpeedPercentageModifier = -0.05,
-                Weight = 9.2,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B3TM-01M_armored_rig"
-            },
-            new Vest()
-            {
                 Capacity = 6,
                 CategoryId = "vest",
                 IconLink = "https://assets.tarkov.dev/572b7adb24597762ae139821-icon.webp",
@@ -4535,31 +4510,6 @@ namespace TotovBuilder.Model.Test
                 ShortName = "PGT+H",
                 Weight = 0.03,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/preset-gas-tube-handguard"
-            },
-            new Vest()
-            {
-                ArmorClass = 4,
-                ArmoredAreas = new string[]
-                {
-                    "Thorax",
-                    "Stomach"
-                },
-                Capacity = 12,
-                CategoryId = "vest",
-                Durability = 40,
-                ErgonomicsPercentageModifier = -0.15,
-                IconLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-icon.webp",
-                Id = "5d5d646386f7742797261fd9",
-                ImageLink = "https://assets.tarkov.dev/5d5d646386f7742797261fd9-image.webp",
-                MarketLink = "https://tarkov.dev/item/6b3tm-01m-armored-rig",
-                Material = "Titan",
-                MovementSpeedPercentageModifier = -0.10,
-                Name = "6B3TM-01M armored rig",
-                //RicochetChance = , // TODO : MISSING FROM API
-                ShortName = "6B3TM-01M",
-                TurningSpeedPercentageModifier = -0.05,
-                Weight = 9.2,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B3TM-01M_armored_rig"
             },
             new Vest()
             {
