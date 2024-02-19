@@ -61,7 +61,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("r")]
-        public double RecoilModifier { get; set; }
+        public double RecoilPercentageModifier { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("su")]

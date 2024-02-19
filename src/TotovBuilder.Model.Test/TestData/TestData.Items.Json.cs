@@ -8,8 +8,8 @@
         public const string ItemsJson = @$"{{
   ""data"": {{
     ""items"": [
-      {FakeItems},
-      {RealItems}
+      {FakeItemsJson},
+      {RealItemsJson}
     ]
   }}
 }}";
@@ -17,340 +17,344 @@
         /// <summary>
         /// Fake items only for testing purpose.
         /// </summary>
-        private const string FakeItems = @"{
-        ""categories"": [
-          {
-            ""id"": ""5485a8684bdc2da71d8b4567""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testAmmunition"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        /// <remarks>
+        /// Exepression to sort them in Visual Studio Code using the Sort JSON extension :
+        /// (a.properties == null && b.properties != null) ? 1 : (a.properties != null && b.properties == null) ? -1 : ((a.properties == null && b.properties == null) || (a.properties != null && b.properties != null && a.properties.__typename === b.properties.__typename)) ? (a.name === b.name ? 0 : (a.name > b.name ? 1 : -1)) : (a.properties?.__typename > b.properties?.__typename) ? 1 : -1
+        /// </remarks>
+        private const string FakeItemsJson = @"{
+    ""categories"": [
+      {
+        ""id"": ""57bef4c42459772e8d35a53b""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""57bef4c42459772e8d35a53b""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testArmorMod"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""543be5f84bdc2dd4348b456a""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""5448e53e4bdc2d60728b4567""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testBackpack"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""566162e44bdc2d3f298b4573""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""5448bf274bdc2dfc2f8b456a""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testContainer"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""iconLink"": ""https://localhost/test-preset-face-shield-alone-icon.jpg"",
+    ""id"": ""test-preset-face-shield-alone"",
+    ""inspectImageLink"": ""https://localhost/test-preset-face-shield-alone-image.jpg"",
+    ""link"": ""https://tarkov.dev/item/test-preset-face-shield-alone"",
+    ""name"": ""Face shield alone"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesPreset"",
+      ""baseItem"": {
+        ""id"": ""5a16b7e1fcdbcb00165aa6c9""
+      },
+      ""moa"": null
+    },
+    ""shortName"": ""FSA"",
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-face-shield-alone""
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""56ea9461d2720b67698b456f""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""5448e5724bdc2ddf718b4568""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testEyewear"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""550aa4154bdc2dd8348b456b""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""543be6564bdc2df4348b4568""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testGrenade"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""5448fe124bdc2da5018b4567""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""5a341c4086f77401f2541505""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testHeadwear"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""566162e44bdc2d3f298b4573""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""5448bc234bdc2d3c308b4569""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testMagazine"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""iconLink"": ""https://localhost/test-preset-gas-tube-handguard-icon.jpg"",
+    ""id"": ""test-preset-gas-tube-handguard"",
+    ""inspectImageLink"": ""https://localhost/test-preset-gas-tube-handguard-image.jpg"",
+    ""link"": ""https://tarkov.dev/item/test-preset-gas-tube-handguard"",
+    ""name"": ""Gas tube + handguard"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesPreset"",
+      ""baseItem"": {
+        ""id"": ""59d36a0086f7747e673f3946""
+      },
+      ""moa"": null
+    },
+    ""shortName"": ""PGT+H"",
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-gas-tube-handguard""
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""57bef4c42459772e8d35a53b""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""5447e1d04bdc2dff2f8b4567""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testMeleeWeapon"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""543be5f84bdc2dd4348b456a""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""55818b224bdc2dde698b456f""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testMod"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""566162e44bdc2d3f298b4573""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""5447b5cf4bdc2d65278b4567""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testRangedWeapon"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""iconLink"": ""https://localhost/test-preset-magazine-alone-icon.jpg"",
+    ""id"": ""test-preset-magazine-alone"",
+    ""inspectImageLink"": ""https://localhost/test-preset-magazine-alone-image.jpg"",
+    ""link"": ""https://tarkov.dev/item/test-preset-magazine-alone"",
+    ""name"": ""Magazine alone"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesPreset"",
+      ""baseItem"": {
+        ""id"": ""5e81c4ca763d9f754677befa""
+      },
+      ""moa"": null
+    },
+    ""shortName"": ""MA"",
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-magazine-alone""
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""55818b224bdc2dde698b456f""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""55818ae44bdc2dde698b456c""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testRangedWeaponMod"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""55802f3e4bdc2de7118b4584""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""5448e5284bdc2dcb718b4567""
-          }
-        ],
-        ""iconLink"": """",
-        ""id"": ""testVest"",
-        ""inspectImageLink"": """",
-        ""link"": """",
-        ""name"": """",
-        ""properties"": null,
-        ""shortName"": """",
-        ""weight"": 0,
-        ""wikiLink"": """"
+        ""id"": ""5448fe124bdc2da5018b4567""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""57bef4c42459772e8d35a53b""
-          },
-          {
-            ""id"": ""543be5f84bdc2dd4348b456a""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://localhost/test-preset-magazine-alone-icon.jpg"",
-        ""id"": ""test-preset-magazine-alone"",
-        ""inspectImageLink"": ""https://localhost/test-preset-magazine-alone-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/test-preset-magazine-alone"",
-        ""name"": ""Magazine alone"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset"",
-          ""baseItem"": {
-            ""id"": ""5e81c4ca763d9f754677befa""
-          },
-          ""moa"": null
-        },
-        ""shortName"": ""MA"",
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-magazine-alone""
+        ""id"": ""566162e44bdc2d3f298b4573""
       },
       {
-        ""categories"": [
-          {
-            ""id"": ""56ea9461d2720b67698b456f""
-          },
-          {
-            ""id"": ""550aa4154bdc2dd8348b456b""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://localhost/test-preset-gas-tube-handguard-icon.jpg"",
-        ""id"": ""test-preset-gas-tube-handguard"",
-        ""inspectImageLink"": ""https://localhost/test-preset-gas-tube-handguard-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/test-preset-gas-tube-handguard"",
-        ""name"": ""Gas tube + handguard"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset"",
-          ""baseItem"": {
-            ""id"": ""59d36a0086f7747e673f3946""
-          },
-          ""moa"": null
-        },
-        ""shortName"": ""PGT+H"",
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-gas-tube-handguard""
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""iconLink"": ""https://localhost/test-preset-ring-flashlight-icon.jpg"",
+    ""id"": ""test-preset-ring-flashlight"",
+    ""inspectImageLink"": ""https://localhost/test-preset-ring-flashlight-image.jpg"",
+    ""link"": ""https://tarkov.dev/item/test-preset-ring-flashlight"",
+    ""name"": ""Ring + flashlight"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesPreset"",
+      ""baseItem"": {
+        ""id"": ""57d17e212459775a1179a0f5""
       },
+      ""moa"": null
+    },
+    ""shortName"": ""PR+F"",
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-ring-flashlight""
+  },
+  {
+    ""categories"": [
       {
-        ""categories"": [
-          {
-            ""id"": ""55818b224bdc2dde698b456f""
-          },
-          {
-            ""id"": ""55802f3e4bdc2de7118b4584""
-          },
-          {
-            ""id"": ""5448fe124bdc2da5018b4567""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://localhost/test-preset-ring-flashlight-icon.jpg"",
-        ""id"": ""test-preset-ring-flashlight"",
-        ""inspectImageLink"": ""https://localhost/test-preset-ring-flashlight-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/test-preset-ring-flashlight"",
-        ""name"": ""Ring + flashlight"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset"",
-          ""baseItem"": {
-            ""id"": ""57d17e212459775a1179a0f5""
-          },
-          ""moa"": null
-        },
-        ""shortName"": ""PR+F"",
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-ring-flashlight""
-      },
+        ""id"": ""5485a8684bdc2da71d8b4567""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testAmmunition"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
       {
-        ""categories"": [
-          {
-            ""id"": ""57bef4c42459772e8d35a53b""
-          },
-          {
-            ""id"": ""543be5f84bdc2dd4348b456a""
-          },
-          {
-            ""id"": ""566162e44bdc2d3f298b4573""
-          },
-          {
-            ""id"": ""54009119af1c881c07000029""
-          }
-        ],
-        ""iconLink"": ""https://localhost/test-preset-face-shield-alone-icon.jpg"",
-        ""id"": ""test-preset-face-shield-alone"",
-        ""inspectImageLink"": ""https://localhost/test-preset-face-shield-alone-image.jpg"",
-        ""link"": ""https://tarkov.dev/item/test-preset-face-shield-alone"",
-        ""name"": ""Face shield alone"",
-        ""properties"": {
-          ""__typename"": ""ItemPropertiesPreset"",
-          ""baseItem"": {
-            ""id"": ""5a16b7e1fcdbcb00165aa6c9""
-          },
-          ""moa"": null
-        },
-        ""shortName"": ""FSA"",
-        ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-face-shield-alone""
-      }";
+        ""id"": ""57bef4c42459772e8d35a53b""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testArmorMod"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5448e53e4bdc2d60728b4567""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testBackpack"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5448bf274bdc2dfc2f8b456a""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testContainer"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5448e5724bdc2ddf718b4568""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testEyewear"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""543be6564bdc2df4348b4568""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testGrenade"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5a341c4086f77401f2541505""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testHeadwear"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5448bc234bdc2d3c308b4569""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testMagazine"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5447e1d04bdc2dff2f8b4567""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testMeleeWeapon"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""55818b224bdc2dde698b456f""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testMod"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5447b5cf4bdc2d65278b4567""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testRangedWeapon"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""55818ae44bdc2dde698b456c""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testRangedWeaponMod"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5448e5284bdc2dcb718b4567""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testVest"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  }";
 
         /// <summary>
         /// Real items obtained from the API.
@@ -359,8 +363,7 @@
         /// Exepression to sort them in Visual Studio Code using the Sort JSON extension :
         /// (a.properties == null && b.properties != null) ? 1 : (a.properties != null && b.properties == null) ? -1 : ((a.properties == null && b.properties == null) || (a.properties != null && b.properties != null && a.properties.__typename === b.properties.__typename)) ? (a.name === b.name ? 0 : (a.name > b.name ? 1 : -1)) : (a.properties?.__typename > b.properties?.__typename) ? 1 : -1
         /// </remarks>
-        private const string RealItems = @"[[
-  {
+        private const string RealItemsJson = @"{
     ""categories"": [
       {
         ""id"": ""5485a8684bdc2da71d8b4567""
@@ -4801,7 +4804,6 @@
     ""shortName"": ""Shroud"",
     ""weight"": 0.1,
     ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Shroud_half-mask""
-  }
-]";
+  }";
     }
 }

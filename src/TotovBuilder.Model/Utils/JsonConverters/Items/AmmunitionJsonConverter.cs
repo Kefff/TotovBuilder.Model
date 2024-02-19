@@ -30,7 +30,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
             { nameof(IAmmunition.LightBleedingPercentageChance), a => a.LightBleedingPercentageChance == 0 },
             { nameof(IAmmunition.PenetrationPower), a => a.PenetrationPower == 0 },
             { nameof(IAmmunition.Projectiles), a => a.Projectiles == 1 },
-            { nameof(IAmmunition.RecoilModifier), a => a.RecoilModifier == 0 },
+            { nameof(IAmmunition.RecoilPercentageModifier), a => a.RecoilPercentageModifier == 0 },
             { nameof(IAmmunition.Subsonic), a => !a.Subsonic },
             { nameof(IAmmunition.Tracer), a => !a.Tracer },
 
