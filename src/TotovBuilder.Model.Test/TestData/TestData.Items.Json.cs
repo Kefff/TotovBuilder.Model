@@ -166,6 +166,22 @@
   {
     ""categories"": [
       {
+        ""id"": ""5448e54d4bdc2dcc718b4568""
+      }
+    ],
+    ""iconLink"": """",
+    ""id"": ""testArmor"",
+    ""inspectImageLink"": """",
+    ""link"": """",
+    ""name"": """",
+    ""properties"": null,
+    ""shortName"": """",
+    ""weight"": 0,
+    ""wikiLink"": """"
+  },
+  {
+    ""categories"": [
+      {
         ""id"": ""57bef4c42459772e8d35a53b""
       }
     ],

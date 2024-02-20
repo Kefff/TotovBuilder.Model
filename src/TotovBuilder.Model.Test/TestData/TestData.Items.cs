@@ -47,10 +47,10 @@ namespace TotovBuilder.Model.Test
                 },
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.08,
-                IconLink = "https://assets.tarkov.dev/preset-face-shield-alone-icon.webp",
-                Id = "preset-face-shield-alone",
-                ImageLink = "https://assets.tarkov.dev/preset-face-shield-alone-image.webp",
-                MarketLink = "https://tarkov.dev/item/preset-face-shield-alone",
+                IconLink = "https://assets.tarkov.dev/test-preset-face-shield-alone-icon.webp",
+                Id = "test-preset-face-shield-alone",
+                ImageLink = "https://assets.tarkov.dev/test-preset-face-shield-alone-image.webp",
+                MarketLink = "https://tarkov.dev/item/test-preset-face-shield-alone",
                 Material = "Glass",
                 MovementSpeedPercentageModifier = 0,
                 Name = "Face shield alone",
@@ -58,7 +58,7 @@ namespace TotovBuilder.Model.Test
                 ShortName = "FSA",
                 TurningSpeedPercentageModifier = -0.08,
                 Weight = 1.2,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/preset-face-shield-alone",
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/test-preset-face-shield-alone",
             },
             new ArmorMod()
             {
@@ -105,16 +105,16 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "magazine",
                 CheckSpeedPercentageModifier = -0.2,
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/preset-magazine-alone-icon.webp",
-                Id = "preset-magazine-alone",
-                ImageLink = "https://assets.tarkov.dev/preset-magazine-alone-image.webp",
+                IconLink = "https://assets.tarkov.dev/test-preset-magazine-alone-icon.webp",
+                Id = "test-preset-magazine-alone",
+                ImageLink = "https://assets.tarkov.dev/test-preset-magazine-alone-image.webp",
                 LoadSpeedPercentageModifier = -0.25,
                 MalfunctionPercentage = 0.04,
-                MarketLink = "https://tarkov.dev/item/preset-magazine-alone",
+                MarketLink = "https://tarkov.dev/item/test-preset-magazine-alone",
                 Name = "Magazine alone",
                 ShortName = "MA",
                 Weight = 0.16,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/preset-magazine-alone"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/test-preset-magazine-alone"
             },
             new Magazine()
             {
@@ -319,14 +319,33 @@ namespace TotovBuilder.Model.Test
                 IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp",
                 Id = "545cdb794bdc2d3a198b456a",
                 ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
-                MarketLink = "https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor",
+                MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora",
                 Material = "Aramid",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        Name = "Front_plate",
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Back_plate",
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Left_side_plate",
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Right_side_plate",
+                    }
+                },
                 MovementSpeedPercentageModifier = -0.115,
                 Name = "6B43 Zabralo-Sh body armor (Digital Flora)",
                 ShortName = "6B43",
                 TurningSpeedPercentageModifier = -0.055,
                 Weight = 10.8,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_6A_Zabralo-Sh_body_armor"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)"
             },
             new Armor()
             {
@@ -383,6 +402,25 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora-default",
                 Material = "Aramid",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        Name = "Front_plate",
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Back_plate",
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Left_side_plate",
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Right_side_plate",
+                    }
+                },
                 MovementSpeedPercentageModifier = -0.115,
                 Name = "6B43 Zabralo-Sh body armor (Digital Flora) Default",
                 ShortName = "6B43 Default",
@@ -500,13 +538,13 @@ namespace TotovBuilder.Model.Test
                 IconLink = "https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-icon.webp",
                 Id = "5ab8ebf186f7742d8b372e80",
                 ImageLink = "https://assets.tarkov.dev/5ab8ebf186f7742d8b372e80-image.webp",
-                MarketLink = "https://tarkov.dev/item/sso-attack-2-raid-backpack",
+                MarketLink = "https://tarkov.dev/item/sso-attack-2-raid-backpack-khaki",
                 MovementSpeedPercentageModifier = -0.05,
-                Name = "SSO Attack 2 raid backpack",
+                Name = "SSO Attack 2 raid backpack (Khaki)",
                 ShortName = "Attack 2",
                 TurningSpeedPercentageModifier = -0.03,
                 Weight = 2.8,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/SSO_Attack_2_raid_backpack"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/SSO_Attack_2_raid_backpack_(Khaki)"
             },
             new Container()
             {
@@ -705,11 +743,11 @@ namespace TotovBuilder.Model.Test
                 IconLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-icon.webp",
                 Id = "628e4e576d783146b124c64d",
                 ImageLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-image.webp",
-                MarketLink = "https://tarkov.dev/item/peltor-comtac-4-hybrid-headset",
-                Name = "Peltor ComTac 4 Hybrid headset",
+                MarketLink = "https://tarkov.dev/item/peltor-comtac-4-hybrid-headset-coyote-brown",
+                Name = "Peltor ComTac 4 Hybrid headset (Coyote Brown)",
                 ShortName = "ComTac 4",
                 Weight = 0.6,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Peltor_ComTac_4_Hybrid_headset"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Peltor_ComTac_4_Hybrid_headset_(Coyote_Brown)"
             },
             new Item()
             {
@@ -729,11 +767,11 @@ namespace TotovBuilder.Model.Test
                 IconLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-icon.webp",
                 Id = "5f9949d869e2777a0e779ba5",
                 ImageLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-image.webp",
-                MarketLink = "https://tarkov.dev/item/rivals-2020-armband",
-                Name = "Rivals 2020 armband",
+                MarketLink = "https://tarkov.dev/item/armband-rivals-2020",
+                Name = "Armband (Rivals 2020)",
                 ShortName = "Rivals",
                 Weight = 0.05,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Rivals_2020_armband"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Armband_(Rivals_2020)"
             },
             new Item()
             {
@@ -750,6 +788,18 @@ namespace TotovBuilder.Model.Test
             },
             new Item()
             {
+                CategoryId = "special",
+                IconLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.webp",
+                Id = "5991b51486f77447b112d44f",
+                ImageLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-image.webp",
+                MarketLink = "https://tarkov.dev/item/ms2000-marker",
+                Name = "MS2000 Marker",
+                ShortName = "MS2000",
+                Weight = 0.15,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/MS2000_Marker"
+            },
+            new Item()
+            {
                 CategoryId = "faceCover",
                 IconLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-icon.webp",
                 Id = "5e54f76986f7740366043752",
@@ -759,18 +809,6 @@ namespace TotovBuilder.Model.Test
                 ShortName = "Shroud",
                 Weight = 0.1,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Shroud_half-mask"
-            },
-            new Item()
-            {
-                CategoryId = "special",
-                IconLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.webp",
-                Id = "5991b51486f77447b112d44f",
-                ImageLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-image.webp",
-                MarketLink = "https://tarkov.dev/item/ms2000-marker",
-                Name = "MS2000 Marker",
-                ShortName = "MS2000",
-                Weight = 0.5,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/MS2000_Marker"
             },
             new Magazine()
             {
@@ -886,6 +924,29 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
+                IconLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-icon.webp",
+                Id = "5a16b93dfcdbcbcae6687261",
+                ImageLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-image.webp",
+                MarketLink = "https://tarkov.dev/item/anpvs-14-dual-dovetail-mount",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "57235b6f24597759bf5a30f1"
+                        },
+                        Name = "mod_nvg"
+                    }
+                },
+                Name = "AN/PVS-14 Dual Dovetail Mount",
+                ShortName = "DDT",
+                Weight = 0.07,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/AN/PVS-14_Dual_Dovetail_Mount"
+            },
+            new Mod()
+            {
+                CategoryId = "mod",
                 ErgonomicsModifier = -2,
                 IconLink = "https://assets.tarkov.dev/59d790f486f77403cb06aec6-icon.webp",
                 Id = "59d790f486f77403cb06aec6",
@@ -895,6 +956,29 @@ namespace TotovBuilder.Model.Test
                 ShortName = "XHP35",
                 Weight = 0.12,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Armytek_Predator_Pro_v3_XHP35_HI_flashlight"
+            },
+            new Mod()
+            {
+                CategoryId = "mod",
+                IconLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-icon.webp",
+                Id = "58d2664f86f7747fec5834f6",
+                ImageLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-image.webp",
+                MarketLink = "https://tarkov.dev/item/deltapoint-cross-slot-mount-base",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "58d268fc86f774111273f8c2"
+                        },
+                        Name = "mod_scope"
+                    }
+                },
+                Name = "DeltaPoint Cross Slot Mount base",
+                ShortName = "DPCSM",
+                Weight = 0.045,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/DeltaPoint_Cross_Slot_Mount_base"
             },
             new Mod()
             {
@@ -1014,29 +1098,6 @@ namespace TotovBuilder.Model.Test
             new Mod()
             {
                 CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-icon.webp",
-                Id = "58d2664f86f7747fec5834f6",
-                ImageLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-image.webp",
-                MarketLink = "https://tarkov.dev/item/deltapoint-cross-slot-mount-base",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "58d268fc86f774111273f8c2"
-                        },
-                        Name = "mod_scope"
-                    }
-                },
-                Name = "DeltaPoint Cross Slot Mount base",
-                ShortName = "DPCSM",
-                Weight = 0.045,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/DeltaPoint_Cross_Slot_Mount_base"
-            },
-            new Mod()
-            {
-                CategoryId = "mod",
                 IconLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-icon.webp",
                 Id = "5a16b8a9fcdbcb00165aa6ca",
                 ImageLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-image.webp",
@@ -1061,36 +1122,13 @@ namespace TotovBuilder.Model.Test
             },
             new Mod()
             {
-                CategoryId = "mod",
-                IconLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-icon.webp",
-                Id = "5a16b93dfcdbcbcae6687261",
-                ImageLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-image.webp",
-                MarketLink = "https://tarkov.dev/item/anpvs-14-dual-dovetail-mount",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "57235b6f24597759bf5a30f1"
-                        },
-                        Name = "mod_nvg"
-                    }
-                },
-                Name = "AN/PVS-14 Dual Dovetail Mount",
-                ShortName = "DDT",
-                Weight = 0.07,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/AN/PVS-14_Dual_Dovetail_Mount"
-            },
-            new Mod()
-            {
                 BaseItemId = "57d17e212459775a1179a0f5",
                 CategoryId = "mod",
                 ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/preset-ring-flashlight-icon.webp",
-                Id = "preset-ring-flashlight",
-                ImageLink = "https://assets.tarkov.dev/preset-ring-flashlight-image.webp",
-                MarketLink = "https://tarkov.dev/item/preset-ring-flashlight",
+                IconLink = "https://assets.tarkov.dev/test-preset-ring-flashlight-icon.webp",
+                Id = "test-preset-ring-flashlight",
+                ImageLink = "https://assets.tarkov.dev/test-preset-ring-flashlight-image.webp",
+                MarketLink = "https://tarkov.dev/item/test-preset-ring-flashlight",
                 ModSlots = new ModSlot[]
                 {
                     new ModSlot()
@@ -1107,372 +1145,7 @@ namespace TotovBuilder.Model.Test
                 Name = "Ring + flashlight",
                 ShortName = "PR+F",
                 Weight = 0.085,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/preset-ring-flashlight"
-            },
-            new RangedWeapon()
-            {
-                Caliber = "Caliber545x39",
-                CategoryId = "mainWeapon",
-                DefaultPresetId = "584147732459775a2b6d9f12",
-                Ergonomics = 44,
-                FireModes = new string[] { "SingleFire", "FullAuto" },
-                FireRate = 650,
-                HorizontalRecoil = 445,
-                IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.webp",
-                Id = "57dc2fa62459775949412633",
-                ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.webp",
-                MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5f6341043ada5942720e2dc5",
-                            "6087e663132d4d12c81fd96b",
-                            "5beec8ea0db834001a6f9dbf",
-                            "5649ad3f4bdc2df8348b4585",
-                            "5649ade84bdc2d1b2b8b4587",
-                            "59e62cc886f77440d40b52a1",
-                            "5a0071d486f77404e23a12b2",
-                            "57e3dba62459770f0c32322b",
-                            "5cf54404d7f00c108840b2ef",
-                            "5e2192a498a36665e8337386",
-                            "5b30ac585acfc433000eb79c",
-                            "59e6318286f77444dd62c4cc",
-                            "5cf50850d7f00c056e24104c",
-                            "5cf508bfd7f00c056e24104e",
-                            "5947f92f86f77427344a76b1",
-                            "5947fa2486f77425b47c1a9b",
-                            "5c6bf4aa2e2216001219b0ae",
-                            "5649ae4a4bdc2d1b2b8b4588",
-                            "5998517986f7746017232f7e",
-                            "623c3be0484b5003161840dc",
-                            "628c9ab845c59e5b80768a81",
-                            "628a664bccaab13006640e47"
-                        },
-                        Name = "mod_pistol_grip",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "59ecc28286f7746d7a68aa8c",
-                            "5ab626e4d8ce87272e4c6e43",
-                            "57dc347d245977596754e7a1"
-                        },
-                        Name = "mod_stock",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "6130ca3fd92c473c77020dbd",
-                            "5648ac824bdc2ded0b8b457d"
-                        },
-                        Name = "mod_charge",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "564ca9df4bdc2d35148b4569",
-                            "564ca99c4bdc2d16268b4589",
-                            "55d480c04bdc2d1d4e8b456a",
-                            "5cbdaf89ae9215000e5b9c94",
-                            "55d481904bdc2d8c2f8b456a",
-                            "55d482194bdc2d1d4e8b456b",
-                            "55d4837c4bdc2d1d4e8b456c",
-                            "5aaa4194e5b5b055d06310a5",
-                            "5bed61680db834001d2c45ab",
-                            "5bed625c0db834001c062946"
-                        },
-                        Name = "mod_magazine",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5ac72e945acfc43f3b691116",
-                            "5ac7655e5acfc40016339a19",
-                            "5649aa744bdc2ded0b8b457e",
-                            "5f633f791b231926f2329f13",
-                            "5943eeeb86f77412d6384f6b",
-                            "5cc9a96cd7f00c011c04e04a",
-                            "615d8f5dd92c473c770212ef",
-                            "5649ab884bdc2ded0b8b457f",
-                            "57dc324a24597759501edc20",
-                            "59bffc1f86f77435b128b872",
-                            "593d493f86f7745e6b2ceb22",
-                            "564caa3d4bdc2d17108b458e",
-                            "57ffb0e42459777d047111c5"
-                        },
-                        Name = "mod_muzzle",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "57dc334d245977597164366f",
-                            "5839a7742459773cf9693481"
-                        },
-                        Name = "mod_reciever",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "59d36a0086f7747e673f3946"
-                        },
-                        Name = "mod_gas_block",
-                        Required = false // TODO : MISSING FROM API
-                    }
-                },
-                Name = "Kalashnikov AKS-74U 5.45x39 assault rifle",
-                ShortName = "AKS-74U",
-                VerticalRecoil = 141,
-                Weight = 1.809,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKS-74U_5.45x39_assault_rifle"
-            },
-            new RangedWeapon()
-            {
-                Caliber = "Caliber1143x23ACP",
-                CategoryId = "secondaryWeapon",
-                DefaultPresetId = "5eb2968186f7746d1f1a4fd5",
-                Ergonomics = 75,
-                FireModes = new string[] { "SingleFire" },
-                FireRate = 30,
-                HorizontalRecoil = 355,
-                IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.webp",
-                Id = "5e81c3cbac2bb513793cdc75",
-                ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.webp",
-                MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c519cb2b95385c177551",
-                            "5f3e7801153b8571434a924c",
-                            "5f3e77f59103d430b93f94c1"
-                        },
-                        Name = "mod_barrel",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c6bf763d9f754677beff",
-                            "5ef366938cef260c0642acad",
-                            "626a9cb151cb5849f6002890"
-                        },
-                        Name = "mod_pistol_grip",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81edc13397a21db957f6a1",
-                            "5f3e7823ddc4f03b010e2045"
-                        },
-                        Name = "mod_reciever",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c4ca763d9f754677befa",
-                            "5f3e77b26cda304dcc634057",
-                            "5ef3448ab37dfd6af863525c"
-                        },
-                        Name = "mod_magazine",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5ef32e4d1c1fd62aea6a150d",
-                            "5e81c6a2ac2bb513793cdc7f",
-                            "5f3e772a670e2a7b01739a52"
-                        },
-                        Name = "mod_trigger",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c550763d9f754677befd",
-                            "5f3e76d86cda304dcc634054",
-                            "5ef35f46382a846010715a96",
-                            "5ef35d2ac64c5d0dfc0571b0",
-                            "5ef35bc243cb350a955a7ccd"
-                        },
-                        Name = "mod_hammer",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5e81c539cb2b95385c177553",
-                            "5f3e777688ca2d00ad199d25",
-                            "5ef3553c43cb350a955a7ccb"
-                        },
-                        Name = "mod_catch",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5ef5d994dfbc9f3c660ded95"
-                        },
-                        Name = "mod_mount_000",
-                        Required = false // TODO : MISSING FROM API
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5ef369b08cef260c0642acaf"
-                        },
-                        Name = "mod_mount_001",
-                        Required = false // TODO : MISSING FROM API
-                    }
-                },
-                Name = "Colt M1911A1 .45 ACP pistol",
-                ShortName = "M1911A1",
-                VerticalRecoil = 530,
-                Weight = 0.231,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Colt_M1911A1_.45_ACP_pistol"
-            },
-            new RangedWeapon()
-            {
-                Caliber = "Caliber26x75",
-                CategoryId = "mainWeapon",
-                Ergonomics = 51,
-                FireModes = new string[] { "SingleFire" },
-                FireRate = 30,
-                HorizontalRecoil = 400,
-                IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.webp",
-                Id = "624c0b3340357b5f566e8766",
-                ImageLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.webp",
-                MarketLink = "https://tarkov.dev/item/rsp-30-reactive-signal-cartridge-yellow",
-                Name = "RSP-30 reactive signal cartridge (Yellow)",
-                ShortName = "Yellow",
-                VerticalRecoil = 200,
-                Weight = 0.6,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/RSP-30_reactive_signal_cartridge_(Yellow)"
-            },
-            new RangedWeapon()
-            {
-                Caliber = "Caliber9x19PARA",
-                CategoryId = "mainWeapon",
-                DefaultPresetId = "58dffca786f774083a256ab1",
-                Ergonomics = 40,
-                FireModes = new string[] { "SingleFire", "FullAuto" },
-                FireRate = 850,
-                HorizontalRecoil = 299,
-                IconLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-icon.webp",
-                Id = "58948c8e86f77409493f7266",
-                ImageLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-image.webp",
-                MarketLink = "https://tarkov.dev/item/sig-mpx-9x19-submachine-gun",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "55d4b9964bdc2d1d4e8b456e",
-                            "571659bb2459771fb2755a12",
-                            "602e71bd53a60014f9705bfa",
-                            "6113c3586c780c1e710c90bc",
-                            "6113cc78d3a39d50044c065a",
-                            "6113cce3d92c473c770200c7",
-                            "5cc9bcaed7f00c011c04e179",
-                            "5bb20e18d4351e00320205d5",
-                            "5bb20e0ed4351e3bac1212dc",
-                            "6193dcd0f8ee7e52e4210a28",
-                            "5d025cc1d7ad1a53845279ef",
-                            "5c6d7b3d2e221600114c9b7d",
-                            "57c55efc2459772d2c6271e7",
-                            "57af48872459771f0b2ebf11",
-                            "57c55f092459772d291a8463",
-                            "57c55f112459772d28133310",
-                            "57c55f172459772d27602381",
-                            "5a339805c4a2826c6e06d73d",
-                            "55802f5d4bdc2dac148b458f",
-                            "5d15cf3bd7ad1a67e71518b2",
-                            "59db3a1d86f77429e05b4e92",
-                            "5fbcbd6c187fea44d52eda14",
-                            "59db3acc86f7742a2c4ab912",
-                            "59db3b0886f77429d72fb895",
-                            "615d8faecabb9b7ad90f4d5d",
-                            "5b07db875acfc40dc528a5f6",
-                            "5894a51286f77426d13baf02"
-                        },
-                        Name = "mod_pistol_grip"
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5c5db6742e2216000f1b2852",
-                            "5c5db6552e2216001026119d",
-                            "5894a05586f774094708ef75",
-                            "5c5db6652e221600113fba51"
-                        },
-                        Name = "mod_magazine"
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5894a5b586f77426d2590767"
-                        },
-                        Name = "mod_reciever"
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "58ac1bf086f77420ed183f9f",
-                            "5894a13e86f7742405482982",
-                            "5fbcc429900b1d5091531dd7",
-                            "5fbcc437d724d907e2077d5c",
-                            "5c5db6ee2e221600113fba54",
-                            "5c5db6f82e2216003a0fe914"
-                        },
-                        Name = "mod_stock"
-                    },
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5c5db6b32e221600102611a0",
-                            "58949edd86f77409483e16a9",
-                            "58949fac86f77409483e16aa"
-                        },
-                        Name = "mod_charge"
-                    }
-                },
-                Name = "SIG MPX 9x19 submachine gun",
-                ShortName = "MPX",
-                VerticalRecoil = 60,
-                Weight = 0.64,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/test-preset-ring-flashlight"
             },
             new RangedWeapon()
             {
@@ -1705,6 +1378,371 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.64,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun"
             },
+            new RangedWeapon()
+            {
+                Caliber = "Caliber1143x23ACP",
+                CategoryId = "secondaryWeapon",
+                DefaultPresetId = "5eb2968186f7746d1f1a4fd5",
+                Ergonomics = 75,
+                FireModes = new string[] { "SingleFire" },
+                FireRate = 30,
+                HorizontalRecoil = 355,
+                IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.webp",
+                Id = "5e81c3cbac2bb513793cdc75",
+                ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.webp",
+                MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5e81c519cb2b95385c177551",
+                            "5f3e7801153b8571434a924c",
+                            "5f3e77f59103d430b93f94c1"
+                        },
+                        Name = "mod_barrel",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5e81c6bf763d9f754677beff",
+                            "5ef366938cef260c0642acad",
+                            "626a9cb151cb5849f6002890"
+                        },
+                        Name = "mod_pistol_grip",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5e81edc13397a21db957f6a1",
+                            "5f3e7823ddc4f03b010e2045"
+                        },
+                        Name = "mod_reciever",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5e81c4ca763d9f754677befa",
+                            "5f3e77b26cda304dcc634057",
+                            "5ef3448ab37dfd6af863525c"
+                        },
+                        Name = "mod_magazine",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5ef32e4d1c1fd62aea6a150d",
+                            "5e81c6a2ac2bb513793cdc7f",
+                            "5f3e772a670e2a7b01739a52"
+                        },
+                        Name = "mod_trigger",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5e81c550763d9f754677befd",
+                            "5f3e76d86cda304dcc634054",
+                            "5ef35f46382a846010715a96",
+                            "5ef35d2ac64c5d0dfc0571b0",
+                            "5ef35bc243cb350a955a7ccd"
+                        },
+                        Name = "mod_hammer",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5e81c539cb2b95385c177553",
+                            "5f3e777688ca2d00ad199d25",
+                            "5ef3553c43cb350a955a7ccb"
+                        },
+                        Name = "mod_catch",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5ef5d994dfbc9f3c660ded95"
+                        },
+                        Name = "mod_mount_000",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5ef369b08cef260c0642acaf"
+                        },
+                        Name = "mod_mount_001",
+                        Required = false // TODO : MISSING FROM API
+                    }
+                },
+                Name = "Colt M1911A1 .45 ACP pistol",
+                ShortName = "M1911A1",
+                VerticalRecoil = 530,
+                Weight = 0.231,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Colt_M1911A1_.45_ACP_pistol"
+            },
+            new RangedWeapon()
+            {
+                Caliber = "Caliber545x39",
+                CategoryId = "mainWeapon",
+                DefaultPresetId = "584147732459775a2b6d9f12",
+                Ergonomics = 44,
+                FireModes = new string[] { "SingleFire", "FullAuto" },
+                FireRate = 650,
+                HorizontalRecoil = 445,
+                IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.webp",
+                Id = "57dc2fa62459775949412633",
+                ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.webp",
+                MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5f6341043ada5942720e2dc5",
+                            "6087e663132d4d12c81fd96b",
+                            "5beec8ea0db834001a6f9dbf",
+                            "5649ad3f4bdc2df8348b4585",
+                            "5649ade84bdc2d1b2b8b4587",
+                            "59e62cc886f77440d40b52a1",
+                            "5a0071d486f77404e23a12b2",
+                            "57e3dba62459770f0c32322b",
+                            "5cf54404d7f00c108840b2ef",
+                            "5e2192a498a36665e8337386",
+                            "5b30ac585acfc433000eb79c",
+                            "59e6318286f77444dd62c4cc",
+                            "5cf50850d7f00c056e24104c",
+                            "5cf508bfd7f00c056e24104e",
+                            "5947f92f86f77427344a76b1",
+                            "5947fa2486f77425b47c1a9b",
+                            "5c6bf4aa2e2216001219b0ae",
+                            "5649ae4a4bdc2d1b2b8b4588",
+                            "5998517986f7746017232f7e",
+                            "623c3be0484b5003161840dc",
+                            "628c9ab845c59e5b80768a81",
+                            "628a664bccaab13006640e47"
+                        },
+                        Name = "mod_pistol_grip",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "59ecc28286f7746d7a68aa8c",
+                            "5ab626e4d8ce87272e4c6e43",
+                            "57dc347d245977596754e7a1"
+                        },
+                        Name = "mod_stock",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "6130ca3fd92c473c77020dbd",
+                            "5648ac824bdc2ded0b8b457d"
+                        },
+                        Name = "mod_charge",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "564ca9df4bdc2d35148b4569",
+                            "564ca99c4bdc2d16268b4589",
+                            "55d480c04bdc2d1d4e8b456a",
+                            "5cbdaf89ae9215000e5b9c94",
+                            "55d481904bdc2d8c2f8b456a",
+                            "55d482194bdc2d1d4e8b456b",
+                            "55d4837c4bdc2d1d4e8b456c",
+                            "5aaa4194e5b5b055d06310a5",
+                            "5bed61680db834001d2c45ab",
+                            "5bed625c0db834001c062946"
+                        },
+                        Name = "mod_magazine",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5ac72e945acfc43f3b691116",
+                            "5ac7655e5acfc40016339a19",
+                            "5649aa744bdc2ded0b8b457e",
+                            "5f633f791b231926f2329f13",
+                            "5943eeeb86f77412d6384f6b",
+                            "5cc9a96cd7f00c011c04e04a",
+                            "615d8f5dd92c473c770212ef",
+                            "5649ab884bdc2ded0b8b457f",
+                            "57dc324a24597759501edc20",
+                            "59bffc1f86f77435b128b872",
+                            "593d493f86f7745e6b2ceb22",
+                            "564caa3d4bdc2d17108b458e",
+                            "57ffb0e42459777d047111c5"
+                        },
+                        Name = "mod_muzzle",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "57dc334d245977597164366f",
+                            "5839a7742459773cf9693481"
+                        },
+                        Name = "mod_reciever",
+                        Required = false // TODO : MISSING FROM API
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "59d36a0086f7747e673f3946"
+                        },
+                        Name = "mod_gas_block",
+                        Required = false // TODO : MISSING FROM API
+                    }
+                },
+                Name = "Kalashnikov AKS-74U 5.45x39 assault rifle",
+                ShortName = "AKS-74U",
+                VerticalRecoil = 141,
+                Weight = 1.809,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKS-74U_5.45x39_assault_rifle"
+            },
+            new RangedWeapon()
+            {
+                Caliber = "Caliber26x75",
+                CategoryId = "mainWeapon",
+                Ergonomics = 51,
+                FireModes = new string[] { "SingleFire" },
+                FireRate = 30,
+                HorizontalRecoil = 400,
+                IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.webp",
+                Id = "624c0b3340357b5f566e8766",
+                ImageLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.webp",
+                MarketLink = "https://tarkov.dev/item/rsp-30-reactive-signal-cartridge-yellow",
+                Name = "RSP-30 reactive signal cartridge (Yellow)",
+                ShortName = "Yellow",
+                VerticalRecoil = 200,
+                Weight = 0.6,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/RSP-30_reactive_signal_cartridge_(Yellow)"
+            },
+            new RangedWeapon()
+            {
+                Caliber = "Caliber9x19PARA",
+                CategoryId = "mainWeapon",
+                DefaultPresetId = "58dffca786f774083a256ab1",
+                Ergonomics = 40,
+                FireModes = new string[] { "SingleFire", "FullAuto" },
+                FireRate = 850,
+                HorizontalRecoil = 299,
+                IconLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-icon.webp",
+                Id = "58948c8e86f77409493f7266",
+                ImageLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-image.webp",
+                MarketLink = "https://tarkov.dev/item/sig-mpx-9x19-submachine-gun",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "55d4b9964bdc2d1d4e8b456e",
+                            "571659bb2459771fb2755a12",
+                            "602e71bd53a60014f9705bfa",
+                            "6113c3586c780c1e710c90bc",
+                            "6113cc78d3a39d50044c065a",
+                            "6113cce3d92c473c770200c7",
+                            "5cc9bcaed7f00c011c04e179",
+                            "5bb20e18d4351e00320205d5",
+                            "5bb20e0ed4351e3bac1212dc",
+                            "6193dcd0f8ee7e52e4210a28",
+                            "5d025cc1d7ad1a53845279ef",
+                            "5c6d7b3d2e221600114c9b7d",
+                            "57c55efc2459772d2c6271e7",
+                            "57af48872459771f0b2ebf11",
+                            "57c55f092459772d291a8463",
+                            "57c55f112459772d28133310",
+                            "57c55f172459772d27602381",
+                            "5a339805c4a2826c6e06d73d",
+                            "55802f5d4bdc2dac148b458f",
+                            "5d15cf3bd7ad1a67e71518b2",
+                            "59db3a1d86f77429e05b4e92",
+                            "5fbcbd6c187fea44d52eda14",
+                            "59db3acc86f7742a2c4ab912",
+                            "59db3b0886f77429d72fb895",
+                            "615d8faecabb9b7ad90f4d5d",
+                            "5b07db875acfc40dc528a5f6",
+                            "5894a51286f77426d13baf02"
+                        },
+                        Name = "mod_pistol_grip"
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5c5db6742e2216000f1b2852",
+                            "5c5db6552e2216001026119d",
+                            "5894a05586f774094708ef75",
+                            "5c5db6652e221600113fba51"
+                        },
+                        Name = "mod_magazine"
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5894a5b586f77426d2590767"
+                        },
+                        Name = "mod_reciever"
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "58ac1bf086f77420ed183f9f",
+                            "5894a13e86f7742405482982",
+                            "5fbcc429900b1d5091531dd7",
+                            "5fbcc437d724d907e2077d5c",
+                            "5c5db6ee2e221600113fba54",
+                            "5c5db6f82e2216003a0fe914"
+                        },
+                        Name = "mod_stock"
+                    },
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5c5db6b32e221600102611a0",
+                            "58949edd86f77409483e16a9",
+                            "58949fac86f77409483e16aa"
+                        },
+                        Name = "mod_charge"
+                    }
+                },
+                Name = "SIG MPX 9x19 submachine gun",
+                ShortName = "MPX",
+                VerticalRecoil = 60,
+                Weight = 0.64,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun"
+            },
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
@@ -1729,6 +1767,79 @@ namespace TotovBuilder.Model.Test
                 ShortName = "MPXSD 165mm",
                 Weight = 0.18,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX-SD_9x19_165mm_barrel"
+            },
+            new RangedWeaponMod()
+            {
+                CategoryId = "rangedWeaponMod",
+                IconLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-icon.webp",
+                Id = "58d268fc86f774111273f8c2",
+                ImageLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-image.webp",
+                MarketLink = "https://tarkov.dev/item/leupold-deltapoint-reflex-sight",
+                Name = "Leupold DeltaPoint Reflex Sight",
+                ShortName = "DP",
+                Weight = 0.053,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Leupold_DeltaPoint_Reflex_Sight"
+            },
+            new RangedWeaponMod()
+            {
+                CategoryId = "rangedWeaponMod",
+                ErgonomicsModifier = -2,
+                IconLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-icon.webp",
+                Id = "57adff4f24597737f373b6e6",
+                ImageLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-image.webp",
+                MarketLink = "https://tarkov.dev/item/sig-sauer-bravo4-4x30-scope",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "57ae0171245977343c27bfcf",
+                            "58d39d3d86f77445bb794ae7",
+                            "577d128124597739d65d0e56",
+                            "58d2664f86f7747fec5834f6",
+                            "5a33b2c9c4a282000c5a9511"
+                        },
+                        Name = "mod_scope"
+                    }
+                },
+                Name = "SIG Sauer BRAVO4 4x30 scope",
+                ShortName = "BRAVO4",
+                Weight = 0.419,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_Sauer_BRAVO4_4x30_scope"
+            },
+            new RangedWeaponMod()
+            {
+                AccuracyPercentageModifier = 0,
+                CategoryId = "rangedWeaponMod",
+                ConflictingItemIds = new string[]
+                {
+                    "591c4efa86f7741030027726",
+                    "570fd79bd2720bc7458b4583",
+                    "570fd6c2d2720bc6458b457f",
+                    "558022b54bdc2dac148b458d",
+                    "58491f3324597764bc48fa02",
+                    "584924ec24597768f12ae244",
+                    "5b30b0dc5acfc400153b7124",
+                    "60a23797a37c940de7062d02",
+                    "5d2da1e948f035477b1ce2ba",
+                    "5c0505e00db834001b735073",
+                    "609a63b6e2ff132951242d09",
+                    "584984812459776a704a82a6",
+                    "59f9d81586f7744c7506ee62",
+                    "570fd721d2720bc5458b4596",
+                    "5c7d55f52e221644f31bff6a"
+                },
+                ErgonomicsModifier = -6,
+                IconLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.webp",
+                Id = "61714eec290d254f5e6b2ffc",
+                ImageLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.webp",
+                MarketLink = "https://tarkov.dev/item/schmidt-bender-pm-ii-3-12x50-scope",
+                Name = "Schmidt & Bender PM II 3-12x50 34mm riflescope",
+                RecoilPercentageModifier = 0,
+                ShortName = "PM II 3-12x50",
+                Weight = 0.9,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Schmidt_%26_Bender_PM_II_3-12x50_34mm_riflescope"
             },
             new RangedWeaponMod()
             {
@@ -1838,39 +1949,6 @@ namespace TotovBuilder.Model.Test
             },
             new RangedWeaponMod()
             {
-                AccuracyPercentageModifier = 0,
-                CategoryId = "rangedWeaponMod",
-                ConflictingItemIds = new string[]
-                {
-                    "591c4efa86f7741030027726",
-                    "570fd79bd2720bc7458b4583",
-                    "570fd6c2d2720bc6458b457f",
-                    "558022b54bdc2dac148b458d",
-                    "58491f3324597764bc48fa02",
-                    "584924ec24597768f12ae244",
-                    "5b30b0dc5acfc400153b7124",
-                    "60a23797a37c940de7062d02",
-                    "5d2da1e948f035477b1ce2ba",
-                    "5c0505e00db834001b735073",
-                    "609a63b6e2ff132951242d09",
-                    "584984812459776a704a82a6",
-                    "59f9d81586f7744c7506ee62",
-                    "570fd721d2720bc5458b4596",
-                    "5c7d55f52e221644f31bff6a"
-                },
-                ErgonomicsModifier = -6,
-                IconLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.webp",
-                Id = "61714eec290d254f5e6b2ffc",
-                ImageLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.webp",
-                MarketLink = "https://tarkov.dev/item/schmidt-bender-pm-ii-3-12x50-scope",
-                Name = "Schmidt & Bender PM II 3-12x50 34mm riflescope",
-                RecoilPercentageModifier = 0,
-                ShortName = "PM II 3-12x50",
-                Weight = 0.9,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Schmidt_%26_Bender_PM_II_3-12x50_34mm_riflescope"
-            },
-            new RangedWeaponMod()
-            {
                 CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 6,
                 IconLink = "https://assets.tarkov.dev/57e3dba62459770f0c32322b-icon.webp",
@@ -1881,31 +1959,6 @@ namespace TotovBuilder.Model.Test
                 ShortName = "6P4 Sb.9",
                 Weight = 0.07,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/AK_bakelite_pistol_grip_(6P4_Sb.9)"
-            },
-            new RangedWeaponMod()
-            {
-                CategoryId = "rangedWeaponMod",
-                ErgonomicsModifier = 10,
-                IconLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-icon.webp",
-                Id = "57dc347d245977596754e7a1",
-                ImageLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-image.webp",
-                MarketLink = "https://tarkov.dev/item/aks-74u-metal-skeleton-stock-6p26-sb5",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5a0c59791526d8dba737bba7"
-                        },
-                        Name = "mod_stock"
-                    }
-                },
-                Name = "AKS-74U metal skeleton stock (6P26 Sb.5)",
-                RecoilPercentageModifier = -0.3,
-                ShortName = "6P26 Sb.5",
-                Weight = 0.218,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/AKS-74U_metal_skeleton_stock_(6P26_Sb.5)"
             },
             new RangedWeaponMod()
             {
@@ -1974,6 +2027,31 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
+                ErgonomicsModifier = 10,
+                IconLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-icon.webp",
+                Id = "57dc347d245977596754e7a1",
+                ImageLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-image.webp",
+                MarketLink = "https://tarkov.dev/item/aks-74u-metal-skeleton-stock-6p26-sb5",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        CompatibleItemIds = new string[]
+                        {
+                            "5a0c59791526d8dba737bba7"
+                        },
+                        Name = "mod_stock"
+                    }
+                },
+                Name = "AKS-74U metal skeleton stock (6P26 Sb.5)",
+                RecoilPercentageModifier = -0.3,
+                ShortName = "6P26 Sb.5",
+                Weight = 0.218,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/AKS-74U_metal_skeleton_stock_(6P26_Sb.5)"
+            },
+            new RangedWeaponMod()
+            {
+                CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 4,
                 IconLink = "https://assets.tarkov.dev/57dc32dc245977596d4ef3d3-icon.webp",
                 Id = "57dc32dc245977596d4ef3d3",
@@ -1983,6 +2061,34 @@ namespace TotovBuilder.Model.Test
                 ShortName = "6P26 Sb.6",
                 Weight = 0.116,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/AKS-74U_wooden_handguard_(6P26_Sb.6)"
+            },
+            new RangedWeaponMod()
+            {
+                CategoryId = "rangedWeaponMod",
+                ErgonomicsModifier = 18,
+                IconLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-icon.webp",
+                Id = "591aef7986f774139d495f03",
+                ImageLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-image.webp",
+                MarketLink = "https://tarkov.dev/item/ar-15-troy-m7a1-pdw-stock-black",
+                Name = "AR-15 TROY M7A1 PDW stock (Black)",
+                RecoilPercentageModifier = -0.18,
+                ShortName = "M7A1PDW",
+                Weight = 0.4,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/TROY_M7A1_PDW_stock"
+            },
+            new RangedWeaponMod()
+            {
+                CategoryId = "rangedWeaponMod",
+                ErgonomicsModifier = 8,
+                IconLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-icon.webp",
+                Id = "59f8a37386f7747af3328f06",
+                ImageLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-image.webp",
+                MarketLink = "https://tarkov.dev/item/fortis-shift-tactical-foregrip",
+                Name = "Fortis Shift tactical foregrip",
+                RecoilPercentageModifier = -0.015,
+                ShortName = "Shift",
+                Weight = 0.09,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Fortis_Shift_tactical_foregrip"
             },
             new RangedWeaponMod()
             {
@@ -2134,61 +2240,6 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                ErgonomicsModifier = -2,
-                IconLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-icon.webp",
-                Id = "57adff4f24597737f373b6e6",
-                ImageLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-image.webp",
-                MarketLink = "https://tarkov.dev/item/sig-sauer-bravo4-4x30-scope",
-                ModSlots = new ModSlot[]
-                {
-                    new ModSlot()
-                    {
-                        CompatibleItemIds = new string[]
-                        {
-                            "57ae0171245977343c27bfcf",
-                            "58d39d3d86f77445bb794ae7",
-                            "577d128124597739d65d0e56",
-                            "58d2664f86f7747fec5834f6",
-                            "5a33b2c9c4a282000c5a9511"
-                        },
-                        Name = "mod_scope"
-                    }
-                },
-                Name = "SIG Sauer BRAVO4 4x30 scope",
-                ShortName = "BRAVO4",
-                Weight = 0.419,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_Sauer_BRAVO4_4x30_scope"
-            },
-            new RangedWeaponMod()
-            {
-                CategoryId = "rangedWeaponMod",
-                IconLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-icon.webp",
-                Id = "58d268fc86f774111273f8c2",
-                ImageLink = "https://assets.tarkov.dev/58d268fc86f774111273f8c2-image.webp",
-                MarketLink = "https://tarkov.dev/item/leupold-deltapoint-reflex-sight",
-                Name = "Leupold DeltaPoint Reflex Sight",
-                ShortName = "DP",
-                Weight = 0.053,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Leupold_DeltaPoint_Reflex_Sight"
-            },
-            new RangedWeaponMod()
-            {
-                AccuracyPercentageModifier = -0.01,
-                CategoryId = "rangedWeaponMod",
-                ErgonomicsModifier = -5,
-                IconLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-icon.webp",
-                Id = "58aeac1b86f77457c419f475",
-                ImageLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-image.webp",
-                MarketLink = "https://tarkov.dev/item/mpx-sd-9x19-integrated-sound-suppressor",
-                Name = "MPX-SD 9x19 integrated sound suppressor",
-                RecoilPercentageModifier = -0.15,
-                ShortName = "MPX-SD",
-                Weight = 0.6,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX-SD_9x19_integrated_sound_suppressor"
-            },
-            new RangedWeaponMod()
-            {
-                CategoryId = "rangedWeaponMod",
                 ErgonomicsModifier = 7,
                 IconLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-icon.webp",
                 Id = "5894a42086f77426d2590762",
@@ -2244,29 +2295,29 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                ErgonomicsModifier = -1,
-                IconLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-icon.webp",
-                Id = "5a7b483fe899ef0016170d15",
-                ImageLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-image.webp",
-                MarketLink = "https://tarkov.dev/item/surefire-xc1-tactical-flashlight",
-                Name = "SureFire XC1 tactical flashlight",
-                ShortName = "XC1",
-                Weight = 0.05,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/SureFire_XC1_tactical_flashlight"
+                ErgonomicsModifier = 1,
+                IconLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-icon.webp",
+                Id = "58949edd86f77409483e16a9",
+                ImageLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-image.webp",
+                MarketLink = "https://tarkov.dev/item/mpx-double-latch-charging-handle",
+                Name = "MPX double latch charging handle",
+                ShortName = "MPX 2x",
+                Weight = 0.033,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX_double_latch_charging_handle"
             },
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                ErgonomicsModifier = 8,
-                IconLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-icon.webp",
-                Id = "59f8a37386f7747af3328f06",
-                ImageLink = "https://assets.tarkov.dev/59f8a37386f7747af3328f06-image.webp",
-                MarketLink = "https://tarkov.dev/item/fortis-shift-tactical-foregrip",
-                Name = "Fortis Shift tactical foregrip",
-                RecoilPercentageModifier = -0.015,
-                ShortName = "Shift",
-                Weight = 0.09,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Fortis_Shift_tactical_foregrip"
+                ErgonomicsModifier = -5,
+                IconLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-icon.webp",
+                Id = "58aeac1b86f77457c419f475",
+                ImageLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-image.webp",
+                MarketLink = "https://tarkov.dev/item/mpx-sd-9x19-integrated-sound-suppressor",
+                Name = "MPX-SD 9x19 integrated sound suppressor",
+                RecoilPercentageModifier = -0.11,
+                ShortName = "MPX-SD",
+                Weight = 0.6,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX-SD_9x19_integrated_sound_suppressor"
             },
             new RangedWeaponMod()
             {
@@ -2275,7 +2326,7 @@ namespace TotovBuilder.Model.Test
                 IconLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-icon.webp",
                 Id = "58ac1bf086f77420ed183f9f",
                 ImageLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-image.webp",
-                MarketLink = "https://tarkov.dev/item/mpxmcx-retractable-stock-pipe-adapter",
+                MarketLink = "https://tarkov.dev/item/mpxmcx-retractable-stock-adapter",
                 ModSlots = new ModSlot[]
                 {
                     new ModSlot()
@@ -2302,46 +2353,32 @@ namespace TotovBuilder.Model.Test
                         Name = "mod_stock"
                     }
                 },
-                Name = "MPX/MCX retractable stock pipe adapter",
+                Name = "MPX/MCX retractable stock adapter",
                 ShortName = "MPX/MCX",
                 Weight = 0.2,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX/MCX_retractable_stock_pipe_adapter"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX/MCX_retractable_stock_adapter"
             },
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                ErgonomicsModifier = 18,
-                IconLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-icon.webp",
-                Id = "591aef7986f774139d495f03",
-                ImageLink = "https://assets.tarkov.dev/591aef7986f774139d495f03-image.webp",
-                MarketLink = "https://tarkov.dev/item/troy-m7a1-pdw-stock-black",
-                Name = "TROY M7A1 PDW stock (Black)",
-                RecoilPercentageModifier = -0.26,
-                ShortName = "M7A1PDW",
-                Weight = 0.4,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/TROY_M7A1_PDW_stock"
-            },
-            new RangedWeaponMod()
-            {
-                CategoryId = "rangedWeaponMod",
-                ErgonomicsModifier = 1,
-                IconLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-icon.webp",
-                Id = "58949edd86f77409483e16a9",
-                ImageLink = "https://assets.tarkov.dev/58949edd86f77409483e16a9-image.webp",
-                MarketLink = "https://tarkov.dev/item/mpx-double-latch-charging-handle",
-                Name = "MPX double latch charging handle",
-                ShortName = "MPX 2x",
-                Weight = 0.033,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX_double_latch_charging_handle"
+                ErgonomicsModifier = -1,
+                IconLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-icon.webp",
+                Id = "5a7b483fe899ef0016170d15",
+                ImageLink = "https://assets.tarkov.dev/5a7b483fe899ef0016170d15-image.webp",
+                MarketLink = "https://tarkov.dev/item/surefire-xc1-tactical-flashlight",
+                Name = "SureFire XC1 tactical flashlight",
+                ShortName = "XC1",
+                Weight = 0.05,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/SureFire_XC1_tactical_flashlight"
             },
             new RangedWeaponMod()
             {
                 BaseItemId = "59d36a0086f7747e673f3946",
                 CategoryId = "rangedWeaponMod",
-                IconLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-icon.webp",
-                Id = "preset-gas-tube-handguard",
-                ImageLink = "https://assets.tarkov.dev/preset-gas-tube-handguard-image.webp",
-                MarketLink = "https://tarkov.dev/item/preset-gas-tube-handguard",
+                IconLink = "https://assets.tarkov.dev/test-preset-gas-tube-handguard-icon.webp",
+                Id = "test-preset-gas-tube-handguard",
+                ImageLink = "https://assets.tarkov.dev/test-preset-gas-tube-handguard-image.webp",
+                MarketLink = "https://tarkov.dev/item/test-preset-gas-tube-handguard",
                 ModSlots = new ModSlot[]
                 {
                     new ModSlot()
@@ -2359,7 +2396,7 @@ namespace TotovBuilder.Model.Test
                 Name = "Gas tube + handguard",
                 ShortName = "PGT+H",
                 Weight = 0.03,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/preset-gas-tube-handguard"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/test-preset-gas-tube-handguard"
             },
             new Vest()
             {
@@ -2375,12 +2412,32 @@ namespace TotovBuilder.Model.Test
                 },
                 Capacity = 14,
                 CategoryId = "vest",
+                DefaultPresetId = "657660eb86f11bca4106d34f",
                 ErgonomicsPercentageModifier = -0.01,
                 IconLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp",
                 Id = "61bc85697113f767765c7fe7",
                 ImageLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp",
                 MarketLink = "https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green",
                 Material = "Aramid",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        Name = "Front_plate"
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Back_plate"
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Left_side_plate"
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Right_side_plate"
+                    }
+                },
                 MovementSpeedPercentageModifier = -0.01,
                 Name = "Eagle Industries MMAC plate carrier (Ranger Green)",
                 ShortName = "MMAC",
@@ -2400,7 +2457,54 @@ namespace TotovBuilder.Model.Test
                 ShortName = "Scav Vest",
                 Weight = 0.4,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Scav_Vest"
-            }
+            },
+            new Vest()
+            {
+                ArmorClass = 4,
+                ArmoredAreas = new string[]
+                {
+                    "FR. PLATE",
+                    "BCK. PLATE",
+                    "L. PLATE",
+                    "R. PLATE",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side"
+                },
+                BaseItemId = "61bc85697113f767765c7fe7",
+                Capacity = 14,
+                CategoryId = "vest",
+                ErgonomicsPercentageModifier = -0.01,
+                IconLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp",
+                Id = "657660eb86f11bca4106d34f",
+                ImageLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp",
+                MarketLink = "https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green-default",
+                Material = "Aramid",
+                ModSlots = new ModSlot[]
+                {
+                    new ModSlot()
+                    {
+                        Name = "Front_plate"
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Back_plate"
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Left_side_plate"
+                    },
+                    new ModSlot()
+                    {
+                        Name = "Right_side_plate"
+                    }
+                },
+                MovementSpeedPercentageModifier = -0.01,
+                Name = "Eagle Industries MMAC plate carrier (Ranger Green) Default",
+                ShortName = "MMAC Default",
+                TurningSpeedPercentageModifier = -0.01,
+                Weight = 2.83,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)"
+            },
         };
     }
 }
