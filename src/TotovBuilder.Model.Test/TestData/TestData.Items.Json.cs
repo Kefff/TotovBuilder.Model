@@ -36,9 +36,9 @@
         ""id"": ""54009119af1c881c07000029""
       }
     ],
-    ""iconLink"": ""https://localhost/test-preset-face-shield-alone-icon.jpg"",
+    ""iconLink"": ""https://assets.tarkov.dev/test-preset-face-shield-alone-icon.webp"",
     ""id"": ""test-preset-face-shield-alone"",
-    ""inspectImageLink"": ""https://localhost/test-preset-face-shield-alone-image.jpg"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-face-shield-alone-image.webp"",
     ""link"": ""https://tarkov.dev/item/test-preset-face-shield-alone"",
     ""name"": ""Face shield alone"",
     ""properties"": {
@@ -69,9 +69,9 @@
         ""id"": ""54009119af1c881c07000029""
       }
     ],
-    ""iconLink"": ""https://localhost/test-preset-gas-tube-handguard-icon.jpg"",
+    ""iconLink"": ""https://assets.tarkov.dev/test-preset-gas-tube-handguard-icon.webp"",
     ""id"": ""test-preset-gas-tube-handguard"",
-    ""inspectImageLink"": ""https://localhost/test-preset-gas-tube-handguard-image.jpg"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-gas-tube-handguard-image.webp"",
     ""link"": ""https://tarkov.dev/item/test-preset-gas-tube-handguard"",
     ""name"": ""Gas tube + handguard"",
     ""properties"": {
@@ -99,9 +99,9 @@
         ""id"": ""54009119af1c881c07000029""
       }
     ],
-    ""iconLink"": ""https://localhost/test-preset-magazine-alone-icon.jpg"",
+    ""iconLink"": ""https://assets.tarkov.dev/test-preset-magazine-alone-icon.webp"",
     ""id"": ""test-preset-magazine-alone"",
-    ""inspectImageLink"": ""https://localhost/test-preset-magazine-alone-image.jpg"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-magazine-alone-image.webp"",
     ""link"": ""https://tarkov.dev/item/test-preset-magazine-alone"",
     ""name"": ""Magazine alone"",
     ""properties"": {
@@ -132,9 +132,9 @@
         ""id"": ""54009119af1c881c07000029""
       }
     ],
-    ""iconLink"": ""https://localhost/test-preset-ring-flashlight-icon.jpg"",
+    ""iconLink"": ""https://assets.tarkov.dev/test-preset-ring-flashlight-icon.webp"",
     ""id"": ""test-preset-ring-flashlight"",
-    ""inspectImageLink"": ""https://localhost/test-preset-ring-flashlight-image.jpg"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-ring-flashlight-image.webp"",
     ""link"": ""https://tarkov.dev/item/test-preset-ring-flashlight"",
     ""name"": ""Ring + flashlight"",
     ""properties"": {

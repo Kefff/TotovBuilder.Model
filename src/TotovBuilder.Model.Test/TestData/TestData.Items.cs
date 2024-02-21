@@ -32,6 +32,12 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 3,
+                ArmoredAreas = new string[]
+                {
+                    "HeadEyes",
+                    "HeadFace",
+                    "HeadJaws"
+                },
                 BaseItemId = "5a16b7e1fcdbcb00165aa6c9",
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
@@ -43,10 +49,12 @@ namespace TotovBuilder.Model.Test
                     "5c0558060db834001b735271",
                     "57235b6f24597759bf5a30f1",
                     "5c110624d174af029e69734c",
-                    "5a16b8a9fcdbcb00165aa6ca"
+                    "5a16b8a9fcdbcb00165aa6ca",
+                    "5a398b75c4a282000a51a266",
+                    "5a398ab9c4a282000c5a9842"
                 },
                 Durability = 40,
-                ErgonomicsPercentageModifier = -0.08,
+                ErgonomicsPercentageModifier = -0.04,
                 IconLink = "https://assets.tarkov.dev/test-preset-face-shield-alone-icon.webp",
                 Id = "test-preset-face-shield-alone",
                 ImageLink = "https://assets.tarkov.dev/test-preset-face-shield-alone-image.webp",
@@ -180,13 +188,13 @@ namespace TotovBuilder.Model.Test
             },
             new Ammunition()
             {
-                ArmorDamagePercentage = 0.34,
+                ArmorDamagePercentage = 0.33,
                 ArmorPenetrations = new double[] { 6, 3, 0, 0, 0, 0 }, // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber545x39",
                 CategoryId = "ammunition",
                 DurabilityBurnPercentageModifier = -0.2,
-                FleshDamage = 65,
+                FleshDamage = 63,
                 FragmentationChancePercentage = 0.1,
                 HeavyBleedingPercentageChance = 0,
                 IconLink = "https://assets.tarkov.dev/56dff4ecd2720b5f5a8b4568-icon.webp",
@@ -196,9 +204,9 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/545x39mm-us-gs",
                 MaxStackableAmount = 60,
                 Name = "5.45x39mm US gs",
-                PenetrationPower = 15,
+                PenetrationPower = 17,
                 Projectiles = 1,
-                RecoilPercentageModifier = -0.25,
+                RecoilPercentageModifier = -0.15,
                 ShortName = "US",
                 Subsonic = true,
                 Tracer = false,
@@ -231,8 +239,8 @@ namespace TotovBuilder.Model.Test
                 ShortName = "MAI AP",
                 Subsonic = false,
                 Tracer = false,
-                Velocity = 730,
-                Weight = 0.012,
+                Velocity = 875,
+                Weight = 0.015,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_MAI_AP"
             },
             new Ammunition()
@@ -272,7 +280,7 @@ namespace TotovBuilder.Model.Test
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber9x19PARA",
                 CategoryId = "ammunition",
-                DurabilityBurnPercentageModifier = 0.7,
+                DurabilityBurnPercentageModifier = 1.7,
                 FleshDamage = 52,
                 FragmentationChancePercentage = 0.05,
                 HeavyBleedingPercentageChance = 0,
@@ -298,21 +306,21 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas = new string[]
                 {
-                    "FR. PLATE",
-                    "BCK. PLATE",
-                    "L. PLATE",
-                    "R. PLATE",
+                    "FRPLATE",
+                    "BCKPLATE",
+                    "LPLATE",
+                    "RPLATE",
                     "Chest",
                     "Stomach",
-                    "Stomach, Lower back",
-                    "Thorax, Upper back",
-                    "Stomach, Left Side",
-                    "Stomach, Right Side",
-                    "Head, Neck",
-                    "Head, Throat",
-                    "Left arm, Shoulder",
-                    "Right arm, Shoulder",
-                    "Stomach, Groin"
+                    "StomachLowerBack",
+                    "ThoraxUpperBack",
+                    "StomachLeftSide",
+                    "StomachRightSide",
+                    "HeadNeck",
+                    "HeadThroat",
+                    "LeftArmShoulder",
+                    "RightArmShoulder",
+                    "StomachGroin"
                 },
                 CategoryId = "armor",
                 ErgonomicsPercentageModifier = -0.1,
@@ -354,10 +362,10 @@ namespace TotovBuilder.Model.Test
                 {
                     "Chest",
                     "Stomach",
-                    "Stomach, Lower back",
-                    "Thorax, Upper back",
-                    "Stomach, Left Side",
-                    "Stomach, Right Side"
+                    "StomachLowerBack",
+                    "ThoraxUpperBack",
+                    "StomachLeftSide",
+                    "StomachRightSide"
                 },
                 CategoryId = "armor",
                 ErgonomicsPercentageModifier = -0.01,
@@ -378,21 +386,21 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas = new string[]
                 {
-                    "FR. PLATE",
-                    "BCK. PLATE",
-                    "L. PLATE",
-                    "R. PLATE",
+                    "FRPLATE",
+                    "BCKPLATE",
+                    "LPLATE",
+                    "RPLATE",
                     "Chest",
                     "Stomach",
-                    "Stomach, Lower back",
-                    "Thorax, Upper back",
-                    "Stomach, Left Side",
-                    "Stomach, Right Side",
-                    "Head, Neck",
-                    "Head, Throat",
-                    "Left arm, Shoulder",
-                    "Right arm, Shoulder",
-                    "Stomach, Groin"
+                    "StomachLowerBack",
+                    "ThoraxUpperBack",
+                    "StomachLeftSide",
+                    "StomachRightSide",
+                    "HeadNeck",
+                    "HeadThroat",
+                    "LeftArmShoulder",
+                    "RightArmShoulder",
+                    "StomachGroin"
                 },
                 BaseItemId = "545cdb794bdc2d3a198b456a",
                 CategoryId = "armor",
@@ -433,8 +441,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas = new string[]
                 {
-                    "Head, Nape",
-                    "Head, Top of the head"
+                    "HeadNape",
+                    "HeadTopOfTheHead"
                 },
                 ConflictingItemIds = new string[]
                 {
@@ -478,8 +486,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas = new string[]
                 {
-                    "FR. PLATE",
-                    "BCK. PLATE"
+                    "FRPLATE",
+                    "BCKPLATE"
                 },
                 CategoryId = "armorMod",
                 Durability = 60,
@@ -501,9 +509,9 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 3,
                 ArmoredAreas = new string[]
                 {
-                    "Head, Eyes",
-                    "Head, Face",
-                    "Head, Jaws"
+                    "HeadEyes",
+                    "HeadFace",
+                    "HeadJaws"
                 },
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
@@ -515,7 +523,9 @@ namespace TotovBuilder.Model.Test
                     "5c0558060db834001b735271",
                     "57235b6f24597759bf5a30f1",
                     "5c110624d174af029e69734c",
-                    "5a16b8a9fcdbcb00165aa6ca"
+                    "5a16b8a9fcdbcb00165aa6ca",
+                    "5a398b75c4a282000a51a266",
+                    "5a398ab9c4a282000c5a9842"
                 },
                 Durability = 40,
                 ErgonomicsPercentageModifier = -0.04,
@@ -661,8 +671,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 4,
                 ArmoredAreas = new string[]
                 {
-                    "Head, Top of the head",
-                    "Head, Nape"
+                    "HeadTopOfTheHead",
+                    "HeadNape"
                 },
                 BlocksHeadphones = false,
                 CategoryId = "headwear",
@@ -2403,12 +2413,12 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 4,
                 ArmoredAreas = new string[]
                 {
-                    "FR. PLATE",
-                    "BCK. PLATE",
-                    "L. PLATE",
-                    "R. PLATE",
-                    "Stomach, Left Side",
-                    "Stomach, Right Side"
+                    "FRPLATE",
+                    "BCKPLATE",
+                    "LPLATE",
+                    "RPLATE",
+                    "StomachLeftSide",
+                    "StomachRightSide"
                 },
                 Capacity = 14,
                 CategoryId = "vest",
@@ -2463,12 +2473,12 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 4,
                 ArmoredAreas = new string[]
                 {
-                    "FR. PLATE",
-                    "BCK. PLATE",
-                    "L. PLATE",
-                    "R. PLATE",
-                    "Stomach, Left Side",
-                    "Stomach, Right Side"
+                    "FRPLATE",
+                    "BCKPLATE",
+                    "LPLATE",
+                    "RPLATE",
+                    "StomachLeftSide",
+                    "StomachRightSide"
                 },
                 BaseItemId = "61bc85697113f767765c7fe7",
                 Capacity = 14,
