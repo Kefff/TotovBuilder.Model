@@ -506,6 +506,28 @@ namespace TotovBuilder.Model.Test
             },
             new ArmorMod()
             {
+                ArmorClass = 6,
+                ArmoredAreas = new string[]
+                {
+                    "LPLATE",
+                    "RPLATE"
+                },
+                CategoryId = "armorMod",
+                Durability = 20,
+                IconLink = "https://assets.tarkov.dev/64afd81707e2cf40e903a316-icon.webp",
+                Id = "64afd81707e2cf40e903a316",
+                ImageLink = "https://assets.tarkov.dev/64afd81707e2cf40e903a316-image.webp",
+                MarketLink = "https://tarkov.dev/item/granit-ballistic-plate-side",
+                Material = "Ceramic",
+                MovementSpeedPercentageModifier = -0.0075,
+                Name = "Granit ballistic plate (Side)",
+                ShortName = "Granit Side",
+                TurningSpeedPercentageModifier = -0.0075,
+                Weight = 1.3,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Granit_ballistic_plate_(Side)",
+            },
+            new ArmorMod()
+            {
                 ArmorClass = 3,
                 ArmoredAreas = new string[]
                 {
@@ -1047,7 +1069,9 @@ namespace TotovBuilder.Model.Test
                             "6267c6396b642f77f56f5c1c",
                             "6272370ee4013c5d7e31f418",
                             "6272379924e29f06af4d5ecb",
-                            "626becf9582c3e319310b837"
+                            "626becf9582c3e319310b837",
+                            "644a3df63b0b6f03e101e065",
+                            "646f6322f43d0c5d62063715"
                         },
                         Name = "mod_tactical",
                     }
@@ -1095,7 +1119,13 @@ namespace TotovBuilder.Model.Test
                             "5c1bc5af2e221602b412949b",
                             "5c1bc5fb2e221602b1779b32",
                             "5c1bc7432e221602b412949d",
-                            "5c1bc7752e221602b1779b34"
+                            "5c1bc7752e221602b1779b34",
+                            "64806bdd26c80811d408d37a",
+                            "64807a29e5ffe165600abc97",
+                            "648067db042be0705c0b3009",
+                            "65169d5b30425317755f8e25",
+                            "655df24fdf80b12750626d0a",
+                            "655dccfdbdcc6b5df71382b6"
                         },
                         Name = "mod_foregrip"
                     }
@@ -1165,7 +1195,7 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 44,
                 FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 650,
-                HorizontalRecoil = 445,
+                HorizontalRecoil = 373,
                 IconLink = "https://assets.tarkov.dev/584147732459775a2b6d9f12-icon.webp",
                 Id = "584147732459775a2b6d9f12",
                 ImageLink = "https://assets.tarkov.dev/584147732459775a2b6d9f12-image.webp",
@@ -1198,7 +1228,10 @@ namespace TotovBuilder.Model.Test
                             "5998517986f7746017232f7e",
                             "623c3be0484b5003161840dc",
                             "628c9ab845c59e5b80768a81",
-                            "628a664bccaab13006640e47"
+                            "628a664bccaab13006640e47",
+                            "63f4da90f31d4a33b87bd054",
+                            "648ae3e356c6310a830fc291",
+                            "651580dc71a4f10aec4b6056"
                         },
                         Name = "mod_pistol_grip",
                         Required = false // TODO : MISSING FROM API
@@ -1237,7 +1270,9 @@ namespace TotovBuilder.Model.Test
                             "55d4837c4bdc2d1d4e8b456c",
                             "5aaa4194e5b5b055d06310a5",
                             "5bed61680db834001d2c45ab",
-                            "5bed625c0db834001c062946"
+                            "5bed625c0db834001c062946",
+                            "649ec30cb013f04a700e60fb",
+                            "64b9e265c94d0d15c5027e35"
                         },
                         Name = "mod_magazine",
                         Required = false // TODO : MISSING FROM API
@@ -1268,7 +1303,8 @@ namespace TotovBuilder.Model.Test
                         CompatibleItemIds = new string[]
                         {
                             "57dc334d245977597164366f",
-                            "5839a7742459773cf9693481"
+                            "5839a7742459773cf9693481",
+                            "655cb6b5d680a544f30607fa"
                         },
                         Name = "mod_reciever",
                         Required = false // TODO : MISSING FROM API
@@ -1285,7 +1321,7 @@ namespace TotovBuilder.Model.Test
                 },
                 Name = "Kalashnikov AKS-74U 5.45x39 assault rifle Default",
                 ShortName = "AKS-74U Default",
-                VerticalRecoil = 141,
+                VerticalRecoil = 102,
                 Weight = 1.809,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKS-74U_5.45x39_assault_rifle"
             },
@@ -1297,7 +1333,7 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 40,
                 FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 850,
-                HorizontalRecoil = 299,
+                HorizontalRecoil = 269,
                 IconLink = "https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-icon.webp",
                 Id = "5a8ae43686f774377b73cfb3",
                 ImageLink = "https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-image.webp",
@@ -1335,7 +1371,9 @@ namespace TotovBuilder.Model.Test
                             "59db3b0886f77429d72fb895",
                             "615d8faecabb9b7ad90f4d5d",
                             "5b07db875acfc40dc528a5f6",
-                            "5894a51286f77426d13baf02"
+                            "5894a51286f77426d13baf02",
+                            "63f5feead259b42f0b4d6d0f",
+                            "652911675ae2ae97b80fdf3c"
                         },
                         Name = "mod_pistol_grip"
                     },
@@ -1367,7 +1405,8 @@ namespace TotovBuilder.Model.Test
                             "5fbcc429900b1d5091531dd7",
                             "5fbcc437d724d907e2077d5c",
                             "5c5db6ee2e221600113fba54",
-                            "5c5db6f82e2216003a0fe914"
+                            "5c5db6f82e2216003a0fe914",
+                            "6529348224cbe3c74a05e5c4"
                         },
                         Name = "mod_stock"
                     },
@@ -1384,7 +1423,7 @@ namespace TotovBuilder.Model.Test
                 },
                 Name = "SIG MPX 9x19 submachine gun MQB",
                 ShortName = "MPX MQB",
-                VerticalRecoil = 60,
+                VerticalRecoil = 51,
                 Weight = 0.64,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun"
             },
@@ -1502,7 +1541,7 @@ namespace TotovBuilder.Model.Test
                 },
                 Name = "Colt M1911A1 .45 ACP pistol",
                 ShortName = "M1911A1",
-                VerticalRecoil = 530,
+                VerticalRecoil = 451,
                 Weight = 0.231,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Colt_M1911A1_.45_ACP_pistol"
             },
@@ -1514,7 +1553,7 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 44,
                 FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 650,
-                HorizontalRecoil = 445,
+                HorizontalRecoil = 373,
                 IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.webp",
                 Id = "57dc2fa62459775949412633",
                 ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.webp",
@@ -1546,7 +1585,10 @@ namespace TotovBuilder.Model.Test
                             "5998517986f7746017232f7e",
                             "623c3be0484b5003161840dc",
                             "628c9ab845c59e5b80768a81",
-                            "628a664bccaab13006640e47"
+                            "628a664bccaab13006640e47",
+                            "63f4da90f31d4a33b87bd054",
+                            "648ae3e356c6310a830fc291",
+                            "651580dc71a4f10aec4b6056"
                         },
                         Name = "mod_pistol_grip",
                         Required = false // TODO : MISSING FROM API
@@ -1585,7 +1627,9 @@ namespace TotovBuilder.Model.Test
                             "55d4837c4bdc2d1d4e8b456c",
                             "5aaa4194e5b5b055d06310a5",
                             "5bed61680db834001d2c45ab",
-                            "5bed625c0db834001c062946"
+                            "5bed625c0db834001c062946",
+                            "649ec30cb013f04a700e60fb",
+                            "64b9e265c94d0d15c5027e35"
                         },
                         Name = "mod_magazine",
                         Required = false // TODO : MISSING FROM API
@@ -1616,7 +1660,8 @@ namespace TotovBuilder.Model.Test
                         CompatibleItemIds = new string[]
                         {
                             "57dc334d245977597164366f",
-                            "5839a7742459773cf9693481"
+                            "5839a7742459773cf9693481",
+                            "655cb6b5d680a544f30607fa"
                         },
                         Name = "mod_reciever",
                         Required = false // TODO : MISSING FROM API
@@ -1633,7 +1678,7 @@ namespace TotovBuilder.Model.Test
                 },
                 Name = "Kalashnikov AKS-74U 5.45x39 assault rifle",
                 ShortName = "AKS-74U",
-                VerticalRecoil = 141,
+                VerticalRecoil = 102,
                 Weight = 1.809,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKS-74U_5.45x39_assault_rifle"
             },
@@ -1651,8 +1696,8 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/rsp-30-reactive-signal-cartridge-yellow",
                 Name = "RSP-30 reactive signal cartridge (Yellow)",
                 ShortName = "Yellow",
-                VerticalRecoil = 200,
-                Weight = 0.6,
+                VerticalRecoil = 170,
+                Weight = 0.19,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/RSP-30_reactive_signal_cartridge_(Yellow)"
             },
             new RangedWeapon()
@@ -1663,7 +1708,7 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 40,
                 FireModes = new string[] { "SingleFire", "FullAuto" },
                 FireRate = 850,
-                HorizontalRecoil = 299,
+                HorizontalRecoil = 269,
                 IconLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-icon.webp",
                 Id = "58948c8e86f77409493f7266",
                 ImageLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-image.webp",
@@ -1700,7 +1745,9 @@ namespace TotovBuilder.Model.Test
                             "59db3b0886f77429d72fb895",
                             "615d8faecabb9b7ad90f4d5d",
                             "5b07db875acfc40dc528a5f6",
-                            "5894a51286f77426d13baf02"
+                            "5894a51286f77426d13baf02",
+                            "63f5feead259b42f0b4d6d0f",
+                            "652911675ae2ae97b80fdf3c"
                         },
                         Name = "mod_pistol_grip"
                     },
@@ -1732,7 +1779,8 @@ namespace TotovBuilder.Model.Test
                             "5fbcc429900b1d5091531dd7",
                             "5fbcc437d724d907e2077d5c",
                             "5c5db6ee2e221600113fba54",
-                            "5c5db6f82e2216003a0fe914"
+                            "5c5db6f82e2216003a0fe914",
+                            "6529348224cbe3c74a05e5c4"
                         },
                         Name = "mod_stock"
                     },
@@ -1749,13 +1797,19 @@ namespace TotovBuilder.Model.Test
                 },
                 Name = "SIG MPX 9x19 submachine gun",
                 ShortName = "MPX",
-                VerticalRecoil = 60,
+                VerticalRecoil = 51,
                 Weight = 0.64,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun"
             },
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
+                ConflictingItemIds = new string[]
+                {
+                    "5c59529a2e221602b177d160",
+                    "5c5db6302e2216000e5e47f0",
+                    "5c5db63a2e2216000f1b284a"
+                },
                 ErgonomicsModifier = -3,
                 IconLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-icon.webp",
                 Id = "58aeaaa886f7744fc1560f81",
@@ -1826,25 +1880,27 @@ namespace TotovBuilder.Model.Test
                 {
                     "591c4efa86f7741030027726",
                     "570fd79bd2720bc7458b4583",
+                    "64785e7c19d732620e045e15",
                     "570fd6c2d2720bc6458b457f",
                     "558022b54bdc2dac148b458d",
                     "58491f3324597764bc48fa02",
                     "584924ec24597768f12ae244",
                     "5b30b0dc5acfc400153b7124",
+                    "6165ac8c290d254f5e6b2f6c",
                     "60a23797a37c940de7062d02",
+                    "6477772ea8a38bb2050ed4db",
                     "5d2da1e948f035477b1ce2ba",
                     "5c0505e00db834001b735073",
                     "609a63b6e2ff132951242d09",
-                    "584984812459776a704a82a6",
-                    "59f9d81586f7744c7506ee62",
                     "570fd721d2720bc5458b4596",
-                    "5c7d55f52e221644f31bff6a"
+                    "59f9d81586f7744c7506ee62",
+                    "584984812459776a704a82a6"
                 },
                 ErgonomicsModifier = -6,
                 IconLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.webp",
                 Id = "61714eec290d254f5e6b2ffc",
                 ImageLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-image.webp",
-                MarketLink = "https://tarkov.dev/item/schmidt-bender-pm-ii-3-12x50-scope",
+                MarketLink = "https://tarkov.dev/item/schmidt-bender-pm-ii-3-12x50-34mm-riflescope",
                 Name = "Schmidt & Bender PM II 3-12x50 34mm riflescope",
                 RecoilPercentageModifier = 0,
                 ShortName = "PM II 3-12x50",
@@ -1875,7 +1931,10 @@ namespace TotovBuilder.Model.Test
                     "5d0a29ead7ad1a0026013f27",
                     "57acb6222459771ec34b5cb0",
                     "5c61a40d2e2216001403158d",
-                    "5c90c3622e221601da359851"
+                    "5c90c3622e221601da359851",
+                    "628a7b23b0f75035732dd565",
+                    "5bf3f59f0db834001a6fa060",
+                    "649ec2cec93611967b03495e"
                 },
                 ErgonomicsModifier = 5,
                 IconLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-icon.webp",
@@ -1945,7 +2004,15 @@ namespace TotovBuilder.Model.Test
                             "5a1ead28fcdbcb001912fa9f",
                             "5dff77c759400025ea5150cf",
                             "626bb8532c923541184624b4",
-                            "62811f461d5df4475f46a332"
+                            "62811f461d5df4475f46a332",
+                            "63fc449f5bd61c6cf3784a88",
+                            "6477772ea8a38bb2050ed4db",
+                            "6478641c19d732620e045e17",
+                            "64785e7c19d732620e045e15",
+                            "65392f611406374f82152ba5",
+                            "653931da5db71d30ab1d6296",
+                            "655f13e0a246670fb0373245",
+                            "6567e751a715f85433025998"
                         },
                         Name = "mod_scope",
                         Required = false // TODO : MISSING FROM API
@@ -1979,7 +2046,7 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/57dc324a24597759501edc20-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-545x39-muzzle-brake-6p26-0-20",
                 Name = "AKS-74U 5.45x39 muzzle brake (6P26 0-20)",
-                RecoilPercentageModifier = -0.08,
+                RecoilPercentageModifier = -0.06,
                 ShortName = "6P26 0-20",
                 Weight = 0.1,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/AKS-74U_5.45x39_muzzle_brake_(6P26_0-20)"
@@ -1987,6 +2054,15 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
+                ConflictingItemIds = new string[]
+                {
+                    "57486e672459770abd687134",
+                    "5c82342f2e221644f31c060e",
+                    "576fd4ec2459777f0b518431",
+                    "5c82343a2e221644f31c0611",
+                    "5c61a40d2e2216001403158d",
+                    "5c90c3622e221601da359851"
+                },
                 ErgonomicsModifier = 5,
                 IconLink = "https://assets.tarkov.dev/57dc334d245977597164366f-icon.webp",
                 Id = "57dc334d245977597164366f",
@@ -2024,7 +2100,8 @@ namespace TotovBuilder.Model.Test
                             "5d15ce51d7ad1a1eff619092",
                             "5a957c3fa2750c00137fa5f7",
                             "57dc32dc245977596d4ef3d3",
-                            "57ffa9f4245977728561e844"
+                            "57ffa9f4245977728561e844",
+                            "647db1eca8d3399c380d195c"
                         },
                         Name = "mod_handguard"
                     }
@@ -2048,13 +2125,14 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[]
                         {
-                            "5a0c59791526d8dba737bba7"
+                            "5a0c59791526d8dba737bba7",
+                            "6494094948796d891603e59f"
                         },
                         Name = "mod_stock"
                     }
                 },
                 Name = "AKS-74U metal skeleton stock (6P26 Sb.5)",
-                RecoilPercentageModifier = -0.3,
+                RecoilPercentageModifier = -0.21,
                 ShortName = "6P26 Sb.5",
                 Weight = 0.218,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/AKS-74U_metal_skeleton_stock_(6P26_Sb.5)"
@@ -2084,7 +2162,7 @@ namespace TotovBuilder.Model.Test
                 RecoilPercentageModifier = -0.18,
                 ShortName = "M7A1PDW",
                 Weight = 0.4,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/TROY_M7A1_PDW_stock"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/AR-15_TROY_M7A1_PDW_stock"
             },
             new RangedWeaponMod()
             {
@@ -2183,7 +2261,15 @@ namespace TotovBuilder.Model.Test
                             "5a1ead28fcdbcb001912fa9f",
                             "5dff77c759400025ea5150cf",
                             "626bb8532c923541184624b4",
-                            "62811f461d5df4475f46a332"
+                            "62811f461d5df4475f46a332",
+                            "63fc449f5bd61c6cf3784a88",
+                            "6477772ea8a38bb2050ed4db",
+                            "6478641c19d732620e045e17",
+                            "64785e7c19d732620e045e15",
+                            "65392f611406374f82152ba5",
+                            "653931da5db71d30ab1d6296",
+                            "655f13e0a246670fb0373245",
+                            "6567e751a715f85433025998"
                         },
                         Name = "mod_scope"
                     },
@@ -2237,7 +2323,8 @@ namespace TotovBuilder.Model.Test
                             "5c06595c0db834001a66af6c",
                             "5a7b483fe899ef0016170d15",
                             "61605d88ffa6e502ac5e7eeb",
-                            "5c5952732e2216398b5abda2"
+                            "5c5952732e2216398b5abda2",
+                            "644a3df63b0b6f03e101e065"
                         },
                         Name = "mod_tactical_000"
                     }
@@ -2398,7 +2485,8 @@ namespace TotovBuilder.Model.Test
                             "5d15ce51d7ad1a1eff619092",
                             "5a957c3fa2750c00137fa5f7",
                             "57dc32dc245977596d4ef3d3",
-                            "57ffa9f4245977728561e844"
+                            "57ffa9f4245977728561e844",
+                            "647db1eca8d3399c380d195c"
                         },
                         Name = "mod_handguard"
                     }
@@ -2422,7 +2510,6 @@ namespace TotovBuilder.Model.Test
                 },
                 Capacity = 14,
                 CategoryId = "vest",
-                DefaultPresetId = "657660eb86f11bca4106d34f",
                 ErgonomicsPercentageModifier = -0.01,
                 IconLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp",
                 Id = "61bc85697113f767765c7fe7",

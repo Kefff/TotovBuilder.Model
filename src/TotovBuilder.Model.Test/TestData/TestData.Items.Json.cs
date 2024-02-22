@@ -906,6 +906,53 @@
   {
     ""categories"": [
       {
+        ""id"": ""644120aa86ffbe10ee032b6f""
+      },
+      {
+        ""id"": ""57bef4c42459772e8d35a53b""
+      },
+      {
+        ""id"": ""543be5f84bdc2dd4348b456a""
+      },
+      {
+        ""id"": ""566162e44bdc2d3f298b4573""
+      },
+      {
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""conflictingItems"": [],
+    ""iconLink"": ""https://assets.tarkov.dev/64afd81707e2cf40e903a316-icon.webp"",
+    ""id"": ""64afd81707e2cf40e903a316"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/64afd81707e2cf40e903a316-image.webp"",
+    ""link"": ""https://tarkov.dev/item/granit-ballistic-plate-side"",
+    ""name"": ""Granit ballistic plate (Side)"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesArmorAttachment"",
+      ""blindnessProtection"": 0,
+      ""class"": 6,
+      ""durability"": 20,
+      ""ergoPenalty"": 0,
+      ""headZones"": [
+        ""L. PLATE"",
+        ""L. PLATE"",
+        ""R. PLATE"",
+        ""R. PLATE""
+      ],
+      ""material"": {
+        ""name"": ""Ceramic""
+      },
+      ""slots"": [],
+      ""speedPenalty"": -0.0075,
+      ""turnPenalty"": -0.0075
+    },
+    ""shortName"": ""Granit Side"",
+    ""weight"": 1.3,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Granit_ballistic_plate_(Side)""
+  },
+  {
+    ""categories"": [
+      {
         ""id"": ""57bef4c42459772e8d35a53b""
       },
       {
