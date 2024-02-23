@@ -334,18 +334,34 @@ namespace TotovBuilder.Model.Test
                 {
                     new ModSlot()
                     {
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afc71497cf3a403c01ff38"
+                        },
                         Name = "Front_plate",
                     },
                     new ModSlot()
                     {
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afc71497cf3a403c01ff38"
+                        },
                         Name = "Back_plate",
                     },
                     new ModSlot()
                     {
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afd81707e2cf40e903a316"
+                        },
                         Name = "Left_side_plate",
                     },
                     new ModSlot()
                     {
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afd81707e2cf40e903a316"
+                        },
                         Name = "Right_side_plate",
                     }
                 },
@@ -415,18 +431,34 @@ namespace TotovBuilder.Model.Test
                 {
                     new ModSlot()
                     {
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afc71497cf3a403c01ff38"
+                        },
                         Name = "Front_plate",
                     },
                     new ModSlot()
                     {
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afc71497cf3a403c01ff38"
+                        },
                         Name = "Back_plate",
                     },
                     new ModSlot()
                     {
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afd81707e2cf40e903a316"
+                        },
                         Name = "Left_side_plate",
                     },
                     new ModSlot()
                     {
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afd81707e2cf40e903a316"
+                        },
                         Name = "Right_side_plate",
                     }
                 },
@@ -2522,19 +2554,35 @@ namespace TotovBuilder.Model.Test
                 {
                     new ModSlot()
                     {
-                        Name = "Front_plate"
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afc71497cf3a403c01ff38"
+                        },
+                        Name = "Front_plate",
                     },
                     new ModSlot()
                     {
-                        Name = "Back_plate"
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afc71497cf3a403c01ff38"
+                        },
+                        Name = "Back_plate",
                     },
                     new ModSlot()
                     {
-                        Name = "Left_side_plate"
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afd81707e2cf40e903a316"
+                        },
+                        Name = "Left_side_plate",
                     },
                     new ModSlot()
                     {
-                        Name = "Right_side_plate"
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afd81707e2cf40e903a316"
+                        },
+                        Name = "Right_side_plate",
                     }
                 },
                 MovementSpeedPercentageModifier = -0.01,
@@ -2582,19 +2630,35 @@ namespace TotovBuilder.Model.Test
                 {
                     new ModSlot()
                     {
-                        Name = "Front_plate"
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afc71497cf3a403c01ff38"
+                        },
+                        Name = "Front_plate",
                     },
                     new ModSlot()
                     {
-                        Name = "Back_plate"
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afc71497cf3a403c01ff38"
+                        },
+                        Name = "Back_plate",
                     },
                     new ModSlot()
                     {
-                        Name = "Left_side_plate"
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afd81707e2cf40e903a316"
+                        },
+                        Name = "Left_side_plate",
                     },
                     new ModSlot()
                     {
-                        Name = "Right_side_plate"
+                        CompatibleItemIds = new string[] // MISSING FROM API
+                        {
+                            "64afd81707e2cf40e903a316"
+                        },
+                        Name = "Right_side_plate",
                     }
                 },
                 MovementSpeedPercentageModifier = -0.01,
