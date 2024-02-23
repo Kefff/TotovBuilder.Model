@@ -323,6 +323,7 @@ namespace TotovBuilder.Model.Test
                     "StomachGroin"
                 },
                 CategoryId = "armor",
+                DefaultPresetId = "65766adc234b9f6e050a431a",
                 ErgonomicsPercentageModifier = -0.1,
                 IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp",
                 Id = "545cdb794bdc2d3a198b456a",
@@ -2510,6 +2511,7 @@ namespace TotovBuilder.Model.Test
                 },
                 Capacity = 14,
                 CategoryId = "vest",
+                DefaultPresetId = "657660eb86f11bca4106d34f",
                 ErgonomicsPercentageModifier = -0.01,
                 IconLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp",
                 Id = "61bc85697113f767765c7fe7",
