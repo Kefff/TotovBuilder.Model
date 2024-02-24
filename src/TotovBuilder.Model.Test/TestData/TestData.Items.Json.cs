@@ -1550,6 +1550,50 @@
       }
     ],
     ""conflictingItems"": [],
+    ""iconLink"": ""https://assets.tarkov.dev/59ef13ca86f77445fd0e2483-icon.webp"",
+    ""id"": ""59ef13ca86f77445fd0e2483"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/59ef13ca86f77445fd0e2483-image.webp"",
+    ""link"": ""https://tarkov.dev/item/jack-o-lantern-tactical-pumpkin-helmet"",
+    ""name"": ""Jack-o'-lantern tactical pumpkin helmet"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesHelmet"",
+      ""armorSlots"": [],
+      ""blocksHeadset"": true,
+      ""class"": 2,
+      ""deafening"": ""Low"",
+      ""durability"": 40,
+      ""ergoPenalty"": 0,
+      ""material"": {
+        ""name"": ""Ultra high molecular weight polyethylene""
+      },
+      ""ricochetX"": 0,
+      ""slots"": [],
+      ""speedPenalty"": 0,
+      ""turnPenalty"": -0.01
+    },
+    ""shortName"": ""Pumpkin"",
+    ""weight"": 1.2,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Jack-o%27-lantern_tactical_pumpkin_helmet""
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""5a341c4086f77401f2541505""
+      },
+      {
+        ""id"": ""57bef4c42459772e8d35a53b""
+      },
+      {
+        ""id"": ""543be5f84bdc2dd4348b456a""
+      },
+      {
+        ""id"": ""566162e44bdc2d3f298b4573""
+      },
+      {
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""conflictingItems"": [],
     ""iconLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.webp"",
     ""id"": ""5e4bfc1586f774264f7582d3"",
     ""inspectImageLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.webp"",

@@ -750,6 +750,24 @@ namespace TotovBuilder.Model.Test
             },
             new Headwear()
             {
+                ArmorClass = 2,
+                BlocksHeadphones = true,
+                CategoryId = "headwear",
+                Deafening = "Low",
+                Durability = 40,
+                IconLink = "https://assets.tarkov.dev/59ef13ca86f77445fd0e2483-icon.webp",
+                Id = "59ef13ca86f77445fd0e2483",
+                ImageLink = "https://assets.tarkov.dev/59ef13ca86f77445fd0e2483-image.webp",
+                MarketLink = "https://tarkov.dev/item/jack-o-lantern-tactical-pumpkin-helmet",
+                Material = "Ultra high molecular weight polyethylene",
+                Name = "Jack-o'-lantern tactical pumpkin helmet",
+                ShortName = "Pumpkin",
+                TurningSpeedPercentageModifier = -0.01,
+                Weight = 1.2,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Jack-o%27-lantern_tactical_pumpkin_helmet"
+            },
+            new Headwear()
+            {
                 ArmorClass = 4,
                 ArmoredAreas = new string[]
                 {
