@@ -31,14 +31,14 @@
         string ImageLink { get; set; }
 
         /// <summary>
-        /// Maximum number of times the item can be stacked.
-        /// </summary>
-        double MaxStackableAmount { get; set; }
-
-        /// <summary>
         /// Link to the item market page.
         /// </summary>
         string MarketLink { get; set; }
+
+        /// <summary>
+        /// Maximum number of times the item can be stacked.
+        /// </summary>
+        double MaxStackableAmount { get; set; }
 
         /// <summary>
         /// Name.
