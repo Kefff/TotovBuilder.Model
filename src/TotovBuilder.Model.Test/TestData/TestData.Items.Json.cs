@@ -877,6 +877,51 @@
       }
     ],
     ""conflictingItems"": [],
+    ""iconLink"": ""https://assets.tarkov.dev/64afdcb83efdfea28601d041-icon.webp"",
+    ""id"": ""64afdcb83efdfea28601d041"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/64afdcb83efdfea28601d041-image.webp"",
+    ""link"": ""https://tarkov.dev/item/esapi-level-iv-ballistic-plate"",
+    ""name"": ""ESAPI level IV ballistic plate"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesArmorAttachment"",
+      ""blindnessProtection"": 0,
+      ""class"": 6,
+      ""durability"": 55,
+      ""ergoPenalty"": -0.015,
+      ""headZones"": [
+        ""FR. PLATE"",
+        ""BCK. PLATE""
+      ],
+      ""material"": {
+        ""name"": ""Ceramic""
+      },
+      ""slots"": [],
+      ""speedPenalty"": -0.015,
+      ""turnPenalty"": -0.005
+    },
+    ""shortName"": ""ESAPI IV"",
+    ""weight"": 3.2,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/ESAPI_level_IV_ballistic_plate""
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""644120aa86ffbe10ee032b6f""
+      },
+      {
+        ""id"": ""57bef4c42459772e8d35a53b""
+      },
+      {
+        ""id"": ""543be5f84bdc2dd4348b456a""
+      },
+      {
+        ""id"": ""566162e44bdc2d3f298b4573""
+      },
+      {
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""conflictingItems"": [],
     ""iconLink"": ""https://assets.tarkov.dev/64afc71497cf3a403c01ff38-icon.webp"",
     ""id"": ""64afc71497cf3a403c01ff38"",
     ""inspectImageLink"": ""https://assets.tarkov.dev/64afc71497cf3a403c01ff38-image.webp"",
@@ -889,7 +934,7 @@
       ""durability"": 60,
       ""ergoPenalty"": -0.015,
       ""headZones"": [
-        ""FR. PLATE"",
+        ""F. PLATE"",
         ""BCK. PLATE""
       ],
       ""material"": {
@@ -1136,7 +1181,7 @@
           ""__typename"": ""ItemArmorSlotOpen"",
           ""nameId"": ""Front_plate"",
           ""zones"": [
-            ""FR. PLATE""
+            ""F. PLATE""
           ]
         },
         {

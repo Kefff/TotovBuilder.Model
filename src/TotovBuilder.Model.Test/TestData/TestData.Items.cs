@@ -336,7 +336,8 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
-                            "64afc71497cf3a403c01ff38"
+                            "64afc71497cf3a403c01ff38",
+                            "64afdcb83efdfea28601d041"
                         },
                         Name = "Front_plate",
                     },
@@ -344,7 +345,8 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
-                            "64afc71497cf3a403c01ff38"
+                            "64afc71497cf3a403c01ff38",
+                            "64afdcb83efdfea28601d041"
                         },
                         Name = "Back_plate",
                     },
@@ -433,7 +435,8 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
-                            "64afc71497cf3a403c01ff38"
+                            "64afc71497cf3a403c01ff38",
+                            "64afdcb83efdfea28601d041"
                         },
                         Name = "Front_plate",
                     },
@@ -441,7 +444,8 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
-                            "64afc71497cf3a403c01ff38"
+                            "64afc71497cf3a403c01ff38",
+                            "64afdcb83efdfea28601d041"
                         },
                         Name = "Back_plate",
                     },
@@ -513,6 +517,29 @@ namespace TotovBuilder.Model.Test
                 TurningSpeedPercentageModifier = -0.06,
                 Weight = 0.99,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Diamond_Age_Bastion_helmet_armor_plate",
+            },
+            new ArmorMod()
+            {
+                ArmorClass = 6,
+                ArmoredAreas = new string[]
+                {
+                    "FRPLATE",
+                    "BCKPLATE"
+                },
+                CategoryId = "armorMod",
+                Durability = 55,
+                ErgonomicsPercentageModifier = -0.015,
+                IconLink = "https://assets.tarkov.dev/64afdcb83efdfea28601d041-icon.webp",
+                Id = "64afdcb83efdfea28601d041",
+                ImageLink = "https://assets.tarkov.dev/64afdcb83efdfea28601d041-image.webp",
+                MarketLink = "https://tarkov.dev/item/esapi-level-iv-ballistic-plate",
+                Material = "Ceramic",
+                MovementSpeedPercentageModifier = -0.015,
+                Name = "ESAPI level IV ballistic plate",
+                ShortName = "ESAPI IV",
+                TurningSpeedPercentageModifier = -0.005,
+                Weight = 3.2,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/ESAPI_level_IV_ballistic_plate",
             },
             new ArmorMod()
             {
@@ -2556,7 +2583,8 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
-                            "64afc71497cf3a403c01ff38"
+                            "64afc71497cf3a403c01ff38",
+                            "64afdcb83efdfea28601d041"
                         },
                         Name = "Front_plate",
                     },
@@ -2564,7 +2592,8 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
-                            "64afc71497cf3a403c01ff38"
+                            "64afc71497cf3a403c01ff38",
+                            "64afdcb83efdfea28601d041"
                         },
                         Name = "Back_plate",
                     },
@@ -2632,7 +2661,8 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
-                            "64afc71497cf3a403c01ff38"
+                            "64afc71497cf3a403c01ff38",
+                            "64afdcb83efdfea28601d041"
                         },
                         Name = "Front_plate",
                     },
@@ -2640,7 +2670,8 @@ namespace TotovBuilder.Model.Test
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
-                            "64afc71497cf3a403c01ff38"
+                            "64afc71497cf3a403c01ff38",
+                            "64afdcb83efdfea28601d041"
                         },
                         Name = "Back_plate",
                     },
