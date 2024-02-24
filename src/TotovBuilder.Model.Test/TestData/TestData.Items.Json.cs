@@ -922,6 +922,50 @@
       }
     ],
     ""conflictingItems"": [],
+    ""iconLink"": ""https://assets.tarkov.dev/654a4a964b446df1ad03f192-icon.webp"",
+    ""id"": ""654a4a964b446df1ad03f192"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/654a4a964b446df1ad03f192-image.webp"",
+    ""link"": ""https://tarkov.dev/item/granit-4rs-ballistic-plates-back"",
+    ""name"": ""Granit 4RS ballistic plates (Back)"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesArmorAttachment"",
+      ""blindnessProtection"": 0,
+      ""class"": 6,
+      ""durability"": 50,
+      ""ergoPenalty"": -0.01,
+      ""headZones"": [
+        ""BCK. PLATE""
+      ],
+      ""material"": {
+        ""name"": ""Ceramic""
+      },
+      ""slots"": [],
+      ""speedPenalty"": -0.02,
+      ""turnPenalty"": -0.01
+    },
+    ""shortName"": ""Granit 4RS Back"",
+    ""weight"": 3.8,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plates_(Back)""
+  },
+  {
+    ""categories"": [
+      {
+        ""id"": ""644120aa86ffbe10ee032b6f""
+      },
+      {
+        ""id"": ""57bef4c42459772e8d35a53b""
+      },
+      {
+        ""id"": ""543be5f84bdc2dd4348b456a""
+      },
+      {
+        ""id"": ""566162e44bdc2d3f298b4573""
+      },
+      {
+        ""id"": ""54009119af1c881c07000029""
+      }
+    ],
+    ""conflictingItems"": [],
     ""iconLink"": ""https://assets.tarkov.dev/64afc71497cf3a403c01ff38-icon.webp"",
     ""id"": ""64afc71497cf3a403c01ff38"",
     ""inspectImageLink"": ""https://assets.tarkov.dev/64afc71497cf3a403c01ff38-image.webp"",

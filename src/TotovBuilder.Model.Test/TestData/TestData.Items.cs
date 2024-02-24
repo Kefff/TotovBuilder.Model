@@ -339,16 +339,17 @@ namespace TotovBuilder.Model.Test
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041"
                         },
-                        Name = "Front_plate",
+                        Name = "front_plate",
                     },
                     new ModSlot()
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041"
+                            "64afdcb83efdfea28601d041",
+                            "654a4a964b446df1ad03f192"
                         },
-                        Name = "Back_plate",
+                        Name = "back_plate"
                     },
                     new ModSlot()
                     {
@@ -356,7 +357,7 @@ namespace TotovBuilder.Model.Test
                         {
                             "64afd81707e2cf40e903a316"
                         },
-                        Name = "Left_side_plate",
+                        Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
@@ -364,7 +365,7 @@ namespace TotovBuilder.Model.Test
                         {
                             "64afd81707e2cf40e903a316"
                         },
-                        Name = "Right_side_plate",
+                        Name = "right_side_plate",
                     }
                 },
                 MovementSpeedPercentageModifier = -0.115,
@@ -438,16 +439,17 @@ namespace TotovBuilder.Model.Test
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041"
                         },
-                        Name = "Front_plate",
+                        Name = "front_plate",
                     },
                     new ModSlot()
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041"
+                            "64afdcb83efdfea28601d041",
+                            "654a4a964b446df1ad03f192"
                         },
-                        Name = "Back_plate",
+                        Name = "back_plate"
                     },
                     new ModSlot()
                     {
@@ -455,7 +457,7 @@ namespace TotovBuilder.Model.Test
                         {
                             "64afd81707e2cf40e903a316"
                         },
-                        Name = "Left_side_plate",
+                        Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
@@ -463,7 +465,7 @@ namespace TotovBuilder.Model.Test
                         {
                             "64afd81707e2cf40e903a316"
                         },
-                        Name = "Right_side_plate",
+                        Name = "right_side_plate",
                     }
                 },
                 MovementSpeedPercentageModifier = -0.115,
@@ -540,6 +542,28 @@ namespace TotovBuilder.Model.Test
                 TurningSpeedPercentageModifier = -0.005,
                 Weight = 3.2,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/ESAPI_level_IV_ballistic_plate",
+            },
+            new ArmorMod()
+            {
+                ArmorClass = 6,
+                ArmoredAreas = new string[]
+                {
+                    "BCKPLATE"
+                },
+                CategoryId = "armorMod",
+                Durability = 50,
+                ErgonomicsPercentageModifier = -0.01,
+                IconLink = "https://assets.tarkov.dev/654a4a964b446df1ad03f192-icon.webp",
+                Id = "654a4a964b446df1ad03f192",
+                ImageLink = "https://assets.tarkov.dev/654a4a964b446df1ad03f192-image.webp",
+                MarketLink = "https://tarkov.dev/item/granit-4rs-ballistic-plates-back",
+                Material = "Ceramic",
+                MovementSpeedPercentageModifier = -0.02,
+                Name = "Granit 4RS ballistic plates (Back)",
+                ShortName = "Granit 4RS Back",
+                TurningSpeedPercentageModifier = -0.01,
+                Weight = 3.8,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plates_(Back)",
             },
             new ArmorMod()
             {
@@ -2604,16 +2628,17 @@ namespace TotovBuilder.Model.Test
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041"
                         },
-                        Name = "Front_plate",
+                        Name = "front_plate",
                     },
                     new ModSlot()
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041"
+                            "64afdcb83efdfea28601d041",
+                            "654a4a964b446df1ad03f192"
                         },
-                        Name = "Back_plate",
+                        Name = "back_plate"
                     },
                     new ModSlot()
                     {
@@ -2621,7 +2646,7 @@ namespace TotovBuilder.Model.Test
                         {
                             "64afd81707e2cf40e903a316"
                         },
-                        Name = "Left_side_plate",
+                        Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
@@ -2629,7 +2654,7 @@ namespace TotovBuilder.Model.Test
                         {
                             "64afd81707e2cf40e903a316"
                         },
-                        Name = "Right_side_plate",
+                        Name = "right_side_plate",
                     }
                 },
                 MovementSpeedPercentageModifier = -0.01,
@@ -2682,16 +2707,17 @@ namespace TotovBuilder.Model.Test
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041"
                         },
-                        Name = "Front_plate",
+                        Name = "front_plate",
                     },
                     new ModSlot()
                     {
                         CompatibleItemIds = new string[] // MISSING FROM API
                         {
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041"
+                            "64afdcb83efdfea28601d041",
+                            "654a4a964b446df1ad03f192"
                         },
-                        Name = "Back_plate",
+                        Name = "back_plate"
                     },
                     new ModSlot()
                     {
@@ -2699,7 +2725,7 @@ namespace TotovBuilder.Model.Test
                         {
                             "64afd81707e2cf40e903a316"
                         },
-                        Name = "Left_side_plate",
+                        Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
@@ -2707,7 +2733,7 @@ namespace TotovBuilder.Model.Test
                         {
                             "64afd81707e2cf40e903a316"
                         },
-                        Name = "Right_side_plate",
+                        Name = "right_side_plate",
                     }
                 },
                 MovementSpeedPercentageModifier = -0.01,

@@ -306,7 +306,7 @@ namespace TotovBuilder.Model.Test
                         {
                             ItemId = "64afc71497cf3a403c01ff38"
                         },
-                        ModSlotName = "Front_plate"
+                        ModSlotName = "front_plate"
                     },
                     new InventoryItemModSlot()
                     {
@@ -314,7 +314,7 @@ namespace TotovBuilder.Model.Test
                         {
                             ItemId = "64afc71497cf3a403c01ff38"
                         },
-                        ModSlotName = "Back_plate"
+                        ModSlotName = "back_plate"
                     },
                     new InventoryItemModSlot()
                     {
@@ -322,7 +322,7 @@ namespace TotovBuilder.Model.Test
                         {
                             ItemId = "64afd81707e2cf40e903a316"
                         },
-                        ModSlotName = "Left_side_plate"
+                        ModSlotName = "left_side_plate"
                     },
                     new InventoryItemModSlot()
                     {
@@ -330,7 +330,7 @@ namespace TotovBuilder.Model.Test
                         {
                             ItemId = "64afd81707e2cf40e903a316"
                         },
-                        ModSlotName = "Right_side_plate"
+                        ModSlotName = "right_side_plate"
                     }
                 }
             },
