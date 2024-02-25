@@ -783,7 +783,7 @@ namespace TotovBuilder.Model.Test
                 Id = "59ef13ca86f77445fd0e2483",
                 ImageLink = "https://assets.tarkov.dev/59ef13ca86f77445fd0e2483-image.webp",
                 MarketLink = "https://tarkov.dev/item/jack-o-lantern-tactical-pumpkin-helmet",
-                Material = "Ultra high molecular weight polyethylene",
+                Material = "UHMWPE",
                 Name = "Jack-o'-lantern tactical pumpkin helmet",
                 ShortName = "Pumpkin",
                 TurningSpeedPercentageModifier = -0.01,
@@ -805,7 +805,7 @@ namespace TotovBuilder.Model.Test
                 Id = "5e4bfc1586f774264f7582d3",
                 ImageLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.webp",
                 MarketLink = "https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet-black",
-                Material = "Combined materials",
+                Material = "Combined",
                 ModSlots = new ModSlot[]
                 {
                     new ModSlot()

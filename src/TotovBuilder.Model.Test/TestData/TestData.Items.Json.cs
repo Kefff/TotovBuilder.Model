@@ -703,7 +703,7 @@
       ""durability"": 0,
       ""ergoPenalty"": -0.1,
       ""material"": {
-        ""name"": ""Aramid""
+        ""id"": ""Aramid""
       },
       ""speedPenalty"": -0.115,
       ""turnPenalty"": -0.055
@@ -774,7 +774,7 @@
       ""durability"": 0,
       ""ergoPenalty"": -0.01,
       ""material"": {
-        ""name"": ""Aramid""
+        ""id"": ""Aramid""
       },
       ""speedPenalty"": -0.01,
       ""turnPenalty"": 0
@@ -834,7 +834,7 @@
         ""Head, Top of the head""
       ],
       ""material"": {
-        ""name"": ""Ceramic""
+        ""id"": ""Ceramic""
       },
       ""slots"": [
         {
@@ -893,7 +893,7 @@
         ""BCK. PLATE""
       ],
       ""material"": {
-        ""name"": ""Ceramic""
+        ""id"": ""Ceramic""
       },
       ""slots"": [],
       ""speedPenalty"": -0.015,
@@ -937,7 +937,7 @@
         ""BCK. PLATE""
       ],
       ""material"": {
-        ""name"": ""Ceramic""
+        ""id"": ""Ceramic""
       },
       ""slots"": [],
       ""speedPenalty"": -0.02,
@@ -982,7 +982,7 @@
         ""BCK. PLATE""
       ],
       ""material"": {
-        ""name"": ""Ceramic""
+        ""id"": ""Ceramic""
       },
       ""slots"": [],
       ""speedPenalty"": -0.02,
@@ -1029,7 +1029,7 @@
         ""R. PLATE""
       ],
       ""material"": {
-        ""name"": ""Ceramic""
+        ""id"": ""Ceramic""
       },
       ""slots"": [],
       ""speedPenalty"": -0.0075,
@@ -1100,7 +1100,7 @@
         ""Head, Jaws""
       ],
       ""material"": {
-        ""name"": ""Glass""
+        ""id"": ""Glass""
       },
       ""slots"": [],
       ""speedPenalty"": 0,
@@ -1279,7 +1279,7 @@
       ""durability"": null,
       ""ergoPenalty"": -0.01,
       ""material"": {
-        ""name"": ""Aramid""
+        ""id"": ""Aramid""
       },
       ""speedPenalty"": -0.01,
       ""turnPenalty"": -0.01
@@ -1409,7 +1409,7 @@
       ""class"": 0,
       ""durability"": 0,
       ""material"": {
-        ""name"": ""Ultra high molecular weight polyethylene""
+        ""id"": ""UHMWPE""
       }
     },
     ""shortName"": ""6B34"",
@@ -1608,7 +1608,7 @@
       ""durability"": 40,
       ""ergoPenalty"": 0,
       ""material"": {
-        ""name"": ""Ultra high molecular weight polyethylene""
+        ""id"": ""UHMWPE""
       },
       ""ricochetX"": 0,
       ""slots"": [],
@@ -1667,7 +1667,7 @@
       ""durability"": 0,
       ""ergoPenalty"": -0.01,
       ""material"": {
-        ""name"": ""Combined materials""
+        ""id"": ""Combined""
       },
       ""ricochetX"": 0.9,
       ""slots"": [
