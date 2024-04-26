@@ -43,7 +43,6 @@ namespace TotovBuilder.Model.Items
         [JsonPropertyName("e")]
         public double ErgonomicsPercentageModifier { get; set; }
 
-        /// <inheritdoc/>
         [JsonPropertyName("ma")]
         public string Material { get; set; } = string.Empty;
 

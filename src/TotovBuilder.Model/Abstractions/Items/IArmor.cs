@@ -3,10 +3,10 @@
     /// <summary>
     /// Provides the functionalities of an armor.
     /// </summary>
-    public interface IArmor : IWearable
+    public interface IArmor : IModdable, IWearable
     {
         /// <summary>
-        /// Armor class.
+        /// Armor class (without ballistic plates).
         /// </summary>
         double ArmorClass { get; set; }
 
@@ -24,10 +24,5 @@
         /// Material which composes the armor.
         /// </summary>
         string Material { get; set; }
-
-        /// <summary>
-        /// Chance of ricochet.
-        /// </summary>
-        string RicochetChance { get; set; }
     }
 }

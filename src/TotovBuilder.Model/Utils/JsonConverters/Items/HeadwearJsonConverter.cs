@@ -20,6 +20,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         {
             { nameof(IHeadwear.BlocksHeadphones), h => !h.BlocksHeadphones },
             { nameof(IHeadwear.Deafening), h => h.Deafening == "None" },
+            { nameof(IHeadwear.RicochetChance), a => a.RicochetChance == string.Empty }
         };
 
         /// <summary>
@@ -35,10 +36,10 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         {
             return ConcatenateDictionaries(
                 PropertyExclusionConditions,
-                ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
                 ArmorJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
-                WearableJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
-                ModdableJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
+                ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
+                ModdableJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
+                WearableJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
         }
 
         /// <inheritdoc/>

@@ -219,18 +219,35 @@
                 ""containsItems"": [
                   {
                     ""item"": {
-                      ""id"": ""57d17e212459775a1179a0f5""
+                      ""id"": ""545cdb794bdc2d3a198b456a""
                     },
                     ""quantity"": 1
                   },
                   {
                     ""item"": {
-                      ""id"": ""59d790f486f77403cb06aec6""
+                      ""id"": ""64afc71497cf3a403c01ff38""
+                    },
+                    ""quantity"": 2
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""64afd81707e2cf40e903a316""
+                    },
+                    ""quantity"": 2
+                  }
+                ],
+                ""id"": ""65766adc234b9f6e050a431a""
+              },
+              {
+                ""containsItems"": [
+                  {
+                    ""item"": {
+                      ""id"": ""5a16b7e1fcdbcb00165aa6c9""
                     },
                     ""quantity"": 1
                   }
                 ],
-                ""id"": ""preset-ring-flashlight""
+                ""id"": ""test-preset-face-shield-alone""
               },
               {
                 ""containsItems"": [
@@ -247,18 +264,24 @@
                     ""quantity"": 1
                   }
                 ],
-                ""id"": ""preset-gas-tube-handguard""
+                ""id"": ""test-preset-gas-tube-handguard""
               },
               {
                 ""containsItems"": [
                   {
                     ""item"": {
-                      ""id"": ""5a16b7e1fcdbcb00165aa6c9""
+                      ""id"": ""57d17e212459775a1179a0f5""
+                    },
+                    ""quantity"": 1
+                  },
+                  {
+                    ""item"": {
+                      ""id"": ""59d790f486f77403cb06aec6""
                     },
                     ""quantity"": 1
                   }
                 ],
-                ""id"": ""preset-face-shield-alone""
+                ""id"": ""test-preset-ring-flashlight""
               }
             ]
           }

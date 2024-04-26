@@ -7,11 +7,11 @@
     {
 
         public const string AzureFunctionsConfigurationJson = @"{
-    ""ApiBartersQuery"": ""{ barters { level requiredItems { item { id } quantity } rewardItems { item { id } quantity } trader { normalizedName } taskUnlock { id name wikiLink } } }"",
-    ""ApiItemsQuery"": ""{ items { categories { id } conflictingItems { id } iconLink id inspectImageLink link name properties { __typename ... on ItemPropertiesAmmo { accuracyModifier armorDamage caliber damage durabilityBurnFactor fragmentationChance heavyBleedModifier initialSpeed lightBleedModifier penetrationChance penetrationPower projectileCount recoilModifier ricochetChance stackMaxSize tracer } ... on ItemPropertiesArmor { class durability ergoPenalty material { name } speedPenalty turnPenalty zones } ... on ItemPropertiesArmorAttachment { blindnessProtection class durability ergoPenalty headZones material { name } speedPenalty turnPenalty } ... on ItemPropertiesBackpack { capacity ergoPenalty speedPenalty turnPenalty } ... on ItemPropertiesBarrel { ergonomics recoilModifier slots { nameId filters { allowedItems { id } } } } ... on ItemPropertiesChestRig { capacity class durability ergoPenalty material { name } speedPenalty turnPenalty zones } ... on ItemPropertiesContainer { capacity } ... on ItemPropertiesGlasses { blindnessProtection class durability material { name } } ... on ItemPropertiesGrenade { contusionRadius fragments fuse maxExplosionDistance minExplosionDistance type } ... on ItemPropertiesHelmet { blocksHeadset class deafening durability ergoPenalty headZones material { name } ricochetX slots { nameId filters { allowedItems { id } } } speedPenalty turnPenalty } ... on ItemPropertiesMagazine { allowedAmmo { id } ammoCheckModifier capacity ergonomics loadModifier malfunctionChance slots { nameId filters { allowedItems { id } } } } ... on ItemPropertiesPreset { baseItem { id } moa } ... on ItemPropertiesMelee { hitRadius slashDamage stabDamage } ... on ItemPropertiesScope { ergonomics recoilModifier slots { nameId filters { allowedItems { id } } } zoomLevels } ... on ItemPropertiesWeapon { caliber defaultPreset { id } ergonomics fireModes fireRate recoilHorizontal recoilVertical slots { nameId filters { allowedItems { id } } } } ... on ItemPropertiesWeaponMod { accuracyModifier ergonomics recoilModifier slots { nameId filters { allowedItems { id } } } } } shortName weight wikiLink } }"",
-    ""ApiPresetsQuery"": ""{ items(type: preset) { containsItems { item { id } quantity } id } }"",
-    ""ApiPricesQuery"": ""{ items { id buyFor { currency price priceRUB vendor { ... on TraderOffer { minTraderLevel taskUnlock { id name wikiLink } trader { normalizedName } } ... on FleaMarket { normalizedName } } } } }"",
-    ""ApiUrl"": ""https://api.tarkov.dev/graphql"",
+    ""ApiBartersQuery"": ""{ barters { level } }"",
+    ""ApiItemsQuery"": ""{ items { id } }"",
+    ""ApiPresetsQuery"": ""{ items(type: preset) { id } }"",
+    ""ApiPricesQuery"": ""{ items { id }"",
+    ""ApiUrl"": ""https://localhost/api"",
     ""AzureBlobStorageConnectionString"": ""DefaultEndpointsProtocol=https;AccountName=;AccountKey=;EndpointSuffix=core.windows.net"",
     ""AzureBlobStorageRawDataContainerName"": ""totov-builder-raw-data"",
     ""AzureBlobStorageWebsiteContainerName"": ""$web"",

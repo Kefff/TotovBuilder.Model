@@ -3,7 +3,7 @@
     /// <summary>
     /// Provides the functionalities of headwear.
     /// </summary>
-    public interface IHeadwear : IArmor, IModdable
+    public interface IHeadwear : IArmor
     {
         /// <summary>
         /// Indicates whether headphones are block by the helmet.
@@ -14,5 +14,10 @@
         /// Severity of the hearing impairement caused by the helmet.
         /// </summary>
         string Deafening { get; set; }
+
+        /// <summary>
+        /// Ricochet chance.
+        /// </summary>
+        public string RicochetChance { get; set; }
     }
 }
