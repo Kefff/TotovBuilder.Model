@@ -20,6 +20,14 @@ namespace TotovBuilder.Model.Items
         public string[] ArmoredAreas { get; set; } = Array.Empty<string>();
 
         /// <inheritdoc/>
+        [JsonPropertyName("bi")]
+        public string? BaseItemId { get; set; }
+
+        /// <inheritdoc/>
+        [JsonPropertyName("dp")]
+        public string? DefaultPresetId { get; set; }
+
+        /// <inheritdoc/>
         [JsonPropertyName("d")]
         public double Durability { get; set; }
 
@@ -27,17 +35,16 @@ namespace TotovBuilder.Model.Items
         [JsonPropertyName("e")]
         public double ErgonomicsPercentageModifier { get; set; }
 
-        /// <inheritdoc/>
         [JsonPropertyName("ma")]
         public string Material { get; set; } = string.Empty;
 
         /// <inheritdoc/>
-        [JsonPropertyName("ms")]
-        public double MovementSpeedPercentageModifier { get; set; }
+        [JsonPropertyName("mo")]
+        public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();
 
         /// <inheritdoc/>
-        [JsonPropertyName("r")]
-        public string RicochetChance { get; set; } = string.Empty;
+        [JsonPropertyName("ms")]
+        public double MovementSpeedPercentageModifier { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("t")]

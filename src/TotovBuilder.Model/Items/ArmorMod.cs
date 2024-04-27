@@ -52,10 +52,6 @@ namespace TotovBuilder.Model.Items
         public double MovementSpeedPercentageModifier { get; set; }
 
         /// <inheritdoc/>
-        [JsonPropertyName("r")]
-        public string RicochetChance { get; set; } = string.Empty;
-
-        /// <inheritdoc/>
         [JsonPropertyName("t")]
         public double TurningSpeedPercentageModifier { get; set; }
     }

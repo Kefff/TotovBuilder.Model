@@ -32,26 +32,56 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     ArmorClass = 6,
                     ArmoredAreas = new string[]
                     {
-                        "LeftArm",
-                        "RightArm",
-                        "Thorax",
-                        "Stomach"
+                        "FR. PLATE",
+                        "BCK. PLATE",
+                        "L. PLATE",
+                        "R. PLATE",
+                        "Chest",
+                        "Stomach",
+                        "Stomach, Lower back",
+                        "Thorax, Upper back",
+                        "Stomach, Left Side",
+                        "Stomach, Right Side",
+                        "Head, Neck",
+                        "Head, Throat",
+                        "Left arm, Shoulder",
+                        "Right arm, Shoulder",
+                        "Stomach, Groin"
                     },
                     CategoryId = "armor",
+                    DefaultPresetId = "65766adc234b9f6e050a431a",
                     Durability = 85,
-                    ErgonomicsPercentageModifier = -0.27,
-                    IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.jpg",
+                    ErgonomicsPercentageModifier = -0.1,
+                    IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp\"",
                     Id = "545cdb794bdc2d3a198b456a",
-                    ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg",
-                    MarketLink = "https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor",
-                    Material = "CombinedMaterials",
-                    MovementSpeedPercentageModifier = -0.35,
-                    Name = "6B43 6A Zabralo-Sh body armor",
-                    RicochetChance = "High",
-                    ShortName = "6B43 6A",
-                    TurningSpeedPercentageModifier = -0.21,
-                    Weight = 20,
-                    WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_6A_Zabralo-Sh_body_armor"
+                    ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
+                    MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora",
+                    Material = "Aramid",
+                    ModSlots = new ModSlot[]
+                    {
+                        new ModSlot()
+                        {
+                            Name = "Front_plate"
+                        },
+                        new ModSlot()
+                        {
+                            Name = "Back_plate"
+                        },
+                        new ModSlot()
+                        {
+                            Name = "Left_side_plate"
+                        },
+                        new ModSlot()
+                        {
+                            Name = "Right_side_plate"
+                        }
+                    },
+                    MovementSpeedPercentageModifier = -0.115,
+                    Name = "6B43 Zabralo-Sh body armor (Digital Flora)",
+                    ShortName = "6B43",
+                    TurningSpeedPercentageModifier = -0.055,
+                    Weight = 10.8,
+                    WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)"
                 }
             };
 
@@ -59,7 +89,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
             string result = Serialize(armors);
 
             // Assert
-            result.Should().Be("[{\"c\":\"armor\",\"ic\":\"https://assets.tarkov.dev/unknown-icon.jpg\",\"i\":\"unknown\",\"im\":\"https://assets.tarkov.dev/unknown-image.jpg\",\"m\":\"https://tarkov.dev/item/unknown\",\"n\":\"Unknown\",\"s\":\"Unknown\",\"w\":0.2,\"wi\":\"https://escapefromtarkov.fandom.com/wiki/Unknown\"},{\"ac\":6,\"aa\":[\"LeftArm\",\"RightArm\",\"Thorax\",\"Stomach\"],\"d\":85,\"e\":-0.27,\"ma\":\"CombinedMaterials\",\"ms\":-0.35,\"r\":\"High\",\"t\":-0.21,\"c\":\"armor\",\"ic\":\"https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.jpg\",\"i\":\"545cdb794bdc2d3a198b456a\",\"im\":\"https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.jpg\",\"m\":\"https://tarkov.dev/item/6b43-6a-zabralo-sh-body-armor\",\"n\":\"6B43 6A Zabralo-Sh body armor\",\"s\":\"6B43 6A\",\"w\":20,\"wi\":\"https://escapefromtarkov.fandom.com/wiki/6B43_6A_Zabralo-Sh_body_armor\"}]");
+            result.Should().Be("[{\"c\":\"armor\",\"ic\":\"https://assets.tarkov.dev/unknown-icon.jpg\",\"i\":\"unknown\",\"im\":\"https://assets.tarkov.dev/unknown-image.jpg\",\"m\":\"https://tarkov.dev/item/unknown\",\"n\":\"Unknown\",\"s\":\"Unknown\",\"w\":0.2,\"wi\":\"https://escapefromtarkov.fandom.com/wiki/Unknown\"},{\"ac\":6,\"aa\":[\"FR. PLATE\",\"BCK. PLATE\",\"L. PLATE\",\"R. PLATE\",\"Chest\",\"Stomach\",\"Stomach, Lower back\",\"Thorax, Upper back\",\"Stomach, Left Side\",\"Stomach, Right Side\",\"Head, Neck\",\"Head, Throat\",\"Left arm, Shoulder\",\"Right arm, Shoulder\",\"Stomach, Groin\"],\"dp\":\"65766adc234b9f6e050a431a\",\"d\":85,\"e\":-0.1,\"ma\":\"Aramid\",\"mo\":[{\"n\":\"Front_plate\"},{\"n\":\"Back_plate\"},{\"n\":\"Left_side_plate\"},{\"n\":\"Right_side_plate\"}],\"ms\":-0.115,\"t\":-0.055,\"c\":\"armor\",\"ic\":\"https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp\\u0022\",\"i\":\"545cdb794bdc2d3a198b456a\",\"im\":\"https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp\",\"m\":\"https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora\",\"n\":\"6B43 Zabralo-Sh body armor (Digital Flora)\",\"s\":\"6B43\",\"w\":10.8,\"wi\":\"https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)\"}]");
         }
     }
 }

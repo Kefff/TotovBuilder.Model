@@ -18,8 +18,9 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         {
             return ConcatenateDictionaries(
                 ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
-                ContainerJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
                 ArmorJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
+                ContainerJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
+                ModdableJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
                 WearableJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
         }
     }

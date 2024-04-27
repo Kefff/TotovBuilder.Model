@@ -21,8 +21,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
             { nameof(IArmor.ArmorClass), a => a.ArmorClass == 0 },
             { nameof(IArmor.ArmoredAreas), a => a.ArmoredAreas.Length == 0 },
             { nameof(IArmor.Durability), a => a.Durability == 0 },
-            { nameof(IArmor.Material), a => a.Material == string.Empty },
-            { nameof(IArmor.RicochetChance), a => a.RicochetChance == string.Empty }
+            { nameof(IArmor.Material), a => a.Material == string.Empty }
         };
 
         /// <inheritdoc/>
@@ -31,6 +30,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
             return ConcatenateDictionaries(
                 PropertyExclusionConditions,
                 ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
+                ModdableJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
                 WearableJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
         }
     }

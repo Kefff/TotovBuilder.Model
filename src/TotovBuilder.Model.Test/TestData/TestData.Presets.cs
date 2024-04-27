@@ -297,22 +297,50 @@ namespace TotovBuilder.Model.Test
             },
             new InventoryItem()
             {
-                ItemId = "preset-ring-flashlight",
+                ItemId = "65766adc234b9f6e050a431a",
                 ModSlots = new InventoryItemModSlot[]
                 {
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
                         {
-                            ItemId = "59d790f486f77403cb06aec6"
+                            ItemId = "64afc71497cf3a403c01ff38"
                         },
-                        ModSlotName = "mod_flashlight"
+                        ModSlotName = "front_plate"
+                    },
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "64afc71497cf3a403c01ff38"
+                        },
+                        ModSlotName = "back_plate"
+                    },
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "64afd81707e2cf40e903a316"
+                        },
+                        ModSlotName = "left_side_plate"
+                    },
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "64afd81707e2cf40e903a316"
+                        },
+                        ModSlotName = "right_side_plate"
                     }
                 }
             },
             new InventoryItem()
             {
-                ItemId = "preset-gas-tube-handguard",
+                ItemId = "test-preset-face-shield-alone"
+            },
+            new InventoryItem()
+            {
+                ItemId = "test-preset-gas-tube-handguard",
                 ModSlots = new InventoryItemModSlot[]
                 {
                     new InventoryItemModSlot()
@@ -327,7 +355,18 @@ namespace TotovBuilder.Model.Test
             },
             new InventoryItem()
             {
-                ItemId = "preset-face-shield-alone"
+                ItemId = "test-preset-ring-flashlight",
+                ModSlots = new InventoryItemModSlot[]
+                {
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "59d790f486f77403cb06aec6"
+                        },
+                        ModSlotName = "mod_flashlight"
+                    }
+                }
             }
         };
     }

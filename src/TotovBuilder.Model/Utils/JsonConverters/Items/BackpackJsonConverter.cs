@@ -15,8 +15,8 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         protected override Dictionary<string, Func<TInterface, bool>> GetPropertyExclusionConditions()
         {
             return ConcatenateDictionaries(
-                ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
                 ContainerJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
+                ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions,
                 WearableJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
         }
     }
