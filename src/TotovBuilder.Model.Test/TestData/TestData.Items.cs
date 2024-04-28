@@ -882,6 +882,18 @@ namespace TotovBuilder.Model.Test
                 ShortName = "ComTac 4",
                 Weight = 0.6,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Peltor_ComTac_4_Hybrid_headset_(Coyote_Brown)"
+            },            
+            new Item()
+            {
+                CategoryId = "other",
+                IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.webp",
+                Id = "624c0b3340357b5f566e8766",
+                ImageLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.webp",
+                MarketLink = "https://tarkov.dev/item/rsp-30-reactive-signal-cartridge-yellow",
+                Name = "RSP-30 reactive signal cartridge (Yellow)",
+                ShortName = "Yellow",
+                Weight = 0.19,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/RSP-30_reactive_signal_cartridge_(Yellow)"
             },
             new Item()
             {
@@ -1786,24 +1798,6 @@ namespace TotovBuilder.Model.Test
             },
             new RangedWeapon()
             {
-                Caliber = "Caliber26x75",
-                CategoryId = "mainWeapon",
-                Ergonomics = 51,
-                FireModes = new string[] { "SingleFire" },
-                FireRate = 30,
-                HorizontalRecoil = 400,
-                IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.webp",
-                Id = "624c0b3340357b5f566e8766",
-                ImageLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-image.webp",
-                MarketLink = "https://tarkov.dev/item/rsp-30-reactive-signal-cartridge-yellow",
-                Name = "RSP-30 reactive signal cartridge (Yellow)",
-                ShortName = "Yellow",
-                VerticalRecoil = 170,
-                Weight = 0.19,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/RSP-30_reactive_signal_cartridge_(Yellow)"
-            },
-            new RangedWeapon()
-            {
                 Caliber = "Caliber9x19PARA",
                 CategoryId = "mainWeapon",
                 DefaultPresetId = "58dffca786f774083a256ab1",
@@ -1902,6 +1896,24 @@ namespace TotovBuilder.Model.Test
                 VerticalRecoil = 51,
                 Weight = 0.64,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/SIG_MPX_9x19_submachine_gun"
+            },
+            new RangedWeapon()
+            {
+                Caliber = "Caliber26x75",
+                CategoryId = "secondaryWeapon",
+                Ergonomics = 51,
+                FireModes = new string[] { "SingleFire" },
+                FireRate = 30,
+                HorizontalRecoil = 400,
+                IconLink = "https://assets.tarkov.dev/620109578d82e67e7911abf2-icon.webp",
+                Id = "620109578d82e67e7911abf2",
+                ImageLink = "https://assets.tarkov.dev/620109578d82e67e7911abf2-image.webp",
+                MarketLink = "https://tarkov.dev/item/zid-sp-81-26x75-signal-pistol",
+                Name = "ZiD SP-81 26x75 signal pistol",
+                ShortName = "SP-81",
+                VerticalRecoil = 170,
+                Weight = 0.6,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/ZiD_SP-81_26x75_signal_pistol"
             },
             new RangedWeaponMod()
             {

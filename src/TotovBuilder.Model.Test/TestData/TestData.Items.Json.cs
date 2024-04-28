@@ -3097,6 +3097,48 @@
   {
     ""categories"": [
       {
+        ""id"": ""5447bedf4bdc2d87278b4568"",
+        ""name"": ""Grenade launcher""
+      },
+      {
+        ""id"": ""5422acb9af1c889c16000029"",
+        ""name"": ""Weapon""
+      },
+      {
+        ""id"": ""566162e44bdc2d3f298b4573"",
+        ""name"": ""Compound item""
+      },
+      {
+        ""id"": ""54009119af1c881c07000029"",
+        ""name"": ""Item""
+      }
+    ],
+    ""conflictingItems"": [],
+    ""iconLink"": ""https://assets.tarkov.dev/620109578d82e67e7911abf2-icon.webp"",
+    ""id"": ""620109578d82e67e7911abf2"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/620109578d82e67e7911abf2-image.webp"",
+    ""link"": ""https://tarkov.dev/item/zid-sp-81-26x75-signal-pistol"",
+    ""name"": ""ZiD SP-81 26x75 signal pistol"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesWeapon"",
+      ""caliber"": ""Caliber26x75"",
+      ""defaultPreset"": null,
+      ""ergonomics"": 51,
+      ""fireModes"": [
+        ""Single fire""
+      ],
+      ""fireRate"": 30,
+      ""recoilHorizontal"": 400,
+      ""recoilVertical"": 170,
+      ""slots"": []
+    },
+    ""shortName"": ""SP-81"",
+    ""weight"": 0.6,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/ZiD_SP-81_26x75_signal_pistol""
+  },
+  {
+    ""categories"": [
+      {
         ""id"": ""55818a304bdc2db5418b457d""
       },
       {
