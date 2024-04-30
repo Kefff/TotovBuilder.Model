@@ -29,5 +29,10 @@
         /// Value determining the position of the currency when a price containing multiple currencies is displayed.
         /// </summary>
         public int SortOrder { get; set; }
+
+        /// <summary>
+        /// Symbol.
+        /// </summary>
+        public string Symbol { get; set; } = string.Empty;
     }
 }
