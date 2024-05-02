@@ -17,7 +17,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
             {
                 new RangedWeaponMod()
                 {
-                    AccuracyPercentageModifier = -0.01,
+                    AccuracyModifierPercentage = -0.01,
                     CategoryId = "rangedWeaponMod",
                     ErgonomicsModifier = -5,
                     IconLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-icon.jpg",
@@ -25,7 +25,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     ImageLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-image.jpg",
                     MarketLink = "https://tarkov.dev/item/mpx-sd-9x19-integrated-sound-suppressor",
                     Name = "MPX-SD 9x19 integrated sound suppressor",
-                    RecoilPercentageModifier = -0.15,
+                    RecoilModifierPercentage = -0.15,
                     ShortName = "MPX-SD",
                     Weight = 0.6,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX-SD_9x19_integrated_sound_suppressor"

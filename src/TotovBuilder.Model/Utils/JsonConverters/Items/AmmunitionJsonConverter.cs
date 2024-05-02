@@ -19,18 +19,18 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
         {
-            { nameof(IAmmunition.AccuracyPercentageModifier), a => a.AccuracyPercentageModifier == 0 },
+            { nameof(IAmmunition.AccuracyModifierPercentage), a => a.AccuracyModifierPercentage == 0 },
             { nameof(IAmmunition.ArmorDamagePercentage), a => a.ArmorDamagePercentage == 0 },
             { nameof(IAmmunition.ArmorPenetrations), a => a.ArmorPenetrations.Length == 0 || a.ArmorPenetrations.All(ap => ap == 0) },
             { nameof(IAmmunition.Blinding), a => !a.Blinding },
-            { nameof(IAmmunition.DurabilityBurnPercentageModifier), a => a.DurabilityBurnPercentageModifier == 0 },
+            { nameof(IAmmunition.DurabilityBurnModifierPercentage), a => a.DurabilityBurnModifierPercentage == 0 },
             { nameof(IAmmunition.FleshDamage), a => a.FleshDamage == 0 },
-            { nameof(IAmmunition.FragmentationChancePercentage), a => a.FragmentationChancePercentage == 0 },
-            { nameof(IAmmunition.HeavyBleedingPercentageChance), a => a.HeavyBleedingPercentageChance == 0 },
-            { nameof(IAmmunition.LightBleedingPercentageChance), a => a.LightBleedingPercentageChance == 0 },
+            { nameof(IAmmunition.FragmentationChance), a => a.FragmentationChance == 0 },
+            { nameof(IAmmunition.HeavyBleedingChance), a => a.HeavyBleedingChance == 0 },
+            { nameof(IAmmunition.LightBleedingChance), a => a.LightBleedingChance == 0 },
             { nameof(IAmmunition.PenetrationPower), a => a.PenetrationPower == 0 },
             { nameof(IAmmunition.Projectiles), a => a.Projectiles == 1 },
-            { nameof(IAmmunition.RecoilPercentageModifier), a => a.RecoilPercentageModifier == 0 },
+            { nameof(IAmmunition.RecoilModifierPercentage), a => a.RecoilModifierPercentage == 0 },
             { nameof(IAmmunition.Subsonic), a => !a.Subsonic },
             { nameof(IAmmunition.Tracer), a => !a.Tracer },
 

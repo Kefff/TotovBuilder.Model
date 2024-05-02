@@ -8,11 +8,11 @@
         /// <summary>
         /// Modifier added to the weapon accuracy in percentage.
         /// <summary>
-        double AccuracyPercentageModifier { get; set; }
+        double AccuracyModifierPercentage { get; set; }
 
         /// <summary>
         /// Modifier added to the weapon recoil in percentage.
         /// <summary>
-        double RecoilPercentageModifier { get; set; }
+        double RecoilModifierPercentage { get; set; }
     }
 }

@@ -18,8 +18,8 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// </summary>
         public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
         {
-            { nameof(IMagazine.CheckSpeedPercentageModifier), m => m.CheckSpeedPercentageModifier == 0 },
-            { nameof(IMagazine.LoadSpeedPercentageModifier), m => m.LoadSpeedPercentageModifier == 0 },
+            { nameof(IMagazine.CheckSpeedModifierPercentage), m => m.CheckSpeedModifierPercentage == 0 },
+            { nameof(IMagazine.LoadSpeedModifierPercentage), m => m.LoadSpeedModifierPercentage == 0 },
             { nameof(IMagazine.MalfunctionPercentage), m => m.MalfunctionPercentage == 0 }
         };
 

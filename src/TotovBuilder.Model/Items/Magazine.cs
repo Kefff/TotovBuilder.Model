@@ -25,7 +25,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("cs")]
-        public double CheckSpeedPercentageModifier { get; set; }
+        public double CheckSpeedModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("dp")]
@@ -37,7 +37,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("l")]
-        public double LoadSpeedPercentageModifier { get; set; }
+        public double LoadSpeedModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("ma")]

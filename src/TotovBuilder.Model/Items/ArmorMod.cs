@@ -37,7 +37,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("e")]
-        public double ErgonomicsPercentageModifier { get; set; }
+        public double ErgonomicsModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("ma")]
@@ -49,10 +49,10 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("ms")]
-        public double MovementSpeedPercentageModifier { get; set; }
+        public double MovementSpeedModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("t")]
-        public double TurningSpeedPercentageModifier { get; set; }
+        public double TurningSpeedModifierPercentage { get; set; }
     }
 }

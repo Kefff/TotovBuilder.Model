@@ -13,7 +13,7 @@ namespace TotovBuilder.Model.Items
     {
         /// <inheritdoc/>
         [JsonPropertyName("ac")]
-        public double AccuracyPercentageModifier { get; set; }
+        public double AccuracyModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("bi")]
@@ -33,6 +33,6 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("r")]
-        public double RecoilPercentageModifier { get; set; }
+        public double RecoilModifierPercentage { get; set; }
     }
 }

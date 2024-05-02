@@ -51,7 +51,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     CategoryId = "armor",
                     DefaultPresetId = "65766adc234b9f6e050a431a",
                     Durability = 85,
-                    ErgonomicsPercentageModifier = -0.1,
+                    ErgonomicsModifierPercentage = -0.1,
                     IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp\"",
                     Id = "545cdb794bdc2d3a198b456a",
                     ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
@@ -76,10 +76,10 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                             Name = "Right_side_plate"
                         }
                     },
-                    MovementSpeedPercentageModifier = -0.115,
+                    MovementSpeedModifierPercentage = -0.115,
                     Name = "6B43 Zabralo-Sh body armor (Digital Flora)",
                     ShortName = "6B43",
-                    TurningSpeedPercentageModifier = -0.055,
+                    TurningSpeedModifierPercentage = -0.055,
                     Weight = 10.8,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)"
                 }
