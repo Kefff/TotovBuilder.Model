@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Linq;
+using Moq;
+using Newtonsoft.Json.Linq;
 using TotovBuilder.Model.Items;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace TotovBuilder.Model.Test
 {
@@ -303,7 +306,7 @@ namespace TotovBuilder.Model.Test
             },
             new Armor()
             {
-                ArmorClass = 6,
+                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
                 ArmoredAreas = new string[]
                 {
                     "FRPLATE",
@@ -403,7 +406,7 @@ namespace TotovBuilder.Model.Test
             },
             new Armor()
             {
-                ArmorClass = 6,
+                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
                 ArmoredAreas = new string[]
                 {
                     "FRPLATE",
@@ -2612,7 +2615,7 @@ namespace TotovBuilder.Model.Test
             },
             new Vest()
             {
-                ArmorClass = 4,
+                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
                 ArmoredAreas = new string[]
                 {
                     "FRPLATE",
@@ -2691,7 +2694,7 @@ namespace TotovBuilder.Model.Test
             },
             new Vest()
             {
-                ArmorClass = 4,
+                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
                 ArmoredAreas = new string[]
                 {
                     "FRPLATE",
