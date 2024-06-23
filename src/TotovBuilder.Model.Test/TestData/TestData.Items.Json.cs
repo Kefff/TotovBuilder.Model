@@ -829,7 +829,7 @@
       ""class"": 6,
       ""durability"": 40,
       ""ergoPenalty"": -0.05,
-      ""headZones"": [
+      ""zones"": [
         ""Head, Nape"",
         ""Head, Top of the head""
       ],
@@ -888,7 +888,7 @@
       ""class"": 6,
       ""durability"": 55,
       ""ergoPenalty"": -0.015,
-      ""headZones"": [
+      ""zones"": [
         ""FR. PLATE"",
         ""BCK. PLATE""
       ],
@@ -933,7 +933,7 @@
       ""class"": 6,
       ""durability"": 50,
       ""ergoPenalty"": -0.01,
-      ""headZones"": [
+      ""zones"": [
         ""BCK. PLATE""
       ],
       ""material"": {
@@ -977,7 +977,7 @@
       ""class"": 6,
       ""durability"": 60,
       ""ergoPenalty"": -0.015,
-      ""headZones"": [
+      ""zones"": [
         ""F. PLATE"",
         ""BCK. PLATE""
       ],
@@ -1022,7 +1022,7 @@
       ""class"": 6,
       ""durability"": 20,
       ""ergoPenalty"": 0,
-      ""headZones"": [
+      ""zones"": [
         ""L. PLATE"",
         ""L. PLATE"",
         ""R. PLATE"",
@@ -1094,7 +1094,7 @@
       ""class"": 3,
       ""durability"": 40,
       ""ergoPenalty"": -0.04,
-      ""headZones"": [
+      ""zones"": [
         ""Head, Eyes"",
         ""Head, Face"",
         ""Head, Jaws""
