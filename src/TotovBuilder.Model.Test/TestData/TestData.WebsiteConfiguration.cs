@@ -12,6 +12,7 @@ namespace TotovBuilder.Model.Test
             AllowCookiesStorageKey = "allow_cookies",
             BugReportUrl = "https://discord.gg/bugreport",
             BuildSharingUrl = "s/",
+            BuildsFilterStorageKey = "builds_filter",
             BuildsSortFieldStorageKey = "builds_sort_field",
             BuildsSortOrderStorageKey = "builds_sort_order",
             BuildStorageKeyPrefix = "build_",

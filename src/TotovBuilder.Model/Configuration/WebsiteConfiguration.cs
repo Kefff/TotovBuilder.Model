@@ -21,6 +21,11 @@
         public string BuildSharingUrl { get; set; } = string.Empty;
 
         /// <summary>
+        /// Storage key for the current build filter.
+        /// </summary>
+        public string BuildsFilterStorageKey { get; set; } = string.Empty;
+
+        /// <summary>
         /// Storage key for the current build sorting colum.
         /// </summary>
         public string BuildsSortFieldStorageKey { get; set; } = string.Empty;
