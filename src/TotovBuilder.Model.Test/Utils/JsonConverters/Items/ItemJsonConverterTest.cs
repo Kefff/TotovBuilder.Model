@@ -13,9 +13,9 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeItem()
         {
             // Arrange
-            Item[] items = new Item[]
-            {
-                new Item()
+            Item[] items =
+            [
+                new()
                 {
                     CategoryId = "currency",
                     IconLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.jpg",
@@ -28,10 +28,10 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/Euros"
                 },
-                new Item()
+                new()
                 {
                     CategoryId = "headphones",
-                    ConflictingItemIds = new string[] { "5aa7e276e5b5b000171d0647" },
+                    ConflictingItemIds = ["5aa7e276e5b5b000171d0647"],
                     IconLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-icon.jpg",
                     Id = "628e4e576d783146b124c64d",
                     ImageLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-image.jpg",
@@ -41,7 +41,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0.6,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/Peltor_ComTac_4_Hybrid_headset"
                 },
-                new Item()
+                new()
                 {
                     CategoryId = "other",
                     IconLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-icon.jpg",
@@ -53,7 +53,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0.01,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/TerraGroup_Labs_keycard_(Blue)"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(items);

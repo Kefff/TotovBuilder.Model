@@ -13,8 +13,8 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeArmor()
         {
             // Arrange
-            Armor[] armors = new Armor[]
-            {
+            Armor[] armors =
+            [
                 new Armor()
                 {
                     CategoryId = "armor",
@@ -30,8 +30,8 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                 new Armor()
                 {
                     ArmorClass = 6,
-                    ArmoredAreas = new string[]
-                    {
+                    ArmoredAreas =
+                    [
                         "FR. PLATE",
                         "BCK. PLATE",
                         "L. PLATE",
@@ -47,7 +47,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                         "Left arm, Shoulder",
                         "Right arm, Shoulder",
                         "Stomach, Groin"
-                    },
+                    ],
                     CategoryId = "armor",
                     DefaultPresetId = "65766adc234b9f6e050a431a",
                     Durability = 85,
@@ -57,8 +57,8 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
                     MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora",
                     Material = "Aramid",
-                    ModSlots = new ModSlot[]
-                    {
+                    ModSlots =
+                    [
                         new ModSlot()
                         {
                             Name = "Front_plate"
@@ -75,7 +75,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                         {
                             Name = "Right_side_plate"
                         }
-                    },
+                    ],
                     MovementSpeedModifierPercentage = -0.115,
                     Name = "6B43 Zabralo-Sh body armor (Digital Flora)",
                     ShortName = "6B43",
@@ -83,7 +83,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 10.8,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(armors);

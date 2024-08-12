@@ -13,8 +13,8 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeBackpack()
         {
             // Arrange
-            Backpack[] containers = new Backpack[]
-            {
+            Backpack[] containers =
+            [
                 new Backpack()
                 {
                     Capacity = 35,
@@ -43,7 +43,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0.48,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/Tactical_sling_bag"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(containers);

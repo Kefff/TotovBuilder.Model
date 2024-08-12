@@ -9,8 +9,8 @@ namespace TotovBuilder.Model.Test
     {
         public static TarkovValues TarkovValues { get; } = new TarkovValues()
         {
-            ArmorPenetrationEfficiencies = new string[]
-            {
+            ArmorPenetrationEfficiencies =
+            [
                 "> 20",
                 "13 - 20",
                 "9 - 13",
@@ -18,10 +18,10 @@ namespace TotovBuilder.Model.Test
                 "3 - 5",
                 "1 - 3",
                 "< 1"
-            },
+            ],
             ChestHp = 85,
-            Currencies = new Currency[]
-            {
+            Currencies =
+            [
                 new Currency()
                 {
                     IconName = "dollar-sign",
@@ -43,11 +43,11 @@ namespace TotovBuilder.Model.Test
                     MainCurrency = true,
                     Name = "RUB"
                 }
-            },
+            ],
             HeavyEncumbermentWeight = 65,
             LightEncumbermentWeight = 24,
-            Merchants = new Merchant[]
-            {
+            Merchants =
+            [
                 new Merchant()
                 {
                     MaxLevel = 4,
@@ -118,9 +118,9 @@ namespace TotovBuilder.Model.Test
                     Name = "items-without-merchant",
                     ShowInFilter = true
                 }
-            },
-            RicochetChances = new RicochetChance[]
-            {
+            ],
+            RicochetChances =
+            [
                 new RicochetChance()
                 {
                     Name = "High",
@@ -139,7 +139,7 @@ namespace TotovBuilder.Model.Test
                     XMaxValue = 0.6,
                     XMinValue = 0.1
                 }
-            }
+            ]
         };
     }
 }

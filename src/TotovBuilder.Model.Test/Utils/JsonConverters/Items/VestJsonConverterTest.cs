@@ -13,20 +13,20 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeVest()
         {
             // Arrange
-            Vest[] containers = new Vest[]
-            {
+            Vest[] containers =
+            [
                 new Vest()
                 {
                     ArmorClass = 4,
-                    ArmoredAreas = new string[]
-                    {
+                    ArmoredAreas =
+                    [
                         "FR. PLATE",
                         "BCK. PLATE",
                         "L. PLATE",
                         "R. PLATE",
                         "Stomach, Left Side",
                         "Stomach, Right Side"
-                    },
+                    ],
                     Capacity = 14,
                     CategoryId = "vest",
                     Durability = 40,
@@ -56,7 +56,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0.4,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/Scav_Vest"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(containers);

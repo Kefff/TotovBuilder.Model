@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TotovBuilder.Model.Configuration
+﻿namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents an armor penetration
@@ -20,6 +18,6 @@ namespace TotovBuilder.Model.Configuration
         /// <summary>
         /// Armor penetration values.
         /// </summary>
-        public double[] Values { get; set; } = Array.Empty<double>();
+        public double[] Values { get; set; } = [];
     }
 }

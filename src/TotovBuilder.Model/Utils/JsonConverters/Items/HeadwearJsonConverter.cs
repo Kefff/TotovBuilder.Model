@@ -16,7 +16,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// <summary>
         /// List of functions indicating whether the associated property must be excluded from the serialization.
         /// </summary>
-        public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
+        public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new()
         {
             { nameof(IHeadwear.BlocksHeadphones), h => !h.BlocksHeadphones },
             { nameof(IHeadwear.Deafening), h => h.Deafening == "None" },
@@ -26,7 +26,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// <summary>
         /// List of functions for customizing the value used for serializing the associated property.
         /// </summary>
-        public static readonly Dictionary<string, Func<TInterface, object?>> PropertyValuesObtentions = new Dictionary<string, Func<TInterface, object?>>()
+        public static readonly Dictionary<string, Func<TInterface, object?>> PropertyValuesObtentions = new()
         {
             { nameof(IHeadwear.BlocksHeadphones), a => 1 }
         };

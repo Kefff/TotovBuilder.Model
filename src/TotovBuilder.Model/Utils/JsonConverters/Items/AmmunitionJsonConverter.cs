@@ -17,7 +17,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// <summary>
         /// List of functions indicating whether the associated property must be excluded from the serialization.
         /// </summary>
-        public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
+        public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new()
         {
             { nameof(IAmmunition.AccuracyModifierPercentage), a => a.AccuracyModifierPercentage == 0 },
             { nameof(IAmmunition.ArmorDamagePercentage), a => a.ArmorDamagePercentage == 0 },
@@ -39,7 +39,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// <summary>
         /// List of functions for customizing the value used for serializing the associated property.
         /// </summary>
-        public static readonly Dictionary<string, Func<TInterface, object?>> PropertyValuesObtentions = new Dictionary<string, Func<TInterface, object?>>()
+        public static readonly Dictionary<string, Func<TInterface, object?>> PropertyValuesObtentions = new()
         {
             { nameof(IAmmunition.Blinding), a => 1 },
             { nameof(IAmmunition.Subsonic), a => 1 },

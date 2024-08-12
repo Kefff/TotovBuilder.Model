@@ -13,13 +13,13 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeAmmunition()
         {
             // Arrange
-            Ammunition[] ammunitions = new Ammunition[]
-            {
+            Ammunition[] ammunitions =
+            [
                 new Ammunition()
                 {
                     AccuracyModifierPercentage = 0,
                     ArmorDamagePercentage = 0,
-                    ArmorPenetrations = new double[] { 0, 0, 0, 0, 0, 0 },
+                    ArmorPenetrations = [0, 0, 0, 0, 0, 0],
                     Blinding = true,
                     Caliber = "unknown",
                     CategoryId = "ammunition",
@@ -46,7 +46,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                 {
                     AccuracyModifierPercentage = 0,
                     ArmorDamagePercentage = 0.34,
-                    ArmorPenetrations = new double[] { 6, 3, 0, 0, 0, 0 },
+                    ArmorPenetrations = [6, 3, 0, 0, 0, 0],
                     Caliber = "Caliber545x39",
                     CategoryId = "ammunition",
                     DurabilityBurnModifierPercentage = -0.2,
@@ -74,7 +74,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                 {
                     AccuracyModifierPercentage = -0.05,
                     ArmorDamagePercentage = 0.33,
-                    ArmorPenetrations = new double[] { 6, 3, 1, 0, 0, 0 },
+                    ArmorPenetrations = [6, 3, 1, 0, 0, 0],
                     Caliber = "Caliber9x19PARA",
                     CategoryId = "ammunition",
                     DurabilityBurnModifierPercentage = 0.15,
@@ -98,7 +98,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0.006,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/9x19mm_Green_Tracer"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(ammunitions);

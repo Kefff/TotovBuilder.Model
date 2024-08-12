@@ -3,7 +3,7 @@
     /// <summary>
     /// Provides the functionalities of eyewear.
     /// </summary>
-    public interface IEyewear : IItem
+    public interface IEyewear : IArmor
     {
         /// <summary>
         /// Blindness protection percentage.

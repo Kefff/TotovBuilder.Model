@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace TotovBuilder.Model.Items
+﻿namespace TotovBuilder.Model.Items
 {
     /// <summary>
     /// Represents an item category.

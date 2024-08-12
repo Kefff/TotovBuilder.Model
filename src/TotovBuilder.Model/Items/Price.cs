@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 using TotovBuilder.Model.Configuration;
 using TotovBuilder.Model.Utils.JsonConverters.Items;
 
@@ -15,7 +14,7 @@ namespace TotovBuilder.Model.Items
         /// Barter items.
         /// </summary>
         [JsonPropertyName("b")]
-        public BarterItem[] BarterItems { get; set; } = Array.Empty<BarterItem>();
+        public BarterItem[] BarterItems { get; set; } = [];
 
         /// <summary>
         /// Name of the currency.

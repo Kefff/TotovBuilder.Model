@@ -1,5 +1,4 @@
-﻿using System;
-using FluentAssertions;
+﻿using FluentAssertions;
 using TotovBuilder.Model.Items;
 using Xunit;
 
@@ -14,21 +13,21 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeArmorMod()
         {
             // Arrange
-            ArmorMod[] armorMods = new ArmorMod[]
-            {
+            ArmorMod[] armorMods =
+            [
                 new ArmorMod()
                 {
                     ArmorClass = 6,
                     BlindnessProtectionPercentage = 0,
-                    ConflictingItemIds = new string[]
-                    {
+                    ConflictingItemIds =
+                    [
                         "5a16ba61fcdbcb098008728a",
                         "5a16b672fcdbcb001912fa83",
                         "5a16b7e1fcdbcb00165aa6c9",
                         "5aa7e3abe5b5b000171d064d",
                         "5c0e66e2d174af02a96252f4",
                         "5e00cdd986f7747473332240"
-                    },
+                    ],
                     CategoryId = "armorMod",
                     Durability = 40,
                     ErgonomicsModifierPercentage = -0.05,
@@ -37,20 +36,20 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     ImageLink = "https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-image.webp",
                     MarketLink = "https://tarkov.dev/item/diamond-age-bastion-helmet-armor-plate",
                     Material = "Ceramic",
-                    ModSlots = new ModSlot[]
-                    {
+                    ModSlots =
+                    [
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "5c0558060db834001b735271",
                                 "5a16b8a9fcdbcb00165aa6ca"
-                            },
+                            ],
                             MaxStackableAmount = 1,
                             Name = "mod_nvg",
                             Required = false
                         }
-                    },
+                    ],
                     MovementSpeedModifierPercentage = 0,
                     Name = "Diamond Age Bastion helmet armor plate",
                     ShortName = "Bastion plate",
@@ -63,8 +62,8 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     ArmorClass = 3,
                     BlindnessProtectionPercentage = 0.1,
                     CategoryId = "armorMod",
-                    ConflictingItemIds = new string[]
-                    {
+                    ConflictingItemIds =
+                    [
                         "5c0e66e2d174af02a96252f4",
                         "5c0696830db834001d23f5da",
                         "5c066e3a0db834001b7353f0",
@@ -72,7 +71,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                         "57235b6f24597759bf5a30f1",
                         "5c110624d174af029e69734c",
                         "5a16b8a9fcdbcb00165aa6ca"
-                    },
+                    ],
                     Durability = 40,
                     ErgonomicsModifierPercentage = -0.08,
                     IconLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.jpg",
@@ -80,7 +79,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     ImageLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-image.jpg",
                     MarketLink = "https://tarkov.dev/item/ops-core-fast-multi-hit-ballistic-face-shield",
                     Material = "Glass",
-                    ModSlots = Array.Empty<ModSlot>(),
+                    ModSlots = [],
                     MovementSpeedModifierPercentage = 0,
                     Name = "Ops-Core FAST multi-hit ballistic face shield",
                     ShortName = "FAST FS",
@@ -88,7 +87,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 1.2,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/Ops-Core_FAST_multi-hit_ballistic_face_shield",
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(armorMods);

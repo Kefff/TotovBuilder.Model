@@ -14,10 +14,10 @@ namespace TotovBuilder.Model.Test.Utils
         public void Constructor_ShouldCreateInstance()
         {
             // Arrange
-            Item item = new Item();
+            Item item = new();
 
             // Act
-            PresetContainedItem presetContainedItem = new PresetContainedItem(item, 2);
+            PresetContainedItem presetContainedItem = new(item, 2);
 
             // Assert
             presetContainedItem.Item.Should().Be(item);

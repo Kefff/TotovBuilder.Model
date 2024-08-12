@@ -1,5 +1,4 @@
-﻿using System.Xml.Linq;
-using TotovBuilder.Model.Items;
+﻿using TotovBuilder.Model.Items;
 
 namespace TotovBuilder.Model.Test
 {
@@ -8,132 +7,132 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static ItemCategory[] ItemCategories { get; } = new ItemCategory[]
-        {
+        public static ItemCategory[] ItemCategories { get; } =
+        [
             new ItemCategory()
             {
                 Id = "ammunition",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5485a8684bdc2da71d8b4567", Name = "Ammo" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "armband",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5b3f15d486f77432d0509248", Name = "ArmBand" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "armor",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5448e54d4bdc2dcc718b4568", Name = "Armor" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "armorMod",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "57bef4c42459772e8d35a53b", Name = "ArmoredEquipment" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "backpack",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5448e53e4bdc2d60728b4567", Name = "Backpack" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "container",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5795f317245977243854e041", Name = "SimpleContainer" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "currency",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "543be5dd4bdc2deb348b4569", Name = "Money" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "eyewear",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5448e5724bdc2ddf718b4568", Name = "Visors" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "faceCover",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5a341c4686f77469e155819e", Name = "FaceCover" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "grenade",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "543be6564bdc2df4348b4568", Name = "ThrowWeap" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "headphones",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5645bcb74bdc2ded0b8b4578", Name = "Headphones" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "headwear",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5a341c4086f77401f2541505", Name = "Headwear" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "magazine",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "610720f290b75a49ff2e5e25", Name = "CylinderMagazine" },
                     new ItemType() { Id = "5448bc234bdc2d3c308b4569", Name = "Magazine" },
-                    new ItemType() { Id = "627a137bf21bc425b06ab944", Name = "SpringDrivenCylinder"}
-                },
+                    new ItemType() { Id = "627a137bf21bc425b06ab944", Name = "SpringDrivenCylinder" }
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "mainWeapon",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5447b5fc4bdc2d87278b4567", Name = "AssaultCarbine" },
                     new ItemType() { Id = "5447b5f14bdc2d61278b4567", Name = "AssaultRifle" },
                     new ItemType() { Id = "5447bedf4bdc2d87278b4568", Name = "GrenadeLauncher" },
@@ -143,28 +142,28 @@ namespace TotovBuilder.Model.Test
                     new ItemType() { Id = "5447b6094bdc2dc3278b4567", Name = "Shotgun" },
                     new ItemType() { Id = "5447b5e04bdc2d62278b4567", Name = "Smg" },
                     new ItemType() { Id = "5447b6254bdc2dc3278b4568", Name = "SniperRifle" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "meleeWeapon",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5447e1d04bdc2dff2f8b4567", Name = "Knife" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "mod",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "55818b084bdc2d5b648b4571", Name = "Flashlight" },
                     new ItemType() { Id = "55818b224bdc2dde698b456f", Name = "Mount" },
                     new ItemType() { Id = "5a2c3a9486f774688b05e574", Name = "NightVision" },
                     new ItemType() { Id = "5d21f59b6dbe99052b54ef83", Name = "ThermalVision" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
@@ -181,8 +180,8 @@ namespace TotovBuilder.Model.Test
             new ItemCategory()
             {
                 Id = "rangedWeaponMod",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "55818add4bdc2d5b648b456f", Name = "AssaultScope" },
                     new ItemType() { Id = "5a74651486f7744e73386dd1", Name = "AuxiliaryMod" },
                     new ItemType() { Id = "555ef6e44bdc2de9068b457e", Name = "Barrel" },
@@ -205,16 +204,16 @@ namespace TotovBuilder.Model.Test
                     new ItemType() { Id = "55818a594bdc2db9688b456a", Name = "Stock" },
                     new ItemType() { Id = "55818b164bdc2ddc698b456c", Name = "TacticalCombo" },
                     new ItemType() { Id = "61605ddea09d851a0a0c1bbc", Name = "PortableRangeFinder" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "secondaryWeapon",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5447b5cf4bdc2d65278b4567", Name = "Pistol" }
-                },
+                ],
                 AdditionalItemIds = [
                     "624c2e8614da335f1e034d8c",
                     "624d7b2881a57812413b7954",
@@ -231,31 +230,31 @@ namespace TotovBuilder.Model.Test
             new ItemCategory()
             {
                 Id = "securedContainer",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5448bf274bdc2dfc2f8b456a", Name = "MobContainer" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "special",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5f4fbaaca5573a5ac31db429", Name = "Compass" },
                     new ItemType() { Id = "5447e0e74bdc2d3c308b4567", Name = "Special item" }
-                },
+                ],
                 AdditionalItemIds = []
             },
             new ItemCategory()
             {
                 Id = "vest",
-                Types = new ItemType[]
-                {
+                Types =
+                [
                     new ItemType() { Id = "5448e5284bdc2dcb718b4567", Name = "Vest" }
-                },
+                ],
                 AdditionalItemIds = []
             }
-        };
+        ];
     }
 }

@@ -13,8 +13,8 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeGrenade()
         {
             // Arrange
-            Grenade[] containers = new Grenade[]
-            {
+            Grenade[] containers =
+            [
                 new Grenade()
                 {
                     CategoryId = "grenade",
@@ -46,7 +46,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0.6,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/RDG-2B_smoke_grenade"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(containers);

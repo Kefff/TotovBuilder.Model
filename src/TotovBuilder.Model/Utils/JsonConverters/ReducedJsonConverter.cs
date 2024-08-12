@@ -67,7 +67,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters
         /// <returns>List of functions indicating whether the associated property must be excluded from the serialization.</returns>
         protected virtual Dictionary<string, Func<TInterface, bool>> GetPropertyExclusionConditions()
         {
-            return new Dictionary<string, Func<TInterface, bool>>();
+            return [];
         }
 
         /// <summary>
@@ -76,7 +76,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters
         /// <returns>List of functions for customizing the value used for serializing the associated property.</returns>
         protected virtual Dictionary<string, Func<TInterface, object?>> GetPropertyValueObtentions()
         {
-            return new Dictionary<string, Func<TInterface, object?>>();
+            return [];
         }
 
         /// <summary>

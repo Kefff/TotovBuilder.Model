@@ -10,7 +10,7 @@ namespace TotovBuilder.Model.Configuration
         /// <summary>
         /// Changes.
         /// </summary>
-        public ChangelogChange[] Changes { get; set; } = Array.Empty<ChangelogChange>();
+        public ChangelogChange[] Changes { get; set; } = [];
 
         /// <summary>
         /// Date.

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
 using TotovBuilder.Model.Utils.JsonConverters.Items;
 
@@ -25,6 +24,6 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("mo")]
-        public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();
+        public ModSlot[] ModSlots { get; set; } = [];
     }
 }

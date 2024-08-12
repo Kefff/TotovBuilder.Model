@@ -1,5 +1,4 @@
-﻿using System;
-using FluentAssertions;
+﻿using FluentAssertions;
 using TotovBuilder.Model.Items;
 using Xunit;
 
@@ -14,22 +13,22 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeRangedWeapon()
         {
             // Arrange
-            RangedWeapon[] containers = new RangedWeapon[]
-            {
+            RangedWeapon[] containers =
+            [
                 new RangedWeapon()
                 {
                     BaseItemId = "57dc2fa62459775949412633",
                     Caliber = "Caliber545x39",
                     CategoryId = "mainWeapon",
                     Ergonomics = 44,
-                    FireModes = new string[] { "SingleFire", "FullAuto" },
+                    FireModes = ["SingleFire", "FullAuto"],
                     FireRate = 650,
                     HorizontalRecoil = 445,
                     IconLink = "https://assets.tarkov.dev/584147732459775a2b6d9f12-icon.webp",
                     Id = "584147732459775a2b6d9f12",
                     ImageLink = "https://assets.tarkov.dev/584147732459775a2b6d9f12-image.webp",
                     MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle-default",
-                    ModSlots = Array.Empty<ModSlot>(),
+                    ModSlots = [],
                     Name = "Kalashnikov AKS-74U 5.45x39 assault rifle Default",
                     MinuteOfAngle = 3.44,
                     ShortName = "AKS-74U Default",
@@ -43,19 +42,19 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     CategoryId = "mainWeapon",
                     DefaultPresetId = "584147732459775a2b6d9f12",
                     Ergonomics = 44,
-                    FireModes = new string[] { "SingleFire", "FullAuto" },
+                    FireModes = ["SingleFire", "FullAuto"],
                     FireRate = 650,
                     HorizontalRecoil = 445,
                     IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.jpg",
                     Id = "57dc2fa62459775949412633",
                     ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.jpg",
                     MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle",
-                    ModSlots = new ModSlot[]
-                    {
+                    ModSlots =
+                    [
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "5f6341043ada5942720e2dc5",
                                 "6087e663132d4d12c81fd96b",
                                 "5beec8ea0db834001a6f9dbf",
@@ -78,33 +77,33 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                                 "623c3be0484b5003161840dc",
                                 "628c9ab845c59e5b80768a81",
                                 "628a664bccaab13006640e47"
-                            },
+                            ],
                             Name = "mod_pistol_grip",
                             Required = true
                         },
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "59ecc28286f7746d7a68aa8c",
                                 "5ab626e4d8ce87272e4c6e43",
                                 "57dc347d245977596754e7a1"
-                            },
+                            ],
                             Name = "mod_stock",
                         },
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "6130ca3fd92c473c77020dbd",
                                 "5648ac824bdc2ded0b8b457d"
-                            },
+                            ],
                             Name = "mod_charge",
                         },
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "564ca9df4bdc2d35148b4569",
                                 "564ca99c4bdc2d16268b4589",
                                 "55d480c04bdc2d1d4e8b456a",
@@ -115,13 +114,13 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                                 "5aaa4194e5b5b055d06310a5",
                                 "5bed61680db834001d2c45ab",
                                 "5bed625c0db834001c062946"
-                            },
+                            ],
                             Name = "mod_magazine"
                         },
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "5ac72e945acfc43f3b691116",
                                 "5ac7655e5acfc40016339a19",
                                 "5649aa744bdc2ded0b8b457e",
@@ -135,27 +134,27 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                                 "593d493f86f7745e6b2ceb22",
                                 "564caa3d4bdc2d17108b458e",
                                 "57ffb0e42459777d047111c5"
-                            },
+                            ],
                             Name = "mod_muzzle"
                         },
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "57dc334d245977597164366f",
                                 "5839a7742459773cf9693481"
-                            },
+                            ],
                             Name = "mod_reciever"
                         },
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "59d36a0086f7747e673f3946"
-                            },
+                            ],
                             Name = "mod_gas_block"
                         }
-                    },
+                    ],
                     Name = "Kalashnikov AKS-74U 5.45x39 assault rifle",
                     ShortName = "AKS-74U",
                     VerticalRecoil = 141,
@@ -167,7 +166,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Caliber = "Caliber26x75",
                     CategoryId = "mainWeapon",
                     Ergonomics = 51,
-                    FireModes = new string[] { "SingleFire" },
+                    FireModes = ["SingleFire"],
                     FireRate = 30,
                     HorizontalRecoil = 400,
                     IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.jpg",
@@ -180,7 +179,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0.6,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/RSP-30_reactive_signal_cartridge_(Yellow)"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(containers);

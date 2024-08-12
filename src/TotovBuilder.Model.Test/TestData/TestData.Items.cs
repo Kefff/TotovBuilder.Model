@@ -1,9 +1,4 @@
-﻿using System;
-using System.Linq;
-using Moq;
-using Newtonsoft.Json.Linq;
-using TotovBuilder.Model.Items;
-using static System.Reflection.Metadata.BlobBuilder;
+﻿using TotovBuilder.Model.Items;
 
 namespace TotovBuilder.Model.Test
 {
@@ -16,12 +11,12 @@ namespace TotovBuilder.Model.Test
         {
             get
             {
-                return FakeItems.Concat(RealItems).ToArray();
+                return [.. FakeItems, .. RealItems];
             }
         }
 
-        private readonly static Item[] FakeItems = new Item[]
-        {
+        private readonly static Item[] FakeItems =
+        [
             new Ammunition()
             {
                 CategoryId = "ammunition",
@@ -35,17 +30,17 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 3,
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "HeadEyes",
                     "HeadFace",
                     "HeadJaws"
-                },
+                ],
                 BaseItemId = "5a16b7e1fcdbcb00165aa6c9",
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
-                ConflictingItemIds = new string[]
-                {
+                ConflictingItemIds =
+                [
                     "5c0e66e2d174af02a96252f4",
                     "5c0696830db834001d23f5da",
                     "5c066e3a0db834001b7353f0",
@@ -55,7 +50,7 @@ namespace TotovBuilder.Model.Test
                     "5a16b8a9fcdbcb00165aa6ca",
                     "5a398b75c4a282000a51a266",
                     "5a398ab9c4a282000c5a9842"
-                },
+                ],
                 Durability = 40,
                 ErgonomicsModifierPercentage = -0.04,
                 IconLink = "https://assets.tarkov.dev/test-preset-face-shield-alone-icon.webp",
@@ -103,14 +98,14 @@ namespace TotovBuilder.Model.Test
             },
             new Magazine()
             {
-                AcceptedAmmunitionIds = new string[]
-                {
+                AcceptedAmmunitionIds =
+                [
                     "5e81f423763d9f754677bf2e",
                     "5efb0cabfb3e451d70735af5",
                     "5efb0fc6aeb21837e749c801",
                     "5efb0d4f4bc50b58e81710f3",
                     "5ea2a8e200685063ec28c05a"
-                },
+                ],
                 BaseItemId = "5e81c4ca763d9f754677befa",
                 Capacity = 7,
                 CategoryId = "magazine",
@@ -157,15 +152,15 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "vest",
                 Id = "testVest",
             }
-        };
+        ];
 
-        private readonly static Item[] RealItems = new Item[]
-        {
+        private readonly static Item[] RealItems =
+        [
             new Ammunition()
             {
                 AccuracyModifierPercentage = -0.15,
                 ArmorDamagePercentage = 0.26,
-                ArmorPenetrations = new double[] { 3, 3, 3, 3, 3, 3 },
+                ArmorPenetrations = [3, 3, 3, 3, 3, 3],
                 Caliber = "Caliber12g",
                 CategoryId = "ammunition",
                 DurabilityBurnModifierPercentage = 0,
@@ -192,7 +187,7 @@ namespace TotovBuilder.Model.Test
             new Ammunition()
             {
                 ArmorDamagePercentage = 0.33,
-                ArmorPenetrations = new double[] { 6, 3, 0, 0, 0, 0 }, // TODO : OBTAIN FROM WIKI
+                ArmorPenetrations = [6, 3, 0, 0, 0, 0], // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber545x39",
                 CategoryId = "ammunition",
@@ -221,7 +216,7 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyModifierPercentage = -0.05,
                 ArmorDamagePercentage = 0.76,
-                ArmorPenetrations = new double[] { 6, 6, 6, 6, 6, 5 }, // TODO : OBTAIN FROM WIKI
+                ArmorPenetrations = [6, 6, 6, 6, 6, 5], // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber762x39",
                 CategoryId = "ammunition",
@@ -250,7 +245,7 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyModifierPercentage = -0.05,
                 ArmorDamagePercentage = 0.33,
-                ArmorPenetrations = new double[] { 6, 3, 1, 0, 0, 0 }, // TODO : OBTAIN FROM WIKI
+                ArmorPenetrations = [6, 3, 1, 0, 0, 0], // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber9x19PARA",
                 CategoryId = "ammunition",
@@ -279,7 +274,7 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyModifierPercentage = 0.05,
                 ArmorDamagePercentage = 0.55,
-                ArmorPenetrations = new double[] { 6, 6, 6, 5, 4, 3 }, // TODO : OBTAIN FROM WIKI
+                ArmorPenetrations = [6, 6, 6, 5, 4, 3], // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber9x19PARA",
                 CategoryId = "ammunition",
@@ -307,8 +302,8 @@ namespace TotovBuilder.Model.Test
             new Armor()
             {
                 ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "FRPLATE",
                     "BCKPLATE",
                     "LPLATE",
@@ -324,7 +319,7 @@ namespace TotovBuilder.Model.Test
                     "LeftArmShoulder",
                     "RightArmShoulder",
                     "StomachGroin"
-                },
+                ],
                 CategoryId = "armor",
                 DefaultPresetId = "65766adc234b9f6e050a431a",
                 ErgonomicsModifierPercentage = -0.1,
@@ -333,44 +328,44 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora",
                 Material = "Aramid",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots =
+                [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041"
-                        },
+                        ],
                         Name = "front_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041",
                             "654a4a964b446df1ad03f192"
-                        },
+                        ],
                         Name = "back_plate"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afd81707e2cf40e903a316"
-                        },
+                        ],
                         Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afd81707e2cf40e903a316"
-                        },
+                        ],
                         Name = "right_side_plate",
                     }
-                },
+                ],
                 MovementSpeedModifierPercentage = -0.115,
                 Name = "6B43 Zabralo-Sh body armor (Digital Flora)",
                 ShortName = "6B43",
@@ -381,15 +376,15 @@ namespace TotovBuilder.Model.Test
             new Armor()
             {
                 ArmorClass = 2,
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "Chest",
                     "Stomach",
                     "StomachLowerBack",
                     "ThoraxUpperBack",
                     "StomachLeftSide",
                     "StomachRightSide"
-                },
+                ],
                 CategoryId = "armor",
                 ErgonomicsModifierPercentage = -0.01,
                 IconLink = "https://assets.tarkov.dev/5648a7494bdc2d9d488b4583-icon.webp",
@@ -407,8 +402,8 @@ namespace TotovBuilder.Model.Test
             new Armor()
             {
                 ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "FRPLATE",
                     "BCKPLATE",
                     "LPLATE",
@@ -424,7 +419,7 @@ namespace TotovBuilder.Model.Test
                     "LeftArmShoulder",
                     "RightArmShoulder",
                     "StomachGroin"
-                },
+                ],
                 BaseItemId = "545cdb794bdc2d3a198b456a",
                 CategoryId = "armor",
                 ErgonomicsModifierPercentage = -0.1,
@@ -433,44 +428,44 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora-default",
                 Material = "Aramid",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots =
+                [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041"
-                        },
+                        ],
                         Name = "front_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041",
                             "654a4a964b446df1ad03f192"
-                        },
+                        ],
                         Name = "back_plate"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afd81707e2cf40e903a316"
-                        },
+                        ],
                         Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afd81707e2cf40e903a316"
-                        },
+                        ],
                         Name = "right_side_plate",
                     }
-                },
+                ],
                 MovementSpeedModifierPercentage = -0.115,
                 Name = "6B43 Zabralo-Sh body armor (Digital Flora) Default",
                 ShortName = "6B43 Default",
@@ -481,20 +476,20 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 6,
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "HeadNape",
                     "HeadTopOfTheHead"
-                },
-                ConflictingItemIds = new string[]
-                {
+                ],
+                ConflictingItemIds =
+                [
                     "5a16ba61fcdbcb098008728a",
                     "5a16b672fcdbcb001912fa83",
                     "5a16b7e1fcdbcb00165aa6c9",
                     "5aa7e3abe5b5b000171d064d",
                     "5c0e66e2d174af02a96252f4",
                     "5e00cdd986f7747473332240"
-                },
+                ],
                 CategoryId = "armorMod",
                 Durability = 40,
                 ErgonomicsModifierPercentage = -0.05,
@@ -503,20 +498,20 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5ea18c84ecf1982c7712d9a2-image.webp",
                 MarketLink = "https://tarkov.dev/item/diamond-age-bastion-helmet-armor-plate",
                 Material = "Ceramic",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots =
+                [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds =
+                        [
                             "5c0558060db834001b735271",
                             "5a16b8a9fcdbcb00165aa6ca"
-                        },
+                        ],
                         MaxStackableAmount = 1,
                         Name = "mod_nvg",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "Diamond Age Bastion helmet armor plate",
                 ShortName = "Bastion plate",
                 TurningSpeedModifierPercentage = -0.06,
@@ -526,11 +521,11 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 6,
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "FRPLATE",
                     "BCKPLATE"
-                },
+                ],
                 CategoryId = "armorMod",
                 Durability = 55,
                 ErgonomicsModifierPercentage = -0.015,
@@ -549,10 +544,10 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 6,
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "BCKPLATE"
-                },
+                ],
                 CategoryId = "armorMod",
                 Durability = 50,
                 ErgonomicsModifierPercentage = -0.01,
@@ -571,11 +566,11 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 6,
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "FRPLATE",
                     "BCKPLATE"
-                },
+                ],
                 CategoryId = "armorMod",
                 Durability = 60,
                 ErgonomicsModifierPercentage = -0.015,
@@ -594,11 +589,11 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 6,
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "LPLATE",
                     "RPLATE"
-                },
+                ],
                 CategoryId = "armorMod",
                 Durability = 20,
                 IconLink = "https://assets.tarkov.dev/64afd81707e2cf40e903a316-icon.webp",
@@ -616,16 +611,16 @@ namespace TotovBuilder.Model.Test
             new ArmorMod()
             {
                 ArmorClass = 3,
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "HeadEyes",
                     "HeadFace",
                     "HeadJaws"
-                },
+                ],
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
-                ConflictingItemIds = new string[]
-                {
+                ConflictingItemIds =
+                [
                     "5c0e66e2d174af02a96252f4",
                     "5c0696830db834001d23f5da",
                     "5c066e3a0db834001b7353f0",
@@ -635,7 +630,7 @@ namespace TotovBuilder.Model.Test
                     "5a16b8a9fcdbcb00165aa6ca",
                     "5a398b75c4a282000a51a266",
                     "5a398ab9c4a282000c5a9842"
-                },
+                ],
                 Durability = 40,
                 ErgonomicsModifierPercentage = -0.04,
                 IconLink = "https://assets.tarkov.dev/5a16b7e1fcdbcb00165aa6c9-icon.webp",
@@ -740,7 +735,7 @@ namespace TotovBuilder.Model.Test
             },
             new Headwear()
             {
-                ArmoredAreas = Array.Empty<string>(),
+                ArmoredAreas = [],
                 CategoryId = "headwear",
                 IconLink = "https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.webp",
                 Id = "5bd073c986f7747f627e796c",
@@ -758,18 +753,16 @@ namespace TotovBuilder.Model.Test
                 Id = "5a16bb52fcdbcb001a3b00dc",
                 ImageLink = "https://assets.tarkov.dev/5a16bb52fcdbcb001a3b00dc-image.webp",
                 MarketLink = "https://tarkov.dev/item/wilcox-skull-lock-head-mount",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
-                            "5a16b8a9fcdbcb00165aa6ca",
-                        },
+                        CompatibleItemIds = [
+                            "5a16b8a9fcdbcb00165aa6ca"
+                        ],
                         Name = "mod_nvg",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "Wilcox Skull Lock head mount",
                 ShortName = "Skull Lock",
                 Weight = 0.5,
@@ -796,11 +789,11 @@ namespace TotovBuilder.Model.Test
             new Headwear()
             {
                 ArmorClass = 4,
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+            [
                     "HeadTopOfTheHead",
-                    "HeadNape"
-                },
+                "HeadNape"
+                ],
                 BlocksHeadphones = false,
                 CategoryId = "headwear",
                 ErgonomicsModifierPercentage = -0.01,
@@ -809,39 +802,35 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.webp",
                 MarketLink = "https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet-black",
                 Material = "Combined",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5a16b672fcdbcb001912fa83",
                             "5a16b7e1fcdbcb00165aa6c9"
-                        },
+                        ],
                         Name = "mod_equipment_000",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5c0558060db834001b735271",
                             "5a16b8a9fcdbcb00165aa6ca"
-                        },
+                        ],
                         Name = "mod_nvg",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5a398b75c4a282000a51a266",
                             "5a398ab9c4a282000c5a9842"
-                        },
+                        ],
                         Name = "mod_mount",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "MSA Gallet TC 800 High Cut combat helmet (Black)",
                 RicochetChance = "High",
                 ShortName = "TC 800",
@@ -857,24 +846,22 @@ namespace TotovBuilder.Model.Test
                 Id = "5a3b898486f77467720a2f29",
                 ImageLink = "https://assets.tarkov.dev/5a3b898486f77467720a2f29-image.webp",
                 MarketLink = "https://tarkov.dev/item/wilcox-skull-lock-head-mount-pvs-14",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5a16b8a9fcdbcb00165aa6ca",
-                        },
+                        ],
                         Name = "mod_nvg",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "Wilcox Skull Lock head mount PVS-14",
                 ShortName = "Skull Lock PVS-14",
                 Weight = 0.5,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Wilcox_Skull_Lock_head_mount"
             },
-            new Item()
+            new()
             {
                 CategoryId = "headphones",
                 IconLink = "https://assets.tarkov.dev/628e4e576d783146b124c64d-icon.webp",
@@ -885,8 +872,8 @@ namespace TotovBuilder.Model.Test
                 ShortName = "ComTac 4",
                 Weight = 0.6,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Peltor_ComTac_4_Hybrid_headset_(Coyote_Brown)"
-            },            
-            new Item()
+            },
+            new()
             {
                 CategoryId = "other",
                 IconLink = "https://assets.tarkov.dev/624c0b3340357b5f566e8766-icon.webp",
@@ -898,7 +885,7 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.19,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/RSP-30_reactive_signal_cartridge_(Yellow)"
             },
-            new Item()
+            new()
             {
                 CategoryId = "other",
                 IconLink = "https://assets.tarkov.dev/5c1d0c5f86f7744bb2683cf0-icon.webp",
@@ -910,7 +897,7 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.01,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/TerraGroup_Labs_keycard_(Blue)"
             },
-            new Item()
+            new()
             {
                 CategoryId = "armband",
                 IconLink = "https://assets.tarkov.dev/5f9949d869e2777a0e779ba5-icon.webp",
@@ -922,7 +909,7 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.05,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Armband_(Rivals_2020)"
             },
-            new Item()
+            new()
             {
                 CategoryId = "currency",
                 IconLink = "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.webp",
@@ -935,7 +922,7 @@ namespace TotovBuilder.Model.Test
                 Weight = 0,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Euros"
             },
-            new Item()
+            new()
             {
                 CategoryId = "special",
                 IconLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.webp",
@@ -947,7 +934,7 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.15,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/MS2000_Marker"
             },
-            new Item()
+            new()
             {
                 CategoryId = "faceCover",
                 IconLink = "https://assets.tarkov.dev/5e54f76986f7740366043752-icon.webp",
@@ -961,8 +948,8 @@ namespace TotovBuilder.Model.Test
             },
             new Magazine()
             {
-                AcceptedAmmunitionIds = new string[]
-                {
+                AcceptedAmmunitionIds =
+                [
                     "5c0d5e4486f77478390952fe",
                     "61962b617c6c7b169525f168",
                     "56dfef82d2720bbd668b4567",
@@ -976,7 +963,7 @@ namespace TotovBuilder.Model.Test
                     "56dff421d2720b5f5a8b4567",
                     "56dff4a2d2720bbd668b456a",
                     "56dff4ecd2720b5f5a8b4568"
-                },
+                ],
                 Capacity = 30,
                 CategoryId = "magazine",
                 ErgonomicsModifier = -3,
@@ -992,14 +979,14 @@ namespace TotovBuilder.Model.Test
             },
             new Magazine()
             {
-                AcceptedAmmunitionIds = new string[]
-                {
+                AcceptedAmmunitionIds =
+                [
                     "5e81f423763d9f754677bf2e",
                     "5efb0cabfb3e451d70735af5",
                     "5efb0fc6aeb21837e749c801",
                     "5efb0d4f4bc50b58e81710f3",
                     "5ea2a8e200685063ec28c05a"
-                },
+                ],
                 Capacity = 7,
                 CategoryId = "magazine",
                 CheckSpeedModifierPercentage = -0.2,
@@ -1017,8 +1004,8 @@ namespace TotovBuilder.Model.Test
             },
             new Magazine()
             {
-                AcceptedAmmunitionIds = new string[]
-                {
+                AcceptedAmmunitionIds =
+                [
                     "5efb0da7a29a85116f6ea05f",
                     "5c3df7d588a4501f290594e5",
                     "58864a4f2459770fcc257101",
@@ -1028,7 +1015,7 @@ namespace TotovBuilder.Model.Test
                     "5efb0e16aeb21837e749c7ff",
                     "5c0d56a986f774449d5de529",
                     "64b7bbb74b75259c590fa897"
-                },
+                ],
                 Capacity = 30,
                 CategoryId = "magazine",
                 CheckSpeedModifierPercentage = -0.5,
@@ -1077,17 +1064,15 @@ namespace TotovBuilder.Model.Test
                 Id = "5a16b93dfcdbcbcae6687261",
                 ImageLink = "https://assets.tarkov.dev/5a16b93dfcdbcbcae6687261-image.webp",
                 MarketLink = "https://tarkov.dev/item/anpvs-14-dual-dovetail-mount",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "57235b6f24597759bf5a30f1"
-                        },
+                        ],
                         Name = "mod_nvg"
                     }
-                },
+                ],
                 Name = "AN/PVS-14 Dual Dovetail Mount",
                 ShortName = "DDT",
                 Weight = 0.07,
@@ -1113,17 +1098,15 @@ namespace TotovBuilder.Model.Test
                 Id = "58d2664f86f7747fec5834f6",
                 ImageLink = "https://assets.tarkov.dev/58d2664f86f7747fec5834f6-image.webp",
                 MarketLink = "https://tarkov.dev/item/deltapoint-cross-slot-mount-base",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "58d268fc86f774111273f8c2"
-                        },
+                        ],
                         Name = "mod_scope"
                     }
-                },
+                ],
                 Name = "DeltaPoint Cross Slot Mount base",
                 ShortName = "DPCSM",
                 Weight = 0.045,
@@ -1137,19 +1120,17 @@ namespace TotovBuilder.Model.Test
                 Id = "57d17e212459775a1179a0f5",
                 ImageLink = "https://assets.tarkov.dev/57d17e212459775a1179a0f5-image.webp",
                 MarketLink = "https://tarkov.dev/item/kiba-arms-25mm-accessory-ring-mount",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "59d790f486f77403cb06aec6",
                             "57d17c5e2459775a5c57d17d"
-                        },
+                        ],
                         Name = "mod_flashlight",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "Kiba Arms 25mm accessory ring mount",
                 ShortName = "25mm ring",
                 Weight = 0.085,
@@ -1162,12 +1143,10 @@ namespace TotovBuilder.Model.Test
                 Id = "58a56f8d86f774651579314c",
                 ImageLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard-2-inch-rail",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5a800961159bd4315e3a1657",
                             "57fd23e32459772d0805bcf1",
                             "544909bb4bdc2d6f028b4577",
@@ -1189,10 +1168,10 @@ namespace TotovBuilder.Model.Test
                             "626becf9582c3e319310b837",
                             "644a3df63b0b6f03e101e065",
                             "646f6322f43d0c5d62063715"
-                        },
+                        ],
                         Name = "mod_tactical",
                     }
-                },
+                ],
                 Name = "MPX GEN1 handguard 2 inch rail",
                 ShortName = "MPX 2\"",
                 Weight = 0.07,
@@ -1205,12 +1184,10 @@ namespace TotovBuilder.Model.Test
                 Id = "58a5c12e86f7745d585a2b9e",
                 ImageLink = "https://assets.tarkov.dev/58a5c12e86f7745d585a2b9e-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard-4-inch-rail",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5c7fc87d2e221644f31c0298",
                             "5cda9bcfd7f00c0c0b53e900",
                             "59f8a37386f7747af3328f06",
@@ -1243,10 +1220,10 @@ namespace TotovBuilder.Model.Test
                             "65169d5b30425317755f8e25",
                             "655df24fdf80b12750626d0a",
                             "655dccfdbdcc6b5df71382b6"
-                        },
+                        ],
                         Name = "mod_foregrip"
                     }
-                },
+                ],
                 Name = "MPX GEN1 handguard 4 inch rail",
                 ShortName = "MPX 4\"",
                 Weight = 0.05,
@@ -1259,19 +1236,17 @@ namespace TotovBuilder.Model.Test
                 Id = "5a16b8a9fcdbcb00165aa6ca",
                 ImageLink = "https://assets.tarkov.dev/5a16b8a9fcdbcb00165aa6ca-image.webp",
                 MarketLink = "https://tarkov.dev/item/norotos-titanium-advanced-tactical-mount",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5c0695860db834001b735461",
                             "5a16b93dfcdbcbcae6687261",
                             "5c11046cd174af02a012e42b"
-                        },
+                        ],
                         Name = "mod_nvg"
                     }
-                },
+                ],
                 Name = "Norotos Titanium Advanced Tactical Mount",
                 ShortName = "TATM",
                 Weight = 0.07,
@@ -1286,19 +1261,17 @@ namespace TotovBuilder.Model.Test
                 Id = "test-preset-ring-flashlight",
                 ImageLink = "https://assets.tarkov.dev/test-preset-ring-flashlight-image.webp",
                 MarketLink = "https://tarkov.dev/item/test-preset-ring-flashlight",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "59d790f486f77403cb06aec6",
                             "57d17c5e2459775a5c57d17d"
-                        },
+                        ],
                         Name = "mod_flashlight",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "Ring + flashlight",
                 ShortName = "PR+F",
                 Weight = 0.085,
@@ -1310,7 +1283,11 @@ namespace TotovBuilder.Model.Test
                 Caliber = "Caliber545x39",
                 CategoryId = "mainWeapon",
                 Ergonomics = 44,
-                FireModes = new string[] { "SingleFire", "FullAuto" },
+                FireModes =
+                [
+                    "SingleFire",
+                    "FullAuto"
+                ],
                 FireRate = 650,
                 HorizontalRecoil = 373,
                 IconLink = "https://assets.tarkov.dev/584147732459775a2b6d9f12-icon.webp",
@@ -1318,12 +1295,10 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/584147732459775a2b6d9f12-image.webp",
                 MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle-default",
                 MinuteOfAngle = 3.44,
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5f6341043ada5942720e2dc5",
                             "6087e663132d4d12c81fd96b",
                             "5beec8ea0db834001a6f9dbf",
@@ -1349,35 +1324,32 @@ namespace TotovBuilder.Model.Test
                             "63f4da90f31d4a33b87bd054",
                             "648ae3e356c6310a830fc291",
                             "651580dc71a4f10aec4b6056"
-                        },
+                        ],
                         Name = "mod_pistol_grip",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "59ecc28286f7746d7a68aa8c",
                             "5ab626e4d8ce87272e4c6e43",
                             "57dc347d245977596754e7a1"
-                        },
+                        ],
                         Name = "mod_stock",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "6130ca3fd92c473c77020dbd",
                             "5648ac824bdc2ded0b8b457d"
-                        },
+                        ],
                         Name = "mod_charge",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "564ca9df4bdc2d35148b4569",
                             "564ca99c4bdc2d16268b4589",
                             "55d480c04bdc2d1d4e8b456a",
@@ -1390,14 +1362,13 @@ namespace TotovBuilder.Model.Test
                             "5bed625c0db834001c062946",
                             "649ec30cb013f04a700e60fb",
                             "64b9e265c94d0d15c5027e35"
-                        },
+                        ],
                         Name = "mod_magazine",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5ac72e945acfc43f3b691116",
                             "5ac7655e5acfc40016339a19",
                             "5649aa744bdc2ded0b8b457e",
@@ -1411,31 +1382,29 @@ namespace TotovBuilder.Model.Test
                             "593d493f86f7745e6b2ceb22",
                             "564caa3d4bdc2d17108b458e",
                             "57ffb0e42459777d047111c5"
-                        },
+                        ],
                         Name = "mod_muzzle",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "57dc334d245977597164366f",
                             "5839a7742459773cf9693481",
                             "655cb6b5d680a544f30607fa"
-                        },
+                        ],
                         Name = "mod_reciever",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "59d36a0086f7747e673f3946"
-                        },
+                        ],
                         Name = "mod_gas_block",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "Kalashnikov AKS-74U 5.45x39 assault rifle Default",
                 ShortName = "AKS-74U Default",
                 VerticalRecoil = 102,
@@ -1448,7 +1417,11 @@ namespace TotovBuilder.Model.Test
                 Caliber = "Caliber9x19PARA",
                 CategoryId = "mainWeapon",
                 Ergonomics = 40,
-                FireModes = new string[] { "SingleFire", "FullAuto" },
+                FireModes =
+                [
+                    "SingleFire",
+                    "FullAuto"
+                ],
                 FireRate = 850,
                 HorizontalRecoil = 269,
                 IconLink = "https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-icon.webp",
@@ -1456,12 +1429,10 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/5a8ae43686f774377b73cfb3-image.webp",
                 MarketLink = "https://tarkov.dev/item/sig-mpx-9x19-submachine-gun-mqb",
                 MinuteOfAngle = 6.19,
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "55d4b9964bdc2d1d4e8b456e",
                             "571659bb2459771fb2755a12",
                             "602e71bd53a60014f9705bfa",
@@ -1491,32 +1462,29 @@ namespace TotovBuilder.Model.Test
                             "5894a51286f77426d13baf02",
                             "63f5feead259b42f0b4d6d0f",
                             "652911675ae2ae97b80fdf3c"
-                        },
+                        ],
                         Name = "mod_pistol_grip"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5c5db6742e2216000f1b2852",
                             "5c5db6552e2216001026119d",
                             "5894a05586f774094708ef75",
                             "5c5db6652e221600113fba51"
-                        },
+                        ],
                         Name = "mod_magazine"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5894a5b586f77426d2590767"
-                        },
+                        ],
                         Name = "mod_reciever"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "58ac1bf086f77420ed183f9f",
                             "5894a13e86f7742405482982",
                             "5fbcc429900b1d5091531dd7",
@@ -1524,20 +1492,19 @@ namespace TotovBuilder.Model.Test
                             "5c5db6ee2e221600113fba54",
                             "5c5db6f82e2216003a0fe914",
                             "6529348224cbe3c74a05e5c4"
-                        },
+                        ],
                         Name = "mod_stock"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5c5db6b32e221600102611a0",
                             "58949edd86f77409483e16a9",
                             "58949fac86f77409483e16aa"
-                        },
+                        ],
                         Name = "mod_charge"
                     }
-                },
+                ],
                 Name = "SIG MPX 9x19 submachine gun MQB",
                 ShortName = "MPX MQB",
                 VerticalRecoil = 51,
@@ -1550,112 +1517,102 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "secondaryWeapon",
                 DefaultPresetId = "5eb2968186f7746d1f1a4fd5",
                 Ergonomics = 75,
-                FireModes = new string[] { "SingleFire" },
+                FireModes = ["SingleFire"],
                 FireRate = 30,
                 HorizontalRecoil = 355,
                 IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.webp",
                 Id = "5e81c3cbac2bb513793cdc75",
                 ImageLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-image.webp",
                 MarketLink = "https://tarkov.dev/item/colt-m1911a1-45-acp-pistol",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5e81c519cb2b95385c177551",
                             "5f3e7801153b8571434a924c",
                             "5f3e77f59103d430b93f94c1"
-                        },
+                        ],
                         Name = "mod_barrel",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5e81c6bf763d9f754677beff",
                             "5ef366938cef260c0642acad",
                             "626a9cb151cb5849f6002890"
-                        },
+                        ],
                         Name = "mod_pistol_grip",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5e81edc13397a21db957f6a1",
                             "5f3e7823ddc4f03b010e2045"
-                        },
+                        ],
                         Name = "mod_reciever",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5e81c4ca763d9f754677befa",
                             "5f3e77b26cda304dcc634057",
                             "5ef3448ab37dfd6af863525c"
-                        },
+                        ],
                         Name = "mod_magazine",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5ef32e4d1c1fd62aea6a150d",
                             "5e81c6a2ac2bb513793cdc7f",
                             "5f3e772a670e2a7b01739a52"
-                        },
+                        ],
                         Name = "mod_trigger",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5e81c550763d9f754677befd",
                             "5f3e76d86cda304dcc634054",
                             "5ef35f46382a846010715a96",
                             "5ef35d2ac64c5d0dfc0571b0",
                             "5ef35bc243cb350a955a7ccd"
-                        },
+                        ],
                         Name = "mod_hammer",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5e81c539cb2b95385c177553",
                             "5f3e777688ca2d00ad199d25",
                             "5ef3553c43cb350a955a7ccb"
-                        },
+                        ],
                         Name = "mod_catch",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5ef5d994dfbc9f3c660ded95"
-                        },
+                        ],
                         Name = "mod_mount_000",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5ef369b08cef260c0642acaf"
-                        },
+                        ],
                         Name = "mod_mount_001",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "Colt M1911A1 .45 ACP pistol",
                 ShortName = "M1911A1",
                 VerticalRecoil = 451,
@@ -1668,19 +1625,21 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "mainWeapon",
                 DefaultPresetId = "584147732459775a2b6d9f12",
                 Ergonomics = 44,
-                FireModes = new string[] { "SingleFire", "FullAuto" },
+                FireModes =
+                [
+                    "SingleFire",
+                    "FullAuto"
+                ],
                 FireRate = 650,
                 HorizontalRecoil = 373,
                 IconLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-icon.webp",
                 Id = "57dc2fa62459775949412633",
                 ImageLink = "https://assets.tarkov.dev/57dc2fa62459775949412633-image.webp",
                 MarketLink = "https://tarkov.dev/item/kalashnikov-aks-74u-545x39-assault-rifle",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5f6341043ada5942720e2dc5",
                             "6087e663132d4d12c81fd96b",
                             "5beec8ea0db834001a6f9dbf",
@@ -1706,35 +1665,32 @@ namespace TotovBuilder.Model.Test
                             "63f4da90f31d4a33b87bd054",
                             "648ae3e356c6310a830fc291",
                             "651580dc71a4f10aec4b6056"
-                        },
+                        ],
                         Name = "mod_pistol_grip",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "59ecc28286f7746d7a68aa8c",
                             "5ab626e4d8ce87272e4c6e43",
                             "57dc347d245977596754e7a1"
-                        },
+                        ],
                         Name = "mod_stock",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "6130ca3fd92c473c77020dbd",
                             "5648ac824bdc2ded0b8b457d"
-                        },
+                        ],
                         Name = "mod_charge",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "564ca9df4bdc2d35148b4569",
                             "564ca99c4bdc2d16268b4589",
                             "55d480c04bdc2d1d4e8b456a",
@@ -1747,14 +1703,13 @@ namespace TotovBuilder.Model.Test
                             "5bed625c0db834001c062946",
                             "649ec30cb013f04a700e60fb",
                             "64b9e265c94d0d15c5027e35"
-                        },
+                        ],
                         Name = "mod_magazine",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5ac72e945acfc43f3b691116",
                             "5ac7655e5acfc40016339a19",
                             "5649aa744bdc2ded0b8b457e",
@@ -1768,31 +1723,29 @@ namespace TotovBuilder.Model.Test
                             "593d493f86f7745e6b2ceb22",
                             "564caa3d4bdc2d17108b458e",
                             "57ffb0e42459777d047111c5"
-                        },
+                        ],
                         Name = "mod_muzzle",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "57dc334d245977597164366f",
                             "5839a7742459773cf9693481",
                             "655cb6b5d680a544f30607fa"
-                        },
+                        ],
                         Name = "mod_reciever",
                         Required = false // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "59d36a0086f7747e673f3946"
-                        },
+                        ],
                         Name = "mod_gas_block",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "Kalashnikov AKS-74U 5.45x39 assault rifle",
                 ShortName = "AKS-74U",
                 VerticalRecoil = 102,
@@ -1805,19 +1758,21 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "mainWeapon",
                 DefaultPresetId = "58dffca786f774083a256ab1",
                 Ergonomics = 40,
-                FireModes = new string[] { "SingleFire", "FullAuto" },
+                FireModes =
+                [
+                    "SingleFire",
+                    "FullAuto"
+                ],
                 FireRate = 850,
                 HorizontalRecoil = 269,
                 IconLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-icon.webp",
                 Id = "58948c8e86f77409493f7266",
                 ImageLink = "https://assets.tarkov.dev/58948c8e86f77409493f7266-image.webp",
                 MarketLink = "https://tarkov.dev/item/sig-mpx-9x19-submachine-gun",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "55d4b9964bdc2d1d4e8b456e",
                             "571659bb2459771fb2755a12",
                             "602e71bd53a60014f9705bfa",
@@ -1847,32 +1802,29 @@ namespace TotovBuilder.Model.Test
                             "5894a51286f77426d13baf02",
                             "63f5feead259b42f0b4d6d0f",
                             "652911675ae2ae97b80fdf3c"
-                        },
+                        ],
                         Name = "mod_pistol_grip"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5c5db6742e2216000f1b2852",
                             "5c5db6552e2216001026119d",
                             "5894a05586f774094708ef75",
                             "5c5db6652e221600113fba51"
-                        },
+                        ],
                         Name = "mod_magazine"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5894a5b586f77426d2590767"
-                        },
+                        ],
                         Name = "mod_reciever"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "58ac1bf086f77420ed183f9f",
                             "5894a13e86f7742405482982",
                             "5fbcc429900b1d5091531dd7",
@@ -1880,20 +1832,19 @@ namespace TotovBuilder.Model.Test
                             "5c5db6ee2e221600113fba54",
                             "5c5db6f82e2216003a0fe914",
                             "6529348224cbe3c74a05e5c4"
-                        },
+                        ],
                         Name = "mod_stock"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5c5db6b32e221600102611a0",
                             "58949edd86f77409483e16a9",
                             "58949fac86f77409483e16aa"
-                        },
+                        ],
                         Name = "mod_charge"
                     }
-                },
+                ],
                 Name = "SIG MPX 9x19 submachine gun",
                 ShortName = "MPX",
                 VerticalRecoil = 51,
@@ -1905,7 +1856,7 @@ namespace TotovBuilder.Model.Test
                 Caliber = "Caliber26x75",
                 CategoryId = "secondaryWeapon",
                 Ergonomics = 51,
-                FireModes = new string[] { "SingleFire" },
+                FireModes = ["SingleFire"],
                 FireRate = 30,
                 HorizontalRecoil = 400,
                 IconLink = "https://assets.tarkov.dev/620109578d82e67e7911abf2-icon.webp",
@@ -1921,28 +1872,26 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                ConflictingItemIds = new string[]
-                {
+                ConflictingItemIds =
+                [
                     "5c59529a2e221602b177d160",
                     "5c5db6302e2216000e5e47f0",
                     "5c5db63a2e2216000f1b284a"
-                },
+                ],
                 ErgonomicsModifier = -3,
                 IconLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-icon.webp",
                 Id = "58aeaaa886f7744fc1560f81",
                 ImageLink = "https://assets.tarkov.dev/58aeaaa886f7744fc1560f81-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-sd-9x19-165mm-barrel",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "58aeac1b86f77457c419f475"
-                        },
+                        ],
                         Name = "mod_muzzle",
                     }
-                },
+                ],
                 Name = "MPX-SD 9x19 165mm barrel",
                 RecoilModifierPercentage = -0.02,
                 ShortName = "MPXSD 165mm",
@@ -1969,21 +1918,19 @@ namespace TotovBuilder.Model.Test
                 Id = "57adff4f24597737f373b6e6",
                 ImageLink = "https://assets.tarkov.dev/57adff4f24597737f373b6e6-image.webp",
                 MarketLink = "https://tarkov.dev/item/sig-sauer-bravo4-4x30-scope",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "57ae0171245977343c27bfcf",
                             "58d39d3d86f77445bb794ae7",
                             "577d128124597739d65d0e56",
                             "58d2664f86f7747fec5834f6",
                             "5a33b2c9c4a282000c5a9511"
-                        },
+                        ],
                         Name = "mod_scope"
                     }
-                },
+                ],
                 Name = "SIG Sauer BRAVO4 4x30 scope",
                 ShortName = "BRAVO4",
                 Weight = 0.419,
@@ -1993,8 +1940,8 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyModifierPercentage = 0,
                 CategoryId = "rangedWeaponMod",
-                ConflictingItemIds = new string[]
-                {
+                ConflictingItemIds =
+                [
                     "591c4efa86f7741030027726",
                     "570fd79bd2720bc7458b4583",
                     "64785e7c19d732620e045e15",
@@ -2012,7 +1959,7 @@ namespace TotovBuilder.Model.Test
                     "570fd721d2720bc5458b4596",
                     "59f9d81586f7744c7506ee62",
                     "584984812459776a704a82a6"
-                },
+                ],
                 ErgonomicsModifier = -6,
                 IconLink = "https://assets.tarkov.dev/61714eec290d254f5e6b2ffc-icon.webp",
                 Id = "61714eec290d254f5e6b2ffc",
@@ -2028,8 +1975,8 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyModifierPercentage = 0,
                 CategoryId = "rangedWeaponMod",
-                ConflictingItemIds = new string[]
-                {
+                ConflictingItemIds =
+                [
                     "5947db3f86f77447880cf76f",
                     "57486e672459770abd687134",
                     "5ac733a45acfc400192630e2",
@@ -2052,18 +1999,16 @@ namespace TotovBuilder.Model.Test
                     "628a7b23b0f75035732dd565",
                     "5bf3f59f0db834001a6fa060",
                     "649ec2cec93611967b03495e"
-                },
+                ],
                 ErgonomicsModifier = 5,
                 IconLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-icon.webp",
                 Id = "5d2c76ed48f03532f2136169",
                 ImageLink = "https://assets.tarkov.dev/5d2c76ed48f03532f2136169-image.webp",
                 MarketLink = "https://tarkov.dev/item/ak-akademia-bastion-dust-cover",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "57ac965c24597706be5f975c",
                             "57aca93d2459771f2c7e26db",
                             "544a3a774bdc2d3a388b4567",
@@ -2130,11 +2075,11 @@ namespace TotovBuilder.Model.Test
                             "653931da5db71d30ab1d6296",
                             "655f13e0a246670fb0373245",
                             "6567e751a715f85433025998"
-                        },
+                        ],
                         Name = "mod_scope",
                         Required = false // TODO : MISSING FROM API
                     }
-                },
+                ],
                 Name = "AK AKademia Bastion dust cover",
                 RecoilModifierPercentage = -0.01,
                 ShortName = "Bastion",
@@ -2171,31 +2116,29 @@ namespace TotovBuilder.Model.Test
             new RangedWeaponMod()
             {
                 CategoryId = "rangedWeaponMod",
-                ConflictingItemIds = new string[]
-                {
+                ConflictingItemIds =
+                [
                     "57486e672459770abd687134",
                     "5c82342f2e221644f31c060e",
                     "576fd4ec2459777f0b518431",
                     "5c82343a2e221644f31c0611",
                     "5c61a40d2e2216001403158d",
                     "5c90c3622e221601da359851"
-                },
+                ],
                 ErgonomicsModifier = 5,
                 IconLink = "https://assets.tarkov.dev/57dc334d245977597164366f-icon.webp",
                 Id = "57dc334d245977597164366f",
                 ImageLink = "https://assets.tarkov.dev/57dc334d245977597164366f-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-dust-cover-6p26-sb7",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "57ffb0062459777a045af529"
-                        },
+                        ],
                         Name = "mod_mount_000"
                     }
-                },
+                ],
                 Name = "AKS-74U dust cover (6P26 Sb.7)",
                 ShortName = "6P26 Sb.7",
                 Weight = 0.136,
@@ -2208,21 +2151,19 @@ namespace TotovBuilder.Model.Test
                 Id = "59d36a0086f7747e673f3946",
                 ImageLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-gas-tube-6p26-sb1-2",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5d15ce51d7ad1a1eff619092",
                             "5a957c3fa2750c00137fa5f7",
                             "57dc32dc245977596d4ef3d3",
                             "57ffa9f4245977728561e844",
                             "647db1eca8d3399c380d195c"
-                        },
+                        ],
                         Name = "mod_handguard"
                     }
-                },
+                ],
                 Name = "AKS-74U gas tube (6P26 Sb.1-2)",
                 ShortName = "6P26 Sb.1-2",
                 Weight = 0.03,
@@ -2236,18 +2177,16 @@ namespace TotovBuilder.Model.Test
                 Id = "57dc347d245977596754e7a1",
                 ImageLink = "https://assets.tarkov.dev/57dc347d245977596754e7a1-image.webp",
                 MarketLink = "https://tarkov.dev/item/aks-74u-metal-skeleton-stock-6p26-sb5",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5a0c59791526d8dba737bba7",
                             "6494094948796d891603e59f"
-                        },
+                        ],
                         Name = "mod_stock"
                     }
-                },
+                ],
                 Name = "AKS-74U metal skeleton stock (6P26 Sb.5)",
                 RecoilModifierPercentage = -0.21,
                 ShortName = "6P26 Sb.5",
@@ -2316,12 +2255,10 @@ namespace TotovBuilder.Model.Test
                 Id = "5894a5b586f77426d2590767",
                 ImageLink = "https://assets.tarkov.dev/5894a5b586f77426d2590767-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-9x19-upper-receiver",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "57ac965c24597706be5f975c",
                             "57aca93d2459771f2c7e26db",
                             "544a3a774bdc2d3a388b4567",
@@ -2387,39 +2324,36 @@ namespace TotovBuilder.Model.Test
                             "653931da5db71d30ab1d6296",
                             "655f13e0a246670fb0373245",
                             "6567e751a715f85433025998"
-                        },
+                        ],
                         Name = "mod_scope"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5c5db5852e2216003a0fe71a",
                             "5c5db5962e2216000e5e46eb",
                             "58aeaaa886f7744fc1560f81",
                             "5894a2c386f77427140b8342",
                             "5c5db5b82e2216003a0fe71d",
                             "5c5db5c62e22160012542255"
-                        },
+                        ],
                         Name = "mod_barrel"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5c59529a2e221602b177d160",
                             "5c5db6302e2216000e5e47f0",
                             "5c5db63a2e2216000f1b284a",
                             "5c5db5f22e2216000e5e47e8",
                             "5c5db5fc2e2216000f1b2842",
                             "5894a42086f77426d2590762"
-                        },
+                        ],
                         Name = "mod_handguard"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5ba26b17d4351e00367f9bdd",
                             "5dfa3d7ac41b2312ea33362a",
                             "5c1780312e221602b66cc189",
@@ -2428,13 +2362,12 @@ namespace TotovBuilder.Model.Test
                             "5c18b9192e2216398b5a8104",
                             "5fc0fa957283c4046c58147e",
                             "5894a81786f77427140b8347"
-                        },
+                        ],
                         Name = "mod_sight_rear"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "57fd23e32459772d0805bcf1",
                             "544909bb4bdc2d6f028b4577",
                             "5c06595c0db834001a66af6c",
@@ -2442,10 +2375,10 @@ namespace TotovBuilder.Model.Test
                             "61605d88ffa6e502ac5e7eeb",
                             "5c5952732e2216398b5abda2",
                             "644a3df63b0b6f03e101e065"
-                        },
+                        ],
                         Name = "mod_tactical_000"
                     }
-                },
+                ],
                 Name = "MPX GEN1 9x19 upper receiver",
                 ShortName = "MPX GEN1",
                 Weight = 0.488,
@@ -2459,12 +2392,10 @@ namespace TotovBuilder.Model.Test
                 Id = "5894a42086f77426d2590762",
                 ImageLink = "https://assets.tarkov.dev/5894a42086f77426d2590762-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5ba26b01d4351e0085325a51",
                             "5dfa3d950dee1b22f862eae0",
                             "5c17804b2e2216152006c02f",
@@ -2473,34 +2404,31 @@ namespace TotovBuilder.Model.Test
                             "5c18b90d2e2216152142466b",
                             "5fc0fa362770a0045c59c677",
                             "5894a73486f77426d259076c"
-                        },
+                        ],
                         Name = "mod_sight_front",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "58a56f8d86f774651579314c"
-                        },
+                        ],
                         Name = "mod_mount_000",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "58a5c12e86f7745d585a2b9e"
-                        },
+                        ],
                         Name = "mod_mount_001",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "58a56f8d86f774651579314c"
-                        },
+                        ],
                         Name = "mod_mount_002",
                     }
-                },
+                ],
                 Name = "MPX GEN1 handguard",
                 ShortName = "MPX GEN1",
                 Weight = 0.302,
@@ -2541,12 +2469,10 @@ namespace TotovBuilder.Model.Test
                 Id = "58ac1bf086f77420ed183f9f",
                 ImageLink = "https://assets.tarkov.dev/58ac1bf086f77420ed183f9f-image.webp",
                 MarketLink = "https://tarkov.dev/item/mpxmcx-retractable-stock-adapter",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "57ade1442459771557167e15",
                             "5a33ca0fc4a282000d72292f",
                             "5c0faeddd174af02a962601f",
@@ -2563,10 +2489,10 @@ namespace TotovBuilder.Model.Test
                             "591af10186f774139d495f0e",
                             "627254cc9c563e6e442c398f",
                             "638de3603a1a4031d8260b8c"
-                        },
+                        ],
                         Name = "mod_stock"
                     }
-                },
+                ],
                 Name = "MPX/MCX retractable stock adapter",
                 ShortName = "MPX/MCX",
                 Weight = 0.2,
@@ -2593,21 +2519,19 @@ namespace TotovBuilder.Model.Test
                 Id = "test-preset-gas-tube-handguard",
                 ImageLink = "https://assets.tarkov.dev/test-preset-gas-tube-handguard-image.webp",
                 MarketLink = "https://tarkov.dev/item/test-preset-gas-tube-handguard",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[]
-                        {
+                        CompatibleItemIds = [
                             "5d15ce51d7ad1a1eff619092",
                             "5a957c3fa2750c00137fa5f7",
                             "57dc32dc245977596d4ef3d3",
                             "57ffa9f4245977728561e844",
                             "647db1eca8d3399c380d195c"
-                        },
+                        ],
                         Name = "mod_handguard"
                     }
-                },
+                ],
                 Name = "Gas tube + handguard",
                 ShortName = "PGT+H",
                 Weight = 0.03,
@@ -2616,15 +2540,15 @@ namespace TotovBuilder.Model.Test
             new Vest()
             {
                 ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "FRPLATE",
                     "BCKPLATE",
                     "LPLATE",
                     "RPLATE",
                     "StomachLeftSide",
                     "StomachRightSide"
-                },
+                ],
                 Capacity = 14,
                 CategoryId = "vest",
                 DefaultPresetId = "657660eb86f11bca4106d34f",
@@ -2634,44 +2558,43 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp",
                 MarketLink = "https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green",
                 Material = "Aramid",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041"
-                        },
+                        ],
                         Name = "front_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041",
                             "654a4a964b446df1ad03f192"
-                        },
+                        ],
                         Name = "back_plate"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afd81707e2cf40e903a316"
-                        },
+                        ],
                         Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afd81707e2cf40e903a316"
-                        },
+                        ],
                         Name = "right_side_plate",
                     }
-                },
+                ],
                 MovementSpeedModifierPercentage = -0.01,
                 Name = "Eagle Industries MMAC plate carrier (Ranger Green)",
                 ShortName = "MMAC",
@@ -2695,15 +2618,15 @@ namespace TotovBuilder.Model.Test
             new Vest()
             {
                 ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
-                ArmoredAreas = new string[]
-                {
+                ArmoredAreas =
+                [
                     "FRPLATE",
                     "BCKPLATE",
                     "LPLATE",
                     "RPLATE",
                     "StomachLeftSide",
                     "StomachRightSide"
-                },
+                ],
                 BaseItemId = "61bc85697113f767765c7fe7",
                 Capacity = 14,
                 CategoryId = "vest",
@@ -2713,44 +2636,43 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp",
                 MarketLink = "https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green-default",
                 Material = "Aramid",
-                ModSlots = new ModSlot[]
-                {
+                ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041"
-                        },
+                        ],
                         Name = "front_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041",
                             "654a4a964b446df1ad03f192"
-                        },
+                        ],
                         Name = "back_plate"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afd81707e2cf40e903a316"
-                        },
+                        ],
                         Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = new string[] // MISSING FROM API
-                        {
+                        CompatibleItemIds = // MISSING FROM API
+                        [
                             "64afd81707e2cf40e903a316"
-                        },
+                        ],
                         Name = "right_side_plate",
                     }
-                },
+                ],
                 MovementSpeedModifierPercentage = -0.01,
                 Name = "Eagle Industries MMAC plate carrier (Ranger Green) Default",
                 ShortName = "MMAC Default",
@@ -2758,6 +2680,6 @@ namespace TotovBuilder.Model.Test
                 Weight = 2.83,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)"
             },
-        };
+        ];
     }
 }

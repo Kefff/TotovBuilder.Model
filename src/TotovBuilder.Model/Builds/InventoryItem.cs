@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 using TotovBuilder.Model.Utils.JsonConverters.Builds;
 
 namespace TotovBuilder.Model.Builds
@@ -14,7 +13,7 @@ namespace TotovBuilder.Model.Builds
         /// Items contained in the item.
         /// </summary>
         [JsonPropertyName("c")]
-        public InventoryItem[] Content { get; set; } = Array.Empty<InventoryItem>();
+        public InventoryItem[] Content { get; set; } = [];
 
         /// <summary>
         /// Indicates whether the price of the item is used or not.
@@ -33,7 +32,7 @@ namespace TotovBuilder.Model.Builds
         /// Mods slots.
         /// </summary>
         [JsonPropertyName("m")]
-        public InventoryItemModSlot[] ModSlots { get; set; } = Array.Empty<InventoryItemModSlot>();
+        public InventoryItemModSlot[] ModSlots { get; set; } = [];
 
         /// <summary>
         /// Number of items stacked.
