@@ -694,10 +694,27 @@ namespace TotovBuilder.Model.Test
                 Id = "5b432be65acfc433000ed01f",
                 ImageLink = "https://assets.tarkov.dev/5b432be65acfc433000ed01f-image.webp",
                 MarketLink = "https://tarkov.dev/item/6b34-anti-fragmentation-glasses",
+                Material = "UHMWPE",
                 Name = "6B34 anti-fragmentation glasses",
                 ShortName = "6B34",
                 Weight = 0.12,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B34_anti-fragmentation_glasses"
+            },
+            new Eyewear()
+            {
+                ArmorClass = 1,
+                BlindnessProtectionPercentage = 0.1,
+                CategoryId = "eyewear",
+                Durability = 25,
+                IconLink = "https://assets.tarkov.dev/603409c80ca681766b6a0fb2-icon.webp",
+                Id = "603409c80ca681766b6a0fb2",
+                ImageLink = "https://assets.tarkov.dev/603409c80ca681766b6a0fb2-image.webp",
+                MarketLink = "https://tarkov.dev/item/npp-klass-condor-glasses",
+                Material = "Glass",
+                Name = "NPP KlASS Condor glasses",
+                ShortName = "Condor",
+                Weight = 0.03,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/NPP_KlASS_Condor_glasses"
             },
             new Grenade()
             {

@@ -1419,6 +1419,48 @@
   {
     ""categories"": [
       {
+        ""id"": ""5448e5724bdc2ddf718b4568"",
+        ""name"": ""Vis. observ. device""
+      },
+      {
+        ""id"": ""57bef4c42459772e8d35a53b"",
+        ""name"": ""Armored equipment""
+      },
+      {
+        ""id"": ""543be5f84bdc2dd4348b456a"",
+        ""name"": ""Equipment""
+      },
+      {
+        ""id"": ""566162e44bdc2d3f298b4573"",
+        ""name"": ""Compound item""
+      },
+      {
+        ""id"": ""54009119af1c881c07000029"",
+        ""name"": ""Item""
+      }
+    ],
+    ""conflictingItems"": [],
+    ""iconLink"": ""https://assets.tarkov.dev/603409c80ca681766b6a0fb2-icon.webp"",
+    ""id"": ""603409c80ca681766b6a0fb2"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/603409c80ca681766b6a0fb2-image.webp"",
+    ""link"": ""https://tarkov.dev/item/npp-klass-condor-glasses"",
+    ""name"": ""NPP KlASS Condor glasses"",
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesGlasses"",
+      ""blindnessProtection"": 0.1,
+      ""class"": 1,
+      ""durability"": 25,
+      ""material"": {
+        ""id"": ""Glass""
+      }
+    },
+    ""shortName"": ""Condor"",
+    ""weight"": 0.03,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/NPP_KlASS_Condor_glasses""
+  },
+  {
+    ""categories"": [
+      {
         ""id"": ""543be6564bdc2df4348b4568""
       },
       {

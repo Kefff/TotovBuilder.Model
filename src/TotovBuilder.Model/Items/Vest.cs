@@ -23,6 +23,10 @@ namespace TotovBuilder.Model.Items
         public string? BaseItemId { get; set; }
 
         /// <inheritdoc/>
+        [JsonPropertyName("bp")]
+        public double BlindnessProtectionPercentage { get; set; }
+
+        /// <inheritdoc/>
         [JsonPropertyName("dp")]
         public string? DefaultPresetId { get; set; }
 

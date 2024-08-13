@@ -20,6 +20,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         {
             { nameof(IArmor.ArmorClass), a => a.ArmorClass == 0 },
             { nameof(IArmor.ArmoredAreas), a => a.ArmoredAreas.Length == 0 },
+            { nameof(IArmorMod.BlindnessProtectionPercentage), am => am.BlindnessProtectionPercentage == 0 },
             { nameof(IArmor.Durability), a => a.Durability == 0 },
             { nameof(IArmor.Material), a => a.Material == string.Empty }
         };

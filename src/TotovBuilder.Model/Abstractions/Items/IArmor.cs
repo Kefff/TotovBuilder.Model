@@ -16,6 +16,11 @@
         string[] ArmoredAreas { get; set; }
 
         /// <summary>
+        /// Blindness protection percentage.
+        /// </summary>
+        double BlindnessProtectionPercentage { get; set; }
+
+        /// <summary>
         /// Durability
         /// </summary>
         double Durability { get; set; }

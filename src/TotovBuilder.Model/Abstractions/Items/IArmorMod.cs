@@ -5,9 +5,5 @@
     /// </summary>
     public interface IArmorMod : IArmor
     {
-        /// <summary>
-        /// Blindness protection percentage.
-        /// </summary>
-        double BlindnessProtectionPercentage { get; set; }
     }
 }
