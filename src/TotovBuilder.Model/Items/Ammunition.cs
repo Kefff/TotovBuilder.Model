@@ -47,7 +47,7 @@ namespace TotovBuilder.Model.Items
         public double LightBleedingChance { get; set; }
 
         /// <inheritdoc/>
-        [JsonPropertyName("ap")]
+        [JsonPropertyName("pa")]
         public double PenetratedArmorLevel { get; set; }
 
         /// <inheritdoc/>
