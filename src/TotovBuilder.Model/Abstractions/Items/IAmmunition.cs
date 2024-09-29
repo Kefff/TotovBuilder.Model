@@ -16,11 +16,6 @@
         double ArmorDamagePercentage { get; set; }
 
         /// <summary>
-        /// List of the penetration effectiveness by armor class.
-        /// </summary>
-        double[] ArmorPenetrations { get; set; }
-
-        /// <summary>
         /// Indicates whether the ammunitions can blind opponents.
         /// </summary>
         bool Blinding { get; set; }
@@ -54,6 +49,11 @@
         /// Percentage of chance to inflict a light bleeding when hitting flesh.
         /// </summary>
         double LightBleedingChance { get; set; }
+
+        /// <summary>
+        /// Armor level a bullet can easily penetrate.
+        /// </summary>
+        double PenetratedArmorLevel { get; set; }
 
         /// <summary>
         /// Armor penetration power.

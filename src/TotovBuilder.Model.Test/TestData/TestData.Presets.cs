@@ -297,6 +297,29 @@ namespace TotovBuilder.Model.Test
             },
             new InventoryItem()
             {
+                ItemId = "657660eb86f11bca4106d34f",
+                ModSlots =
+                [
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "656fad8c498d1b7e3e071da0"
+                        },
+                        ModSlotName = "front_plate"
+                    },
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "656fad8c498d1b7e3e071da0",
+                        },
+                        ModSlotName = "back_plate"
+                    }
+                ]
+            },
+            new InventoryItem()
+            {
                 ItemId = "65766adc234b9f6e050a431a",
                 ModSlots =
                 [

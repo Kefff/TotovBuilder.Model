@@ -160,7 +160,6 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyModifierPercentage = -0.15,
                 ArmorDamagePercentage = 0.26,
-                ArmorPenetrations = [3, 3, 3, 3, 3, 3],
                 Caliber = "Caliber12g",
                 CategoryId = "ammunition",
                 DurabilityBurnModifierPercentage = 0,
@@ -174,6 +173,7 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/1270-85mm-magnum-buckshot",
                 MaxStackableAmount = 20,
                 Name = "12/70 8.5mm Magnum buckshot",
+                PenetratedArmorLevel = 0,
                 PenetrationPower = 2,
                 Projectiles = 8,
                 RecoilModifier = 115,
@@ -187,7 +187,6 @@ namespace TotovBuilder.Model.Test
             new Ammunition()
             {
                 ArmorDamagePercentage = 0.33,
-                ArmorPenetrations = [6, 3, 0, 0, 0, 0], // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber545x39",
                 CategoryId = "ammunition",
@@ -202,6 +201,7 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/545x39mm-us-gs",
                 MaxStackableAmount = 60,
                 Name = "5.45x39mm US gs",
+                PenetratedArmorLevel = 1,
                 PenetrationPower = 17,
                 Projectiles = 1,
                 RecoilModifier = -15,
@@ -216,7 +216,6 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyModifierPercentage = -0.05,
                 ArmorDamagePercentage = 0.76,
-                ArmorPenetrations = [6, 6, 6, 6, 6, 5], // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber762x39",
                 CategoryId = "ammunition",
@@ -231,6 +230,7 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/762x39mm-mai-ap",
                 MaxStackableAmount = 60,
                 Name = "7.62x39mm MAI AP",
+                PenetratedArmorLevel = 5,
                 PenetrationPower = 58,
                 Projectiles = 1,
                 RecoilModifier = 10,
@@ -245,7 +245,6 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyModifierPercentage = -0.05,
                 ArmorDamagePercentage = 0.33,
-                ArmorPenetrations = [6, 3, 1, 0, 0, 0], // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber9x19PARA",
                 CategoryId = "ammunition",
@@ -260,6 +259,7 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/9x19mm-green-tracer",
                 MaxStackableAmount = 50,
                 Name = "9x19mm Green Tracer",
+                PenetratedArmorLevel = 1,
                 PenetrationPower = 14,
                 Projectiles = 1,
                 RecoilModifier = -6,
@@ -274,7 +274,6 @@ namespace TotovBuilder.Model.Test
             {
                 AccuracyModifierPercentage = 0.05,
                 ArmorDamagePercentage = 0.55,
-                ArmorPenetrations = [6, 6, 6, 5, 4, 3], // TODO : OBTAIN FROM WIKI
                 //Blinding = , // TODO : MISSING FROM API
                 Caliber = "Caliber9x19PARA",
                 CategoryId = "ammunition",
@@ -289,6 +288,7 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/9x19mm-pbp-gzh",
                 MaxStackableAmount = 50,
                 Name = "9x19mm PBP gzh",
+                PenetratedArmorLevel = 3,
                 PenetrationPower = 39,
                 Projectiles = 1,
                 RecoilModifier = 5,
@@ -301,7 +301,7 @@ namespace TotovBuilder.Model.Test
             },
             new Armor()
             {
-                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
+                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the front aramid insert but the API does not provide it.
                 ArmoredAreas =
                 [
                     "FRPLATE",
@@ -322,6 +322,7 @@ namespace TotovBuilder.Model.Test
                 ],
                 CategoryId = "armor",
                 DefaultPresetId = "65766adc234b9f6e050a431a",
+                Durability = 350,
                 ErgonomicsModifierPercentage = -0.1,
                 IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp",
                 Id = "545cdb794bdc2d3a198b456a",
@@ -335,7 +336,8 @@ namespace TotovBuilder.Model.Test
                         CompatibleItemIds = // MISSING FROM API
                         [
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041"
+                            "64afdcb83efdfea28601d041",
+                            "656fad8c498d1b7e3e071da0"
                         ],
                         Name = "front_plate",
                     },
@@ -345,7 +347,8 @@ namespace TotovBuilder.Model.Test
                         [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041",
-                            "654a4a964b446df1ad03f192"
+                            "654a4a964b446df1ad03f192",
+                            "656fad8c498d1b7e3e071da0"
                         ],
                         Name = "back_plate"
                     },
@@ -386,6 +389,7 @@ namespace TotovBuilder.Model.Test
                     "StomachRightSide"
                 ],
                 CategoryId = "armor",
+                Durability = 100,
                 ErgonomicsModifierPercentage = -0.01,
                 IconLink = "https://assets.tarkov.dev/5648a7494bdc2d9d488b4583-icon.webp",
                 Id = "5648a7494bdc2d9d488b4583",
@@ -401,7 +405,7 @@ namespace TotovBuilder.Model.Test
             },
             new Armor()
             {
-                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
+                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the front aramid insert but the API does not provide it.
                 ArmoredAreas =
                 [
                     "FRPLATE",
@@ -422,6 +426,7 @@ namespace TotovBuilder.Model.Test
                 ],
                 BaseItemId = "545cdb794bdc2d3a198b456a",
                 CategoryId = "armor",
+                Durability = 350,
                 ErgonomicsModifierPercentage = -0.1,
                 IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp",
                 Id = "65766adc234b9f6e050a431a",
@@ -435,7 +440,8 @@ namespace TotovBuilder.Model.Test
                         CompatibleItemIds = // MISSING FROM API
                         [
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041"
+                            "64afdcb83efdfea28601d041",
+                            "656fad8c498d1b7e3e071da0"
                         ],
                         Name = "front_plate",
                     },
@@ -445,7 +451,8 @@ namespace TotovBuilder.Model.Test
                         [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041",
-                            "654a4a964b446df1ad03f192"
+                            "654a4a964b446df1ad03f192",
+                            "656fad8c498d1b7e3e071da0"
                         ],
                         Name = "back_plate"
                     },
@@ -643,6 +650,28 @@ namespace TotovBuilder.Model.Test
                 TurningSpeedModifierPercentage = -0.08,
                 Weight = 1.2,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Ops-Core_FAST_multi-hit_ballistic_face_shield",
+            },
+            new ArmorMod()
+            {
+                ArmorClass = 4,
+                ArmoredAreas =
+                [
+                    "FRPLATE",
+                    "BCKPLATE"
+                ],
+                CategoryId = "armorMod",
+                Durability = 40,
+                ErgonomicsModifierPercentage = -0.01,
+                IconLink = "https://assets.tarkov.dev/656fad8c498d1b7e3e071da0-icon.webp",
+                Id = "656fad8c498d1b7e3e071da0",
+                ImageLink = "https://assets.tarkov.dev/656fad8c498d1b7e3e071da0-image.webp",
+                MarketLink = "https://tarkov.dev/item/monoclete-level-iii-pe-ballistic-plate",
+                Material = "UHMWPE",
+                MovementSpeedModifierPercentage = -0.01,
+                Name = "Monoclete level III PE ballistic plate",
+                ShortName = "Monoclete PE",
+                Weight = 1.35,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Monoclete_level_III_PE_ballistic_plate",
             },
             new Backpack()
             {
@@ -2556,7 +2585,7 @@ namespace TotovBuilder.Model.Test
             },
             new Vest()
             {
-                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
+                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the front aramid insert but the API does not provide it.
                 ArmoredAreas =
                 [
                     "FRPLATE",
@@ -2569,6 +2598,7 @@ namespace TotovBuilder.Model.Test
                 Capacity = 14,
                 CategoryId = "vest",
                 DefaultPresetId = "657660eb86f11bca4106d34f",
+                Durability = 64,
                 ErgonomicsModifierPercentage = -0.01,
                 IconLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp",
                 Id = "61bc85697113f767765c7fe7",
@@ -2581,7 +2611,8 @@ namespace TotovBuilder.Model.Test
                         CompatibleItemIds = // MISSING FROM API
                         [
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041"
+                            "64afdcb83efdfea28601d041",
+                            "656fad8c498d1b7e3e071da0"
                         ],
                         Name = "front_plate",
                     },
@@ -2591,7 +2622,8 @@ namespace TotovBuilder.Model.Test
                         [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041",
-                            "654a4a964b446df1ad03f192"
+                            "654a4a964b446df1ad03f192",
+                            "656fad8c498d1b7e3e071da0"
                         ],
                         Name = "back_plate"
                     },
@@ -2634,7 +2666,7 @@ namespace TotovBuilder.Model.Test
             },
             new Vest()
             {
-                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the aramid inserts but the API does not provide it.
+                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the front aramid insert but the API does not provide it.
                 ArmoredAreas =
                 [
                     "FRPLATE",
@@ -2647,6 +2679,7 @@ namespace TotovBuilder.Model.Test
                 BaseItemId = "61bc85697113f767765c7fe7",
                 Capacity = 14,
                 CategoryId = "vest",
+                Durability = 64,
                 ErgonomicsModifierPercentage = -0.01,
                 IconLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp",
                 Id = "657660eb86f11bca4106d34f",
@@ -2659,7 +2692,8 @@ namespace TotovBuilder.Model.Test
                         CompatibleItemIds = // MISSING FROM API
                         [
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041"
+                            "64afdcb83efdfea28601d041",
+                            "656fad8c498d1b7e3e071da0"
                         ],
                         Name = "front_plate",
                     },
@@ -2669,7 +2703,8 @@ namespace TotovBuilder.Model.Test
                         [
                             "64afc71497cf3a403c01ff38",
                             "64afdcb83efdfea28601d041",
-                            "654a4a964b446df1ad03f192"
+                            "654a4a964b446df1ad03f192",
+                            "656fad8c498d1b7e3e071da0"
                         ],
                         Name = "back_plate"
                     },

@@ -18,7 +18,7 @@
         /// Fake items only for testing purpose.
         /// </summary>
         /// <remarks>
-        /// Exepression to sort them in Visual Studio Code using the Sort JSON extension :
+        /// Expression to sort them in Visual Studio Code using the Sort JSON extension :
         /// (a.properties == null && b.properties != null) ? 1 : (a.properties != null && b.properties == null) ? -1 : ((a.properties == null && b.properties == null) || (a.properties != null && b.properties != null && a.properties.__typename === b.properties.__typename)) ? (a.name === b.name ? 0 : (a.name > b.name ? 1 : -1)) : (a.properties?.__typename > b.properties?.__typename) ? 1 : -1
         /// </remarks>
         private const string FakeItemsJson = @"{
@@ -700,7 +700,7 @@
         }
       ],
       ""class"": 6,
-      ""durability"": 0,
+      ""durability"": 510,
       ""ergoPenalty"": -0.1,
       ""material"": {
         ""id"": ""Aramid""
@@ -771,7 +771,7 @@
         }
       ],
       ""class"": 2,
-      ""durability"": 0,
+      ""durability"": 100,
       ""ergoPenalty"": -0.01,
       ""material"": {
         ""id"": ""Aramid""
@@ -1276,7 +1276,7 @@
       ],
       ""capacity"": 14,
       ""class"": 4,
-      ""durability"": null,
+      ""durability"": 144,
       ""ergoPenalty"": -0.01,
       ""material"": {
         ""id"": ""Aramid""
@@ -5084,6 +5084,56 @@
     ""shortName"": ""Shroud"",
     ""weight"": 0.1,
     ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Shroud_half-mask""
+  },
+  {
+    ""iconLink"": ""https://assets.tarkov.dev/656fad8c498d1b7e3e071da0-icon.webp"",
+    ""id"": ""656fad8c498d1b7e3e071da0"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/656fad8c498d1b7e3e071da0-image.webp"",
+    ""link"": ""https://tarkov.dev/item/monoclete-level-iii-pe-ballistic-plate"",
+    ""name"": ""Monoclete level III PE ballistic plate"",
+    ""shortName"": ""Monoclete PE"",
+    ""weight"": 1.35,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Monoclete_level_III_PE_ballistic_plate"",
+    ""conflictingItems"": [],
+    ""categories"": [
+      {
+        ""id"": ""644120aa86ffbe10ee032b6f"",
+        ""name"": ""Armor Plate""
+      },
+      {
+        ""id"": ""57bef4c42459772e8d35a53b"",
+        ""name"": ""Armored equipment""
+      },
+      {
+        ""id"": ""543be5f84bdc2dd4348b456a"",
+        ""name"": ""Equipment""
+      },
+      {
+        ""id"": ""566162e44bdc2d3f298b4573"",
+        ""name"": ""Compound item""
+      },
+      {
+        ""id"": ""54009119af1c881c07000029"",
+        ""name"": ""Item""
+      }
+    ],
+    ""properties"": {
+      ""__typename"": ""ItemPropertiesArmorAttachment"",
+      ""blindnessProtection"": 0,
+      ""class"": 4,
+      ""durability"": 40,
+      ""ergoPenalty"": -0.01,
+      ""slots"": [],
+      ""speedPenalty"": -0.01,
+      ""turnPenalty"": 0,
+      ""zones"": [
+        ""FR. PLATE"",
+        ""BCK. PLATE""
+      ],
+      ""material"": {
+        ""id"": ""UHMWPE""
+      }
+    }
   }";
     }
 }

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using TotovBuilder.Model.Abstractions.Items;
 
 namespace TotovBuilder.Model.Utils.JsonConverters.Items
@@ -21,13 +20,13 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         {
             { nameof(IAmmunition.AccuracyModifierPercentage), a => a.AccuracyModifierPercentage == 0 },
             { nameof(IAmmunition.ArmorDamagePercentage), a => a.ArmorDamagePercentage == 0 },
-            { nameof(IAmmunition.ArmorPenetrations), a => a.ArmorPenetrations.Length == 0 || a.ArmorPenetrations.All(ap => ap == 0) },
             { nameof(IAmmunition.Blinding), a => !a.Blinding },
             { nameof(IAmmunition.DurabilityBurnModifierPercentage), a => a.DurabilityBurnModifierPercentage == 0 },
             { nameof(IAmmunition.FleshDamage), a => a.FleshDamage == 0 },
             { nameof(IAmmunition.FragmentationChance), a => a.FragmentationChance == 0 },
             { nameof(IAmmunition.HeavyBleedingChance), a => a.HeavyBleedingChance == 0 },
             { nameof(IAmmunition.LightBleedingChance), a => a.LightBleedingChance == 0 },
+            { nameof(IAmmunition.PenetratedArmorLevel), a => a.PenetratedArmorLevel == 0 },
             { nameof(IAmmunition.PenetrationPower), a => a.PenetrationPower == 0 },
             { nameof(IAmmunition.Projectiles), a => a.Projectiles == 1 },
             { nameof(IAmmunition.RecoilModifier), a => a.RecoilModifier == 0 },

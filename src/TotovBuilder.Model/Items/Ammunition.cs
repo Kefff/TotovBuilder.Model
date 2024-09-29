@@ -19,10 +19,6 @@ namespace TotovBuilder.Model.Items
         public double ArmorDamagePercentage { get; set; }
 
         /// <inheritdoc/>
-        [JsonPropertyName("ap")]
-        public double[] ArmorPenetrations { get; set; } = [];
-
-        /// <inheritdoc/>
         [JsonPropertyName("b")]
         public bool Blinding { get; set; }
 
@@ -49,6 +45,10 @@ namespace TotovBuilder.Model.Items
         /// <inheritdoc/>
         [JsonPropertyName("l")]
         public double LightBleedingChance { get; set; }
+
+        /// <inheritdoc/>
+        [JsonPropertyName("ap")]
+        public double PenetratedArmorLevel { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("pp")]
