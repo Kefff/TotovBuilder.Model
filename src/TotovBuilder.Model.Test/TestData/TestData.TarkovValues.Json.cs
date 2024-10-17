@@ -6,15 +6,6 @@
     public partial class TestData
     {
         public const string TarkovValuesJson = @"{
-  ""armorPenetrationEfficiencies"": [
-    ""> 20"",
-    ""13 - 20"",
-    ""9 - 13"",
-    ""5 - 9"",
-    ""3 - 5"",
-    ""1 - 3"",
-    ""< 1""
-  ],
   ""chestHp"": 85,
   ""currencies"": [
     {
