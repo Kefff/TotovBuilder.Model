@@ -6,39 +6,9 @@
     public class WebsiteConfiguration
     {
         /// <summary>
-        /// Storage key for the allow cookies indicator.
-        /// </summary>
-        public string AllowCookiesStorageKey { get; set; } = string.Empty;
-
-        /// <summary>
         /// Bug report URL.
         /// </summary>
         public string BugReportUrl { get; set; } = string.Empty;
-
-        /// <summary>
-        /// URL for sharing builds.
-        /// </summary>
-        public string BuildSharingUrl { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key for the current build filter.
-        /// </summary>
-        public string BuildsFilterStorageKey { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key for the current build sorting colum.
-        /// </summary>
-        public string BuildsSortFieldStorageKey { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key for the current build sort order.
-        /// </summary>
-        public string BuildsSortOrderStorageKey { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key prefix for builds.
-        /// </summary>
-        public string BuildStorageKeyPrefix { get; set; } = string.Empty;
 
         /// <summary>
         /// Cache duration (in seconds).
@@ -81,29 +51,9 @@
         public string EndpointPrices { get; set; } = string.Empty;
 
         /// <summary>
-        /// Quests endpoint.
-        /// </summary>
-        public string EndpointQuests { get; set; } = string.Empty;
-
-        /// <summary>
         /// Tarkov values endpoint.
         /// </summary>
         public string EndpointTarkovValues { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Export file extension.
-        /// </summary>
-        public string ExportFileExtension { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Export file prefix.
-        /// </summary>
-        public string ExportFileNamePrefix { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key for the value indicating whether the warning about builds not exported has been displayed.
-        /// </summary>
-        public string ExportWarningShowedStorageKey { get; set; } = string.Empty;
 
         /// <summary>
         /// Maximum number of tries when an error occurs when fetching data.
@@ -124,16 +74,6 @@
         /// Github project URL.
         /// </summary>
         public string GithubUrl { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key for the current global filter.
-        /// </summary>
-        public string GlobalFilterStorageKey { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key for the current language.
-        /// </summary>
-        public string LanguageStorageKey { get; set; } = string.Empty;
 
         /// <summary>
         /// Error notifications duration (in seconds).
@@ -159,15 +99,5 @@
         /// Indicates whether we are in a post-update period and items and prices are being updated.
         /// </summary>
         public bool PostUpdatePeriod { get; set; } = false;
-
-        /// <summary>
-        /// Version of the website.
-        /// </summary>
-        public string Version { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Storage key for the current version.
-        /// </summary>
-        public string VersionStorageKey { get; set; } = string.Empty;
     }
 }
