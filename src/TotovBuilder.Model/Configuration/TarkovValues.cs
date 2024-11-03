@@ -6,11 +6,6 @@
     public class TarkovValues
     {
         /// <summary>
-        /// Armor penetration efficiencies.
-        /// </summary>
-        public string[] ArmorPenetrationEfficiencies { get; set; } = [];
-
-        /// <summary>
         /// Player character chest HP.
         /// </summary>
         public int ChestHp { get; set; }
@@ -29,6 +24,11 @@
         /// Weight at which the character is lightly encumbered.
         /// </summary>
         public int LightEncumbermentWeight { get; set; }
+
+        /// <summary>
+        /// Maximum level an armor can have.
+        /// </summary>
+        public int MaxArmorLevel { get; set; }
 
         /// <summary>
         /// Merchants.

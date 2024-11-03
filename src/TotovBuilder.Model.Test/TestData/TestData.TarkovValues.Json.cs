@@ -29,6 +29,7 @@
   ],
   ""heavyEncumbermentWeight"": 65,
   ""lightEncumbermentWeight"": 24,
+  ""maxArmorLevel"": 6,
   ""merchants"": [
     {
       ""name"": ""prapor"",

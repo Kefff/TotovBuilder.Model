@@ -36,6 +36,7 @@ namespace TotovBuilder.Model.Test
             ],
             HeavyEncumbermentWeight = 65,
             LightEncumbermentWeight = 24,
+            MaxArmorLevel = 6,
             Merchants =
             [
                 new Merchant()
