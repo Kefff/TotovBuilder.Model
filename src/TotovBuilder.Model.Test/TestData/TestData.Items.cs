@@ -299,6 +299,34 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.009,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/9x19mm_PBP_gzh"
             },
+            new Ammunition()
+            {
+                ArmorDamagePercentage = 0.89,
+                //Blinding = , // TODO : MISSING FROM API
+                Caliber = "Caliber86x70",
+                CategoryId = "ammunition",
+                DurabilityBurnModifierPercentage = 1.4,
+                FleshDamage = 115,
+                FragmentationChance = 0.13,
+                HeavyBleedingChance = 0.55,
+                IconLink = "https://assets.tarkov.dev/5fc382a9d724d907e2077dab-icon.webp",
+                Id = "5fc382a9d724d907e2077dab",
+                ImageLink = "https://assets.tarkov.dev/5fc382a9d724d907e2077dab-image.webp",
+                LightBleedingChance = 0.2,
+                MarketLink = "https://tarkov.dev/item/338-lapua-magnum-ap",
+                MaxStackableAmount = 30,
+                Name = ".338 Lapua Magnum AP",
+                PenetratedArmorLevel = 6,
+                PenetrationPower = 79,
+                Projectiles = 1,
+                RecoilModifier = 10,
+                ShortName = "AP",
+                Subsonic = false,
+                Tracer = false,
+                Velocity = 849,
+                Weight = 0.049,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/.338_Lapua_Magnum_AP"
+            },
             new Armor()
             {
                 ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the front aramid insert but the API does not provide it.

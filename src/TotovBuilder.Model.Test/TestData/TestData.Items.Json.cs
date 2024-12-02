@@ -585,6 +585,50 @@
     ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/9x19mm_PBP_gzh""
   },
   {
+    ""iconLink"": ""https://assets.tarkov.dev/5fc382a9d724d907e2077dab-icon.webp"",
+    ""id"": ""5fc382a9d724d907e2077dab"",
+    ""inspectImageLink"": ""https://assets.tarkov.dev/5fc382a9d724d907e2077dab-image.webp"",
+    ""link"": ""https://tarkov.dev/item/338-lapua-magnum-ap"",
+    ""name"": "".338 Lapua Magnum AP"",
+    ""properties"": {
+        ""__typename"": ""ItemPropertiesAmmo"",
+        ""accuracyModifier"": 0,
+        ""armorDamage"": 89,
+        ""caliber"": ""Caliber86x70"",
+        ""damage"": 115,
+        ""durabilityBurnFactor"": 2.4,
+        ""fragmentationChance"": 0.13,
+        ""heavyBleedModifier"": 0.55,
+        ""initialSpeed"": 849,
+        ""lightBleedModifier"": 0.2,
+        ""penetrationChance"": 0.9,
+        ""penetrationPower"": 79,
+        ""projectileCount"": 1,
+        ""recoilModifier"": 0.1,
+        ""ricochetChance"": 0.3,
+        ""stackMaxSize"": 30,
+        ""tracer"": false
+    },
+    ""shortName"": ""AP"",
+    ""weight"": 0.049,
+    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/.338_Lapua_Magnum_AP"",
+    ""conflictingItems"": [],
+    ""categories"": [
+      {
+         ""id"": ""5485a8684bdc2da71d8b4567"",
+         ""name"": ""Ammo""
+      },
+      {
+        ""id"": ""5661632d4bdc2d903d8b456b"",
+        ""name"": ""Stackable item""
+        },
+        {
+        ""id"": ""54009119af1c881c07000029"",
+        ""name"": ""Item""
+      }
+    ]
+  },
+  {
     ""categories"": [
       {
         ""id"": ""5448e54d4bdc2dcc718b4568""
