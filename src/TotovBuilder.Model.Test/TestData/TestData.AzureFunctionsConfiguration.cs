@@ -27,7 +27,6 @@ namespace TotovBuilder.Model.Test
             WebsiteDataCacheControl = "max-age=3600, must-revalidate",
             WebsiteFileCacheControl = "max-age=31536000, must-revalidate",
             WebsiteChangelogBlobName = "data/changelog.json",
-            WebsiteItemCategoriesBlobName = "data/item-categories.json",
             WebsiteItemsBlobName = "data/items.json",
             WebsitePresetsBlobName = "data/presets.json",
             WebsitePricesBlobName = "data/prices.json",
