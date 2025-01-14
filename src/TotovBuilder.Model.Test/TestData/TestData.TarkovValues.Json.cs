@@ -30,65 +30,76 @@
   ""heavyEncumbermentWeight"": 65,
   ""lightEncumbermentWeight"": 24,
   ""maxArmorLevel"": 6,
+  
   ""merchants"": [
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""prapor"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 1,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""therapist"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 2,
       ""showInFilter"": true
     },
     {
-      ""name"": ""skier"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
-      ""showInFilter"": true
-    },
-    {
-      ""name"": ""fence"",
-      ""minLevel"": 1,
       ""maxLevel"": 1,
+      ""minLevel"": 1,
+      ""name"": ""fence"",
+      ""order"": 3,
       ""showInFilter"": false
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
+      ""name"": ""skier"",
+      ""order"": 4,
+      ""showInFilter"": true
+    },
+    {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""peacekeeper"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 5,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""mechanic"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 6,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""ragman"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 7,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""jaeger"",
-      ""minLevel"": 1,
+      ""order"": 8,
+      ""showInFilter"": true
+    },
+    {
       ""maxLevel"": 4,
+      ""minLevel"": 1,
+      ""name"": ""ref"",
+      ""order"": 9,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 0,
+      ""minLevel"": 0,
       ""name"": ""flea-market"",
-      ""minLevel"": 0,
-      ""maxLevel"": 0,
-      ""showInFilter"": true
-    },
-    {
-      ""name"": ""items-without-merchant"",
-      ""minLevel"": 0,
-      ""maxLevel"": 0,
+      ""order"": 10,
       ""showInFilter"": true
     }
   ],

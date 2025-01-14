@@ -44,6 +44,7 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "prapor",
+                    Order = 1,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -51,13 +52,7 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "therapist",
-                    ShowInFilter = true
-                },
-                new Merchant()
-                {
-                    MaxLevel = 4,
-                    MinLevel = 1,
-                    Name = "skier",
+                    Order = 2,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -65,13 +60,23 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 1,
                     MinLevel = 1,
                     Name = "fence",
+                    Order = 3,
                     ShowInFilter = false
                 },
                 new Merchant()
                 {
                     MaxLevel = 4,
                     MinLevel = 1,
+                    Name = "skier",
+                    Order = 4,
+                    ShowInFilter = true
+                },
+                new Merchant()
+                {
+                    MaxLevel = 4,
+                    MinLevel = 1,
                     Name = "peacekeeper",
+                    Order = 5,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -79,6 +84,7 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "mechanic",
+                    Order = 6,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -86,6 +92,7 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "ragman",
+                    Order = 7,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -93,6 +100,15 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "jaeger",
+                    Order = 8,
+                    ShowInFilter = true
+                },
+                new Merchant()
+                {
+                    MaxLevel = 4,
+                    MinLevel = 1,
+                    Name = "ref",
+                    Order = 9,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -100,13 +116,7 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 0,
                     MinLevel = 0,
                     Name = "flea-market",
-                    ShowInFilter = true
-                },
-                new Merchant()
-                {
-                    MaxLevel = 0,
-                    MinLevel = 0,
-                    Name = "items-without-merchant",
+                    Order = 10,
                     ShowInFilter = true
                 }
             ],
