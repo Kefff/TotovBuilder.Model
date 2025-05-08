@@ -18,12 +18,17 @@ namespace TotovBuilder.Model.Test
             EndpointItems = "data/items.json",
             EndpointPresets = "data/presets.json",
             EndpointPrices = "data/prices.json",
+            EndpointTarkovValues = "data/tarkov-values.json",
+            EndpointUrlShortener = "https://spoo.me/",
+            FetchMaxTries = 6,
             FetchTimeout = 10,
+            FetchWaitTimeBetweenRetries = 1,
             GithubUrl = "https://github.com/User/Reposiory",
             NotificationErrorDuration = 10,
             NotificationInformationDuration = 5,
             NotificationSuccessDuration = 5,
-            NotificationWarningDuration = 10
+            NotificationWarningDuration = 10,
+            PostUpdatePeriod = true
         };
     }
 }

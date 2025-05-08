@@ -15,12 +15,17 @@
   ""endpointItems"": ""data/items.json"",
   ""endpointPresets"": ""data/presets.json"",
   ""endpointPrices"": ""data/prices.json"",
+  ""endpointTarkovValues"": ""data/tarkov-values.json"",
+  ""endpointUrlShortener"": ""https://spoo.me/"",
+  ""fetchMaxTries"": 6,
   ""fetchTimeout"": 10,
+  ""fetchWaitTimeBetweenRetries"": 1,
   ""githubUrl"": ""https://github.com/User/Reposiory"",
   ""notificationErrorDuration"": 10,
   ""notificationInformationDuration"": 5,
   ""notificationSuccessDuration"": 5,
-  ""notificationWarningDuration"": 10
+  ""notificationWarningDuration"": 10,
+  ""postUpdatePeriod"": true
 }";
     }
 }

@@ -54,6 +54,11 @@
         /// Tarkov values endpoint.
         /// </summary>
         public string EndpointTarkovValues { get; set; } = string.Empty;
+                
+        /// <summary>
+        /// URL shortener endpoint.
+        /// </summary>
+        public string EndpointUrlShortener { get; set; } = string.Empty;
 
         /// <summary>
         /// Maximum number of tries when an error occurs when fetching data.
