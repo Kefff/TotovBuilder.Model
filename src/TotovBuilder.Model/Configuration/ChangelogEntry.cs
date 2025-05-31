@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TotovBuilder.Model.Configuration
 {
@@ -10,7 +11,7 @@ namespace TotovBuilder.Model.Configuration
         /// <summary>
         /// Changes.
         /// </summary>
-        public ChangelogChange[] Changes { get; set; } = [];
+        public Dictionary<string, string>[] Changes { get; set; } = [];
 
         /// <summary>
         /// Date.

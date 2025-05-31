@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using TotovBuilder.Model.Configuration;
 
 namespace TotovBuilder.Model.Test
@@ -14,15 +15,10 @@ namespace TotovBuilder.Model.Test
             {
                 Changes =
                 [
-                    new ChangelogChange()
+                    new()
                     {
-                        Language = "en",
-                        Text = "Added a thing."
-                    },
-                    new ChangelogChange()
-                    {
-                        Language = "fr",
-                        Text = "Ajout d'une chose."
+                        { "en", "Added a thing." },
+                        { "fr", "Ajout d'une chose." }
                     }
                 ],
                 Date = new DateTime(2022, 1, 2),
@@ -32,15 +28,10 @@ namespace TotovBuilder.Model.Test
             {
                 Changes =
                 [
-                    new ChangelogChange()
+                    new()
                     {
-                        Language = "en",
-                        Text = "Added a thing."
-                    },
-                    new ChangelogChange()
-                    {
-                        Language = "fr",
-                        Text = "Ajout d'une chose."
+                        { "en", "Added a thing." },
+                        { "fr", "Ajout d'une chose." }
                     }
                 ],
                 Date = new DateTime(2022, 1, 2),
@@ -50,15 +41,10 @@ namespace TotovBuilder.Model.Test
             {
                 Changes =
                 [
-                    new ChangelogChange()
+                    new()
                     {
-                        Language = "en",
-                        Text = "Added a thing."
-                    },
-                    new ChangelogChange()
-                    {
-                        Language = "fr",
-                        Text = "Ajout d'une chose."
+                        { "en", "Added a thing." },
+                        { "fr", "Ajout d'une chose." }
                     }
                 ],
                 Date = new DateTime(2022, 1, 2),
@@ -66,17 +52,11 @@ namespace TotovBuilder.Model.Test
             },
             new ChangelogEntry()
             {
-                Changes =
-                [
-                    new ChangelogChange()
+                Changes = [
+                    new()
                     {
-                        Language = "en",
-                        Text = "Added a thing."
-                    },
-                    new ChangelogChange()
-                    {
-                        Language = "fr",
-                        Text = "Ajout d'une chose."
+                        { "en", "Added a thing." },
+                        { "fr", "Ajout d'une chose." }
                     }
                 ],
                 Date = new DateTime(2022, 1, 2),
@@ -86,15 +66,10 @@ namespace TotovBuilder.Model.Test
             {
                 Changes =
                 [
-                    new ChangelogChange()
+                    new()
                     {
-                        Language = "en",
-                        Text = "Added a thing."
-                    },
-                    new ChangelogChange()
-                    {
-                        Language = "fr",
-                        Text = "Ajout d'une chose."
+                        { "en", "Added a thing." },
+                        { "fr", "Ajout d'une chose." }
                     }
                 ],
                 Date = new DateTime(2022, 1, 2),
@@ -104,15 +79,10 @@ namespace TotovBuilder.Model.Test
             {
                 Changes =
                 [
-                    new ChangelogChange()
+                    new()
                     {
-                        Language = "en",
-                        Text = "Initial release."
-                    },
-                    new ChangelogChange()
-                    {
-                        Language = "fr",
-                        Text = "Sortie initiale."
+                        { "en", "Initial release." },
+                        { "fr", "Sortie initiale." }
                     }
                 ],
                 Date = new DateTime(2022, 1, 1),
