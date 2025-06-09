@@ -1020,6 +1020,32 @@ namespace TotovBuilder.Model.Test
                 Weight = 0.1,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Shroud_half-mask"
             },
+            new Headwear()
+            {
+                ArmorClass = 4,
+                CategoryId = "faceCover",
+                ConflictingItemIds = [
+                    "66b5f65ca7f72d197e70bcd6",
+                    "66b5f666cad6f002ab7214c2",
+                    "66b5f661af44ca0014063c05",
+                    "5e01ef6886f77445f643baa4",
+                    "5e00c1ad86f774747333222c",
+                ],
+                Durability = 35,
+                ErgonomicsModifierPercentage = -0.02,
+                RicochetChance = "High",
+                IconLink = "https://assets.tarkov.dev/657089638db3adca1009f4ca-icon.webp",
+                Id = "657089638db3adca1009f4ca",
+                ImageLink = "https://assets.tarkov.dev/657089638db3adca1009f4ca-image.webp",
+                MarketLink = "https://tarkov.dev/item/atomic-defense-cqcm-up-armored-ballistic-mask-black",
+                Name = "Atomic Defense CQCM up armored ballistic mask (Black)",
+                ShortName = "CQCM",
+                MovementSpeedModifierPercentage = -0.01,
+                TurningSpeedModifierPercentage = -0.03,
+                Material = "UHMWPE",
+                Weight = 2.1,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Atomic_Defense_CQCM_up_armored_ballistic_mask_(Black)"
+            },
             new Magazine()
             {
                 AcceptedAmmunitionIds =
