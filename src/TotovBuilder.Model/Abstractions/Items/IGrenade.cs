@@ -16,6 +16,11 @@
         double FragmentsAmount { get; set; }
 
         /// <summary>
+        /// Explodes on impact.
+        /// </summary>
+        bool Impact { get; set; }
+
+        /// <summary>
         /// Maximum explosion range in meters.
         /// </summary>
         double MaximumExplosionRange { get; set; }
@@ -24,10 +29,5 @@
         /// Minimum explosion range in meters.
         /// </summary>
         double MinimumExplosionRange { get; set; }
-
-        /// <summary>
-        /// Type of grenade.
-        /// </summary>
-        string Type { get; set; }
     }
 }

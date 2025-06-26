@@ -1,4 +1,5 @@
-﻿using TotovBuilder.Model.Items;
+﻿using System.Numerics;
+using TotovBuilder.Model.Items;
 
 namespace TotovBuilder.Model.Test
 {
@@ -329,21 +330,21 @@ namespace TotovBuilder.Model.Test
             },
             new Armor()
             {
-                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the front aramid insert but the API does not provide it.
+                ArmorClass = 3,
                 ArmoredAreas =
                 [
                     "FRPLATE",
                     "BCKPLATE",
                     "LPLATE",
                     "RPLATE",
-                    "Chest",
                     "Stomach",
-                    "StomachLowerBack",
+                    "Thorax",
                     "ThoraxUpperBack",
+                    "StomachLowerBack",
                     "StomachLeftSide",
                     "StomachRightSide",
-                    "HeadNeck",
-                    "HeadThroat",
+                    "ThoraxThroat",
+                    "ThoraxNeck",
                     "LeftArmShoulder",
                     "RightArmShoulder",
                     "StomachGroin"
@@ -355,62 +356,99 @@ namespace TotovBuilder.Model.Test
                 IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp",
                 Id = "545cdb794bdc2d3a198b456a",
                 ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
-                MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora",
+                MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-emr",
                 Material = "Aramid",
                 ModSlots =
                 [
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "656f9d5900d62bcd2e02407c",
+                            "656fa8d700d62bcd2e024084",
+                            "656fa99800d62bcd2e024088",
+                            "656fae5f7c2d57afe200c0d7",
+                            "656faf0ca0dce000a2020f77",
+                            "656fa0fb498d1b7e3e071d9c",
+                            "656fafe3498d1b7e3e071da4",
+                            "656fa76500d62bcd2e024080",
+                            "656fa25e94b480b8a500c0e0",
+                            "656fad8c498d1b7e3e071da0",
+                            "656fa61e94b480b8a500c0e8",
+                            "656fb21fa0dce000a2020f7c",
+                            "656fac30c6baea13cd07e10c",
+                            "656f9fa0498d1b7e3e071d98",
+                            "656fb0bd7c2d57afe200c0dc",
+                            "656fa53d94b480b8a500c0e4",
+                            "65573fa5655447403702a816",
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041",
-                            "656fad8c498d1b7e3e071da0"
+                            "655746010177119f4a097ff7",
+                            "64afdcb83efdfea28601d041"
                         ],
                         Name = "front_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "656f9d5900d62bcd2e02407c",
+                            "656fa8d700d62bcd2e024084",
+                            "656fa99800d62bcd2e024088",
+                            "656fae5f7c2d57afe200c0d7",
+                            "656faf0ca0dce000a2020f77",
+                            "656fa0fb498d1b7e3e071d9c",
+                            "656fafe3498d1b7e3e071da4",
+                            "656fa76500d62bcd2e024080",
+                            "656fa25e94b480b8a500c0e0",
+                            "656fa61e94b480b8a500c0e8",
+                            "656fad8c498d1b7e3e071da0",
+                            "656fb21fa0dce000a2020f7c",
+                            "656fac30c6baea13cd07e10c",
+                            "656f9fa0498d1b7e3e071d98",
+                            "656fb0bd7c2d57afe200c0dc",
+                            "656fa53d94b480b8a500c0e4",
+                            "65573fa5655447403702a816",
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041",
-                            "654a4a964b446df1ad03f192",
-                            "656fad8c498d1b7e3e071da0"
+                            "655746010177119f4a097ff7",
+                            "64afdcb83efdfea28601d041"
                         ],
                         Name = "back_plate"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
-                            "64afd81707e2cf40e903a316"
+                            "64afd81707e2cf40e903a316",
+                            "6557458f83942d705f0c4962",
+                            "64afdb577bb3bfe8fe03fd1d"
                         ],
                         Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "6557458f83942d705f0c4962",
+                            "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
                         Name = "right_side_plate",
                     }
                 ],
                 MovementSpeedModifierPercentage = -0.115,
-                Name = "6B43 Zabralo-Sh body armor (Digital Flora)",
+                Name = "6B43 Zabralo-Sh body armor (EMR)",
                 ShortName = "6B43",
                 TurningSpeedModifierPercentage = -0.055,
                 Weight = 10.8,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(EMR)"
             },
             new Armor()
             {
                 ArmorClass = 2,
                 ArmoredAreas =
                 [
-                    "Chest",
                     "Stomach",
+                    "Thorax",
                     "StomachLowerBack",
                     "ThoraxUpperBack",
                     "StomachLeftSide",
@@ -433,21 +471,21 @@ namespace TotovBuilder.Model.Test
             },
             new Armor()
             {
-                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the front aramid insert but the API does not provide it.
+                ArmorClass = 3,
                 ArmoredAreas =
                 [
                     "FRPLATE",
                     "BCKPLATE",
                     "LPLATE",
                     "RPLATE",
-                    "Chest",
                     "Stomach",
-                    "StomachLowerBack",
+                    "Thorax",
                     "ThoraxUpperBack",
+                    "StomachLowerBack",
                     "StomachLeftSide",
                     "StomachRightSide",
-                    "HeadNeck",
-                    "HeadThroat",
+                    "ThoraxThroat",
+                    "ThoraxNeck",
                     "LeftArmShoulder",
                     "RightArmShoulder",
                     "StomachGroin"
@@ -456,57 +494,94 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "armor",
                 Durability = 350,
                 ErgonomicsModifierPercentage = -0.1,
-                IconLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp",
+                IconLink = "https://assets.tarkov.dev/65766adc234b9f6e050a431a-icon.webp",
                 Id = "65766adc234b9f6e050a431a",
-                ImageLink = "https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp",
-                MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora-default",
+                ImageLink = "https://assets.tarkov.dev/65766adc234b9f6e050a431a-image.webp",
+                MarketLink = "https://tarkov.dev/item/6b43-zabralo-sh-body-armor-emr-default",
                 Material = "Aramid",
                 ModSlots =
                 [
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "656f9d5900d62bcd2e02407c",
+                            "656fa8d700d62bcd2e024084",
+                            "656fa99800d62bcd2e024088",
+                            "656fae5f7c2d57afe200c0d7",
+                            "656faf0ca0dce000a2020f77",
+                            "656fa0fb498d1b7e3e071d9c",
+                            "656fafe3498d1b7e3e071da4",
+                            "656fa76500d62bcd2e024080",
+                            "656fa25e94b480b8a500c0e0",
+                            "656fad8c498d1b7e3e071da0",
+                            "656fa61e94b480b8a500c0e8",
+                            "656fb21fa0dce000a2020f7c",
+                            "656fac30c6baea13cd07e10c",
+                            "656f9fa0498d1b7e3e071d98",
+                            "656fb0bd7c2d57afe200c0dc",
+                            "656fa53d94b480b8a500c0e4",
+                            "65573fa5655447403702a816",
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041",
-                            "656fad8c498d1b7e3e071da0"
+                            "655746010177119f4a097ff7",
+                            "64afdcb83efdfea28601d041"
                         ],
                         Name = "front_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "656f9d5900d62bcd2e02407c",
+                            "656fa8d700d62bcd2e024084",
+                            "656fa99800d62bcd2e024088",
+                            "656fae5f7c2d57afe200c0d7",
+                            "656faf0ca0dce000a2020f77",
+                            "656fa0fb498d1b7e3e071d9c",
+                            "656fafe3498d1b7e3e071da4",
+                            "656fa76500d62bcd2e024080",
+                            "656fa25e94b480b8a500c0e0",
+                            "656fa61e94b480b8a500c0e8",
+                            "656fad8c498d1b7e3e071da0",
+                            "656fb21fa0dce000a2020f7c",
+                            "656fac30c6baea13cd07e10c",
+                            "656f9fa0498d1b7e3e071d98",
+                            "656fb0bd7c2d57afe200c0dc",
+                            "656fa53d94b480b8a500c0e4",
+                            "65573fa5655447403702a816",
                             "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041",
-                            "654a4a964b446df1ad03f192",
-                            "656fad8c498d1b7e3e071da0"
+                            "655746010177119f4a097ff7",
+                            "64afdcb83efdfea28601d041"
                         ],
                         Name = "back_plate"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
-                            "64afd81707e2cf40e903a316"
+                            "64afd81707e2cf40e903a316",
+                            "6557458f83942d705f0c4962",
+                            "64afdb577bb3bfe8fe03fd1d"
                         ],
                         Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "6557458f83942d705f0c4962",
+                            "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
                         Name = "right_side_plate",
                     }
                 ],
                 MovementSpeedModifierPercentage = -0.115,
-                Name = "6B43 Zabralo-Sh body armor (Digital Flora) Default",
+                Name = "6B43 Zabralo-Sh body armor (EMR) Default",
                 ShortName = "6B43 Default",
                 TurningSpeedModifierPercentage = -0.055,
                 Weight = 10.8,
-                WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)"
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(EMR)"
             },
             new ArmorMod()
             {
@@ -786,7 +861,6 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/zarya-stun-grenade",
                 Name = "\"Zarya\" stun grenade",
                 ShortName = "Zarya",
-                Type = "Flashbang",
                 Weight = 0.175,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/%22Zarya%22_stun_grenade"
             },
@@ -803,9 +877,25 @@ namespace TotovBuilder.Model.Test
                 MarketLink = "https://tarkov.dev/item/vog-17-khattabka-improvised-hand-grenade",
                 Name = "VOG-17 Khattabka improvised hand grenade",
                 ShortName = "VOG-17",
-                Type = "Grenade",
                 Weight = 0.28,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/VOG-17_Khattabka_improvised_hand_grenade"
+            },
+            new Grenade()
+            {
+                CategoryId = "grenade",
+                ExplosionDelay = 3.5,
+                FragmentsAmount = 85,
+                Impact = true,
+                MaximumExplosionRange = 7,
+                MinimumExplosionRange = 2,
+                IconLink = "https://assets.tarkov.dev/618a431df1eb8e24b8741deb-icon.webp",
+                Id = "618a431df1eb8e24b8741deb",
+                ImageLink = "https://assets.tarkov.dev/618a431df1eb8e24b8741deb-image.webp",
+                MarketLink = "https://tarkov.dev/item/rgo-hand-grenade",
+                Name = "RGO hand grenade",
+                ShortName = "RGO",
+                Weight = 0.53,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/RGO_hand_grenade"
             },
             new Headwear()
             {
@@ -864,12 +954,13 @@ namespace TotovBuilder.Model.Test
             {
                 ArmorClass = 4,
                 ArmoredAreas =
-            [
+                [
                     "HeadTopOfTheHead",
-                "HeadNape"
+                    "HeadNape"
                 ],
                 BlocksHeadphones = false,
                 CategoryId = "headwear",
+                Durability = 36,
                 ErgonomicsModifierPercentage = -0.01,
                 IconLink = "https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.webp",
                 Id = "5e4bfc1586f774264f7582d3",
@@ -2639,7 +2730,7 @@ namespace TotovBuilder.Model.Test
             },
             new Vest()
             {
-                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the front aramid insert but the API does not provide it.
+                ArmorClass = 2,
                 ArmoredAreas =
                 [
                     "FRPLATE",
@@ -2662,37 +2753,70 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
-                            "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041",
-                            "656fad8c498d1b7e3e071da0"
+                            "656f9d5900d62bcd2e02407c",
+                            "656fa99800d62bcd2e024088",
+                            "656fa8d700d62bcd2e024084",
+                            "656faf0ca0dce000a2020f77",
+                            "656fae5f7c2d57afe200c0d7",
+                            "656fa0fb498d1b7e3e071d9c",
+                            "656fafe3498d1b7e3e071da4",
+                            "656fa76500d62bcd2e024080",
+                            "656fa25e94b480b8a500c0e0",
+                            "656fad8c498d1b7e3e071da0",
+                            "656fa61e94b480b8a500c0e8",
+                            "656fb21fa0dce000a2020f7c",
+                            "656fac30c6baea13cd07e10c",
+                            "656fb0bd7c2d57afe200c0dc",
+                            "656f9fa0498d1b7e3e071d98",
+                            "656fa53d94b480b8a500c0e4",
+                            "655746010177119f4a097ff7",
+                            "64afdcb83efdfea28601d041"
                         ],
                         Name = "front_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
-                            "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041",
-                            "654a4a964b446df1ad03f192",
-                            "656fad8c498d1b7e3e071da0"
+                            "656f9d5900d62bcd2e02407c",
+                            "656fa8d700d62bcd2e024084",
+                            "656fa99800d62bcd2e024088",
+                            "656faf0ca0dce000a2020f77",
+                            "656fae5f7c2d57afe200c0d7",
+                            "656fa0fb498d1b7e3e071d9c",
+                            "656fafe3498d1b7e3e071da4",
+                            "656fa76500d62bcd2e024080",
+                            "656fa25e94b480b8a500c0e0",
+                            "656fad8c498d1b7e3e071da0",
+                            "656fa61e94b480b8a500c0e8",
+                            "656fb21fa0dce000a2020f7c",
+                            "656fac30c6baea13cd07e10c",
+                            "656fb0bd7c2d57afe200c0dc",
+                            "656f9fa0498d1b7e3e071d98",
+                            "656fa53d94b480b8a500c0e4",
+                            "655746010177119f4a097ff7",
+                            "64afdcb83efdfea28601d041"
                         ],
                         Name = "back_plate"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "6557458f83942d705f0c4962",
+                            "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
                         Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "6557458f83942d705f0c4962",
+                            "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
                         Name = "right_side_plate",
@@ -2720,7 +2844,7 @@ namespace TotovBuilder.Model.Test
             },
             new Vest()
             {
-                ArmorClass = 0, // For now, when an armor has armor plate slots, we consider its armor value is 0. In reality, it should be the value of the front aramid insert but the API does not provide it.
+                ArmorClass = 2,
                 ArmoredAreas =
                 [
                     "FRPLATE",
@@ -2735,45 +2859,78 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "vest",
                 Durability = 64,
                 ErgonomicsModifierPercentage = -0.01,
-                IconLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp",
+                IconLink = "https://assets.tarkov.dev/657660eb86f11bca4106d34f-icon.webp",
                 Id = "657660eb86f11bca4106d34f",
-                ImageLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp",
+                ImageLink = "https://assets.tarkov.dev/657660eb86f11bca4106d34f-image.webp",
                 MarketLink = "https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green-default",
                 Material = "Aramid",
                 ModSlots = [
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
-                            "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041",
-                            "656fad8c498d1b7e3e071da0"
+                            "656f9d5900d62bcd2e02407c",
+                            "656fa99800d62bcd2e024088",
+                            "656fa8d700d62bcd2e024084",
+                            "656faf0ca0dce000a2020f77",
+                            "656fae5f7c2d57afe200c0d7",
+                            "656fa0fb498d1b7e3e071d9c",
+                            "656fafe3498d1b7e3e071da4",
+                            "656fa76500d62bcd2e024080",
+                            "656fa25e94b480b8a500c0e0",
+                            "656fad8c498d1b7e3e071da0",
+                            "656fa61e94b480b8a500c0e8",
+                            "656fb21fa0dce000a2020f7c",
+                            "656fac30c6baea13cd07e10c",
+                            "656fb0bd7c2d57afe200c0dc",
+                            "656f9fa0498d1b7e3e071d98",
+                            "656fa53d94b480b8a500c0e4",
+                            "655746010177119f4a097ff7",
+                            "64afdcb83efdfea28601d041"
                         ],
                         Name = "front_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
-                            "64afc71497cf3a403c01ff38",
-                            "64afdcb83efdfea28601d041",
-                            "654a4a964b446df1ad03f192",
-                            "656fad8c498d1b7e3e071da0"
+                            "656f9d5900d62bcd2e02407c",
+                            "656fa8d700d62bcd2e024084",
+                            "656fa99800d62bcd2e024088",
+                            "656faf0ca0dce000a2020f77",
+                            "656fae5f7c2d57afe200c0d7",
+                            "656fa0fb498d1b7e3e071d9c",
+                            "656fafe3498d1b7e3e071da4",
+                            "656fa76500d62bcd2e024080",
+                            "656fa25e94b480b8a500c0e0",
+                            "656fad8c498d1b7e3e071da0",
+                            "656fa61e94b480b8a500c0e8",
+                            "656fb21fa0dce000a2020f7c",
+                            "656fac30c6baea13cd07e10c",
+                            "656fb0bd7c2d57afe200c0dc",
+                            "656f9fa0498d1b7e3e071d98",
+                            "656fa53d94b480b8a500c0e4",
+                            "655746010177119f4a097ff7",
+                            "64afdcb83efdfea28601d041"
                         ],
                         Name = "back_plate"
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "6557458f83942d705f0c4962",
+                            "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
                         Name = "left_side_plate",
                     },
                     new ModSlot()
                     {
-                        CompatibleItemIds = // MISSING FROM API
+                        CompatibleItemIds =
                         [
+                            "6557458f83942d705f0c4962",
+                            "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
                         Name = "right_side_plate",

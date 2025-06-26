@@ -22,355 +22,355 @@
         /// (a.properties == null && b.properties != null) ? 1 : (a.properties != null && b.properties == null) ? -1 : ((a.properties == null && b.properties == null) || (a.properties != null && b.properties != null && a.properties.__typename === b.properties.__typename)) ? (a.name === b.name ? 0 : (a.name > b.name ? 1 : -1)) : (a.properties?.__typename > b.properties?.__typename) ? 1 : -1
         /// </remarks>
         private const string FakeItemsJson = @"{
-    ""categories"": [
-      {
-        ""id"": ""57bef4c42459772e8d35a53b""
-      },
-      {
-        ""id"": ""543be5f84bdc2dd4348b456a""
-      },
-      {
-        ""id"": ""566162e44bdc2d3f298b4573""
-      },
-      {
-        ""id"": ""54009119af1c881c07000029""
-      }
-    ],
-    ""iconLink"": ""https://assets.tarkov.dev/test-preset-face-shield-alone-icon.webp"",
-    ""id"": ""test-preset-face-shield-alone"",
-    ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-face-shield-alone-image.webp"",
-    ""link"": ""https://tarkov.dev/item/test-preset-face-shield-alone"",
-    ""name"": ""Face shield alone"",
-    ""properties"": {
-      ""__typename"": ""ItemPropertiesPreset"",
-      ""baseItem"": {
-        ""id"": ""5a16b7e1fcdbcb00165aa6c9""
-      },
-      ""moa"": null
+  ""categories"": [
+    {
+      ""id"": ""57bef4c42459772e8d35a53b""
     },
-    ""shortName"": ""FSA"",
-    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-face-shield-alone""
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""56ea9461d2720b67698b456f""
-      },
-      {
-        ""id"": ""550aa4154bdc2dd8348b456b""
-      },
-      {
-        ""id"": ""5448fe124bdc2da5018b4567""
-      },
-      {
-        ""id"": ""566162e44bdc2d3f298b4573""
-      },
-      {
-        ""id"": ""54009119af1c881c07000029""
-      }
-    ],
-    ""iconLink"": ""https://assets.tarkov.dev/test-preset-gas-tube-handguard-icon.webp"",
-    ""id"": ""test-preset-gas-tube-handguard"",
-    ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-gas-tube-handguard-image.webp"",
-    ""link"": ""https://tarkov.dev/item/test-preset-gas-tube-handguard"",
-    ""name"": ""Gas tube + handguard"",
-    ""properties"": {
-      ""__typename"": ""ItemPropertiesPreset"",
-      ""baseItem"": {
-        ""id"": ""59d36a0086f7747e673f3946""
-      },
-      ""moa"": null
+    {
+      ""id"": ""543be5f84bdc2dd4348b456a""
     },
-    ""shortName"": ""PGT+H"",
-    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-gas-tube-handguard""
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""57bef4c42459772e8d35a53b""
-      },
-      {
-        ""id"": ""543be5f84bdc2dd4348b456a""
-      },
-      {
-        ""id"": ""566162e44bdc2d3f298b4573""
-      },
-      {
-        ""id"": ""54009119af1c881c07000029""
-      }
-    ],
-    ""iconLink"": ""https://assets.tarkov.dev/test-preset-magazine-alone-icon.webp"",
-    ""id"": ""test-preset-magazine-alone"",
-    ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-magazine-alone-image.webp"",
-    ""link"": ""https://tarkov.dev/item/test-preset-magazine-alone"",
-    ""name"": ""Magazine alone"",
-    ""properties"": {
-      ""__typename"": ""ItemPropertiesPreset"",
-      ""baseItem"": {
-        ""id"": ""5e81c4ca763d9f754677befa""
-      },
-      ""moa"": null
+    {
+      ""id"": ""566162e44bdc2d3f298b4573""
     },
-    ""shortName"": ""MA"",
-    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-magazine-alone""
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""55818b224bdc2dde698b456f""
-      },
-      {
-        ""id"": ""55802f3e4bdc2de7118b4584""
-      },
-      {
-        ""id"": ""5448fe124bdc2da5018b4567""
-      },
-      {
-        ""id"": ""566162e44bdc2d3f298b4573""
-      },
-      {
-        ""id"": ""54009119af1c881c07000029""
-      }
-    ],
-    ""iconLink"": ""https://assets.tarkov.dev/test-preset-ring-flashlight-icon.webp"",
-    ""id"": ""test-preset-ring-flashlight"",
-    ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-ring-flashlight-image.webp"",
-    ""link"": ""https://tarkov.dev/item/test-preset-ring-flashlight"",
-    ""name"": ""Ring + flashlight"",
-    ""properties"": {
-      ""__typename"": ""ItemPropertiesPreset"",
-      ""baseItem"": {
-        ""id"": ""57d17e212459775a1179a0f5""
-      },
-      ""moa"": null
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ],
+  ""iconLink"": ""https://assets.tarkov.dev/test-preset-face-shield-alone-icon.webp"",
+  ""id"": ""test-preset-face-shield-alone"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-face-shield-alone-image.webp"",
+  ""link"": ""https://tarkov.dev/item/test-preset-face-shield-alone"",
+  ""name"": ""Face shield alone"",
+  ""properties"": {
+    ""__typename"": ""ItemPropertiesPreset"",
+    ""baseItem"": {
+      ""id"": ""5a16b7e1fcdbcb00165aa6c9""
     },
-    ""shortName"": ""PR+F"",
-    ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-ring-flashlight""
+    ""moa"": null
   },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5485a8684bdc2da71d8b4567""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testAmmunition"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
+  ""shortName"": ""FSA"",
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-face-shield-alone""
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""56ea9461d2720b67698b456f""
+    },
+    {
+      ""id"": ""550aa4154bdc2dd8348b456b""
+    },
+    {
+      ""id"": ""5448fe124bdc2da5018b4567""
+    },
+    {
+      ""id"": ""566162e44bdc2d3f298b4573""
+    },
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ],
+  ""iconLink"": ""https://assets.tarkov.dev/test-preset-gas-tube-handguard-icon.webp"",
+  ""id"": ""test-preset-gas-tube-handguard"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-gas-tube-handguard-image.webp"",
+  ""link"": ""https://tarkov.dev/item/test-preset-gas-tube-handguard"",
+  ""name"": ""Gas tube + handguard"",
+  ""properties"": {
+    ""__typename"": ""ItemPropertiesPreset"",
+    ""baseItem"": {
+      ""id"": ""59d36a0086f7747e673f3946""
+    },
+    ""moa"": null
   },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5448e54d4bdc2dcc718b4568""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testArmor"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
+  ""shortName"": ""PGT+H"",
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-gas-tube-handguard""
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""57bef4c42459772e8d35a53b""
+    },
+    {
+      ""id"": ""543be5f84bdc2dd4348b456a""
+    },
+    {
+      ""id"": ""566162e44bdc2d3f298b4573""
+    },
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ],
+  ""iconLink"": ""https://assets.tarkov.dev/test-preset-magazine-alone-icon.webp"",
+  ""id"": ""test-preset-magazine-alone"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-magazine-alone-image.webp"",
+  ""link"": ""https://tarkov.dev/item/test-preset-magazine-alone"",
+  ""name"": ""Magazine alone"",
+  ""properties"": {
+    ""__typename"": ""ItemPropertiesPreset"",
+    ""baseItem"": {
+      ""id"": ""5e81c4ca763d9f754677befa""
+    },
+    ""moa"": null
   },
-  {
-    ""categories"": [
-      {
-        ""id"": ""57bef4c42459772e8d35a53b""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testArmorMod"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
+  ""shortName"": ""MA"",
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-magazine-alone""
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""55818b224bdc2dde698b456f""
+    },
+    {
+      ""id"": ""55802f3e4bdc2de7118b4584""
+    },
+    {
+      ""id"": ""5448fe124bdc2da5018b4567""
+    },
+    {
+      ""id"": ""566162e44bdc2d3f298b4573""
+    },
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ],
+  ""iconLink"": ""https://assets.tarkov.dev/test-preset-ring-flashlight-icon.webp"",
+  ""id"": ""test-preset-ring-flashlight"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/test-preset-ring-flashlight-image.webp"",
+  ""link"": ""https://tarkov.dev/item/test-preset-ring-flashlight"",
+  ""name"": ""Ring + flashlight"",
+  ""properties"": {
+    ""__typename"": ""ItemPropertiesPreset"",
+    ""baseItem"": {
+      ""id"": ""57d17e212459775a1179a0f5""
+    },
+    ""moa"": null
   },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5448e53e4bdc2d60728b4567""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testBackpack"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5448bf274bdc2dfc2f8b456a""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testContainer"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5448e5724bdc2ddf718b4568""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testEyewear"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""543be6564bdc2df4348b4568""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testGrenade"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5a341c4086f77401f2541505""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testHeadwear"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5448bc234bdc2d3c308b4569""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testMagazine"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5447e1d04bdc2dff2f8b4567""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testMeleeWeapon"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""55818b224bdc2dde698b456f""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testMod"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5447b5cf4bdc2d65278b4567""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testRangedWeapon"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""55818ae44bdc2dde698b456c""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testRangedWeaponMod"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  },
-  {
-    ""categories"": [
-      {
-        ""id"": ""5448e5284bdc2dcb718b4567""
-      }
-    ],
-    ""iconLink"": """",
-    ""id"": ""testVest"",
-    ""inspectImageLink"": """",
-    ""link"": """",
-    ""name"": """",
-    ""properties"": null,
-    ""shortName"": """",
-    ""weight"": 0,
-    ""wikiLink"": """"
-  }";
+  ""shortName"": ""PR+F"",
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/test-preset-ring-flashlight""
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5485a8684bdc2da71d8b4567""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testAmmunition"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5448e54d4bdc2dcc718b4568""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testArmor"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""57bef4c42459772e8d35a53b""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testArmorMod"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5448e53e4bdc2d60728b4567""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testBackpack"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5448bf274bdc2dfc2f8b456a""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testContainer"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5448e5724bdc2ddf718b4568""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testEyewear"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""543be6564bdc2df4348b4568""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testGrenade"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5a341c4086f77401f2541505""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testHeadwear"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5448bc234bdc2d3c308b4569""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testMagazine"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5447e1d04bdc2dff2f8b4567""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testMeleeWeapon"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""55818b224bdc2dde698b456f""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testMod"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5447b5cf4bdc2d65278b4567""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testRangedWeapon"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""55818ae44bdc2dde698b456c""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testRangedWeaponMod"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+},
+{
+  ""categories"": [
+    {
+      ""id"": ""5448e5284bdc2dcb718b4567""
+    }
+  ],
+  ""iconLink"": """",
+  ""id"": ""testVest"",
+  ""inspectImageLink"": """",
+  ""link"": """",
+  ""name"": """",
+  ""properties"": null,
+  ""shortName"": """",
+  ""weight"": 0,
+  ""wikiLink"": """"
+}";
 
         /// <summary>
         /// Real items obtained from the API.
@@ -629,6 +629,16 @@
   ]
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp"",
+  ""id"": ""545cdb794bdc2d3a198b456a"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp"",
+  ""link"": ""https://tarkov.dev/item/6b43-zabralo-sh-body-armor-emr"",
+  ""name"": ""6B43 Zabralo-Sh body armor (EMR)"",
+  ""shortName"": ""6B43"",
+  ""weight"": 10.8,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(EMR)"",
+  ""conflictingSlotIds"": [],
+  ""conflictingItems"": [],
   ""categories"": [
     {
       ""id"": ""5448e54d4bdc2dcc718b4568""
@@ -646,20 +656,84 @@
       ""id"": ""54009119af1c881c07000029""
     }
   ],
-  ""conflictingItems"": [],
-  ""iconLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp"",
-  ""id"": ""545cdb794bdc2d3a198b456a"",
-  ""inspectImageLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp"",
-  ""link"": ""https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora"",
-  ""name"": ""6B43 Zabralo-Sh body armor (Digital Flora)"",
   ""properties"": {
     ""__typename"": ""ItemPropertiesArmor"",
+    ""class"": 6,
+    ""durability"": 510,
+    ""ergoPenalty"": -0.1,
+    ""speedPenalty"": -0.115,
+    ""turnPenalty"": -0.055,
+    ""material"": {
+      ""id"": ""Aramid""
+    },
     ""armorSlots"": [
       {
         ""__typename"": ""ItemArmorSlotOpen"",
         ""nameId"": ""Front_plate"",
         ""zones"": [
           ""FR. PLATE""
+        ],
+        ""allowedPlates"": [
+          {
+            ""id"": ""656f9d5900d62bcd2e02407c""
+          },
+          {
+            ""id"": ""656fa8d700d62bcd2e024084""
+          },
+          {
+            ""id"": ""656fa99800d62bcd2e024088""
+          },
+          {
+            ""id"": ""656fae5f7c2d57afe200c0d7""
+          },
+          {
+            ""id"": ""656faf0ca0dce000a2020f77""
+          },
+          {
+            ""id"": ""656fa0fb498d1b7e3e071d9c""
+          },
+          {
+            ""id"": ""656fafe3498d1b7e3e071da4""
+          },
+          {
+            ""id"": ""656fa76500d62bcd2e024080""
+          },
+          {
+            ""id"": ""656fa25e94b480b8a500c0e0""
+          },
+          {
+            ""id"": ""656fad8c498d1b7e3e071da0""
+          },
+          {
+            ""id"": ""656fa61e94b480b8a500c0e8""
+          },
+          {
+            ""id"": ""656fb21fa0dce000a2020f7c""
+          },
+          {
+            ""id"": ""656fac30c6baea13cd07e10c""
+          },
+          {
+            ""id"": ""656f9fa0498d1b7e3e071d98""
+          },
+          {
+            ""id"": ""656fb0bd7c2d57afe200c0dc""
+          },
+          {
+            ""id"": ""656fa53d94b480b8a500c0e4""
+          },
+          {
+            ""id"": ""65573fa5655447403702a816""
+          },
+          {
+            ""id"": ""64afc71497cf3a403c01ff38""
+          },
+          {
+            ""id"": ""655746010177119f4a097ff7""
+          },
+          {
+            ""id"": ""64afdcb83efdfea28601d041""
+          }
         ]
       },
       {
@@ -667,6 +741,68 @@
         ""nameId"": ""Back_plate"",
         ""zones"": [
           ""BCK. PLATE""
+        ],
+        ""allowedPlates"": [
+          {
+            ""id"": ""656f9d5900d62bcd2e02407c""
+          },
+          {
+            ""id"": ""656fa8d700d62bcd2e024084""
+          },
+          {
+            ""id"": ""656fa99800d62bcd2e024088""
+          },
+          {
+            ""id"": ""656fae5f7c2d57afe200c0d7""
+          },
+          {
+            ""id"": ""656faf0ca0dce000a2020f77""
+          },
+          {
+            ""id"": ""656fa0fb498d1b7e3e071d9c""
+          },
+          {
+            ""id"": ""656fafe3498d1b7e3e071da4""
+          },
+          {
+            ""id"": ""656fa76500d62bcd2e024080""
+          },
+          {
+            ""id"": ""656fa25e94b480b8a500c0e0""
+          },
+          {
+            ""id"": ""656fa61e94b480b8a500c0e8""
+          },
+          {
+            ""id"": ""656fad8c498d1b7e3e071da0""
+          },
+          {
+            ""id"": ""656fb21fa0dce000a2020f7c""
+          },
+          {
+            ""id"": ""656fac30c6baea13cd07e10c""
+          },
+          {
+            ""id"": ""656f9fa0498d1b7e3e071d98""
+          },
+          {
+            ""id"": ""656fb0bd7c2d57afe200c0dc""
+          },
+          {
+            ""id"": ""656fa53d94b480b8a500c0e4""
+          },
+          {
+            ""id"": ""65573fa5655447403702a816""
+          },
+          {
+            ""id"": ""64afc71497cf3a403c01ff38""
+          },
+          {
+            ""id"": ""655746010177119f4a097ff7""
+          },
+          {
+            ""id"": ""64afdcb83efdfea28601d041""
+          }
         ]
       },
       {
@@ -674,6 +810,17 @@
         ""nameId"": ""Left_side_plate"",
         ""zones"": [
           ""L. PLATE""
+        ],
+        ""allowedPlates"": [
+          {
+            ""id"": ""64afd81707e2cf40e903a316""
+          },
+          {
+            ""id"": ""6557458f83942d705f0c4962""
+          },
+          {
+            ""id"": ""64afdb577bb3bfe8fe03fd1d""
+          }
         ]
       },
       {
@@ -681,82 +828,164 @@
         ""nameId"": ""Right_side_plate"",
         ""zones"": [
           ""R. PLATE""
+        ],
+        ""allowedPlates"": [
+          {
+            ""id"": ""6557458f83942d705f0c4962""
+          },
+          {
+            ""id"": ""64afdb577bb3bfe8fe03fd1d""
+          },
+          {
+            ""id"": ""64afd81707e2cf40e903a316""
+          }
         ]
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Soft_armor_front"",
         ""zones"": [
-          ""Chest"",
-          ""Stomach""
-        ]
+          ""Stomach"",
+          ""Thorax""
+        ],
+        ""class"": 3,
+        ""durability"": 85,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Soft_armor_back"",
         ""zones"": [
-          ""Stomach, Lower back"",
-          ""Thorax, Upper back""
-        ]
+          ""Thorax, Upper back"",
+          ""Stomach, Lower back""
+        ],
+        ""class"": 3,
+        ""durability"": 85,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Soft_armor_left"",
         ""zones"": [
           ""Stomach, Left Side""
-        ]
+        ],
+        ""class"": 3,
+        ""durability"": 26,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""soft_armor_right"",
         ""zones"": [
           ""Stomach, Right Side""
-        ]
+        ],
+        ""class"": 3,
+        ""durability"": 26,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Collar"",
         ""zones"": [
-          ""Head, Neck"",
-          ""Head, Throat""
-        ]
+          ""Thorax, Throat"",
+          ""Thorax, Neck""
+        ],
+        ""class"": 3,
+        ""durability"": 32,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Shoulder_l"",
         ""zones"": [
           ""Left arm, Shoulder""
-        ]
+        ],
+        ""class"": 3,
+        ""durability"": 28,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Shoulder_r"",
         ""zones"": [
           ""Right arm, Shoulder""
-        ]
+        ],
+        ""class"": 3,
+        ""durability"": 28,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Groin"",
         ""zones"": [
           ""Stomach, Groin""
-        ]
+        ],
+        ""class"": 3,
+        ""durability"": 40,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       }
-    ],
-    ""class"": 6,
-    ""durability"": 510,
-    ""ergoPenalty"": -0.1,
-    ""material"": {
-      ""id"": ""Aramid""
-    },
-    ""speedPenalty"": -0.115,
-    ""turnPenalty"": -0.055
-  },
-  ""shortName"": ""6B43"",
-  ""weight"": 10.8,
-  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)""
+    ]
+  }
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/5648a7494bdc2d9d488b4583-icon.webp"",
+  ""id"": ""5648a7494bdc2d9d488b4583"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/5648a7494bdc2d9d488b4583-image.webp"",
+  ""link"": ""https://tarkov.dev/item/paca-soft-armor"",
+  ""name"": ""PACA Soft Armor"",
+  ""shortName"": ""PACA"",
+  ""weight"": 3.5,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/PACA_Soft_Armor"",
+  ""conflictingSlotIds"": [],
+  ""conflictingItems"": [],
   ""categories"": [
     {
       ""id"": ""5448e54d4bdc2dcc718b4568""
@@ -774,22 +1003,33 @@
       ""id"": ""54009119af1c881c07000029""
     }
   ],
-  ""conflictingItems"": [],
-  ""iconLink"": ""https://assets.tarkov.dev/5648a7494bdc2d9d488b4583-icon.webp"",
-  ""id"": ""5648a7494bdc2d9d488b4583"",
-  ""inspectImageLink"": ""https://assets.tarkov.dev/5648a7494bdc2d9d488b4583-image.webp"",
-  ""link"": ""https://tarkov.dev/item/paca-soft-armor"",
-  ""name"": ""PACA Soft Armor"",
   ""properties"": {
     ""__typename"": ""ItemPropertiesArmor"",
+    ""class"": 2,
+    ""durability"": 100,
+    ""ergoPenalty"": -0.01,
+    ""speedPenalty"": -0.01,
+    ""turnPenalty"": 0,
+    ""material"": {
+      ""id"": ""Aramid""
+    },
     ""armorSlots"": [
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Soft_armor_front"",
         ""zones"": [
           ""Stomach"",
-          ""Chest""
-        ]
+          ""Thorax""
+        ],
+        ""class"": 2,
+        ""durability"": 40,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
@@ -797,35 +1037,51 @@
         ""zones"": [
           ""Stomach, Lower back"",
           ""Thorax, Upper back""
-        ]
+        ],
+        ""class"": 2,
+        ""durability"": 40,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Soft_armor_left"",
         ""zones"": [
           ""Stomach, Left Side""
-        ]
+        ],
+        ""class"": 2,
+        ""durability"": 10,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""soft_armor_right"",
         ""zones"": [
           ""Stomach, Right Side""
-        ]
+        ],
+        ""class"": 2,
+        ""durability"": 10,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       }
-    ],
-    ""class"": 2,
-    ""durability"": 100,
-    ""ergoPenalty"": -0.01,
-    ""material"": {
-      ""id"": ""Aramid""
-    },
-    ""speedPenalty"": -0.01,
-    ""turnPenalty"": 0
-  },
-  ""shortName"": ""PACA"",
-  ""weight"": 3.5,
-  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/PACA_Soft_Armor""
+    ]
+  }
 },
 {
   ""categories"": [
@@ -1242,6 +1498,16 @@
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MPX-SD_9x19_165mm_barrel""
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp"",
+  ""id"": ""61bc85697113f767765c7fe7"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp"",
+  ""link"": ""https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green"",
+  ""name"": ""Eagle Industries MMAC plate carrier (Ranger Green)"",
+  ""shortName"": ""MMAC"",
+  ""weight"": 2.83,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)"",
+  ""conflictingSlotIds"": [],
+  ""conflictingItems"": [],
   ""categories"": [
     {
       ""id"": ""5448e5284bdc2dcb718b4567""
@@ -1256,20 +1522,79 @@
       ""id"": ""54009119af1c881c07000029""
     }
   ],
-  ""conflictingItems"": [],
-  ""iconLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp"",
-  ""id"": ""61bc85697113f767765c7fe7"",
-  ""inspectImageLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp"",
-  ""link"": ""https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green"",
-  ""name"": ""Eagle Industries MMAC plate carrier (Ranger Green)"",
   ""properties"": {
     ""__typename"": ""ItemPropertiesChestRig"",
+    ""capacity"": 14,
+    ""class"": 4,
+    ""durability"": 144,
+    ""ergoPenalty"": -0.01,
+    ""speedPenalty"": -0.01,
+    ""turnPenalty"": -0.01,
+    ""material"": {
+      ""id"": ""Aramid""
+    },
     ""armorSlots"": [
       {
         ""__typename"": ""ItemArmorSlotOpen"",
         ""nameId"": ""Front_plate"",
         ""zones"": [
-          ""F. PLATE""
+          ""FR. PLATE""
+        ],
+        ""allowedPlates"": [
+          {
+            ""id"": ""656f9d5900d62bcd2e02407c""
+          },
+          {
+            ""id"": ""656fa99800d62bcd2e024088""
+          },
+          {
+            ""id"": ""656fa8d700d62bcd2e024084""
+          },
+          {
+            ""id"": ""656faf0ca0dce000a2020f77""
+          },
+          {
+            ""id"": ""656fae5f7c2d57afe200c0d7""
+          },
+          {
+            ""id"": ""656fa0fb498d1b7e3e071d9c""
+          },
+          {
+            ""id"": ""656fafe3498d1b7e3e071da4""
+          },
+          {
+            ""id"": ""656fa76500d62bcd2e024080""
+          },
+          {
+            ""id"": ""656fa25e94b480b8a500c0e0""
+          },
+          {
+            ""id"": ""656fad8c498d1b7e3e071da0""
+          },
+          {
+            ""id"": ""656fa61e94b480b8a500c0e8""
+          },
+          {
+            ""id"": ""656fb21fa0dce000a2020f7c""
+          },
+          {
+            ""id"": ""656fac30c6baea13cd07e10c""
+          },
+          {
+            ""id"": ""656fb0bd7c2d57afe200c0dc""
+          },
+          {
+            ""id"": ""656f9fa0498d1b7e3e071d98""
+          },
+          {
+            ""id"": ""656fa53d94b480b8a500c0e4""
+          },
+          {
+            ""id"": ""655746010177119f4a097ff7""
+          },
+          {
+            ""id"": ""64afdcb83efdfea28601d041""
+          }
         ]
       },
       {
@@ -1277,6 +1602,62 @@
         ""nameId"": ""Back_plate"",
         ""zones"": [
           ""BCK. PLATE""
+        ],
+        ""allowedPlates"": [
+          {
+            ""id"": ""656f9d5900d62bcd2e02407c""
+          },
+          {
+            ""id"": ""656fa8d700d62bcd2e024084""
+          },
+          {
+            ""id"": ""656fa99800d62bcd2e024088""
+          },
+          {
+            ""id"": ""656faf0ca0dce000a2020f77""
+          },
+          {
+            ""id"": ""656fae5f7c2d57afe200c0d7""
+          },
+          {
+            ""id"": ""656fa0fb498d1b7e3e071d9c""
+          },
+          {
+            ""id"": ""656fafe3498d1b7e3e071da4""
+          },
+          {
+            ""id"": ""656fa76500d62bcd2e024080""
+          },
+          {
+            ""id"": ""656fa25e94b480b8a500c0e0""
+          },
+          {
+            ""id"": ""656fad8c498d1b7e3e071da0""
+          },
+          {
+            ""id"": ""656fa61e94b480b8a500c0e8""
+          },
+          {
+            ""id"": ""656fb21fa0dce000a2020f7c""
+          },
+          {
+            ""id"": ""656fac30c6baea13cd07e10c""
+          },
+          {
+            ""id"": ""656fb0bd7c2d57afe200c0dc""
+          },
+          {
+            ""id"": ""656f9fa0498d1b7e3e071d98""
+          },
+          {
+            ""id"": ""656fa53d94b480b8a500c0e4""
+          },
+          {
+            ""id"": ""655746010177119f4a097ff7""
+          },
+          {
+            ""id"": ""64afdcb83efdfea28601d041""
+          }
         ]
       },
       {
@@ -1284,6 +1665,17 @@
         ""nameId"": ""Left_side_plate"",
         ""zones"": [
           ""L. PLATE""
+        ],
+        ""allowedPlates"": [
+          {
+            ""id"": ""6557458f83942d705f0c4962""
+          },
+          {
+            ""id"": ""64afdb577bb3bfe8fe03fd1d""
+          },
+          {
+            ""id"": ""64afd81707e2cf40e903a316""
+          }
         ]
       },
       {
@@ -1291,46 +1683,85 @@
         ""nameId"": ""Right_side_plate"",
         ""zones"": [
           ""R. PLATE""
+        ],
+        ""allowedPlates"": [
+          {
+            ""id"": ""6557458f83942d705f0c4962""
+          },
+          {
+            ""id"": ""64afdb577bb3bfe8fe03fd1d""
+          },
+          {
+            ""id"": ""64afd81707e2cf40e903a316""
+          }
         ]
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Soft_armor_front"",
-        ""zones"": []
+        ""zones"": [
+          ""FR. PLATE""
+        ],
+        ""class"": 2,
+        ""durability"": 22,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Soft_armor_back"",
-        ""zones"": []
+        ""zones"": [
+          ""BCK. PLATE""
+        ],
+        ""class"": 2,
+        ""durability"": 22,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Soft_armor_left"",
         ""zones"": [
           ""Stomach, Left Side""
-        ]
+        ],
+        ""class"": 2,
+        ""durability"": 10,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""soft_armor_right"",
         ""zones"": [
           ""Stomach, Right Side""
-        ]
+        ],
+        ""class"": 2,
+        ""durability"": 10,
+        ""ergoPenalty"": 0,
+        ""name"": ""Aramid insert"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Aramid""
+        }
       }
-    ],
-    ""capacity"": 14,
-    ""class"": 4,
-    ""durability"": 144,
-    ""ergoPenalty"": -0.01,
-    ""material"": {
-      ""id"": ""Aramid""
-    },
-    ""speedPenalty"": -0.01,
-    ""turnPenalty"": -0.01
-  },
-  ""shortName"": ""MMAC"",
-  ""weight"": 2.83,
-  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)""
+    ]
+  }
 },
 {
   ""categories"": [
@@ -1531,6 +1962,35 @@
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/%22Zarya%22_stun_grenade""
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/618a431df1eb8e24b8741deb-icon.webp"",
+  ""id"": ""618a431df1eb8e24b8741deb"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/618a431df1eb8e24b8741deb-image.webp"",
+  ""link"": ""https://tarkov.dev/item/rgo-hand-grenade"",
+  ""name"": ""RGO hand grenade"",
+  ""shortName"": ""RGO"",
+  ""weight"": 0.53,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/RGO_hand_grenade"",
+  ""conflictingSlotIds"": [],
+  ""conflictingItems"": [],
+  ""properties"": {
+    ""__typename"": ""ItemPropertiesGrenade"",
+    ""contusionRadius"": 12,
+    ""fragments"": 85,
+    ""fuse"": 3.5,
+    ""maxExplosionDistance"": 7,
+    ""minExplosionDistance"": 2,
+    ""type"": ""Impact Grenade""
+  },
+  ""categories"": [
+    {
+      ""id"": ""543be6564bdc2df4348b4568""
+    },
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ]
+},
+{
   ""categories"": [
     {
       ""id"": ""543be6564bdc2df4348b4568""
@@ -1706,6 +2166,16 @@
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Jack-o%27-lantern_tactical_pumpkin_helmet""
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.webp"",
+  ""id"": ""5e4bfc1586f774264f7582d3"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.webp"",
+  ""link"": ""https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet-black"",
+  ""name"": ""MSA Gallet TC 800 High Cut combat helmet (Black)"",
+  ""shortName"": ""TC 800"",
+  ""weight"": 1.17,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MSA_Gallet_TC_800_High_Cut_combat_helmet_(Black)"",
+  ""conflictingSlotIds"": [],
+  ""conflictingItems"": [],
   ""categories"": [
     {
       ""id"": ""5a341c4086f77401f2541505""
@@ -1723,41 +2193,57 @@
       ""id"": ""54009119af1c881c07000029""
     }
   ],
-  ""conflictingItems"": [],
-  ""iconLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-icon.webp"",
-  ""id"": ""5e4bfc1586f774264f7582d3"",
-  ""inspectImageLink"": ""https://assets.tarkov.dev/5e4bfc1586f774264f7582d3-image.webp"",
-  ""link"": ""https://tarkov.dev/item/msa-gallet-tc-800-high-cut-combat-helmet-black"",
-  ""name"": ""MSA Gallet TC 800 High Cut combat helmet (Black)"",
   ""properties"": {
     ""__typename"": ""ItemPropertiesHelmet"",
+    ""blindnessProtection"": 0,
+    ""blocksHeadset"": false,
+    ""class"": 4,
+    ""deafening"": ""None"",
+    ""durability"": 36,
+    ""ergoPenalty"": -0.01,
+    ""ricochetX"": 0.9,
+    ""speedPenalty"": 0,
+    ""turnPenalty"": -0.02,
+    ""material"": {
+      ""id"": ""Combined""
+    },
     ""armorSlots"": [
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Helmet_top"",
         ""zones"": [
           ""Head, Top of the head""
-        ]
+        ],
+        ""class"": 4,
+        ""durability"": 18,
+        ""ergoPenalty"": 0,
+        ""name"": ""Hybrid composite materials"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Combined""
+        }
       },
       {
         ""__typename"": ""ItemArmorSlotLocked"",
         ""nameId"": ""Helmet_back"",
         ""zones"": [
           ""Head, Nape""
-        ]
+        ],
+        ""class"": 4,
+        ""durability"": 18,
+        ""ergoPenalty"": 0,
+        ""name"": ""Hybrid composite materials"",
+        ""speedPenalty"": 0,
+        ""turnPenalty"": 0,
+        ""material"": {
+          ""id"": ""Combined""
+        }
       }
     ],
-    ""blocksHeadset"": false,
-    ""class"": 4,
-    ""deafening"": ""None"",
-    ""durability"": 0,
-    ""ergoPenalty"": -0.01,
-    ""material"": {
-      ""id"": ""Combined""
-    },
-    ""ricochetX"": 0.9,
     ""slots"": [
       {
+        ""nameId"": ""mod_equipment_000"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -1767,10 +2253,10 @@
               ""id"": ""5a16b7e1fcdbcb00165aa6c9""
             }
           ]
-        },
-        ""nameId"": ""mod_equipment_000""
+        }
       },
       {
+        ""nameId"": ""mod_nvg"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -1780,10 +2266,10 @@
               ""id"": ""5a16b8a9fcdbcb00165aa6ca""
             }
           ]
-        },
-        ""nameId"": ""mod_nvg""
+        }
       },
       {
+        ""nameId"": ""mod_mount"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -1793,16 +2279,10 @@
               ""id"": ""5a398ab9c4a282000c5a9842""
             }
           ]
-        },
-        ""nameId"": ""mod_mount""
+        }
       }
-    ],
-    ""speedPenalty"": 0,
-    ""turnPenalty"": -0.02
-  },
-  ""shortName"": ""TC 800"",
-  ""weight"": 1.17,
-  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MSA_Gallet_TC_800_High_Cut_combat_helmet_(Black)""
+    ]
+  }
 },
 {
   ""categories"": [
@@ -2090,6 +2570,16 @@
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AN/PVS-14_Night_Vision_Monocular""
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/65766adc234b9f6e050a431a-icon.webp"",
+  ""id"": ""65766adc234b9f6e050a431a"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/65766adc234b9f6e050a431a-image.webp"",
+  ""link"": ""https://tarkov.dev/item/6b43-zabralo-sh-body-armor-emr-default"",
+  ""name"": ""6B43 Zabralo-Sh body armor (EMR) Default"",
+  ""shortName"": ""6B43 Default"",
+  ""weight"": 20,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(EMR)"",
+  ""conflictingSlotIds"": [],
+  ""conflictingItems"": [],
   ""categories"": [
     {
       ""id"": ""5448e54d4bdc2dcc718b4568""
@@ -2107,22 +2597,13 @@
       ""id"": ""54009119af1c881c07000029""
     }
   ],
-  ""conflictingItems"": [],
-  ""iconLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-icon.webp"",
-  ""id"": ""65766adc234b9f6e050a431a"",
-  ""inspectImageLink"": ""https://assets.tarkov.dev/545cdb794bdc2d3a198b456a-image.webp"",
-  ""link"": ""https://tarkov.dev/item/6b43-zabralo-sh-body-armor-digital-flora-default"",
-  ""name"": ""6B43 Zabralo-Sh body armor (Digital Flora) Default"",
   ""properties"": {
     ""__typename"": ""ItemPropertiesPreset"",
+    ""moa"": null,
     ""baseItem"": {
       ""id"": ""545cdb794bdc2d3a198b456a""
-    },
-    ""moa"": null
-  },
-  ""shortName"": ""6B43 Default"",
-  ""weight"": 20,
-  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(Digital_Flora)""
+    }
+  }
 },
 {
   ""categories"": [
@@ -2157,6 +2638,16 @@
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/AS_VAL_9x39_special_assault_rifle""
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/657660eb86f11bca4106d34f-icon.webp"",
+  ""id"": ""657660eb86f11bca4106d34f"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/657660eb86f11bca4106d34f-image.webp"",
+  ""link"": ""https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green-default"",
+  ""name"": ""Eagle Industries MMAC plate carrier (Ranger Green) Default"",
+  ""shortName"": ""MMAC Default"",
+  ""weight"": 5.53,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)"",
+  ""conflictingSlotIds"": [],
+  ""conflictingItems"": [],
   ""categories"": [
     {
       ""id"": ""5448e5284bdc2dcb718b4567""
@@ -2171,22 +2662,13 @@
       ""id"": ""54009119af1c881c07000029""
     }
   ],
-  ""conflictingItems"": [],
-  ""iconLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp"",
-  ""id"": ""657660eb86f11bca4106d34f"",
-  ""inspectImageLink"": ""https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp"",
-  ""link"": ""https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green-default"",
-  ""name"": ""Eagle Industries MMAC plate carrier (Ranger Green) Default"",
   ""properties"": {
     ""__typename"": ""ItemPropertiesPreset"",
+    ""moa"": null,
     ""baseItem"": {
       ""id"": ""61bc85697113f767765c7fe7""
-    },
-    ""moa"": null
-  },
-  ""shortName"": ""MMAC Default"",
-  ""weight"": 5.53,
-  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)""
+    }
+  }
 },
 {
   ""categories"": [

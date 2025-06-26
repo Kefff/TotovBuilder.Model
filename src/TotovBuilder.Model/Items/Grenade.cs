@@ -19,15 +19,15 @@ namespace TotovBuilder.Model.Items
         public double FragmentsAmount { get; set; }
 
         /// <inheritdoc/>
+        [JsonPropertyName("ip")]
+        public bool Impact { get; set; }
+
+        /// <inheritdoc/>
         [JsonPropertyName("ma")]
         public double MaximumExplosionRange { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("mi")]
         public double MinimumExplosionRange { get; set; }
-
-        /// <inheritdoc/>
-        [JsonPropertyName("t")]
-        public string Type { get; set; } = string.Empty;
     }
 }
