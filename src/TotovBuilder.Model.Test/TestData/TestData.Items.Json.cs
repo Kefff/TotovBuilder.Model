@@ -2019,6 +2019,35 @@
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/VOG-17_Khattabka_improvised_hand_grenade""
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/5a2a57cfc4a2826c6e06d44a-icon.webp"",
+  ""id"": ""5a2a57cfc4a2826c6e06d44a"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/5a2a57cfc4a2826c6e06d44a-image.webp"",
+  ""link"": ""https://tarkov.dev/item/rdg-2b-smoke-grenade"",
+  ""name"": ""RDG-2B smoke grenade"",
+  ""shortName"": ""RDG-2B"",
+  ""weight"": 0.6,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/RDG-2B_smoke_grenade"",
+  ""conflictingSlotIds"": [],
+  ""conflictingItems"": [],
+  ""properties"": {
+    ""__typename"": ""ItemPropertiesGrenade"",
+    ""contusionRadius"": 0,
+    ""fragments"": 0,
+    ""fuse"": 3.5,
+    ""maxExplosionDistance"": 0,
+    ""minExplosionDistance"": 0,
+    ""type"": ""Smoke""
+  },
+  ""categories"": [
+    {
+      ""id"": ""543be6564bdc2df4348b4568""
+    },
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ]
+},
+{
   ""categories"": [
     {
       ""id"": ""5645bcb74bdc2ded0b8b4578""

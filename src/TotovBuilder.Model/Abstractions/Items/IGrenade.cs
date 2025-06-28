@@ -6,6 +6,11 @@
     public interface IGrenade : IItem
     {
         /// <summary>
+        /// Indicates whether the grenade can blind opponents.
+        /// </summary>
+        bool Blinding { get; set; }
+
+        /// <summary>
         /// Delay before explosion in seconds.
         /// </summary>
         double ExplosionDelay { get; set; }
@@ -29,5 +34,10 @@
         /// Minimum explosion range in meters.
         /// </summary>
         double MinimumExplosionRange { get; set; }
+
+        /// <summary>
+        /// Emits smoke.
+        /// </summary>
+        bool Smoke { get; set; }
     }
 }

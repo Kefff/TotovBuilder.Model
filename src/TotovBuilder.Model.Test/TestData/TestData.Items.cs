@@ -850,6 +850,7 @@ namespace TotovBuilder.Model.Test
             },
             new Grenade()
             {
+                Blinding = true,
                 CategoryId = "grenade",
                 ExplosionDelay = 2,
                 FragmentsAmount = 0,
@@ -896,6 +897,20 @@ namespace TotovBuilder.Model.Test
                 ShortName = "RGO",
                 Weight = 0.53,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/RGO_hand_grenade"
+            },
+            new Grenade()
+            {
+                CategoryId = "grenade",
+                ExplosionDelay = 3.5,
+                IconLink = "https://assets.tarkov.dev/5a2a57cfc4a2826c6e06d44a-icon.webp",
+                Id = "5a2a57cfc4a2826c6e06d44a",
+                ImageLink = "https://assets.tarkov.dev/5a2a57cfc4a2826c6e06d44a-image.webp",
+                MarketLink = "https://tarkov.dev/item/rdg-2b-smoke-grenade",
+                Name = "RDG-2B smoke grenade",
+                ShortName = "RDG-2B",
+                Smoke = true,
+                Weight = 0.6,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/RDG-2B_smoke_grenade"
             },
             new Headwear()
             {
