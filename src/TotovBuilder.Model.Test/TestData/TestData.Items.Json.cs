@@ -637,7 +637,6 @@
   ""shortName"": ""6B43"",
   ""weight"": 10.8,
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(EMR)"",
-  ""conflictingSlotIds"": [],
   ""conflictingItems"": [],
   ""categories"": [
     {
@@ -984,7 +983,6 @@
   ""shortName"": ""PACA"",
   ""weight"": 3.5,
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/PACA_Soft_Armor"",
-  ""conflictingSlotIds"": [],
   ""conflictingItems"": [],
   ""categories"": [
     {
@@ -1506,7 +1504,6 @@
   ""shortName"": ""MMAC"",
   ""weight"": 2.83,
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)"",
-  ""conflictingSlotIds"": [],
   ""conflictingItems"": [],
   ""categories"": [
     {
@@ -1970,7 +1967,6 @@
   ""shortName"": ""RGO"",
   ""weight"": 0.53,
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/RGO_hand_grenade"",
-  ""conflictingSlotIds"": [],
   ""conflictingItems"": [],
   ""properties"": {
     ""__typename"": ""ItemPropertiesGrenade"",
@@ -2027,7 +2023,6 @@
   ""shortName"": ""RDG-2B"",
   ""weight"": 0.6,
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/RDG-2B_smoke_grenade"",
-  ""conflictingSlotIds"": [],
   ""conflictingItems"": [],
   ""properties"": {
     ""__typename"": ""ItemPropertiesGrenade"",
@@ -2203,7 +2198,6 @@
   ""shortName"": ""TC 800"",
   ""weight"": 1.17,
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MSA_Gallet_TC_800_High_Cut_combat_helmet_(Black)"",
-  ""conflictingSlotIds"": [],
   ""conflictingItems"": [],
   ""categories"": [
     {
@@ -2607,7 +2601,6 @@
   ""shortName"": ""6B43 Default"",
   ""weight"": 20,
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(EMR)"",
-  ""conflictingSlotIds"": [],
   ""conflictingItems"": [],
   ""categories"": [
     {
@@ -2675,7 +2668,6 @@
   ""shortName"": ""MMAC Default"",
   ""weight"": 5.53,
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)"",
-  ""conflictingSlotIds"": [],
   ""conflictingItems"": [],
   ""categories"": [
     {
