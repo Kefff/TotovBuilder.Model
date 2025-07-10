@@ -8,7 +8,7 @@
         /// <summary>
         /// Icon name.
         /// </summary>
-        public string IconName { get; set; } = string.Empty;
+        public string? IconName { get; set; }
 
         /// <summary>
         /// ID of the item corresponding to the currency.
@@ -33,6 +33,6 @@
         /// <summary>
         /// Symbol.
         /// </summary>
-        public string Symbol { get; set; } = string.Empty;
+        public string? Symbol { get; set; }
     }
 }

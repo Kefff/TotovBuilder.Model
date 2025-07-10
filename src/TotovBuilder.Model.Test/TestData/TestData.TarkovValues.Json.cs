@@ -10,11 +10,9 @@
   ""currencies"": [
     {
       ""iconName"": ""balance-scale"",
-      ""itemId"": """",
       ""mainCurrency"": false,
       ""name"": ""barter"",
-      ""sortOrder"": 0,
-      ""symbol"": """"
+      ""sortOrder"": 0
     },
     {
       ""iconName"": ""dollar-sign"",
@@ -33,12 +31,10 @@
       ""symbol"": ""€""
     },
     {
-      ""iconName"": """",
       ""itemId"": ""5d235b4d86f7742e017bc88a"",
       ""mainCurrency"": false,
       ""name"": ""GPCOIN"",
-      ""sortOrder"": 4,
-      ""symbol"": """"
+      ""sortOrder"": 4
     },
     {
       ""iconName"": ""ruble-sign"",

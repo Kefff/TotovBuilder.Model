@@ -19,7 +19,6 @@ namespace TotovBuilder.Model.Test
                 new Currency()
                 {
                   IconName =  "balance-scale",
-                  ItemId = "",
                   MainCurrency = false,
                   Name = "barter",
                   SortOrder = 0,
