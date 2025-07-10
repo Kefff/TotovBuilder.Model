@@ -1104,6 +1104,32 @@ namespace TotovBuilder.Model.Test
             },
             new()
             {
+                CategoryId = "currency",
+                IconLink = "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                Id = "5696686a4bdc2da3298b456a",
+                ImageLink = "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-image.webp",
+                MarketLink = "https://tarkov.dev/item/dollars",
+                MaxStackableAmount = 50000, // TODO : MISSING FROM API
+                Name = "Dollars",
+                ShortName = "USD",
+                Weight = 0,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Dollars"
+            },
+            new()
+            {
+                CategoryId = "currency",
+                IconLink = "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
+                Id = "5d235b4d86f7742e017bc88a",
+                ImageLink = "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-image.webp",
+                MarketLink = "https://tarkov.dev/item/gp-coin",
+                MaxStackableAmount = 100, // TODO : MISSING FROM API
+                Name = "GP coin",
+                ShortName = "GP",
+                Weight = 0.01,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/GP_coin"
+            },
+            new()
+            {
                 CategoryId = "special",
                 IconLink = "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.webp",
                 Id = "5991b51486f77447b112d44f",
@@ -1125,6 +1151,18 @@ namespace TotovBuilder.Model.Test
                 ShortName = "Shroud",
                 Weight = 0.1,
                 WikiLink = "https://escapefromtarkov.fandom.com/wiki/Shroud_half-mask"
+            },
+            new()
+            {
+                CategoryId = "faceCover",
+                IconLink = "https://assets.tarkov.dev/67f90180f07898267b0a4ed7-icon.webp",
+                Id = "67f90180f07898267b0a4ed7",
+                ImageLink = "https://assets.tarkov.dev/67f90180f07898267b0a4ed7-image.webp",
+                MarketLink = "https://tarkov.dev/item/arena-cup-series-balaclava",
+                Name = "Arena Cup Series balaclava",
+                ShortName = "ACS",
+                Weight = 0.1,
+                WikiLink = "https://escapefromtarkov.fandom.com/wiki/Arena_Cup_Series_balaclava"
             },
             new Headwear()
             {

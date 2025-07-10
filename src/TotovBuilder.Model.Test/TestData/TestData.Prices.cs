@@ -80,6 +80,15 @@ namespace TotovBuilder.Model.Test
             new()
             {
                 CurrencyName = "RUB",
+                ItemId = "5696686a4bdc2da3298b456a",
+                Merchant = "peacekeeper",
+                MerchantLevel = 1,
+                Value = 121,
+                ValueInMainCurrency = 121
+            },
+            new()
+            {
+                CurrencyName = "RUB",
                 ItemId = "5e54f76986f7740366043752",
                 Merchant = "flea-market",
                 Value = 27131,

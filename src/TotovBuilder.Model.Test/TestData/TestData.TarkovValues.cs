@@ -1,4 +1,8 @@
-﻿using TotovBuilder.Model.Configuration;
+﻿using System.Threading;
+using System.Xml.Linq;
+using TotovBuilder.Model.Configuration;
+using TotovBuilder.Model.Items;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace TotovBuilder.Model.Test
 {
@@ -14,24 +18,45 @@ namespace TotovBuilder.Model.Test
             [
                 new Currency()
                 {
-                    IconName = "dollar-sign",
-                    ItemId = "5696686a4bdc2da3298b456a",
-                    MainCurrency = false,
-                    Name = "USD"
+                  IconName =  "balance-scale",
+                  ItemId = "",
+                  MainCurrency = false,
+                  Name = "barter",
+                  SortOrder = 0,
                 },
                 new Currency()
                 {
-                    IconName = "euro-sign",
-                    ItemId = "569668774bdc2da2298b4568",
-                    MainCurrency = false,
-                    Name = "EUR"
+                  IconName = "dollar-sign",
+                  ItemId = "5696686a4bdc2da3298b456a",
+                  MainCurrency = false,
+                  Name = "USD",
+                  SortOrder = 3,
+                  Symbol = "$"
                 },
                 new Currency()
                 {
-                    IconName = "ruble-sign",
-                    ItemId = "5449016a4bdc2d6f028b456f",
-                    MainCurrency = true,
-                    Name = "RUB"
+                  IconName = "euro-sign",
+                  ItemId = "569668774bdc2da2298b4568",
+                  MainCurrency = false,
+                  Name = "EUR",
+                  SortOrder = 2,
+                  Symbol = "€"
+                },
+                new Currency()
+                {
+                  ItemId = "5d235b4d86f7742e017bc88a",
+                  MainCurrency = false,
+                  Name = "GPCOIN",
+                  SortOrder = 4
+                },
+                new Currency()
+                {
+                  IconName = "ruble-sign",
+                  ItemId = "5449016a4bdc2d6f028b456f",
+                  MainCurrency = true,
+                  Name = "RUB",
+                  SortOrder = 1,
+                  Symbol = "₽"
                 }
             ],
             HeavyEncumbermentWeight = 65,

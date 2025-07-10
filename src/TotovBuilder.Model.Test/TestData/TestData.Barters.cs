@@ -80,6 +80,21 @@ namespace TotovBuilder.Model.Test
                 ItemId = "5f9949d869e2777a0e779ba5",
                 Merchant = "skier",
                 MerchantLevel = 1
+            },
+            new()
+            {
+                BarterItems =
+                [
+                    new BarterItem()
+                    {
+                        ItemId = "5d235b4d86f7742e017bc88a",
+                        Quantity = 6
+                    }
+                ],
+                CurrencyName = "barter",
+                ItemId = "67f90180f07898267b0a4ed7",
+                Merchant = "ref",
+                MerchantLevel = 1
             }
         ];
     }

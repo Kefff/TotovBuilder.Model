@@ -33,6 +33,23 @@
         ""buyFor"": [
           {
             ""currency"": ""RUB"",
+            ""price"": 121,
+            ""priceRUB"": 121,
+            ""vendor"": {
+              ""minTraderLevel"": 1,
+              ""taskUnlock"": null,
+              ""trader"": {
+                ""normalizedName"": ""peacekeeper""
+              }
+            }
+          }
+        ],
+        ""id"": ""5696686a4bdc2da3298b456a""
+      },
+      {
+        ""buyFor"": [
+          {
+            ""currency"": ""RUB"",
             ""price"": 18111,
             ""priceRUB"": 18111,
             ""vendor"": {

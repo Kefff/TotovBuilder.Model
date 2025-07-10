@@ -9,22 +9,45 @@
   ""chestHp"": 85,
   ""currencies"": [
     {
+      ""iconName"": ""balance-scale"",
+      ""itemId"": """",
+      ""mainCurrency"": false,
+      ""name"": ""barter"",
+      ""sortOrder"": 0,
+      ""symbol"": """"
+    },
+    {
       ""iconName"": ""dollar-sign"",
       ""itemId"": ""5696686a4bdc2da3298b456a"",
       ""mainCurrency"": false,
-      ""name"": ""USD""
+      ""name"": ""USD"",
+      ""sortOrder"": 3,
+      ""symbol"": ""$""
     },
     {
       ""iconName"": ""euro-sign"",
       ""itemId"": ""569668774bdc2da2298b4568"",
       ""mainCurrency"": false,
-      ""name"": ""EUR""
+      ""name"": ""EUR"",
+      ""sortOrder"": 2,
+      ""symbol"": ""€""
+    },
+    {
+      ""iconName"": """",
+      ""itemId"": ""5d235b4d86f7742e017bc88a"",
+      ""mainCurrency"": false,
+      ""name"": ""GPCOIN"",
+      ""sortOrder"": 4,
+      ""symbol"": """"
     },
     {
       ""iconName"": ""ruble-sign"",
       ""itemId"": ""5449016a4bdc2d6f028b456f"",
       ""mainCurrency"": true,
-      ""name"": ""RUB""
+      ""name"": ""RUB"",
+      ""sortOrder"": 1,
+      ""value"": 1,
+      ""symbol"": ""₽""
     }
   ],
   ""heavyEncumbermentWeight"": 65,

@@ -5584,6 +5584,54 @@
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Euros""
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp"",
+  ""id"": ""5696686a4bdc2da3298b456a"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/5696686a4bdc2da3298b456a-image.webp"",
+  ""link"": ""https://tarkov.dev/item/dollars"",
+  ""name"": ""Dollars"",
+  ""shortName"": ""USD"",
+  ""weight"": 0,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Dollars"",
+  ""conflictingSlotIds"": [],
+  ""properties"": null,
+  ""conflictingItems"": [],
+  ""categories"": [
+    {
+      ""id"": ""543be5dd4bdc2deb348b4569""
+    },
+    {
+      ""id"": ""5661632d4bdc2d903d8b456b""
+    },
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ]
+},
+{
+  ""iconLink"": ""https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp"",
+  ""id"": ""5d235b4d86f7742e017bc88a"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-image.webp"",
+  ""link"": ""https://tarkov.dev/item/gp-coin"",
+  ""name"": ""GP coin"",
+  ""shortName"": ""GP"",
+  ""weight"": 0.01,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/GP_coin"",
+  ""conflictingSlotIds"": [],
+  ""properties"": null,
+  ""conflictingItems"": [],
+  ""categories"": [
+    {
+      ""id"": ""543be5dd4bdc2deb348b4569""
+    },
+    {
+      ""id"": ""5661632d4bdc2d903d8b456b""
+    },
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ]
+},
+{
   ""categories"": [
     {
       ""id"": ""5447e0e74bdc2d3c308b4567""
@@ -5631,6 +5679,36 @@
   ""shortName"": ""Shroud"",
   ""weight"": 0.1,
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Shroud_half-mask""
+},
+{
+  ""iconLink"": ""https://assets.tarkov.dev/67f90180f07898267b0a4ed7-icon.webp"",
+  ""id"": ""67f90180f07898267b0a4ed7"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/67f90180f07898267b0a4ed7-image.webp"",
+  ""link"": ""https://tarkov.dev/item/arena-cup-series-balaclava"",
+  ""name"": ""Arena Cup Series balaclava"",
+  ""shortName"": ""ACS"",
+  ""weight"": 0.1,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Arena_Cup_Series_balaclava"",
+  ""conflictingSlotIds"": [],
+  ""properties"": null,
+  ""conflictingItems"": [],
+  ""categories"": [
+    {
+      ""id"": ""5a341c4686f77469e155819e""
+    },
+    {
+      ""id"": ""57bef4c42459772e8d35a53b""
+    },
+    {
+      ""id"": ""543be5f84bdc2dd4348b456a""
+    },
+    {
+      ""id"": ""566162e44bdc2d3f298b4573""
+    },
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ]
 },
 {
   ""iconLink"": ""https://assets.tarkov.dev/657089638db3adca1009f4ca-icon.webp"",
