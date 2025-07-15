@@ -2531,6 +2531,391 @@
   ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MPX_9x19_30-round_magazine""
 },
 {
+  ""iconLink"": ""https://assets.tarkov.dev/60dc519adf4c47305f6d410d-icon.webp"",
+  ""id"": ""60dc519adf4c47305f6d410d"",
+  ""inspectImageLink"": ""https://assets.tarkov.dev/60dc519adf4c47305f6d410d-image.webp"",
+  ""link"": ""https://tarkov.dev/item/mts-255-12-12ga-cylinder"",
+  ""name"": ""MTs-255-12 12ga cylinder"",
+  ""shortName"": ""255 cyl."",
+  ""weight"": 0.25,
+  ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/MTs-255-12_12ga_cylinder"",
+  ""conflictingSlotIds"": [],
+  ""conflictingItems"": [],
+  ""categories"": [
+    {
+      ""id"": ""610720f290b75a49ff2e5e25""
+    },
+    {
+      ""id"": ""5448bc234bdc2d3c308b4569""
+    },
+    {
+      ""id"": ""55802f3e4bdc2de7118b4584""
+    },
+    {
+      ""id"": ""5448fe124bdc2da5018b4567""
+    },
+    {
+      ""id"": ""566162e44bdc2d3f298b4573""
+    },
+    {
+      ""id"": ""54009119af1c881c07000029""
+    }
+  ],
+  ""properties"": {
+    ""__typename"": ""ItemPropertiesMagazine"",
+    ""ammoCheckModifier"": 0,
+    ""capacity"": 5,
+    ""ergonomics"": -2,
+    ""loadModifier"": 0,
+    ""malfunctionChance"": 0,
+    ""allowedAmmo"": [
+      {
+        ""id"": ""560d5e524bdc2d25448b4571""
+      },
+      {
+        ""id"": ""5d6e6772a4b936088465b17c""
+      },
+      {
+        ""id"": ""5d6e67fba4b9361bc73bc779""
+      },
+      {
+        ""id"": ""5d6e6806a4b936088465b17e""
+      },
+      {
+        ""id"": ""5d6e68dea4b9361bcc29e659""
+      },
+      {
+        ""id"": ""5d6e6911a4b9361bd5780d52""
+      },
+      {
+        ""id"": ""5c0d591486f7744c505b416f""
+      },
+      {
+        ""id"": ""58820d1224597753c90aeb13""
+      },
+      {
+        ""id"": ""5d6e68c4a4b9361b93413f79""
+      },
+      {
+        ""id"": ""5d6e68a8a4b9360b6c0d54e2""
+      },
+      {
+        ""id"": ""5d6e68e6a4b9361c140bcfe0""
+      },
+      {
+        ""id"": ""5d6e6869a4b9361c140bcfde""
+      },
+      {
+        ""id"": ""5d6e68b3a4b9361bca7e50b5""
+      },
+      {
+        ""id"": ""5d6e6891a4b9361bd473feea""
+      },
+      {
+        ""id"": ""5d6e689ca4b9361bc8618956""
+      },
+      {
+        ""id"": ""5d6e68d1a4b93622fe60e845""
+      },
+      {
+        ""id"": ""64b8ee384b75259c590fa89b""
+      }
+    ],
+    ""slots"": [
+      {
+        ""nameId"": ""camora_000"",
+        ""filters"": {
+          ""allowedItems"": [
+            {
+              ""id"": ""560d5e524bdc2d25448b4571""
+            },
+            {
+              ""id"": ""5d6e6772a4b936088465b17c""
+            },
+            {
+              ""id"": ""5d6e67fba4b9361bc73bc779""
+            },
+            {
+              ""id"": ""5d6e6806a4b936088465b17e""
+            },
+            {
+              ""id"": ""5d6e68dea4b9361bcc29e659""
+            },
+            {
+              ""id"": ""5d6e6911a4b9361bd5780d52""
+            },
+            {
+              ""id"": ""5c0d591486f7744c505b416f""
+            },
+            {
+              ""id"": ""58820d1224597753c90aeb13""
+            },
+            {
+              ""id"": ""5d6e68c4a4b9361b93413f79""
+            },
+            {
+              ""id"": ""5d6e68a8a4b9360b6c0d54e2""
+            },
+            {
+              ""id"": ""5d6e68e6a4b9361c140bcfe0""
+            },
+            {
+              ""id"": ""5d6e6869a4b9361c140bcfde""
+            },
+            {
+              ""id"": ""5d6e68b3a4b9361bca7e50b5""
+            },
+            {
+              ""id"": ""5d6e6891a4b9361bd473feea""
+            },
+            {
+              ""id"": ""5d6e689ca4b9361bc8618956""
+            },
+            {
+              ""id"": ""5d6e68d1a4b93622fe60e845""
+            },
+            {
+              ""id"": ""64b8ee384b75259c590fa89b""
+            }
+          ]
+        }
+      },
+      {
+        ""nameId"": ""camora_001"",
+        ""filters"": {
+          ""allowedItems"": [
+            {
+              ""id"": ""560d5e524bdc2d25448b4571""
+            },
+            {
+              ""id"": ""5d6e6772a4b936088465b17c""
+            },
+            {
+              ""id"": ""5d6e67fba4b9361bc73bc779""
+            },
+            {
+              ""id"": ""5d6e6806a4b936088465b17e""
+            },
+            {
+              ""id"": ""5d6e68dea4b9361bcc29e659""
+            },
+            {
+              ""id"": ""5d6e6911a4b9361bd5780d52""
+            },
+            {
+              ""id"": ""5c0d591486f7744c505b416f""
+            },
+            {
+              ""id"": ""58820d1224597753c90aeb13""
+            },
+            {
+              ""id"": ""5d6e68c4a4b9361b93413f79""
+            },
+            {
+              ""id"": ""5d6e68a8a4b9360b6c0d54e2""
+            },
+            {
+              ""id"": ""5d6e68e6a4b9361c140bcfe0""
+            },
+            {
+              ""id"": ""5d6e6869a4b9361c140bcfde""
+            },
+            {
+              ""id"": ""5d6e68b3a4b9361bca7e50b5""
+            },
+            {
+              ""id"": ""5d6e6891a4b9361bd473feea""
+            },
+            {
+              ""id"": ""5d6e689ca4b9361bc8618956""
+            },
+            {
+              ""id"": ""5d6e68d1a4b93622fe60e845""
+            },
+            {
+              ""id"": ""64b8ee384b75259c590fa89b""
+            }
+          ]
+        }
+      },
+      {
+        ""nameId"": ""camora_002"",
+        ""filters"": {
+          ""allowedItems"": [
+            {
+              ""id"": ""560d5e524bdc2d25448b4571""
+            },
+            {
+              ""id"": ""5d6e6772a4b936088465b17c""
+            },
+            {
+              ""id"": ""5d6e67fba4b9361bc73bc779""
+            },
+            {
+              ""id"": ""5d6e6806a4b936088465b17e""
+            },
+            {
+              ""id"": ""5d6e68dea4b9361bcc29e659""
+            },
+            {
+              ""id"": ""5d6e6911a4b9361bd5780d52""
+            },
+            {
+              ""id"": ""5c0d591486f7744c505b416f""
+            },
+            {
+              ""id"": ""58820d1224597753c90aeb13""
+            },
+            {
+              ""id"": ""5d6e68c4a4b9361b93413f79""
+            },
+            {
+              ""id"": ""5d6e68a8a4b9360b6c0d54e2""
+            },
+            {
+              ""id"": ""5d6e68e6a4b9361c140bcfe0""
+            },
+            {
+              ""id"": ""5d6e6869a4b9361c140bcfde""
+            },
+            {
+              ""id"": ""5d6e68b3a4b9361bca7e50b5""
+            },
+            {
+              ""id"": ""5d6e6891a4b9361bd473feea""
+            },
+            {
+              ""id"": ""5d6e689ca4b9361bc8618956""
+            },
+            {
+              ""id"": ""5d6e68d1a4b93622fe60e845""
+            },
+            {
+              ""id"": ""64b8ee384b75259c590fa89b""
+            }
+          ]
+        }
+      },
+      {
+        ""nameId"": ""camora_003"",
+        ""filters"": {
+          ""allowedItems"": [
+            {
+              ""id"": ""560d5e524bdc2d25448b4571""
+            },
+            {
+              ""id"": ""5d6e6772a4b936088465b17c""
+            },
+            {
+              ""id"": ""5d6e67fba4b9361bc73bc779""
+            },
+            {
+              ""id"": ""5d6e6806a4b936088465b17e""
+            },
+            {
+              ""id"": ""5d6e68dea4b9361bcc29e659""
+            },
+            {
+              ""id"": ""5d6e6911a4b9361bd5780d52""
+            },
+            {
+              ""id"": ""5c0d591486f7744c505b416f""
+            },
+            {
+              ""id"": ""58820d1224597753c90aeb13""
+            },
+            {
+              ""id"": ""5d6e68c4a4b9361b93413f79""
+            },
+            {
+              ""id"": ""5d6e68a8a4b9360b6c0d54e2""
+            },
+            {
+              ""id"": ""5d6e68e6a4b9361c140bcfe0""
+            },
+            {
+              ""id"": ""5d6e6869a4b9361c140bcfde""
+            },
+            {
+              ""id"": ""5d6e68b3a4b9361bca7e50b5""
+            },
+            {
+              ""id"": ""5d6e6891a4b9361bd473feea""
+            },
+            {
+              ""id"": ""5d6e689ca4b9361bc8618956""
+            },
+            {
+              ""id"": ""5d6e68d1a4b93622fe60e845""
+            },
+            {
+              ""id"": ""64b8ee384b75259c590fa89b""
+            }
+          ]
+        }
+      },
+      {
+        ""nameId"": ""camora_004"",
+        ""filters"": {
+          ""allowedItems"": [
+            {
+              ""id"": ""560d5e524bdc2d25448b4571""
+            },
+            {
+              ""id"": ""5d6e6772a4b936088465b17c""
+            },
+            {
+              ""id"": ""5d6e67fba4b9361bc73bc779""
+            },
+            {
+              ""id"": ""5d6e6806a4b936088465b17e""
+            },
+            {
+              ""id"": ""5d6e68dea4b9361bcc29e659""
+            },
+            {
+              ""id"": ""5d6e6911a4b9361bd5780d52""
+            },
+            {
+              ""id"": ""5c0d591486f7744c505b416f""
+            },
+            {
+              ""id"": ""58820d1224597753c90aeb13""
+            },
+            {
+              ""id"": ""5d6e68c4a4b9361b93413f79""
+            },
+            {
+              ""id"": ""5d6e68a8a4b9360b6c0d54e2""
+            },
+            {
+              ""id"": ""5d6e68e6a4b9361c140bcfe0""
+            },
+            {
+              ""id"": ""5d6e6869a4b9361c140bcfde""
+            },
+            {
+              ""id"": ""5d6e68b3a4b9361bca7e50b5""
+            },
+            {
+              ""id"": ""5d6e6891a4b9361bd473feea""
+            },
+            {
+              ""id"": ""5d6e689ca4b9361bc8618956""
+            },
+            {
+              ""id"": ""5d6e68d1a4b93622fe60e845""
+            },
+            {
+              ""id"": ""64b8ee384b75259c590fa89b""
+            }
+          ]
+        }
+      }
+    ]
+  }
+},
+{
   ""categories"": [
     {
       ""id"": ""5447e1d04bdc2dff2f8b4567""
