@@ -92,6 +92,29 @@
           ""normalizedName"": ""skier""
         },
         ""taskUnlock"": null
+      },
+      {
+        ""level"": 1,
+        ""taskUnlock"": null,
+        ""trader"": {
+          ""normalizedName"": ""ref""
+        },
+        ""requiredItems"": [
+          {
+            ""quantity"": 6,
+            ""item"": {
+              ""id"": ""5d235b4d86f7742e017bc88a""
+            }
+          }
+        ],
+        ""rewardItems"": [
+          {
+            ""quantity"": 1,
+            ""item"": {
+              ""id"": ""67f90180f07898267b0a4ed7""
+            }
+          }
+        ]
       }
     ]
   }

@@ -11,12 +11,20 @@ namespace TotovBuilder.Model.Items
     public class Grenade : Item, IGrenade
     {
         /// <inheritdoc/>
+        [JsonPropertyName("b")]
+        public bool Blinding { get; set; }
+
+        /// <inheritdoc/>
         [JsonPropertyName("d")]
         public double ExplosionDelay { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("f")]
         public double FragmentsAmount { get; set; }
+
+        /// <inheritdoc/>
+        [JsonPropertyName("ip")]
+        public bool Impact { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("ma")]
@@ -27,7 +35,7 @@ namespace TotovBuilder.Model.Items
         public double MinimumExplosionRange { get; set; }
 
         /// <inheritdoc/>
-        [JsonPropertyName("t")]
-        public string Type { get; set; } = string.Empty;
+        [JsonPropertyName("sm")]
+        public bool Smoke { get; set; }
     }
 }

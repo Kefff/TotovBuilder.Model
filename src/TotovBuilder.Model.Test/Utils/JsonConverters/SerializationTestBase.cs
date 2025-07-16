@@ -9,6 +9,11 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters
     /// </summary>
     public abstract class SerializationTestBase
     {
+        private static readonly JsonSerializerOptions SerializationOptions = new()
+        {
+            PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+        };
+
         /// <summary>
         /// Serializes an object.
         /// </summary>
@@ -17,29 +22,19 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters
         /// <returns>Serialized object.</returns>
         protected static string Serialize<T>(T objectToSerialize)
         {
-            JsonSerializerOptions serializationOptions = new JsonSerializerOptions()
-            {
-                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-            };
             string serializedData;
 
             if (typeof(IEnumerable).IsAssignableFrom(typeof(T)))
             {
                 serializedData = JsonSerializer.Serialize(
                     objectToSerialize as IEnumerable<object>, // Cast required otherwise properties of classes inheriting from Item are not serialized. See https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/polymorphism?pivots=dotnet-7-0
-                    new JsonSerializerOptions()
-                    {
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-                    });
+                    SerializationOptions);
             }
             else
             {
                 serializedData = JsonSerializer.Serialize(
                     objectToSerialize as object, // Cast required otherwise properties of classes inheriting from Item are not serialized. See https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/polymorphism?pivots=dotnet-7-0
-                    new JsonSerializerOptions()
-                    {
-                        PropertyNamingPolicy = JsonNamingPolicy.CamelCase
-                    });
+                    SerializationOptions);
             }
 
             return serializedData;

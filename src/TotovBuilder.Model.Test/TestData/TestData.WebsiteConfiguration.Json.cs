@@ -6,12 +6,7 @@
     public partial class TestData
     {
         public const string WebsiteConfigurationJson = @"{
-  ""allowCookiesStorageKey"": ""allow_cookies"",
   ""bugReportUrl"": ""https://discord.gg/bugreport"",
-  ""buildSharingUrl"": ""s/"",
-  ""buildsSortFieldStorageKey"": ""builds_sort_field"",
-  ""buildsSortOrderStorageKey"": ""builds_sort_order"",
-  ""buildStorageKeyPrefix"": ""build_"",
   ""cacheDuration"": 3600,
   ""contactAddress"": ""contact@address.com"",
   ""discordUrl"": ""https://discord.gg/server"",
@@ -20,20 +15,17 @@
   ""endpointItems"": ""data/items.json"",
   ""endpointPresets"": ""data/presets.json"",
   ""endpointPrices"": ""data/prices.json"",
-  ""endpointQuests"": ""data/quests.json"",
-  ""exportFileExtension"": "".ttb"",
-  ""exportFileNamePrefix"": ""TotovBuilder"",
-  ""exportWarningShowedStorageKey"": ""export_warning"",
+  ""endpointTarkovValues"": ""data/tarkov-values.json"",
+  ""endpointUrlShortener"": ""https://spoo.me/"",
+  ""fetchMaxTries"": 6,
   ""fetchTimeout"": 10,
+  ""fetchWaitTimeBetweenRetries"": 1,
   ""githubUrl"": ""https://github.com/User/Reposiory"",
-  ""globalFilterStorageKey"": ""global_filter"",
-  ""languageStorageKey"": ""language"",
   ""notificationErrorDuration"": 10,
   ""notificationInformationDuration"": 5,
   ""notificationSuccessDuration"": 5,
   ""notificationWarningDuration"": 10,
-  ""version"": ""1.6.0"",
-  ""versionStorageKey"": ""version""
+  ""postUpdatePeriod"": true
 }";
     }
 }

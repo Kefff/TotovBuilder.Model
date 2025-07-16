@@ -1,4 +1,8 @@
-﻿using TotovBuilder.Model.Configuration;
+﻿using System.Threading;
+using System.Xml.Linq;
+using TotovBuilder.Model.Configuration;
+using TotovBuilder.Model.Items;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace TotovBuilder.Model.Test
 {
@@ -9,50 +13,62 @@ namespace TotovBuilder.Model.Test
     {
         public static TarkovValues TarkovValues { get; } = new TarkovValues()
         {
-            ArmorPenetrationEfficiencies = new string[]
-            {
-                "> 20",
-                "13 - 20",
-                "9 - 13",
-                "5 - 9",
-                "3 - 5",
-                "1 - 3",
-                "< 1"
-            },
             ChestHp = 85,
-            Currencies = new Currency[]
-            {
+            Currencies =
+            [
                 new Currency()
                 {
-                    IconName = "dollar-sign",
-                    ItemId = "5696686a4bdc2da3298b456a",
-                    MainCurrency = false,
-                    Name = "USD"
+                  IconName =  "balance-scale",
+                  MainCurrency = false,
+                  Name = "barter",
+                  SortOrder = 0,
                 },
                 new Currency()
                 {
-                    IconName = "euro-sign",
-                    ItemId = "569668774bdc2da2298b4568",
-                    MainCurrency = false,
-                    Name = "EUR"
+                  IconName = "dollar-sign",
+                  ItemId = "5696686a4bdc2da3298b456a",
+                  MainCurrency = false,
+                  Name = "USD",
+                  SortOrder = 3,
+                  Symbol = "$"
                 },
                 new Currency()
                 {
-                    IconName = "ruble-sign",
-                    ItemId = "5449016a4bdc2d6f028b456f",
-                    MainCurrency = true,
-                    Name = "RUB"
+                  IconName = "euro-sign",
+                  ItemId = "569668774bdc2da2298b4568",
+                  MainCurrency = false,
+                  Name = "EUR",
+                  SortOrder = 2,
+                  Symbol = "€"
+                },
+                new Currency()
+                {
+                  ItemId = "5d235b4d86f7742e017bc88a",
+                  MainCurrency = false,
+                  Name = "GPCOIN",
+                  SortOrder = 4
+                },
+                new Currency()
+                {
+                  IconName = "ruble-sign",
+                  ItemId = "5449016a4bdc2d6f028b456f",
+                  MainCurrency = true,
+                  Name = "RUB",
+                  SortOrder = 1,
+                  Symbol = "₽"
                 }
-            },
+            ],
             HeavyEncumbermentWeight = 65,
             LightEncumbermentWeight = 24,
-            Merchants = new Merchant[]
-            {
+            MaxArmorLevel = 6,
+            Merchants =
+            [
                 new Merchant()
                 {
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "prapor",
+                    Order = 1,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -60,13 +76,7 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "therapist",
-                    ShowInFilter = true
-                },
-                new Merchant()
-                {
-                    MaxLevel = 4,
-                    MinLevel = 1,
-                    Name = "skier",
+                    Order = 2,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -74,13 +84,23 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 1,
                     MinLevel = 1,
                     Name = "fence",
+                    Order = 3,
                     ShowInFilter = false
                 },
                 new Merchant()
                 {
                     MaxLevel = 4,
                     MinLevel = 1,
+                    Name = "skier",
+                    Order = 4,
+                    ShowInFilter = true
+                },
+                new Merchant()
+                {
+                    MaxLevel = 4,
+                    MinLevel = 1,
                     Name = "peacekeeper",
+                    Order = 5,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -88,6 +108,7 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "mechanic",
+                    Order = 6,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -95,6 +116,7 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "ragman",
+                    Order = 7,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -102,6 +124,15 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 4,
                     MinLevel = 1,
                     Name = "jaeger",
+                    Order = 8,
+                    ShowInFilter = true
+                },
+                new Merchant()
+                {
+                    MaxLevel = 4,
+                    MinLevel = 1,
+                    Name = "ref",
+                    Order = 9,
                     ShowInFilter = true
                 },
                 new Merchant()
@@ -109,18 +140,12 @@ namespace TotovBuilder.Model.Test
                     MaxLevel = 0,
                     MinLevel = 0,
                     Name = "flea-market",
-                    ShowInFilter = true
-                },
-                new Merchant()
-                {
-                    MaxLevel = 0,
-                    MinLevel = 0,
-                    Name = "items-without-merchant",
+                    Order = 10,
                     ShowInFilter = true
                 }
-            },
-            RicochetChances = new RicochetChance[]
-            {
+            ],
+            RicochetChances =
+            [
                 new RicochetChance()
                 {
                     Name = "High",
@@ -139,7 +164,7 @@ namespace TotovBuilder.Model.Test
                     XMaxValue = 0.6,
                     XMinValue = 0.1
                 }
-            }
+            ]
         };
     }
 }

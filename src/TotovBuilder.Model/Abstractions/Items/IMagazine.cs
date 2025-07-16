@@ -13,12 +13,12 @@
         /// <summary>
         /// Modifier added to the check speed in percentage.
         /// </summary>
-        double CheckSpeedPercentageModifier { get; set; }
+        double CheckSpeedModifierPercentage { get; set; }
 
         /// <summary>
         /// Modifier added to the loading speed in percentage.
         /// </summary>
-        double LoadSpeedPercentageModifier { get; set; }
+        double LoadSpeedModifierPercentage { get; set; }
 
         /// <summary>
         /// Malfunction chance in percentage.

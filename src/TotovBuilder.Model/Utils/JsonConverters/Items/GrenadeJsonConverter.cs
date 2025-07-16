@@ -16,11 +16,24 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// <summary>
         /// List of functions indicating whether the associated property must be excluded from the serialization.
         /// </summary>
-        public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
+        public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new()
         {
             { nameof(IGrenade.FragmentsAmount), g => g.FragmentsAmount == 0 },
+            { nameof(IGrenade.Impact), g => !g.Impact },
+            { nameof(IGrenade.Blinding), g => !g.Blinding },
+            { nameof(IGrenade.Smoke), g => !g.Smoke },
             { nameof(IGrenade.MaximumExplosionRange), g => g.MaximumExplosionRange == 0 },
             { nameof(IGrenade.MinimumExplosionRange), g => g.MinimumExplosionRange == 0 }
+        };
+
+        /// <summary>
+        /// List of functions for customizing the value used for serializing the associated property.
+        /// </summary>
+        public static readonly Dictionary<string, Func<TInterface, object?>> PropertyValuesObtentions = new()
+        {
+            { nameof(IGrenade.Blinding), a => 1 },
+            { nameof(IGrenade.Impact), a => 1 },
+            { nameof(IGrenade.Smoke), a => 1 }
         };
 
         /// <inheritdoc/>
@@ -29,6 +42,12 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
             return ConcatenateDictionaries(
                 PropertyExclusionConditions,
                 ItemJsonConverter<TInterface, TClass>.PropertyExclusionConditions);
+        }
+
+        /// <inheritdoc/>
+        protected override Dictionary<string, Func<TInterface, object?>> GetPropertyValueObtentions()
+        {
+            return PropertyValuesObtentions;
         }
     }
 }

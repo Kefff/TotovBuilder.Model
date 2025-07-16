@@ -13,8 +13,8 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeMod()
         {
             // Arrange
-            Mod[] containers = new Mod[]
-            {
+            Mod[] containers =
+            [
                 new Mod()
                 {
                     CategoryId = "mod",
@@ -35,12 +35,12 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Id = "58a56f8d86f774651579314c",
                     ImageLink = "https://assets.tarkov.dev/58a56f8d86f774651579314c-image.jpg",
                     MarketLink = "https://tarkov.dev/item/mpx-gen1-handguard-2-inch-rail",
-                    ModSlots = new ModSlot[]
-                    {
+                    ModSlots =
+                    [
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "5a800961159bd4315e3a1657",
                                 "57fd23e32459772d0805bcf1",
                                 "544909bb4bdc2d6f028b4577",
@@ -60,16 +60,16 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                                 "6272370ee4013c5d7e31f418",
                                 "6272379924e29f06af4d5ecb",
                                 "626becf9582c3e319310b837"
-                            },
+                            ],
                             Name = "mod_tactical",
                         }
-                    },
+                    ],
                     Name = "MPX GEN1 handguard 2 inch rail",
                     ShortName = "MPX 2\"",
                     Weight = 0.07,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX_GEN1_handguard_2_inch_rail"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(containers);

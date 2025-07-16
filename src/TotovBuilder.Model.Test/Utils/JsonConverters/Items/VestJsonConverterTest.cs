@@ -13,33 +13,33 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeVest()
         {
             // Arrange
-            Vest[] containers = new Vest[]
-            {
+            Vest[] containers =
+            [
                 new Vest()
                 {
                     ArmorClass = 4,
-                    ArmoredAreas = new string[]
-                    {
+                    ArmoredAreas =
+                    [
                         "FR. PLATE",
                         "BCK. PLATE",
                         "L. PLATE",
                         "R. PLATE",
                         "Stomach, Left Side",
                         "Stomach, Right Side"
-                    },
+                    ],
                     Capacity = 14,
                     CategoryId = "vest",
                     Durability = 40,
-                    ErgonomicsPercentageModifier = -0.01,
+                    ErgonomicsModifierPercentage = -0.01,
                     IconLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-icon.webp",
                     Id = "5d5d646386f7742797261fd9",
                     ImageLink = "https://assets.tarkov.dev/61bc85697113f767765c7fe7-image.webp",
                     MarketLink = "https://tarkov.dev/item/eagle-industries-mmac-plate-carrier-ranger-green",
                     Material = "Aramid",
-                    MovementSpeedPercentageModifier = -0.01,
+                    MovementSpeedModifierPercentage = -0.01,
                     Name = "6B3TM-01M armored rig",
                     ShortName = "6B3TM-01M",
-                    TurningSpeedPercentageModifier = -0.01,
+                    TurningSpeedModifierPercentage = -0.01,
                     Weight = 2.83,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/Eagle_Industries_MMAC_plate_carrier_(Ranger_Green)"
                 },
@@ -56,7 +56,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0.4,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/Scav_Vest"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(containers);

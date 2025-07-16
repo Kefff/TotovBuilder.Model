@@ -6,97 +6,119 @@
     public partial class TestData
     {
         public const string TarkovValuesJson = @"{
-  ""armorPenetrationEfficiencies"": [
-    ""> 20"",
-    ""13 - 20"",
-    ""9 - 13"",
-    ""5 - 9"",
-    ""3 - 5"",
-    ""1 - 3"",
-    ""< 1""
-  ],
   ""chestHp"": 85,
   ""currencies"": [
+    {
+      ""iconName"": ""balance-scale"",
+      ""mainCurrency"": false,
+      ""name"": ""barter"",
+      ""sortOrder"": 0
+    },
     {
       ""iconName"": ""dollar-sign"",
       ""itemId"": ""5696686a4bdc2da3298b456a"",
       ""mainCurrency"": false,
-      ""name"": ""USD""
+      ""name"": ""USD"",
+      ""sortOrder"": 3,
+      ""symbol"": ""$""
     },
     {
       ""iconName"": ""euro-sign"",
       ""itemId"": ""569668774bdc2da2298b4568"",
       ""mainCurrency"": false,
-      ""name"": ""EUR""
+      ""name"": ""EUR"",
+      ""sortOrder"": 2,
+      ""symbol"": ""€""
+    },
+    {
+      ""itemId"": ""5d235b4d86f7742e017bc88a"",
+      ""mainCurrency"": false,
+      ""name"": ""GPCOIN"",
+      ""sortOrder"": 4
     },
     {
       ""iconName"": ""ruble-sign"",
       ""itemId"": ""5449016a4bdc2d6f028b456f"",
       ""mainCurrency"": true,
-      ""name"": ""RUB""
+      ""name"": ""RUB"",
+      ""sortOrder"": 1,
+      ""value"": 1,
+      ""symbol"": ""₽""
     }
   ],
   ""heavyEncumbermentWeight"": 65,
   ""lightEncumbermentWeight"": 24,
+  ""maxArmorLevel"": 6,
+  
   ""merchants"": [
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""prapor"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 1,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""therapist"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 2,
       ""showInFilter"": true
     },
     {
-      ""name"": ""skier"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
-      ""showInFilter"": true
-    },
-    {
-      ""name"": ""fence"",
-      ""minLevel"": 1,
       ""maxLevel"": 1,
+      ""minLevel"": 1,
+      ""name"": ""fence"",
+      ""order"": 3,
       ""showInFilter"": false
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
+      ""name"": ""skier"",
+      ""order"": 4,
+      ""showInFilter"": true
+    },
+    {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""peacekeeper"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 5,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""mechanic"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 6,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""ragman"",
-      ""minLevel"": 1,
-      ""maxLevel"": 4,
+      ""order"": 7,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 4,
+      ""minLevel"": 1,
       ""name"": ""jaeger"",
-      ""minLevel"": 1,
+      ""order"": 8,
+      ""showInFilter"": true
+    },
+    {
       ""maxLevel"": 4,
+      ""minLevel"": 1,
+      ""name"": ""ref"",
+      ""order"": 9,
       ""showInFilter"": true
     },
     {
+      ""maxLevel"": 0,
+      ""minLevel"": 0,
       ""name"": ""flea-market"",
-      ""minLevel"": 0,
-      ""maxLevel"": 0,
-      ""showInFilter"": true
-    },
-    {
-      ""name"": ""items-without-merchant"",
-      ""minLevel"": 0,
-      ""maxLevel"": 0,
+      ""order"": 10,
       ""showInFilter"": true
     }
   ],

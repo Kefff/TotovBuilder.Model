@@ -8,9 +8,9 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static Price[] Prices { get; } = new Price[]
-        {
-            new Price()
+        public static Price[] Prices { get; } =
+        [
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5783c43d2459774bbe137486",
@@ -18,7 +18,7 @@ namespace TotovBuilder.Model.Test
                 Value = 18111,
                 ValueInMainCurrency = 18111
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5b432be65acfc433000ed01f",
@@ -27,7 +27,7 @@ namespace TotovBuilder.Model.Test
                 Value = 3003,
                 ValueInMainCurrency = 3003
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5b432be65acfc433000ed01f",
@@ -35,7 +35,7 @@ namespace TotovBuilder.Model.Test
                 Value = 7003,
                 ValueInMainCurrency = 7003
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5e32f56fcb6d5863cc5e5ee4",
@@ -43,7 +43,7 @@ namespace TotovBuilder.Model.Test
                 Value = 22864,
                 ValueInMainCurrency = 22864
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5a0c27731526d80618476ac4",
@@ -52,7 +52,7 @@ namespace TotovBuilder.Model.Test
                 Value = 7320,
                 ValueInMainCurrency = 7320
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5a0c27731526d80618476ac4",
@@ -60,7 +60,7 @@ namespace TotovBuilder.Model.Test
                 Value = 8063,
                 ValueInMainCurrency = 8063
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5e4bfc1586f774264f7582d3",
@@ -68,7 +68,7 @@ namespace TotovBuilder.Model.Test
                 Value = 65774,
                 ValueInMainCurrency = 65774
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "569668774bdc2da2298b4568",
@@ -77,7 +77,16 @@ namespace TotovBuilder.Model.Test
                 Value = 118,
                 ValueInMainCurrency = 118
             },
-            new Price()
+            new()
+            {
+                CurrencyName = "RUB",
+                ItemId = "5696686a4bdc2da3298b456a",
+                Merchant = "peacekeeper",
+                MerchantLevel = 1,
+                Value = 121,
+                ValueInMainCurrency = 121
+            },
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5e54f76986f7740366043752",
@@ -85,7 +94,7 @@ namespace TotovBuilder.Model.Test
                 Value = 27131,
                 ValueInMainCurrency = 27131
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "628e4e576d783146b124c64d",
@@ -94,7 +103,7 @@ namespace TotovBuilder.Model.Test
                 Value = 84249,
                 ValueInMainCurrency = 84249
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "628e4e576d783146b124c64d",
@@ -102,7 +111,7 @@ namespace TotovBuilder.Model.Test
                 Value = 79807,
                 ValueInMainCurrency = 79807
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5991b51486f77447b112d44f",
@@ -111,7 +120,7 @@ namespace TotovBuilder.Model.Test
                 Value = 15177,
                 ValueInMainCurrency = 15177
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5991b51486f77447b112d44f",
@@ -119,7 +128,7 @@ namespace TotovBuilder.Model.Test
                 Value = 27571,
                 ValueInMainCurrency = 27571
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "5e81c4ca763d9f754677befa",
@@ -128,7 +137,7 @@ namespace TotovBuilder.Model.Test
                 Value = 13,
                 ValueInMainCurrency = 1456
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5e81c4ca763d9f754677befa",
@@ -136,7 +145,7 @@ namespace TotovBuilder.Model.Test
                 Value = 12148,
                 ValueInMainCurrency = 12148
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5c0126f40db834002a125382",
@@ -144,7 +153,7 @@ namespace TotovBuilder.Model.Test
                 Value = 3892587,
                 ValueInMainCurrency = 3892587
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "59d790f486f77403cb06aec6",
@@ -153,7 +162,7 @@ namespace TotovBuilder.Model.Test
                 Value = 6957,
                 ValueInMainCurrency = 6957
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "59d790f486f77403cb06aec6",
@@ -161,7 +170,7 @@ namespace TotovBuilder.Model.Test
                 Value = 10276,
                 ValueInMainCurrency = 10276
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "57dc2fa62459775949412633",
@@ -176,7 +185,7 @@ namespace TotovBuilder.Model.Test
                 Value = 24605,
                 ValueInMainCurrency = 24605
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "57dc2fa62459775949412633",
@@ -184,7 +193,7 @@ namespace TotovBuilder.Model.Test
                 Value = 31666,
                 ValueInMainCurrency = 31666
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "5e81c3cbac2bb513793cdc75",
@@ -193,7 +202,7 @@ namespace TotovBuilder.Model.Test
                 Value = 155,
                 ValueInMainCurrency = 17360
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5e81c3cbac2bb513793cdc75",
@@ -201,7 +210,7 @@ namespace TotovBuilder.Model.Test
                 Value = 13333,
                 ValueInMainCurrency = 13333
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5d2c76ed48f03532f2136169",
@@ -210,7 +219,7 @@ namespace TotovBuilder.Model.Test
                 Value = 6325,
                 ValueInMainCurrency = 6325
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5d2c76ed48f03532f2136169",
@@ -218,7 +227,7 @@ namespace TotovBuilder.Model.Test
                 Value = 9628,
                 ValueInMainCurrency = 9628
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "61714eec290d254f5e6b2ffc",
@@ -226,7 +235,7 @@ namespace TotovBuilder.Model.Test
                 Value = 41517,
                 ValueInMainCurrency = 41517
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "61bc85697113f767765c7fe7",
@@ -234,7 +243,7 @@ namespace TotovBuilder.Model.Test
                 Value = 31180,
                 ValueInMainCurrency = 31180
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "657660eb86f11bca4106d34f",
@@ -243,7 +252,7 @@ namespace TotovBuilder.Model.Test
                 Value = 569,
                 ValueInMainCurrency = 83100
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "657660eb86f11bca4106d34f",
@@ -251,7 +260,7 @@ namespace TotovBuilder.Model.Test
                 Value = 65822,
                 ValueInMainCurrency = 65822
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "58948c8e86f77409493f7266",
@@ -260,7 +269,7 @@ namespace TotovBuilder.Model.Test
                 Value = 410,
                 ValueInMainCurrency = 48790
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "58948c8e86f77409493f7266",
@@ -275,7 +284,7 @@ namespace TotovBuilder.Model.Test
                 Value = 539,
                 ValueInMainCurrency = 64141
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58948c8e86f77409493f7266",
@@ -283,7 +292,7 @@ namespace TotovBuilder.Model.Test
                 Value = 47085,
                 ValueInMainCurrency = 47085
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "57c55efc2459772d2c6271e7",
@@ -292,7 +301,7 @@ namespace TotovBuilder.Model.Test
                 Value = 37,
                 ValueInMainCurrency = 4403
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "57c55efc2459772d2c6271e7",
@@ -300,7 +309,7 @@ namespace TotovBuilder.Model.Test
                 Value = 17885,
                 ValueInMainCurrency = 17885
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "5894a05586f774094708ef75",
@@ -309,7 +318,7 @@ namespace TotovBuilder.Model.Test
                 Value = 22,
                 ValueInMainCurrency = 2618
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5894a05586f774094708ef75",
@@ -317,7 +326,7 @@ namespace TotovBuilder.Model.Test
                 Value = 7623,
                 ValueInMainCurrency = 7623
             },
-            new Price()
+            new()
             {
                 CurrencyName = "EUR",
                 ItemId = "5894a5b586f77426d2590767",
@@ -326,7 +335,7 @@ namespace TotovBuilder.Model.Test
                 Value = 35,
                 ValueInMainCurrency = 4585
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5894a5b586f77426d2590767",
@@ -334,7 +343,7 @@ namespace TotovBuilder.Model.Test
                 Value = 15911,
                 ValueInMainCurrency = 15911
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "57adff4f24597737f373b6e6",
@@ -343,7 +352,7 @@ namespace TotovBuilder.Model.Test
                 Value = 433,
                 ValueInMainCurrency = 51527
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "57adff4f24597737f373b6e6",
@@ -351,7 +360,7 @@ namespace TotovBuilder.Model.Test
                 Value = 49460,
                 ValueInMainCurrency = 49460
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "58d2664f86f7747fec5834f6",
@@ -360,7 +369,7 @@ namespace TotovBuilder.Model.Test
                 Value = 17,
                 ValueInMainCurrency = 2023
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58d2664f86f7747fec5834f6",
@@ -368,7 +377,7 @@ namespace TotovBuilder.Model.Test
                 Value = 17381,
                 ValueInMainCurrency = 17381
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "58d268fc86f774111273f8c2",
@@ -377,7 +386,7 @@ namespace TotovBuilder.Model.Test
                 Value = 184,
                 ValueInMainCurrency = 21896
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58d268fc86f774111273f8c2",
@@ -385,7 +394,7 @@ namespace TotovBuilder.Model.Test
                 Value = 38056,
                 ValueInMainCurrency = 38056
             },
-            new Price()
+            new()
             {
                 CurrencyName = "EUR",
                 ItemId = "58aeaaa886f7744fc1560f81",
@@ -394,7 +403,7 @@ namespace TotovBuilder.Model.Test
                 Value = 56,
                 ValueInMainCurrency = 7336
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58aeaaa886f7744fc1560f81",
@@ -402,7 +411,7 @@ namespace TotovBuilder.Model.Test
                 Value = 16886,
                 ValueInMainCurrency = 16886
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58aeac1b86f77457c419f475",
@@ -411,7 +420,7 @@ namespace TotovBuilder.Model.Test
                 Value = 24084,
                 ValueInMainCurrency = 24084
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58aeac1b86f77457c419f475",
@@ -419,7 +428,7 @@ namespace TotovBuilder.Model.Test
                 Value = 14293,
                 ValueInMainCurrency = 14293
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5894a42086f77426d2590762",
@@ -427,7 +436,7 @@ namespace TotovBuilder.Model.Test
                 Value = 7897,
                 ValueInMainCurrency = 7897
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58a56f8d86f774651579314c",
@@ -436,7 +445,7 @@ namespace TotovBuilder.Model.Test
                 Value = 2081,
                 ValueInMainCurrency = 2081
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58a56f8d86f774651579314c",
@@ -444,7 +453,7 @@ namespace TotovBuilder.Model.Test
                 Value = 17595,
                 ValueInMainCurrency = 17595
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5a7b483fe899ef0016170d15",
@@ -453,7 +462,7 @@ namespace TotovBuilder.Model.Test
                 Value = 18866,
                 ValueInMainCurrency = 18866
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "5a7b483fe899ef0016170d15",
@@ -461,7 +470,7 @@ namespace TotovBuilder.Model.Test
                 Value = 19103,
                 ValueInMainCurrency = 19103
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58a5c12e86f7745d585a2b9e",
@@ -470,7 +479,7 @@ namespace TotovBuilder.Model.Test
                 Value = 2674,
                 ValueInMainCurrency = 2674
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58a5c12e86f7745d585a2b9e",
@@ -478,7 +487,7 @@ namespace TotovBuilder.Model.Test
                 Value = 11945,
                 ValueInMainCurrency = 11945
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "59f8a37386f7747af3328f06",
@@ -487,7 +496,7 @@ namespace TotovBuilder.Model.Test
                 Value = 165,
                 ValueInMainCurrency = 19635
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "59f8a37386f7747af3328f06",
@@ -495,7 +504,7 @@ namespace TotovBuilder.Model.Test
                 Value = 150000,
                 ValueInMainCurrency = 150000
             },
-            new Price()
+            new()
             {
                 CurrencyName = "USD",
                 ItemId = "58ac1bf086f77420ed183f9f",
@@ -504,7 +513,7 @@ namespace TotovBuilder.Model.Test
                 Value = 34,
                 ValueInMainCurrency = 4046
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58ac1bf086f77420ed183f9f",
@@ -512,7 +521,7 @@ namespace TotovBuilder.Model.Test
                 Value = 50000,
                 ValueInMainCurrency = 50000
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "591aef7986f774139d495f03",
@@ -521,7 +530,7 @@ namespace TotovBuilder.Model.Test
                 Value = 6181,
                 ValueInMainCurrency = 6181
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "591aef7986f774139d495f03",
@@ -529,7 +538,7 @@ namespace TotovBuilder.Model.Test
                 Value = 15522,
                 ValueInMainCurrency = 15522
             },
-            new Price()
+            new()
             {
                 CurrencyName = "RUB",
                 ItemId = "58949edd86f77409483e16a9",
@@ -537,6 +546,6 @@ namespace TotovBuilder.Model.Test
                 Value = 26497,
                 ValueInMainCurrency = 26497
             }
-        };
+        ];
     }
 }

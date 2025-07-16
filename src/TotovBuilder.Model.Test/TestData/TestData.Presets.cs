@@ -7,13 +7,13 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public static partial class TestData
     {
-        public static InventoryItem[] Presets { get; } = new InventoryItem[]
-        {
+        public static InventoryItem[] Presets { get; } =
+        [
             new InventoryItem()
             {
                 ItemId = "584147732459775a2b6d9f12",
-                ModSlots = new InventoryItemModSlot[]
-                {
+                ModSlots =
+                [
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
@@ -34,14 +34,14 @@ namespace TotovBuilder.Model.Test
                     {
                         Item = new InventoryItem()
                         {
-                            Content = new InventoryItem[]
-                            {
+                            Content =
+                            [
                                 new InventoryItem()
                                 {
                                     ItemId = "56dff4ecd2720b5f5a8b4568",
                                     Quantity = 30
                                 }
-                            },
+                            ],
                             ItemId = "564ca99c4bdc2d16268b4589",
                         },
                         ModSlotName = "mod_magazine"
@@ -67,8 +67,8 @@ namespace TotovBuilder.Model.Test
                         Item = new InventoryItem()
                         {
                             ItemId = "59d36a0086f7747e673f3946",
-                            ModSlots = new InventoryItemModSlot[]
-                            {
+                            ModSlots =
+                            [
                                 new InventoryItemModSlot()
                                 {
                                     Item = new InventoryItem()
@@ -77,17 +77,17 @@ namespace TotovBuilder.Model.Test
                                     },
                                     ModSlotName = "mod_handguard"
                                 }
-                            }
+                            ]
                         },
                         ModSlotName = "mod_gas_block"
                     }
-                }
+                ]
             },
             new InventoryItem()
             {
                 ItemId = "5a8ae43686f774377b73cfb3",
-                ModSlots = new InventoryItemModSlot[]
-                {
+                ModSlots =
+                [
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
@@ -100,14 +100,14 @@ namespace TotovBuilder.Model.Test
                     {
                         Item = new InventoryItem()
                         {
-                            Content = new InventoryItem[]
-                            {
+                            Content =
+                            [
                                 new InventoryItem()
                                 {
                                     ItemId = "5efb0da7a29a85116f6ea05f",
                                     Quantity = 30.0
                                 }
-                            },
+                            ],
                             ItemId = "5894a05586f774094708ef75"
                         },
                         ModSlotName = "mod_magazine"
@@ -117,22 +117,22 @@ namespace TotovBuilder.Model.Test
                         Item = new InventoryItem()
                         {
                             ItemId = "5894a5b586f77426d2590767",
-                            ModSlots = new InventoryItemModSlot[]
-                            {
+                            ModSlots =
+                            [
                                 new InventoryItemModSlot()
                                 {
                                     Item = new InventoryItem()
                                     {
                                         ItemId = "57adff4f24597737f373b6e6",
-                                        ModSlots = new InventoryItemModSlot[]
-                                        {
+                                        ModSlots =
+                                        [
                                             new InventoryItemModSlot()
                                             {
                                                 Item = new InventoryItem()
                                                 {
                                                     ItemId = "58d2664f86f7747fec5834f6",
-                                                    ModSlots = new InventoryItemModSlot[]
-                                                    {
+                                                    ModSlots =
+                                                    [
                                                         new InventoryItemModSlot()
                                                         {
                                                             Item = new InventoryItem()
@@ -141,11 +141,11 @@ namespace TotovBuilder.Model.Test
                                                             },
                                                             ModSlotName = "mod_scope"
                                                         }
-                                                    }
+                                                    ]
                                                 },
                                                 ModSlotName = "mod_scope"
                                             }
-                                        }
+                                        ]
                                     },
                                     ModSlotName = "mod_scope"
                                 },
@@ -154,8 +154,8 @@ namespace TotovBuilder.Model.Test
                                     Item = new InventoryItem()
                                     {
                                         ItemId = "58aeaaa886f7744fc1560f81",
-                                        ModSlots = new InventoryItemModSlot[]
-                                        {
+                                        ModSlots =
+                                        [
                                             new InventoryItemModSlot()
                                             {
                                                 Item = new InventoryItem()
@@ -164,7 +164,7 @@ namespace TotovBuilder.Model.Test
                                                 },
                                                 ModSlotName = "mod_muzzle"
                                             }
-                                        }
+                                        ]
                                     },
                                     ModSlotName = "mod_barrel"
                                 },
@@ -173,8 +173,8 @@ namespace TotovBuilder.Model.Test
                                     Item = new InventoryItem()
                                     {
                                         ItemId = "5894a42086f77426d2590762",
-                                        ModSlots = new InventoryItemModSlot[]
-                                        {
+                                        ModSlots =
+                                        [
                                             new InventoryItemModSlot()
                                             {
                                                 Item = new InventoryItem()
@@ -188,8 +188,8 @@ namespace TotovBuilder.Model.Test
                                                 Item = new InventoryItem()
                                                 {
                                                     ItemId = "58a5c12e86f7745d585a2b9e",
-                                                    ModSlots = new InventoryItemModSlot[]
-                                                    {
+                                                    ModSlots =
+                                                    [
                                                         new InventoryItemModSlot()
                                                         {
                                                             Item = new InventoryItem()
@@ -198,7 +198,7 @@ namespace TotovBuilder.Model.Test
                                                             },
                                                             ModSlotName = "mod_foregrip"
                                                         }
-                                                    }
+                                                    ]
                                                 },
                                                 ModSlotName = "mod_mount_001"
                                             },
@@ -207,8 +207,8 @@ namespace TotovBuilder.Model.Test
                                                 Item = new InventoryItem()
                                                 {
                                                     ItemId = "58a56f8d86f774651579314c",
-                                                    ModSlots = new InventoryItemModSlot[]
-                                                    {
+                                                    ModSlots =
+                                                    [
                                                         new InventoryItemModSlot()
                                                         {
                                                             Item = new InventoryItem()
@@ -217,15 +217,15 @@ namespace TotovBuilder.Model.Test
                                                             },
                                                             ModSlotName = "mod_tactical"
                                                         }
-                                                    }
+                                                    ]
                                                 },
                                                 ModSlotName = "mod_mount_002"
                                             },
-                                        }
+                                        ]
                                     },
                                     ModSlotName = "mod_handguard"
                                 }
-                            }
+                            ]
                         },
                         ModSlotName = "mod_reciever",
                     },
@@ -234,8 +234,8 @@ namespace TotovBuilder.Model.Test
                         Item = new InventoryItem()
                         {
                             ItemId = "58ac1bf086f77420ed183f9f",
-                            ModSlots = new InventoryItemModSlot[]
-                            {
+                            ModSlots =
+                            [
                                 new InventoryItemModSlot()
                                 {
                                     Item = new InventoryItem()
@@ -244,7 +244,7 @@ namespace TotovBuilder.Model.Test
                                     },
                                     ModSlotName = "mod_stock"
                                 }
-                            }
+                            ]
                         },
                         ModSlotName = "mod_stock"
                     },
@@ -256,27 +256,27 @@ namespace TotovBuilder.Model.Test
                         },
                         ModSlotName = "mod_charge"
                     }
-                }
+                ]
             },
             new InventoryItem()
             {
                 ItemId = "5a3b898486f77467720a2f29",
-                ModSlots = new InventoryItemModSlot[]
-                {
+                ModSlots =
+                [
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
                         {
                             ItemId = "5a16b8a9fcdbcb00165aa6ca",
-                            ModSlots = new InventoryItemModSlot[]
-                            {
+                            ModSlots =
+                            [
                                 new InventoryItemModSlot()
                                 {
                                     Item = new InventoryItem()
                                     {
                                         ItemId = "5a16b93dfcdbcbcae6687261",
-                                        ModSlots = new InventoryItemModSlot[]
-                                        {
+                                        ModSlots =
+                                        [
                                             new InventoryItemModSlot()
                                             {
                                                 Item = new InventoryItem()
@@ -285,21 +285,44 @@ namespace TotovBuilder.Model.Test
                                                 },
                                                 ModSlotName = "mod_nvg"
                                             }
-                                        }
+                                        ]
                                     },
                                     ModSlotName = "mod_nvg"
                                 }
-                            }
+                            ]
                         },
                         ModSlotName = "mod_nvg"
                     }
-                }
+                ]
+            },
+            new InventoryItem()
+            {
+                ItemId = "657660eb86f11bca4106d34f",
+                ModSlots =
+                [
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "656fad8c498d1b7e3e071da0"
+                        },
+                        ModSlotName = "front_plate"
+                    },
+                    new InventoryItemModSlot()
+                    {
+                        Item = new InventoryItem()
+                        {
+                            ItemId = "656fad8c498d1b7e3e071da0",
+                        },
+                        ModSlotName = "back_plate"
+                    }
+                ]
             },
             new InventoryItem()
             {
                 ItemId = "65766adc234b9f6e050a431a",
-                ModSlots = new InventoryItemModSlot[]
-                {
+                ModSlots =
+                [
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
@@ -332,7 +355,7 @@ namespace TotovBuilder.Model.Test
                         },
                         ModSlotName = "right_side_plate"
                     }
-                }
+                ]
             },
             new InventoryItem()
             {
@@ -341,8 +364,8 @@ namespace TotovBuilder.Model.Test
             new InventoryItem()
             {
                 ItemId = "test-preset-gas-tube-handguard",
-                ModSlots = new InventoryItemModSlot[]
-                {
+                ModSlots =
+                [
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
@@ -351,13 +374,13 @@ namespace TotovBuilder.Model.Test
                         },
                         ModSlotName = "mod_handguard"
                     }
-                }
+                ]
             },
             new InventoryItem()
             {
                 ItemId = "test-preset-ring-flashlight",
-                ModSlots = new InventoryItemModSlot[]
-                {
+                ModSlots =
+                [
                     new InventoryItemModSlot()
                     {
                         Item = new InventoryItem()
@@ -366,8 +389,8 @@ namespace TotovBuilder.Model.Test
                         },
                         ModSlotName = "mod_flashlight"
                     }
-                }
+                ]
             }
-        };
+        ];
     }
 }

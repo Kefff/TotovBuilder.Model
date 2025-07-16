@@ -13,8 +13,8 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeContainer()
         {
             // Arrange
-            Container[] containers = new Container[]
-            {
+            Container[] containers =
+            [
                 new Container()
                 {
                     Capacity = 4,
@@ -41,7 +41,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Weight = 0.23,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/Empty_container"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(containers);

@@ -13,11 +13,11 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
         public void Serialization_ShouldSerializeRangedWeaponMod()
         {
             // Arrange
-            RangedWeaponMod[] containers = new RangedWeaponMod[]
-            {
+            RangedWeaponMod[] containers =
+            [
                 new RangedWeaponMod()
                 {
-                    AccuracyPercentageModifier = -0.01,
+                    AccuracyModifierPercentage = -0.01,
                     CategoryId = "rangedWeaponMod",
                     ErgonomicsModifier = -5,
                     IconLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-icon.jpg",
@@ -25,7 +25,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     ImageLink = "https://assets.tarkov.dev/58aeac1b86f77457c419f475-image.jpg",
                     MarketLink = "https://tarkov.dev/item/mpx-sd-9x19-integrated-sound-suppressor",
                     Name = "MPX-SD 9x19 integrated sound suppressor",
-                    RecoilPercentageModifier = -0.15,
+                    RecoilModifierPercentage = -0.15,
                     ShortName = "MPX-SD",
                     Weight = 0.6,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/MPX-SD_9x19_integrated_sound_suppressor"
@@ -37,26 +37,26 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     Id = "59d36a0086f7747e673f3946",
                     ImageLink = "https://assets.tarkov.dev/59d36a0086f7747e673f3946-image.jpg",
                     MarketLink = "https://tarkov.dev/item/aks-74u-gas-tube-6p26-sb1-2",
-                    ModSlots = new ModSlot[]
-                    {
+                    ModSlots =
+                    [
                         new ModSlot()
                         {
-                            CompatibleItemIds = new string[]
-                            {
+                            CompatibleItemIds =
+                            [
                                 "5d15ce51d7ad1a1eff619092",
                                 "5a957c3fa2750c00137fa5f7",
                                 "57dc32dc245977596d4ef3d3",
                                 "57ffa9f4245977728561e844"
-                            },
+                            ],
                             Name = "mod_handguard"
                         }
-                    },
+                    ],
                     Name = "AKS-74U gas tube (6P26 Sb.1-2)",
                     ShortName = "6P26 Sb.1-2",
                     Weight = 0.03,
                     WikiLink = "https://escapefromtarkov.fandom.com/wiki/AKS-74U_gas_tube_(6P26_Sb.1-2)"
                 }
-            };
+            ];
 
             // Act
             string result = Serialize(containers);

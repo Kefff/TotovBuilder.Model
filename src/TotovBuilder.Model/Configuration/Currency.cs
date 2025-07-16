@@ -8,7 +8,7 @@
         /// <summary>
         /// Icon name.
         /// </summary>
-        public string IconName { get; set; } = string.Empty;
+        public string? IconName { get; set; }
 
         /// <summary>
         /// ID of the item corresponding to the currency.
@@ -29,5 +29,10 @@
         /// Value determining the position of the currency when a price containing multiple currencies is displayed.
         /// </summary>
         public int SortOrder { get; set; }
+
+        /// <summary>
+        /// Symbol.
+        /// </summary>
+        public string? Symbol { get; set; }
     }
 }

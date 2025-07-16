@@ -8,17 +8,12 @@
         /// <summary>
         /// Modifier added to the weapon accuracy in percentage.
         /// </summary>
-        double AccuracyPercentageModifier { get; set; }
+        double AccuracyModifierPercentage { get; set; }
 
         /// <summary>
         /// Armor damage percentage.
         /// </summary>
         double ArmorDamagePercentage { get; set; }
-
-        /// <summary>
-        /// List of the penetration effectiveness by armor class.
-        /// </summary>
-        double[] ArmorPenetrations { get; set; }
 
         /// <summary>
         /// Indicates whether the ammunitions can blind opponents.
@@ -31,9 +26,9 @@
         string Caliber { get; set; }
 
         /// <summary>
-        /// Durability burn percentage modifier.
+        /// Durability burn modifier percentage.
         /// </summary>
-        double DurabilityBurnPercentageModifier { get; set; }
+        double DurabilityBurnModifierPercentage { get; set; }
 
         /// <summary>
         /// Damage done the the body when penetrating armor.
@@ -43,17 +38,22 @@
         /// <summary>
         /// Percentage of chance to fragment and inflict additional damage to the body.
         /// </summary>
-        double FragmentationChancePercentage { get; set; }
+        double FragmentationChance { get; set; }
 
         /// <summary>
         /// Percentage of chance to inflict a heavy bleeding when hitting flesh.
         /// </summary>
-        double HeavyBleedingPercentageChance { get; set; }
+        double HeavyBleedingChance { get; set; }
 
         /// <summary>
         /// Percentage of chance to inflict a light bleeding when hitting flesh.
         /// </summary>
-        double LightBleedingPercentageChance { get; set; }
+        double LightBleedingChance { get; set; }
+
+        /// <summary>
+        /// Armor level a bullet can easily penetrate.
+        /// </summary>
+        double PenetratedArmorLevel { get; set; }
 
         /// <summary>
         /// Armor penetration power.
@@ -69,7 +69,7 @@
         /// <summary>
         /// Modifier added to the weapon recoil in percentage.
         /// </summary>
-        double RecoilPercentageModifier { get; set; }
+        double RecoilModifier { get; set; }
 
         /// <summary>
         /// Indicates whether the ammunition is subsonic or not.

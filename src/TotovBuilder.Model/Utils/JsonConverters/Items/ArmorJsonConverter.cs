@@ -16,10 +16,11 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// <summary>
         /// List of functions indicating whether the associated property must be excluded from the serialization.
         /// </summary>
-        public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new Dictionary<string, Func<TInterface, bool>>()
+        public static readonly Dictionary<string, Func<TInterface, bool>> PropertyExclusionConditions = new()
         {
             { nameof(IArmor.ArmorClass), a => a.ArmorClass == 0 },
             { nameof(IArmor.ArmoredAreas), a => a.ArmoredAreas.Length == 0 },
+            { nameof(IArmorMod.BlindnessProtectionPercentage), am => am.BlindnessProtectionPercentage == 0 },
             { nameof(IArmor.Durability), a => a.Durability == 0 },
             { nameof(IArmor.Material), a => a.Material == string.Empty }
         };

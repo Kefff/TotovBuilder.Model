@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
 using TotovBuilder.Model.Utils.JsonConverters.Items;
 
@@ -13,15 +12,11 @@ namespace TotovBuilder.Model.Items
     {
         /// <inheritdoc/>
         [JsonPropertyName("ac")]
-        public double AccuracyPercentageModifier { get; set; }
+        public double AccuracyModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("ad")]
         public double ArmorDamagePercentage { get; set; }
-
-        /// <inheritdoc/>
-        [JsonPropertyName("ap")]
-        public double[] ArmorPenetrations { get; set; } = Array.Empty<double>();
 
         /// <inheritdoc/>
         [JsonPropertyName("b")]
@@ -33,7 +28,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("d")]
-        public double DurabilityBurnPercentageModifier { get; set; }
+        public double DurabilityBurnModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("f")]
@@ -41,15 +36,19 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("fr")]
-        public double FragmentationChancePercentage { get; set; }
+        public double FragmentationChance { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("h")]
-        public double HeavyBleedingPercentageChance { get; set; }
+        public double HeavyBleedingChance { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("l")]
-        public double LightBleedingPercentageChance { get; set; }
+        public double LightBleedingChance { get; set; }
+
+        /// <inheritdoc/>
+        [JsonPropertyName("pa")]
+        public double PenetratedArmorLevel { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("pp")]
@@ -61,7 +60,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("r")]
-        public double RecoilPercentageModifier { get; set; }
+        public double RecoilModifier { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("su")]

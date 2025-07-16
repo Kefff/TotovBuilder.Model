@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
 using TotovBuilder.Model.Utils.JsonConverters.Items;
 
@@ -17,7 +16,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("aa")]
-        public string[] ArmoredAreas { get; set; } = Array.Empty<string>();
+        public string[] ArmoredAreas { get; set; } = [];
 
         /// <inheritdoc/>
         [JsonPropertyName("bi")]
@@ -37,7 +36,7 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("e")]
-        public double ErgonomicsPercentageModifier { get; set; }
+        public double ErgonomicsModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("ma")]
@@ -45,14 +44,14 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("mo")]
-        public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();
+        public ModSlot[] ModSlots { get; set; } = [];
 
         /// <inheritdoc/>
         [JsonPropertyName("ms")]
-        public double MovementSpeedPercentageModifier { get; set; }
+        public double MovementSpeedModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("t")]
-        public double TurningSpeedPercentageModifier { get; set; }
+        public double TurningSpeedModifierPercentage { get; set; }
     }
 }

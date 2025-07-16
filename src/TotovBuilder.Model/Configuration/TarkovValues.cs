@@ -1,17 +1,10 @@
-﻿using System;
-
-namespace TotovBuilder.Model.Configuration
+﻿namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents values related to Tarkov gameplay.
     /// </summary>
     public class TarkovValues
     {
-        /// <summary>
-        /// Armor penetration efficiencies.
-        /// </summary>
-        public string[] ArmorPenetrationEfficiencies { get; set; } = Array.Empty<string>();
-
         /// <summary>
         /// Player character chest HP.
         /// </summary>
@@ -20,7 +13,7 @@ namespace TotovBuilder.Model.Configuration
         /// <summary>
         /// Currencies.
         /// </summary>
-        public Currency[] Currencies { get; set; } = Array.Empty<Currency>();
+        public Currency[] Currencies { get; set; } = [];
 
         /// <summary>
         /// Weight at which the character is heavily encumbered.
@@ -33,13 +26,18 @@ namespace TotovBuilder.Model.Configuration
         public int LightEncumbermentWeight { get; set; }
 
         /// <summary>
+        /// Maximum level an armor can have.
+        /// </summary>
+        public int MaxArmorLevel { get; set; }
+
+        /// <summary>
         /// Merchants.
         /// </summary>
-        public Merchant[] Merchants { get; set; } = Array.Empty<Merchant>();
+        public Merchant[] Merchants { get; set; } = [];
 
         /// <summary>
         /// Ricochet chances.
         /// </summary>
-        public RicochetChance[] RicochetChances { get; set; } = Array.Empty<RicochetChance>();
+        public RicochetChance[] RicochetChances { get; set; } = [];
     }
 }

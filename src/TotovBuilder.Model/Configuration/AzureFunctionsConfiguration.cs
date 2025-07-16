@@ -57,11 +57,6 @@
         public int ExecutionTimeout { get; set; } = 30;
 
         /// <summary>
-        /// Name of the Azure blob containing raw armor penetrations data.
-        /// </summary>
-        public string RawArmorPenetrationsBlobName { get; set; } = string.Empty;
-
-        /// <summary>
         /// Name of the Azure blob containing raw changelog data.
         /// </summary>
         public string RawChangelogBlobName { get; set; } = string.Empty;

@@ -12,7 +12,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// <summary>
         /// List of functions indicating whether the associated property must be excluded from the serialization.
         /// </summary>
-        public static readonly Dictionary<string, Func<ModSlot, bool>> PropertyExclusionConditions = new Dictionary<string, Func<ModSlot, bool>>()
+        public static readonly Dictionary<string, Func<ModSlot, bool>> PropertyExclusionConditions = new()
         {
             { nameof(ModSlot.CompatibleItemIds), ms => ms.CompatibleItemIds.Length == 0 },
             { nameof(ModSlot.MaxStackableAmount), ms => ms.MaxStackableAmount == 1 },
@@ -22,7 +22,7 @@ namespace TotovBuilder.Model.Utils.JsonConverters.Items
         /// <summary>
         /// List of functions for customizing the value used for serializing the associated property.
         /// </summary>
-        public static readonly Dictionary<string, Func<ModSlot, object?>> PropertyValuesObtentions = new Dictionary<string, Func<ModSlot, object?>>()
+        public static readonly Dictionary<string, Func<ModSlot, object?>> PropertyValuesObtentions = new()
         {
             { nameof(ModSlot.Required), ms => 1 }
         };

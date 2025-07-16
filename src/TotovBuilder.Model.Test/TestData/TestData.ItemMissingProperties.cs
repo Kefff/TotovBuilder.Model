@@ -7,8 +7,8 @@ namespace TotovBuilder.Model.Test
     /// </summary>
     public partial class TestData
     {
-        public static ItemMissingProperties[] ItemMissingProperties { get; } = new ItemMissingProperties[]
-        {
+        public static ItemMissingProperties[] ItemMissingProperties { get; } =
+        [
             new ItemMissingProperties()
             {
                 Id = "601aa3d2b2bcb34913271e6d",
@@ -18,7 +18,17 @@ namespace TotovBuilder.Model.Test
             {
                 Id = "569668774bdc2da2298b4568",
                 MaxStackableAmount = 50000
+            },
+            new ItemMissingProperties()
+            {
+                Id = "5696686a4bdc2da3298b456a",
+                MaxStackableAmount = 50000
+            },
+            new ItemMissingProperties()
+            {
+                Id = "5d235b4d86f7742e017bc88a",
+                MaxStackableAmount = 100
             }
-        };
+        ];
     }
 }

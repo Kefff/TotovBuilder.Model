@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 using TotovBuilder.Model.Abstractions.Items;
 using TotovBuilder.Model.Utils.JsonConverters.Items;
 
@@ -13,7 +12,7 @@ namespace TotovBuilder.Model.Items
     {
         /// <inheritdoc/>
         [JsonPropertyName("ac")]
-        public double AccuracyPercentageModifier { get; set; }
+        public double AccuracyModifierPercentage { get; set; }
 
         /// <inheritdoc/>
         [JsonPropertyName("bi")]
@@ -29,10 +28,10 @@ namespace TotovBuilder.Model.Items
 
         /// <inheritdoc/>
         [JsonPropertyName("mo")]
-        public ModSlot[] ModSlots { get; set; } = Array.Empty<ModSlot>();
+        public ModSlot[] ModSlots { get; set; } = [];
 
         /// <inheritdoc/>
         [JsonPropertyName("r")]
-        public double RecoilPercentageModifier { get; set; }
+        public double RecoilModifierPercentage { get; set; }
     }
 }

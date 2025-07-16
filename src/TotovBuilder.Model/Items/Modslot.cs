@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 using TotovBuilder.Model.Utils.JsonConverters.Items;
 
 namespace TotovBuilder.Model.Items
@@ -14,7 +13,7 @@ namespace TotovBuilder.Model.Items
         /// IDs of compatible items.
         /// </summary>
         [JsonPropertyName("i")]
-        public string[] CompatibleItemIds { get; set; } = Array.Empty<string>();
+        public string[] CompatibleItemIds { get; set; } = [];
 
         /// <summary>
         /// Maximum number of times the item can be stacked in this mod slot.
