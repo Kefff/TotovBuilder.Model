@@ -18,7 +18,31 @@ namespace TotovBuilder.Model.Test
             AzureBlobStorageRawDataContainerName = "totov-builder-raw-data",
             AzureBlobStorageWebsiteContainerName = "$web",
             AzureFunctionsConfigurationBlobName = "azure-functions-configuration.json",
-            ExecutionTimeout = 30,
+            ExecutionTimeout = 25,
+            GameModes = [
+                new()
+                {
+                    Name = null,
+                    QueryValue = "regular"
+                },
+                new()
+                {
+                    Name = "pve",
+                    QueryValue = "pve"
+                }
+            ],
+            Languages = [
+                new()
+                {
+                    Name = null,
+                    QueryValue = "en"
+                },
+                new()
+                {
+                    Name = "fr",
+                    QueryValue = "fr"
+                }
+            ],
             RawChangelogBlobName = "changelog.json",
             RawItemCategoriesBlobName = "item-categories.json",
             RawItemMissingPropertiesBlobName = "item-missing-properties.json",

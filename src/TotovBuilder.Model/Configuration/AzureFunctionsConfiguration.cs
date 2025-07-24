@@ -57,6 +57,16 @@
         public int ExecutionTimeout { get; set; } = 30;
 
         /// <summary>
+        /// Game modes.
+        /// </summary>
+        public GameMode[] GameModes { get; set; } = [];
+
+        /// <summary>
+        /// Languages.
+        /// </summary>
+        public Language[] Languages { get; set; } = [];
+
+        /// <summary>
         /// Name of the Azure blob containing raw changelog data.
         /// </summary>
         public string RawChangelogBlobName { get; set; } = string.Empty;
