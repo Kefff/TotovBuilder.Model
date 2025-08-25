@@ -1,5 +1,4 @@
-﻿using System.Numerics;
-using TotovBuilder.Model.Items;
+﻿using TotovBuilder.Model.Items;
 
 namespace TotovBuilder.Model.Test
 {
@@ -33,9 +32,9 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 3,
                 ArmoredAreas =
                 [
-                    "HeadEyes",
-                    "HeadFace",
-                    "HeadJaws"
+                    "Head, Eyes",
+                    "Head, Face",
+                    "Head, Jaws"
                 ],
                 BaseItemId = "5a16b7e1fcdbcb00165aa6c9",
                 BlindnessProtectionPercentage = 0.1,
@@ -333,21 +332,21 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 3,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE",
-                    "LPLATE",
-                    "RPLATE",
+                    "FR. PLATE",
+                    "BCK. PLATE",
+                    "L. PLATE",
+                    "R. PLATE",
                     "Stomach",
                     "Thorax",
-                    "ThoraxUpperBack",
-                    "StomachLowerBack",
-                    "StomachLeftSide",
-                    "StomachRightSide",
-                    "ThoraxThroat",
-                    "ThoraxNeck",
-                    "LeftArmShoulder",
-                    "RightArmShoulder",
-                    "StomachGroin"
+                    "Thorax, Upper back",
+                    "Stomach, Lower back",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side",
+                    "Thorax, Throat",
+                    "Thorax, Neck",
+                    "Left arm, Shoulder",
+                    "Right arm, Shoulder",
+                    "Stomach, Groin"
                 ],
                 CategoryId = "armor",
                 DefaultPresetId = "65766adc234b9f6e050a431a",
@@ -449,10 +448,10 @@ namespace TotovBuilder.Model.Test
                 [
                     "Stomach",
                     "Thorax",
-                    "StomachLowerBack",
-                    "ThoraxUpperBack",
-                    "StomachLeftSide",
-                    "StomachRightSide"
+                    "Stomach, Lower back",
+                    "Thorax, Upper back",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side"
                 ],
                 CategoryId = "armor",
                 Durability = 100,
@@ -474,21 +473,21 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 3,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE",
-                    "LPLATE",
-                    "RPLATE",
+                    "FR. PLATE",
+                    "BCK. PLATE",
+                    "L. PLATE",
+                    "R. PLATE",
                     "Stomach",
                     "Thorax",
-                    "ThoraxUpperBack",
-                    "StomachLowerBack",
-                    "StomachLeftSide",
-                    "StomachRightSide",
-                    "ThoraxThroat",
-                    "ThoraxNeck",
-                    "LeftArmShoulder",
-                    "RightArmShoulder",
-                    "StomachGroin"
+                    "Thorax, Upper back",
+                    "Stomach, Lower back",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side",
+                    "Thorax, Throat",
+                    "Thorax, Neck",
+                    "Left arm, Shoulder",
+                    "Right arm, Shoulder",
+                    "Stomach, Groin"
                 ],
                 BaseItemId = "545cdb794bdc2d3a198b456a",
                 CategoryId = "armor",
@@ -588,8 +587,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "HeadNape",
-                    "HeadTopOfTheHead"
+                    "Head, Nape",
+                    "Head, Top of the head"
                 ],
                 ConflictingItemIds =
                 [
@@ -633,8 +632,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE"
+                    "FR. PLATE",
+                    "BCK. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 55,
@@ -656,7 +655,7 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "BCKPLATE"
+                    "BCK. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 50,
@@ -678,8 +677,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE"
+                    "F. PLATE",
+                    "BCK. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 60,
@@ -701,8 +700,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "LPLATE",
-                    "RPLATE"
+                    "L. PLATE",
+                    "R. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 20,
@@ -723,9 +722,9 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 3,
                 ArmoredAreas =
                 [
-                    "HeadEyes",
-                    "HeadFace",
-                    "HeadJaws"
+                    "Head, Eyes",
+                    "Head, Face",
+                    "Head, Jaws"
                 ],
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
@@ -759,8 +758,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 4,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE"
+                    "FR. PLATE",
+                    "BCK. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 40,
@@ -970,8 +969,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 4,
                 ArmoredAreas =
                 [
-                    "HeadTopOfTheHead",
-                    "HeadNape"
+                    "Head, Top of the head",
+                    "Head, Nape"
                 ],
                 BlocksHeadphones = false,
                 CategoryId = "headwear",
@@ -1687,8 +1686,8 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 44,
                 FireModes =
                 [
-                    "SingleFire",
-                    "FullAuto"
+                    "Single fire",
+                    "Full auto"
                 ],
                 FireRate = 650,
                 HorizontalRecoil = 373,
@@ -1821,8 +1820,8 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 40,
                 FireModes =
                 [
-                    "SingleFire",
-                    "FullAuto"
+                    "Single fire",
+                    "Full auto"
                 ],
                 FireRate = 850,
                 HorizontalRecoil = 269,
@@ -1919,7 +1918,7 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "secondaryWeapon",
                 DefaultPresetId = "5eb2968186f7746d1f1a4fd5",
                 Ergonomics = 75,
-                FireModes = ["SingleFire"],
+                FireModes = ["Single fire"],
                 FireRate = 30,
                 HorizontalRecoil = 355,
                 IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.webp",
@@ -2029,8 +2028,8 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 44,
                 FireModes =
                 [
-                    "SingleFire",
-                    "FullAuto"
+                    "Single fire",
+                    "Full auto"
                 ],
                 FireRate = 650,
                 HorizontalRecoil = 373,
@@ -2162,8 +2161,8 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 40,
                 FireModes =
                 [
-                    "SingleFire",
-                    "FullAuto"
+                    "Single fire",
+                    "Full auto"
                 ],
                 FireRate = 850,
                 HorizontalRecoil = 269,
@@ -2258,7 +2257,7 @@ namespace TotovBuilder.Model.Test
                 Caliber = "Caliber26x75",
                 CategoryId = "secondaryWeapon",
                 Ergonomics = 51,
-                FireModes = ["SingleFire"],
+                FireModes = ["Single fire"],
                 FireRate = 30,
                 HorizontalRecoil = 400,
                 IconLink = "https://assets.tarkov.dev/620109578d82e67e7911abf2-icon.webp",
@@ -2944,12 +2943,12 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 2,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE",
-                    "LPLATE",
-                    "RPLATE",
-                    "StomachLeftSide",
-                    "StomachRightSide"
+                    "FR. PLATE",
+                    "BCK. PLATE",
+                    "L. PLATE",
+                    "R. PLATE",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side"
                 ],
                 Capacity = 14,
                 CategoryId = "vest",
@@ -3058,12 +3057,12 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 2,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE",
-                    "LPLATE",
-                    "RPLATE",
-                    "StomachLeftSide",
-                    "StomachRightSide"
+                    "FR. PLATE",
+                    "BCK. PLATE",
+                    "L. PLATE",
+                    "R. PLATE",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side"
                 ],
                 BaseItemId = "61bc85697113f767765c7fe7",
                 Capacity = 14,

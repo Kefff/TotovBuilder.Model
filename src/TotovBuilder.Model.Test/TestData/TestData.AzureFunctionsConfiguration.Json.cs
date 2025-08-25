@@ -7,35 +7,23 @@
     {
 
         public const string AzureFunctionsConfigurationJson = @"{
-  ""ApiBartersQuery"": ""{ barters { level } }"",
-  ""ApiItemsQuery"": ""{ items { id } }"",
+  ""ApiBartersQuery"": ""{ barters(gameMode: {0}, lang: {1}) { level } }"",
+  ""ApiItemsQuery"": ""{ items(lang: {0}) { id } }"",
   ""ApiPresetsQuery"": ""{ items(type: preset) { id } }"",
-  ""ApiPricesQuery"": ""{ items { id }"",
+  ""ApiPricesQuery"": ""{ items(gameMode: {0}, lang: {1}) { id }"",
   ""ApiUrl"": ""https://localhost/api"",
   ""AzureBlobStorageConnectionString"": ""DefaultEndpointsProtocol=https;AccountName=;AccountKey=;EndpointSuffix=core.windows.net"",
   ""AzureBlobStorageRawDataContainerName"": ""totov-builder-raw-data"",
   ""AzureBlobStorageWebsiteContainerName"": ""$web"",
   ""AzureFunctionsConfigurationBlobName"": ""azure-functions-configuration.json"",
   ""ExecutionTimeout"": 25,
-  ""GameModes"": [
-    {
-      ""name"": null,
-      ""queryValue"": ""regular""
-    },
-    {
-      ""name"": ""pve"",
-      ""queryValue"": ""pve""
-    }
-  ],
+  ""GameModes"": {
+    ""pvp"": ""regular"",
+    ""pve"": ""pve""
+  },
   ""Languages"": [
-    {
-      ""name"": null,
-      ""queryValue"": ""en""
-    },
-    {
-      ""name"": ""fr"",
-      ""queryValue"": ""fr""
-    }
+    ""en"",
+    ""fr""
   ],
   ""RawChangelogBlobName"": ""changelog.json"",
   ""RawItemCategoriesBlobName"": ""item-categories.json"",

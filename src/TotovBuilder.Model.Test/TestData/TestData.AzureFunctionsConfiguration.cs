@@ -1,4 +1,5 @@
-﻿using TotovBuilder.Model.Configuration;
+﻿using System.Collections.Generic;
+using TotovBuilder.Model.Configuration;
 
 namespace TotovBuilder.Model.Test
 {
@@ -9,39 +10,24 @@ namespace TotovBuilder.Model.Test
     {
         public static AzureFunctionsConfiguration AzureFunctionsConfiguration { get; } = new AzureFunctionsConfiguration()
         {
-            ApiBartersQuery = "{ barters { level } }",
-            ApiItemsQuery = "{ items { id } }",
+            ApiBartersQuery = "{ barters(gameMode: {0}, lang: {1}) { level } }",
+            ApiItemsQuery = "{ items(lang: {0}) { id } }",
             ApiPresetsQuery = "{ items(type: preset) { id } }",
-            ApiPricesQuery = "{ items { id }",
+            ApiPricesQuery = "{ items(gameMode: {0}, lang: {1}) { id }",
             ApiUrl = "https://localhost/api",
             AzureBlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=;AccountKey=;EndpointSuffix=core.windows.net",
             AzureBlobStorageRawDataContainerName = "totov-builder-raw-data",
             AzureBlobStorageWebsiteContainerName = "$web",
             AzureFunctionsConfigurationBlobName = "azure-functions-configuration.json",
             ExecutionTimeout = 25,
-            GameModes = [
-                new()
-                {
-                    Name = null,
-                    QueryValue = "regular"
-                },
-                new()
-                {
-                    Name = "pve",
-                    QueryValue = "pve"
-                }
-            ],
+            GameModes = new Dictionary<string, string>()
+            {
+                { "pvp", "regular" },
+                { "pve", "pve" }
+            },
             Languages = [
-                new()
-                {
-                    Name = null,
-                    QueryValue = "en"
-                },
-                new()
-                {
-                    Name = "fr",
-                    QueryValue = "fr"
-                }
+                "en",
+                "fr"
             ],
             RawChangelogBlobName = "changelog.json",
             RawItemCategoriesBlobName = "item-categories.json",

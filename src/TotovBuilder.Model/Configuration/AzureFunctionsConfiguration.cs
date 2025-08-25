@@ -1,4 +1,6 @@
-﻿namespace TotovBuilder.Model.Configuration
+﻿using System.Collections.Generic;
+
+namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents the Totov Builder Azure functions configuration.
@@ -59,12 +61,12 @@
         /// <summary>
         /// Game modes.
         /// </summary>
-        public GameMode[] GameModes { get; set; } = [];
+        public Dictionary<string, string> GameModes { get; set; } = [];
 
         /// <summary>
         /// Languages.
         /// </summary>
-        public Language[] Languages { get; set; } = [];
+        public string[] Languages { get; set; } = [];
 
         /// <summary>
         /// Name of the Azure blob containing raw changelog data.
