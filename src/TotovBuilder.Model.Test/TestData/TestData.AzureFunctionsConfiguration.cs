@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using TotovBuilder.Model.Configuration;
+﻿using TotovBuilder.Model.Configuration;
+using TotovBuilder.Model.Utils;
 
 namespace TotovBuilder.Model.Test
 {
@@ -19,12 +19,19 @@ namespace TotovBuilder.Model.Test
             AzureBlobStorageRawDataContainerName = "totov-builder-raw-data",
             AzureBlobStorageWebsiteContainerName = "$web",
             AzureFunctionsConfigurationBlobName = "azure-functions-configuration.json",
-            ExecutionTimeout = 25,
-            GameModes = new Dictionary<string, string>()
-            {
-                { "pvp", "regular" },
-                { "pve", "pve" }
-            },
+            ExecutionTimeout = 30,
+            GameModes = [
+                new GameMode()
+                {
+                    ApiQueryValue = "regular",
+                    Name = "pvp"
+                },
+                new GameMode()
+                {
+                    ApiQueryValue = "pve",
+                    Name = "pve"
+                }
+            ],
             Languages = [
                 "en",
                 "fr"
@@ -34,12 +41,12 @@ namespace TotovBuilder.Model.Test
             RawItemMissingPropertiesBlobName = "item-missing-properties.json",
             RawTarkovValuesBlobName = "tarkov-values.json",
             RawWebsiteConfigurationBlobName = "website-configuration.json",
+            WebsiteChangelogBlobName = "data/changelog.json",
             WebsiteDataCacheControl = "max-age=3600, must-revalidate",
             WebsiteFileCacheControl = "max-age=31536000, must-revalidate",
-            WebsiteChangelogBlobName = "data/changelog.json",
-            WebsiteItemsBlobName = "data/items.json",
+            WebsiteItemsBlobName = "data/items_{0}.json",
             WebsitePresetsBlobName = "data/presets.json",
-            WebsitePricesBlobName = "data/prices.json",
+            WebsitePricesBlobName = "data/prices_{0}_{1}.json",
             WebsiteTarkovValuesBlobName = "data/tarkov-values.json",
             WebsiteWebsiteConfigurationBlobName = "data/website-configuration.json"
         };

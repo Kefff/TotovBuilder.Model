@@ -54,7 +54,7 @@
         /// Tarkov values endpoint.
         /// </summary>
         public string EndpointTarkovValues { get; set; } = string.Empty;
-                
+
         /// <summary>
         /// URL shortener endpoint.
         /// </summary>

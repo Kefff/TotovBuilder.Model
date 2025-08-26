@@ -1326,7 +1326,7 @@ namespace TotovBuilder.Model.Test
                         MaxStackableAmount = 1,
                         Name = "camora_000",
                     },
-                    
+
                     new()
                     {
                         CompatibleItemIds = [
@@ -1350,7 +1350,7 @@ namespace TotovBuilder.Model.Test
                         ],
                         Name = "camora_001",
                     },
-                    
+
                     new()
                     {
                         CompatibleItemIds = [
@@ -1375,7 +1375,7 @@ namespace TotovBuilder.Model.Test
                         MaxStackableAmount = 1,
                         Name = "camora_002",
                     },
-                    
+
                     new()
                     {
                         CompatibleItemIds = [
@@ -1400,7 +1400,7 @@ namespace TotovBuilder.Model.Test
                         MaxStackableAmount = 1,
                         Name = "camora_003",
                     },
-                    
+
                     new()
                     {
                         CompatibleItemIds = [

@@ -10,7 +10,7 @@ namespace TotovBuilder.Model.Utils
         /// <summary>
         /// Game mode.
         /// </summary>
-        public string GameMode { get; set; } = string.Empty;
+        public GameMode GameMode { get; set; } = new GameMode();
 
         /// <summary>
         /// Language.

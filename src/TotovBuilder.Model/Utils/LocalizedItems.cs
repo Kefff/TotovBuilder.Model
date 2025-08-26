@@ -3,9 +3,9 @@
 namespace TotovBuilder.Model.Utils
 {
     /// <summary>
-    /// Represents a localized items for a game mode.
+    /// Represents a localized items.
     /// </summary>
-    public class GameModeLocalizedItems
+    public class LocalizedItems
     {
         /// <summary>
         /// Language.

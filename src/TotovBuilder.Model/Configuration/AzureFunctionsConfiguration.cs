@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TotovBuilder.Model.Utils;
 
 namespace TotovBuilder.Model.Configuration
 {
@@ -61,7 +62,7 @@ namespace TotovBuilder.Model.Configuration
         /// <summary>
         /// Game modes.
         /// </summary>
-        public Dictionary<string, string> GameModes { get; set; } = [];
+        public IEnumerable<GameMode> GameModes { get; set; } = [];
 
         /// <summary>
         /// Languages.

@@ -16,11 +16,17 @@
   ""AzureBlobStorageRawDataContainerName"": ""totov-builder-raw-data"",
   ""AzureBlobStorageWebsiteContainerName"": ""$web"",
   ""AzureFunctionsConfigurationBlobName"": ""azure-functions-configuration.json"",
-  ""ExecutionTimeout"": 25,
-  ""GameModes"": {
-    ""pvp"": ""regular"",
-    ""pve"": ""pve""
-  },
+  ""ExecutionTimeout"": 30,
+  ""GameModes"": [
+    {
+      ""name"": ""pvp"",
+      ""apiQueryValue"": ""regular""
+    },
+    {
+      ""name"": ""pve"",
+      ""apiQueryValue"": ""pve""
+    }
+  ],
   ""Languages"": [
     ""en"",
     ""fr""
@@ -30,12 +36,12 @@
   ""RawItemMissingPropertiesBlobName"": ""item-missing-properties.json"",
   ""RawTarkovValuesBlobName"": ""tarkov-values.json"",
   ""RawWebsiteConfigurationBlobName"": ""website-configuration.json"",
+  ""WebsiteChangelogBlobName"": ""data/changelog.json"",
   ""WebsiteDataCacheControl"": ""max-age=3600, must-revalidate"",
   ""WebsiteFileCacheControl"": ""max-age=31536000, must-revalidate"",
-  ""WebsiteChangelogBlobName"": ""data/changelog.json"",
-  ""WebsiteItemsBlobName"": ""data/items.json"",
+  ""WebsiteItemsBlobName"": ""data/items_{0}.json"",
   ""WebsitePresetsBlobName"": ""data/presets.json"",
-  ""WebsitePricesBlobName"": ""data/prices.json"",
+  ""WebsitePricesBlobName"": ""data/prices_{0}_{1}.json"",
   ""WebsiteTarkovValuesBlobName"": ""data/tarkov-values.json"",
   ""WebsiteWebsiteConfigurationBlobName"": ""data/website-configuration.json""
 }";
