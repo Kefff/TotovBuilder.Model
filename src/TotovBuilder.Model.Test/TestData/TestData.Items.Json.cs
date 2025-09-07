@@ -1146,7 +1146,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_nvg""
+        ""name"": ""mod_nvg""
       }
     ],
     ""speedPenalty"": 0,
@@ -1487,7 +1487,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_muzzle""
+        ""name"": ""mod_muzzle""
       }
     ]
   },
@@ -2137,7 +2137,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_nvg""
+        ""name"": ""mod_nvg""
       }
     ]
   },
@@ -2266,7 +2266,7 @@
     ],
     ""slots"": [
       {
-        ""nameId"": ""mod_equipment_000"",
+        ""name"": ""mod_equipment_000"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2279,7 +2279,7 @@
         }
       },
       {
-        ""nameId"": ""mod_nvg"",
+        ""name"": ""mod_nvg"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2292,7 +2292,7 @@
         }
       },
       {
-        ""nameId"": ""mod_mount"",
+        ""name"": ""mod_mount"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2623,7 +2623,7 @@
     ],
     ""slots"": [
       {
-        ""nameId"": ""camora_000"",
+        ""name"": ""camora_000"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2681,7 +2681,7 @@
         }
       },
       {
-        ""nameId"": ""camora_001"",
+        ""name"": ""camora_001"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2739,7 +2739,7 @@
         }
       },
       {
-        ""nameId"": ""camora_002"",
+        ""name"": ""camora_002"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2797,7 +2797,7 @@
         }
       },
       {
-        ""nameId"": ""camora_003"",
+        ""name"": ""camora_003"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2855,7 +2855,7 @@
         }
       },
       {
-        ""nameId"": ""camora_004"",
+        ""name"": ""camora_004"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -3269,7 +3269,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_scope""
+        ""name"": ""mod_scope""
       }
     ],
     ""zoomLevels"": [
@@ -3426,7 +3426,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_barrel""
+        ""name"": ""mod_barrel""
       },
       {
         ""filters"": {
@@ -3442,7 +3442,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_pistol_grip""
+        ""name"": ""mod_pistol_grip""
       },
       {
         ""filters"": {
@@ -3455,7 +3455,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_reciever""
+        ""name"": ""mod_reciever""
       },
       {
         ""filters"": {
@@ -3471,7 +3471,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_magazine""
+        ""name"": ""mod_magazine""
       },
       {
         ""filters"": {
@@ -3487,7 +3487,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_trigger""
+        ""name"": ""mod_trigger""
       },
       {
         ""filters"": {
@@ -3509,7 +3509,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_hammer""
+        ""name"": ""mod_hammer""
       },
       {
         ""filters"": {
@@ -3525,7 +3525,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_catch""
+        ""name"": ""mod_catch""
       },
       {
         ""filters"": {
@@ -3535,7 +3535,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_mount_000""
+        ""name"": ""mod_mount_000""
       },
       {
         ""filters"": {
@@ -3545,7 +3545,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_mount_001""
+        ""name"": ""mod_mount_001""
       }
     ]
   },
@@ -3669,7 +3669,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_pistol_grip""
+        ""name"": ""mod_pistol_grip""
       },
       {
         ""filters"": {
@@ -3685,7 +3685,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_stock""
+        ""name"": ""mod_stock""
       },
       {
         ""filters"": {
@@ -3698,7 +3698,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_charge""
+        ""name"": ""mod_charge""
       },
       {
         ""filters"": {
@@ -3741,7 +3741,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_magazine""
+        ""name"": ""mod_magazine""
       },
       {
         ""filters"": {
@@ -3787,7 +3787,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_muzzle""
+        ""name"": ""mod_muzzle""
       },
       {
         ""filters"": {
@@ -3803,7 +3803,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_reciever""
+        ""name"": ""mod_reciever""
       },
       {
         ""filters"": {
@@ -3813,7 +3813,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_gas_block""
+        ""name"": ""mod_gas_block""
       }
     ]
   },
@@ -3987,7 +3987,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_pistol_grip""
+        ""name"": ""mod_pistol_grip""
       },
       {
         ""filters"": {
@@ -4006,7 +4006,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_magazine""
+        ""name"": ""mod_magazine""
       },
       {
         ""filters"": {
@@ -4016,7 +4016,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_reciever""
+        ""name"": ""mod_reciever""
       },
       {
         ""filters"": {
@@ -4044,7 +4044,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_stock""
+        ""name"": ""mod_stock""
       },
       {
         ""filters"": {
@@ -4060,7 +4060,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_charge""
+        ""name"": ""mod_charge""
       }
     ]
   },
@@ -4410,7 +4410,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_scope""
+        ""name"": ""mod_scope""
       }
     ]
   },
@@ -4548,7 +4548,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_mount_000""
+        ""name"": ""mod_mount_000""
       }
     ]
   },
@@ -4606,7 +4606,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_handguard""
+        ""name"": ""mod_handguard""
       }
     ]
   },
@@ -4655,7 +4655,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_stock""
+        ""name"": ""mod_stock""
       }
     ]
   },
@@ -4736,7 +4736,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_nvg""
+        ""name"": ""mod_nvg""
       }
     ]
   },
@@ -4852,7 +4852,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_scope""
+        ""name"": ""mod_scope""
       }
     ]
   },
@@ -4971,7 +4971,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_flashlight""
+        ""name"": ""mod_flashlight""
       }
     ]
   },
@@ -5209,7 +5209,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_scope""
+        ""name"": ""mod_scope""
       },
       {
         ""filters"": {
@@ -5234,7 +5234,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_barrel""
+        ""name"": ""mod_barrel""
       },
       {
         ""filters"": {
@@ -5259,7 +5259,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_handguard""
+        ""name"": ""mod_handguard""
       },
       {
         ""filters"": {
@@ -5290,7 +5290,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_sight_rear""
+        ""name"": ""mod_sight_rear""
       },
       {
         ""filters"": {
@@ -5318,7 +5318,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_tactical_000""
+        ""name"": ""mod_tactical_000""
       }
     ]
   },
@@ -5385,7 +5385,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_sight_front""
+        ""name"": ""mod_sight_front""
       },
       {
         ""filters"": {
@@ -5395,7 +5395,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_mount_000""
+        ""name"": ""mod_mount_000""
       },
       {
         ""filters"": {
@@ -5405,7 +5405,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_mount_001""
+        ""name"": ""mod_mount_001""
       },
       {
         ""filters"": {
@@ -5415,7 +5415,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_mount_002""
+        ""name"": ""mod_mount_002""
       }
     ]
   },
@@ -5521,7 +5521,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_tactical""
+        ""name"": ""mod_tactical""
       }
     ]
   },
@@ -5660,7 +5660,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_foregrip""
+        ""name"": ""mod_foregrip""
       }
     ]
   },
@@ -5824,7 +5824,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_stock""
+        ""name"": ""mod_stock""
       }
     ]
   },
@@ -5876,7 +5876,7 @@
             }
           ]
         },
-        ""nameId"": ""mod_nvg""
+        ""name"": ""mod_nvg""
       }
     ]
   },
