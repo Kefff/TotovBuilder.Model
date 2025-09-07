@@ -384,7 +384,7 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "front_plate",
+                        Name = "modSlot_front_plate",
                     },
                     new ModSlot()
                     {
@@ -411,7 +411,7 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "back_plate"
+                        Name = "modSlot_back_plate"
                     },
                     new ModSlot()
                     {
@@ -421,7 +421,7 @@ namespace TotovBuilder.Model.Test
                             "6557458f83942d705f0c4962",
                             "64afdb577bb3bfe8fe03fd1d"
                         ],
-                        Name = "left_side_plate",
+                        Name = "modSlot_left_side_plate",
                     },
                     new ModSlot()
                     {
@@ -431,7 +431,7 @@ namespace TotovBuilder.Model.Test
                             "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
-                        Name = "right_side_plate",
+                        Name = "modSlot_right_side_plate",
                     }
                 ],
                 MovementSpeedModifierPercentage = -0.115,
@@ -525,7 +525,7 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "front_plate",
+                        Name = "modSlot_front_plate",
                     },
                     new ModSlot()
                     {
@@ -552,7 +552,7 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "back_plate"
+                        Name = "modSlot_back_plate"
                     },
                     new ModSlot()
                     {
@@ -562,7 +562,7 @@ namespace TotovBuilder.Model.Test
                             "6557458f83942d705f0c4962",
                             "64afdb577bb3bfe8fe03fd1d"
                         ],
-                        Name = "left_side_plate",
+                        Name = "modSlot_left_side_plate",
                     },
                     new ModSlot()
                     {
@@ -572,7 +572,7 @@ namespace TotovBuilder.Model.Test
                             "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
-                        Name = "right_side_plate",
+                        Name = "modSlot_right_side_plate",
                     }
                 ],
                 MovementSpeedModifierPercentage = -0.115,
@@ -2984,7 +2984,7 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "front_plate",
+                        Name = "modSlot_front_plate",
                     },
                     new ModSlot()
                     {
@@ -3009,7 +3009,7 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "back_plate"
+                        Name = "modSlot_back_plate"
                     },
                     new ModSlot()
                     {
@@ -3019,7 +3019,7 @@ namespace TotovBuilder.Model.Test
                             "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
-                        Name = "left_side_plate",
+                        Name = "modSlot_left_side_plate",
                     },
                     new ModSlot()
                     {
@@ -3029,7 +3029,7 @@ namespace TotovBuilder.Model.Test
                             "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
-                        Name = "right_side_plate",
+                        Name = "modSlot_right_side_plate",
                     }
                 ],
                 MovementSpeedModifierPercentage = -0.01,
@@ -3098,7 +3098,7 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "front_plate",
+                        Name = "modSlot_front_plate",
                     },
                     new ModSlot()
                     {
@@ -3123,7 +3123,7 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "back_plate"
+                        Name = "modSlot_back_plate"
                     },
                     new ModSlot()
                     {
@@ -3133,7 +3133,7 @@ namespace TotovBuilder.Model.Test
                             "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
-                        Name = "left_side_plate",
+                        Name = "modSlot_left_side_plate",
                     },
                     new ModSlot()
                     {
@@ -3143,7 +3143,7 @@ namespace TotovBuilder.Model.Test
                             "64afdb577bb3bfe8fe03fd1d",
                             "64afd81707e2cf40e903a316"
                         ],
-                        Name = "right_side_plate",
+                        Name = "modSlot_right_side_plate",
                     }
                 ],
                 MovementSpeedModifierPercentage = -0.01,
