@@ -27,7 +27,7 @@
       ""apiQueryValue"": ""pve""
     }
   ],
-  ""Languages"": [
+  ""ItemsLanguages"": [
     ""en"",
     ""fr""
   ],

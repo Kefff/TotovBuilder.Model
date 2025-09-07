@@ -663,7 +663,7 @@
     ""speedPenalty"": -0.115,
     ""turnPenalty"": -0.055,
     ""material"": {
-      ""id"": ""Aramid""
+      ""name"": ""Aramid""
     },
     ""armorSlots"": [
       {
@@ -854,7 +854,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -871,7 +871,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -887,7 +887,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -903,7 +903,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -920,7 +920,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -936,7 +936,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -952,7 +952,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -968,7 +968,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       }
     ]
@@ -1009,7 +1009,7 @@
     ""speedPenalty"": -0.01,
     ""turnPenalty"": 0,
     ""material"": {
-      ""id"": ""Aramid""
+      ""name"": ""Aramid""
     },
     ""armorSlots"": [
       {
@@ -1026,7 +1026,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -1043,7 +1043,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -1059,7 +1059,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -1075,7 +1075,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       }
     ]
@@ -1132,7 +1132,7 @@
       ""Head, Top of the head""
     ],
     ""material"": {
-      ""id"": ""Ceramic""
+      ""name"": ""Ceramic""
     },
     ""slots"": [
       {
@@ -1191,7 +1191,7 @@
       ""BCK. PLATE""
     ],
     ""material"": {
-      ""id"": ""Ceramic""
+      ""name"": ""Ceramic""
     },
     ""slots"": [],
     ""speedPenalty"": -0.015,
@@ -1235,7 +1235,7 @@
       ""BCK. PLATE""
     ],
     ""material"": {
-      ""id"": ""Ceramic""
+      ""name"": ""Ceramic""
     },
     ""slots"": [],
     ""speedPenalty"": -0.02,
@@ -1280,7 +1280,7 @@
       ""BCK. PLATE""
     ],
     ""material"": {
-      ""id"": ""Ceramic""
+      ""name"": ""Ceramic""
     },
     ""slots"": [],
     ""speedPenalty"": -0.02,
@@ -1327,7 +1327,7 @@
       ""R. PLATE""
     ],
     ""material"": {
-      ""id"": ""Ceramic""
+      ""name"": ""Ceramic""
     },
     ""slots"": [],
     ""speedPenalty"": -0.0075,
@@ -1398,7 +1398,7 @@
       ""Head, Jaws""
     ],
     ""material"": {
-      ""id"": ""Glass""
+      ""name"": ""Glass""
     },
     ""slots"": [],
     ""speedPenalty"": 0,
@@ -1528,7 +1528,7 @@
     ""speedPenalty"": -0.01,
     ""turnPenalty"": -0.01,
     ""material"": {
-      ""id"": ""Aramid""
+      ""name"": ""Aramid""
     },
     ""armorSlots"": [
       {
@@ -1706,7 +1706,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -1722,7 +1722,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -1738,7 +1738,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       },
       {
@@ -1754,7 +1754,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Aramid""
+          ""name"": ""Aramid""
         }
       }
     ]
@@ -1881,7 +1881,7 @@
     ""class"": 0,
     ""durability"": 0,
     ""material"": {
-      ""id"": ""UHMWPE""
+      ""name"": ""UHMWPE""
     }
   },
   ""shortName"": ""6B34"",
@@ -1923,7 +1923,7 @@
     ""class"": 1,
     ""durability"": 25,
     ""material"": {
-      ""id"": ""Glass""
+      ""name"": ""Glass""
     }
   },
   ""shortName"": ""Condor"",
@@ -2178,7 +2178,7 @@
     ""durability"": 40,
     ""ergoPenalty"": 0,
     ""material"": {
-      ""id"": ""UHMWPE""
+      ""name"": ""UHMWPE""
     },
     ""ricochetX"": 0,
     ""slots"": [],
@@ -2228,7 +2228,7 @@
     ""speedPenalty"": 0,
     ""turnPenalty"": -0.02,
     ""material"": {
-      ""id"": ""Combined""
+      ""name"": ""Combined""
     },
     ""armorSlots"": [
       {
@@ -2244,7 +2244,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Combined""
+          ""name"": ""Combined""
         }
       },
       {
@@ -2260,7 +2260,7 @@
         ""speedPenalty"": 0,
         ""turnPenalty"": 0,
         ""material"": {
-          ""id"": ""Combined""
+          ""name"": ""Combined""
         }
       }
     ],
@@ -6151,7 +6151,7 @@
     ""speedPenalty"": -0.01,
     ""turnPenalty"": -0.03,
     ""material"": {
-      ""id"": ""UHMWPE""
+      ""name"": ""UHMWPE""
     }
   }
 },
@@ -6201,7 +6201,7 @@
       ""BCK. PLATE""
     ],
     ""material"": {
-      ""id"": ""UHMWPE""
+      ""name"": ""UHMWPE""
     }
   }
 }";

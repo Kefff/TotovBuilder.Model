@@ -32,7 +32,7 @@ namespace TotovBuilder.Model.Test
                     Name = "pve"
                 }
             ],
-            Languages = [
+            ItemsLanguages = [
                 "en",
                 "fr"
             ],

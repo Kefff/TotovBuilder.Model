@@ -65,9 +65,9 @@ namespace TotovBuilder.Model.Configuration
         public IEnumerable<GameMode> GameModes { get; set; } = [];
 
         /// <summary>
-        /// Languages.
+        /// Languages in which items can be retrieved.
         /// </summary>
-        public string[] Languages { get; set; } = [];
+        public string[] ItemsLanguages { get; set; } = [];
 
         /// <summary>
         /// Name of the Azure blob containing raw changelog data.
