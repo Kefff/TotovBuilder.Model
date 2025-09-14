@@ -76,9 +76,19 @@
         public int FetchWaitTimeBetweenRetries { get; set; }
 
         /// <summary>
+        /// Game modes.
+        /// </summary>
+        public string[] GameModes { get; set; } = [];
+
+        /// <summary>
         /// Github project URL.
         /// </summary>
         public string GithubUrl { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Items languages.
+        /// </summary>
+        public string[] ItemsLanguages { get; set; } = [];
 
         /// <summary>
         /// Error notifications duration (in seconds).

@@ -1146,7 +1146,8 @@
             }
           ]
         },
-        ""name"": ""mod_nvg""
+        ""nameId"": ""mod_nvg"",
+        ""name"": ""Shroud""
       }
     ],
     ""speedPenalty"": 0,
@@ -1487,7 +1488,8 @@
             }
           ]
         },
-        ""name"": ""mod_muzzle""
+        ""nameId"": ""mod_muzzle"",
+        ""name"": ""Muzzle""
       }
     ]
   },
@@ -2137,7 +2139,8 @@
             }
           ]
         },
-        ""name"": ""mod_nvg""
+        ""nameId"": ""mod_nvg"",
+        ""name"": ""Shroud""
       }
     ]
   },
@@ -2266,7 +2269,8 @@
     ],
     ""slots"": [
       {
-        ""name"": ""mod_equipment_000"",
+        ""nameId"": ""mod_equipment_000"",
+        ""name"": ""Gear"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2279,7 +2283,8 @@
         }
       },
       {
-        ""name"": ""mod_nvg"",
+        ""nameId"": ""mod_nvg"",
+        ""name"": ""Shroud"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2292,7 +2297,8 @@
         }
       },
       {
-        ""name"": ""mod_mount"",
+        ""nameId"": ""mod_mount"",
+        ""name"": ""Mount"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2623,7 +2629,8 @@
     ],
     ""slots"": [
       {
-        ""name"": ""camora_000"",
+        ""nameId"": ""camora_000"",
+        ""name"": ""Chamber"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2681,7 +2688,8 @@
         }
       },
       {
-        ""name"": ""camora_001"",
+        ""nameId"": ""camora_001"",
+        ""name"": ""Chamber"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2739,7 +2747,8 @@
         }
       },
       {
-        ""name"": ""camora_002"",
+        ""nameId"": ""camora_002"",
+        ""name"": ""Chamber"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2797,7 +2806,8 @@
         }
       },
       {
-        ""name"": ""camora_003"",
+        ""nameId"": ""camora_003"",
+        ""name"": ""Chamber"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -2855,7 +2865,8 @@
         }
       },
       {
-        ""name"": ""camora_004"",
+        ""nameId"": ""camora_004"",
+        ""name"": ""Chamber"",
         ""filters"": {
           ""allowedItems"": [
             {
@@ -3269,7 +3280,8 @@
             }
           ]
         },
-        ""name"": ""mod_scope""
+        ""nameId"": ""mod_scope"",
+        ""name"": ""Scope""
       }
     ],
     ""zoomLevels"": [
@@ -3426,7 +3438,8 @@
             }
           ]
         },
-        ""name"": ""mod_barrel""
+        ""nameId"": ""mod_barrel"",
+        ""name"": ""Barrel""
       },
       {
         ""filters"": {
@@ -3442,7 +3455,8 @@
             }
           ]
         },
-        ""name"": ""mod_pistol_grip""
+        ""nameId"": ""mod_pistol_grip"",
+        ""name"": ""Pistol Grip""
       },
       {
         ""filters"": {
@@ -3455,7 +3469,8 @@
             }
           ]
         },
-        ""name"": ""mod_reciever""
+        ""nameId"": ""mod_reciever"",
+        ""name"": ""Receiver""
       },
       {
         ""filters"": {
@@ -3471,7 +3486,8 @@
             }
           ]
         },
-        ""name"": ""mod_magazine""
+        ""nameId"": ""mod_magazine"",
+        ""name"": ""Magazine""
       },
       {
         ""filters"": {
@@ -3487,7 +3503,8 @@
             }
           ]
         },
-        ""name"": ""mod_trigger""
+        ""nameId"": ""mod_trigger"",
+        ""name"": ""Trigger""
       },
       {
         ""filters"": {
@@ -3509,7 +3526,8 @@
             }
           ]
         },
-        ""name"": ""mod_hammer""
+        ""nameId"": ""mod_hammer"",
+        ""name"": ""Hammer""
       },
       {
         ""filters"": {
@@ -3525,7 +3543,8 @@
             }
           ]
         },
-        ""name"": ""mod_catch""
+        ""nameId"": ""mod_catch"",
+        ""name"": ""Catch""
       },
       {
         ""filters"": {
@@ -3535,7 +3554,8 @@
             }
           ]
         },
-        ""name"": ""mod_mount_000""
+        ""nameId"": ""mod_mount_000"",
+        ""name"": ""Mount""
       },
       {
         ""filters"": {
@@ -3545,7 +3565,8 @@
             }
           ]
         },
-        ""name"": ""mod_mount_001""
+        ""nameId"": ""mod_mount_001"",
+        ""name"": ""Mount""
       }
     ]
   },
@@ -3669,7 +3690,8 @@
             }
           ]
         },
-        ""name"": ""mod_pistol_grip""
+        ""nameId"": ""mod_pistol_grip"",
+        ""name"": ""Pistol Grip""
       },
       {
         ""filters"": {
@@ -3685,7 +3707,8 @@
             }
           ]
         },
-        ""name"": ""mod_stock""
+        ""nameId"": ""mod_stock"",
+        ""name"": ""Stock""
       },
       {
         ""filters"": {
@@ -3698,7 +3721,8 @@
             }
           ]
         },
-        ""name"": ""mod_charge""
+        ""nameId"": ""mod_charge"",
+        ""name"": ""Ch. Handle""
       },
       {
         ""filters"": {
@@ -3741,7 +3765,8 @@
             }
           ]
         },
-        ""name"": ""mod_magazine""
+        ""nameId"": ""mod_magazine"",
+        ""name"": ""Magazine""
       },
       {
         ""filters"": {
@@ -3787,7 +3812,8 @@
             }
           ]
         },
-        ""name"": ""mod_muzzle""
+        ""nameId"": ""mod_muzzle"",
+        ""name"": ""Muzzle""
       },
       {
         ""filters"": {
@@ -3803,7 +3829,8 @@
             }
           ]
         },
-        ""name"": ""mod_reciever""
+        ""nameId"": ""mod_reciever"",
+        ""name"": ""Receiver""
       },
       {
         ""filters"": {
@@ -3813,7 +3840,8 @@
             }
           ]
         },
-        ""name"": ""mod_gas_block""
+        ""nameId"": ""mod_gas_block"",
+        ""name"": ""Gas Block""
       }
     ]
   },
@@ -3987,7 +4015,8 @@
             }
           ]
         },
-        ""name"": ""mod_pistol_grip""
+        ""nameId"": ""mod_pistol_grip"",
+        ""name"": ""Pistol Grip""
       },
       {
         ""filters"": {
@@ -4006,7 +4035,8 @@
             }
           ]
         },
-        ""name"": ""mod_magazine""
+        ""nameId"": ""mod_magazine"",
+        ""name"": ""Magazine""
       },
       {
         ""filters"": {
@@ -4016,7 +4046,8 @@
             }
           ]
         },
-        ""name"": ""mod_reciever""
+        ""nameId"": ""mod_reciever"",
+        ""name"": ""Receiver""
       },
       {
         ""filters"": {
@@ -4044,7 +4075,8 @@
             }
           ]
         },
-        ""name"": ""mod_stock""
+        ""nameId"": ""mod_stock"",
+        ""name"": ""Stock""
       },
       {
         ""filters"": {
@@ -4060,7 +4092,8 @@
             }
           ]
         },
-        ""name"": ""mod_charge""
+        ""nameId"": ""mod_charge"",
+        ""name"": ""Ch. Handle""
       }
     ]
   },
@@ -4410,7 +4443,8 @@
             }
           ]
         },
-        ""name"": ""mod_scope""
+        ""nameId"": ""mod_scope"",
+        ""name"": ""Scope""
       }
     ]
   },
@@ -4548,7 +4582,8 @@
             }
           ]
         },
-        ""name"": ""mod_mount_000""
+        ""nameId"": ""mod_mount_000"",
+        ""name"": ""Mount""
       }
     ]
   },
@@ -4606,7 +4641,8 @@
             }
           ]
         },
-        ""name"": ""mod_handguard""
+        ""nameId"": ""mod_handguard"",
+        ""name"": ""Handguard""
       }
     ]
   },
@@ -4655,7 +4691,8 @@
             }
           ]
         },
-        ""name"": ""mod_stock""
+        ""nameId"": ""mod_stock_000"",
+        ""name"": ""Stock""
       }
     ]
   },
@@ -4736,7 +4773,8 @@
             }
           ]
         },
-        ""name"": ""mod_nvg""
+        ""nameId"": ""mod_nvg"",
+        ""name"": ""Shroud""
       }
     ]
   },
@@ -4852,7 +4890,8 @@
             }
           ]
         },
-        ""name"": ""mod_scope""
+        ""nameId"": ""mod_scope"",
+        ""name"": ""Scope""
       }
     ]
   },
@@ -4971,7 +5010,8 @@
             }
           ]
         },
-        ""name"": ""mod_flashlight""
+        ""nameId"": ""mod_flashlight"",
+        ""name"": ""Tactical""
       }
     ]
   },
@@ -5209,7 +5249,8 @@
             }
           ]
         },
-        ""name"": ""mod_scope""
+        ""nameId"": ""mod_scope"",
+        ""name"": ""Scope""
       },
       {
         ""filters"": {
@@ -5234,7 +5275,8 @@
             }
           ]
         },
-        ""name"": ""mod_barrel""
+        ""nameId"": ""mod_barrel"",
+        ""name"": ""Barrel""
       },
       {
         ""filters"": {
@@ -5259,7 +5301,8 @@
             }
           ]
         },
-        ""name"": ""mod_handguard""
+        ""nameId"": ""mod_handguard"",
+        ""name"": ""Handguard""
       },
       {
         ""filters"": {
@@ -5290,7 +5333,8 @@
             }
           ]
         },
-        ""name"": ""mod_sight_rear""
+        ""nameId"": ""mod_sight_rear"",
+        ""name"": ""Rear Sight""
       },
       {
         ""filters"": {
@@ -5318,7 +5362,8 @@
             }
           ]
         },
-        ""name"": ""mod_tactical_000""
+        ""nameId"": ""mod_tactical_000"",
+        ""name"": ""Tactical""
       }
     ]
   },
@@ -5385,7 +5430,8 @@
             }
           ]
         },
-        ""name"": ""mod_sight_front""
+        ""nameId"": ""mod_sight_front"",
+        ""name"": ""Front Sight""
       },
       {
         ""filters"": {
@@ -5395,7 +5441,8 @@
             }
           ]
         },
-        ""name"": ""mod_mount_000""
+        ""nameId"": ""mod_mount_000"",
+        ""name"": ""Mount""
       },
       {
         ""filters"": {
@@ -5405,7 +5452,8 @@
             }
           ]
         },
-        ""name"": ""mod_mount_001""
+        ""nameId"": ""mod_mount_001"",
+        ""name"": ""Mount""
       },
       {
         ""filters"": {
@@ -5415,7 +5463,8 @@
             }
           ]
         },
-        ""name"": ""mod_mount_002""
+        ""nameId"": ""mod_mount_002"",
+        ""name"": ""Mount""
       }
     ]
   },
@@ -5521,7 +5570,8 @@
             }
           ]
         },
-        ""name"": ""mod_tactical""
+        ""nameId"": ""mod_tactical"",
+        ""name"": ""Tactical""
       }
     ]
   },
@@ -5660,7 +5710,8 @@
             }
           ]
         },
-        ""name"": ""mod_foregrip""
+        ""nameId"": ""mod_foregrip"",
+        ""name"": ""Foregrip""
       }
     ]
   },
@@ -5824,7 +5875,8 @@
             }
           ]
         },
-        ""name"": ""mod_stock""
+        ""nameId"": ""mod_stock"",
+        ""name"": ""Stock""
       }
     ]
   },
@@ -5876,7 +5928,8 @@
             }
           ]
         },
-        ""name"": ""mod_nvg""
+        ""nameId"": ""mod_nvg"",
+        ""name"": ""Shroud""
       }
     ]
   },
