@@ -1,4 +1,4 @@
-﻿using TotovBuilder.Model.Items;
+﻿using TotovBuilder.Model.Abstractions.Items;
 
 namespace TotovBuilder.Model.Utils
 {
@@ -10,7 +10,7 @@ namespace TotovBuilder.Model.Utils
         /// <summary>
         /// Item.
         /// </summary>
-        public Item Item { get; set; }
+        public IItem Item { get; set; }
 
         /// <summary>
         /// Quantity.
@@ -22,7 +22,7 @@ namespace TotovBuilder.Model.Utils
         /// </summary>
         /// <param name="item">Item.</param>
         /// <param name="quantity">Quantity.</param>
-        public PresetContainedItem(Item item, int quantity = 1)
+        public PresetContainedItem(IItem item, int quantity = 1)
         {
             Item = item;
             Quantity = quantity;

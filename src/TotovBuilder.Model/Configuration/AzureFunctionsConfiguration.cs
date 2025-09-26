@@ -1,4 +1,7 @@
-﻿namespace TotovBuilder.Model.Configuration
+﻿using System.Collections.Generic;
+using TotovBuilder.Model.Utils;
+
+namespace TotovBuilder.Model.Configuration
 {
     /// <summary>
     /// Represents the Totov Builder Azure functions configuration.
@@ -55,6 +58,16 @@
         /// Time (in seconds) before an operation is timed out.
         /// </summary>
         public int ExecutionTimeout { get; set; } = 30;
+
+        /// <summary>
+        /// Game modes.
+        /// </summary>
+        public IEnumerable<GameMode> GameModes { get; set; } = [];
+
+        /// <summary>
+        /// Languages in which items can be retrieved.
+        /// </summary>
+        public string[] ItemsLanguages { get; set; } = [];
 
         /// <summary>
         /// Name of the Azure blob containing raw changelog data.

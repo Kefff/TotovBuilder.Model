@@ -10,6 +10,12 @@ namespace TotovBuilder.Model.Items
     public class ModSlot
     {
         /// <summary>
+        /// Name.
+        /// </summary>
+        [JsonPropertyName("c")]
+        public string? Caption { get; set; }
+
+        /// <summary>
         /// IDs of compatible items.
         /// </summary>
         [JsonPropertyName("i")]

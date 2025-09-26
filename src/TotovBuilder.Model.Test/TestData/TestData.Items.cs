@@ -1,5 +1,4 @@
-﻿using System.Numerics;
-using TotovBuilder.Model.Items;
+﻿using TotovBuilder.Model.Items;
 
 namespace TotovBuilder.Model.Test
 {
@@ -33,9 +32,9 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 3,
                 ArmoredAreas =
                 [
-                    "HeadEyes",
-                    "HeadFace",
-                    "HeadJaws"
+                    "Head, Eyes",
+                    "Head, Face",
+                    "Head, Jaws"
                 ],
                 BaseItemId = "5a16b7e1fcdbcb00165aa6c9",
                 BlindnessProtectionPercentage = 0.1,
@@ -333,21 +332,21 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 3,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE",
-                    "LPLATE",
-                    "RPLATE",
+                    "FR. PLATE",
+                    "BCK. PLATE",
+                    "L. PLATE",
+                    "R. PLATE",
                     "Stomach",
                     "Thorax",
-                    "ThoraxUpperBack",
-                    "StomachLowerBack",
-                    "StomachLeftSide",
-                    "StomachRightSide",
-                    "ThoraxThroat",
-                    "ThoraxNeck",
-                    "LeftArmShoulder",
-                    "RightArmShoulder",
-                    "StomachGroin"
+                    "Thorax, Upper back",
+                    "Stomach, Lower back",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side",
+                    "Thorax, Throat",
+                    "Thorax, Neck",
+                    "Left arm, Shoulder",
+                    "Right arm, Shoulder",
+                    "Stomach, Groin"
                 ],
                 CategoryId = "armor",
                 DefaultPresetId = "65766adc234b9f6e050a431a",
@@ -386,6 +385,7 @@ namespace TotovBuilder.Model.Test
                             "64afdcb83efdfea28601d041"
                         ],
                         Name = "front_plate",
+                        Caption = null // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -412,7 +412,8 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "back_plate"
+                        Name = "back_plate",
+                        Caption = null // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -423,6 +424,7 @@ namespace TotovBuilder.Model.Test
                             "64afdb577bb3bfe8fe03fd1d"
                         ],
                         Name = "left_side_plate",
+                        Caption = null // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -433,6 +435,7 @@ namespace TotovBuilder.Model.Test
                             "64afd81707e2cf40e903a316"
                         ],
                         Name = "right_side_plate",
+                        Caption = null // TODO : MISSING FROM API
                     }
                 ],
                 MovementSpeedModifierPercentage = -0.115,
@@ -449,10 +452,10 @@ namespace TotovBuilder.Model.Test
                 [
                     "Stomach",
                     "Thorax",
-                    "StomachLowerBack",
-                    "ThoraxUpperBack",
-                    "StomachLeftSide",
-                    "StomachRightSide"
+                    "Stomach, Lower back",
+                    "Thorax, Upper back",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side"
                 ],
                 CategoryId = "armor",
                 Durability = 100,
@@ -474,21 +477,21 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 3,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE",
-                    "LPLATE",
-                    "RPLATE",
+                    "FR. PLATE",
+                    "BCK. PLATE",
+                    "L. PLATE",
+                    "R. PLATE",
                     "Stomach",
                     "Thorax",
-                    "ThoraxUpperBack",
-                    "StomachLowerBack",
-                    "StomachLeftSide",
-                    "StomachRightSide",
-                    "ThoraxThroat",
-                    "ThoraxNeck",
-                    "LeftArmShoulder",
-                    "RightArmShoulder",
-                    "StomachGroin"
+                    "Thorax, Upper back",
+                    "Stomach, Lower back",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side",
+                    "Thorax, Throat",
+                    "Thorax, Neck",
+                    "Left arm, Shoulder",
+                    "Right arm, Shoulder",
+                    "Stomach, Groin"
                 ],
                 BaseItemId = "545cdb794bdc2d3a198b456a",
                 CategoryId = "armor",
@@ -527,6 +530,7 @@ namespace TotovBuilder.Model.Test
                             "64afdcb83efdfea28601d041"
                         ],
                         Name = "front_plate",
+                        Caption = null // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -553,7 +557,8 @@ namespace TotovBuilder.Model.Test
                             "655746010177119f4a097ff7",
                             "64afdcb83efdfea28601d041"
                         ],
-                        Name = "back_plate"
+                        Name = "back_plate",
+                        Caption = null // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -564,6 +569,7 @@ namespace TotovBuilder.Model.Test
                             "64afdb577bb3bfe8fe03fd1d"
                         ],
                         Name = "left_side_plate",
+                        Caption = null // TODO : MISSING FROM API
                     },
                     new ModSlot()
                     {
@@ -574,6 +580,7 @@ namespace TotovBuilder.Model.Test
                             "64afd81707e2cf40e903a316"
                         ],
                         Name = "right_side_plate",
+                        Caption = null // TODO : MISSING FROM API
                     }
                 ],
                 MovementSpeedModifierPercentage = -0.115,
@@ -588,8 +595,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "HeadNape",
-                    "HeadTopOfTheHead"
+                    "Head, Nape",
+                    "Head, Top of the head"
                 ],
                 ConflictingItemIds =
                 [
@@ -612,6 +619,7 @@ namespace TotovBuilder.Model.Test
                 [
                     new ModSlot()
                     {
+                        Caption = "Shroud",
                         CompatibleItemIds =
                         [
                             "5c0558060db834001b735271",
@@ -633,8 +641,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE"
+                    "FR. PLATE",
+                    "BCK. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 55,
@@ -656,7 +664,7 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "BCKPLATE"
+                    "BCK. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 50,
@@ -678,8 +686,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE"
+                    "F. PLATE",
+                    "BCK. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 60,
@@ -701,8 +709,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 6,
                 ArmoredAreas =
                 [
-                    "LPLATE",
-                    "RPLATE"
+                    "L. PLATE",
+                    "R. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 20,
@@ -723,9 +731,9 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 3,
                 ArmoredAreas =
                 [
-                    "HeadEyes",
-                    "HeadFace",
-                    "HeadJaws"
+                    "Head, Eyes",
+                    "Head, Face",
+                    "Head, Jaws"
                 ],
                 BlindnessProtectionPercentage = 0.1,
                 CategoryId = "armorMod",
@@ -759,8 +767,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 4,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE"
+                    "FR. PLATE",
+                    "BCK. PLATE"
                 ],
                 CategoryId = "armorMod",
                 Durability = 40,
@@ -935,6 +943,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Shroud",
                         CompatibleItemIds = [
                             "5a16b8a9fcdbcb00165aa6ca"
                         ],
@@ -970,8 +979,8 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 4,
                 ArmoredAreas =
                 [
-                    "HeadTopOfTheHead",
-                    "HeadNape"
+                    "Head, Top of the head",
+                    "Head, Nape"
                 ],
                 BlocksHeadphones = false,
                 CategoryId = "headwear",
@@ -985,6 +994,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Gear",
                         CompatibleItemIds = [
                             "5a16b672fcdbcb001912fa83",
                             "5a16b7e1fcdbcb00165aa6c9"
@@ -994,6 +1004,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Shroud",
                         CompatibleItemIds = [
                             "5c0558060db834001b735271",
                             "5a16b8a9fcdbcb00165aa6ca"
@@ -1003,6 +1014,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Mount",
                         CompatibleItemIds = [
                             "5a398b75c4a282000a51a266",
                             "5a398ab9c4a282000c5a9842"
@@ -1029,6 +1041,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Shroud",
                         CompatibleItemIds = [
                             "5a16b8a9fcdbcb00165aa6ca",
                         ],
@@ -1303,8 +1316,9 @@ namespace TotovBuilder.Model.Test
                 ImageLink = "https://assets.tarkov.dev/60dc519adf4c47305f6d410d-image.webp",
                 MarketLink = "https://tarkov.dev/item/mts-255-12-12ga-cylinder",
                 ModSlots = [
-                    new()
+                    new ModSlot()
                     {
+                        Caption = "Chamber",
                         CompatibleItemIds = [
                             "560d5e524bdc2d25448b4571",
                             "5d6e6772a4b936088465b17c",
@@ -1327,9 +1341,9 @@ namespace TotovBuilder.Model.Test
                         MaxStackableAmount = 1,
                         Name = "camora_000",
                     },
-                    
-                    new()
+                    new ModSlot()
                     {
+                        Caption = "Chamber",
                         CompatibleItemIds = [
                             "560d5e524bdc2d25448b4571",
                             "5d6e6772a4b936088465b17c",
@@ -1351,9 +1365,9 @@ namespace TotovBuilder.Model.Test
                         ],
                         Name = "camora_001",
                     },
-                    
-                    new()
+                    new ModSlot()
                     {
+                        Caption = "Chamber",
                         CompatibleItemIds = [
                             "560d5e524bdc2d25448b4571",
                             "5d6e6772a4b936088465b17c",
@@ -1376,9 +1390,9 @@ namespace TotovBuilder.Model.Test
                         MaxStackableAmount = 1,
                         Name = "camora_002",
                     },
-                    
-                    new()
+                    new ModSlot()
                     {
+                        Caption = "Chamber",
                         CompatibleItemIds = [
                             "560d5e524bdc2d25448b4571",
                             "5d6e6772a4b936088465b17c",
@@ -1401,9 +1415,9 @@ namespace TotovBuilder.Model.Test
                         MaxStackableAmount = 1,
                         Name = "camora_003",
                     },
-                    
-                    new()
+                    new ModSlot()
                     {
+                        Caption = "Chamber",
                         CompatibleItemIds = [
                             "560d5e524bdc2d25448b4571",
                             "5d6e6772a4b936088465b17c",
@@ -1469,6 +1483,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Shroud",
                         CompatibleItemIds = [
                             "57235b6f24597759bf5a30f1"
                         ],
@@ -1503,6 +1518,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Scope",
                         CompatibleItemIds = [
                             "58d268fc86f774111273f8c2"
                         ],
@@ -1525,6 +1541,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Tactical",
                         CompatibleItemIds = [
                             "59d790f486f77403cb06aec6",
                             "57d17c5e2459775a5c57d17d"
@@ -1548,6 +1565,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Tactical",
                         CompatibleItemIds = [
                             "5a800961159bd4315e3a1657",
                             "57fd23e32459772d0805bcf1",
@@ -1589,6 +1607,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Foregrip",
                         CompatibleItemIds = [
                             "5c7fc87d2e221644f31c0298",
                             "5cda9bcfd7f00c0c0b53e900",
@@ -1641,6 +1660,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Shroud",
                         CompatibleItemIds = [
                             "5c0695860db834001b735461",
                             "5a16b93dfcdbcbcae6687261",
@@ -1666,6 +1686,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Tactical",
                         CompatibleItemIds = [
                             "59d790f486f77403cb06aec6",
                             "57d17c5e2459775a5c57d17d"
@@ -1687,8 +1708,8 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 44,
                 FireModes =
                 [
-                    "SingleFire",
-                    "FullAuto"
+                    "Single fire",
+                    "Full auto"
                 ],
                 FireRate = 650,
                 HorizontalRecoil = 373,
@@ -1700,6 +1721,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Pistol Grip",
                         CompatibleItemIds = [
                             "5f6341043ada5942720e2dc5",
                             "6087e663132d4d12c81fd96b",
@@ -1732,6 +1754,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Stock",
                         CompatibleItemIds = [
                             "59ecc28286f7746d7a68aa8c",
                             "5ab626e4d8ce87272e4c6e43",
@@ -1742,6 +1765,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Ch. Handle",
                         CompatibleItemIds = [
                             "6130ca3fd92c473c77020dbd",
                             "5648ac824bdc2ded0b8b457d"
@@ -1751,6 +1775,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Magazine",
                         CompatibleItemIds = [
                             "564ca9df4bdc2d35148b4569",
                             "564ca99c4bdc2d16268b4589",
@@ -1770,6 +1795,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Muzzle",
                         CompatibleItemIds = [
                             "5ac72e945acfc43f3b691116",
                             "5ac7655e5acfc40016339a19",
@@ -1790,6 +1816,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Receiver",
                         CompatibleItemIds = [
                             "57dc334d245977597164366f",
                             "5839a7742459773cf9693481",
@@ -1800,6 +1827,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Gas Block",
                         CompatibleItemIds = [
                             "59d36a0086f7747e673f3946"
                         ],
@@ -1821,8 +1849,8 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 40,
                 FireModes =
                 [
-                    "SingleFire",
-                    "FullAuto"
+                    "Single fire",
+                    "Full auto"
                 ],
                 FireRate = 850,
                 HorizontalRecoil = 269,
@@ -1834,6 +1862,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Pistol Grip",
                         CompatibleItemIds = [
                             "55d4b9964bdc2d1d4e8b456e",
                             "571659bb2459771fb2755a12",
@@ -1869,6 +1898,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Magazine",
                         CompatibleItemIds = [
                             "5c5db6742e2216000f1b2852",
                             "5c5db6552e2216001026119d",
@@ -1879,6 +1909,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Receiver",
                         CompatibleItemIds = [
                             "5894a5b586f77426d2590767"
                         ],
@@ -1886,6 +1917,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Stock",
                         CompatibleItemIds = [
                             "58ac1bf086f77420ed183f9f",
                             "5894a13e86f7742405482982",
@@ -1899,6 +1931,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Ch. Handle",
                         CompatibleItemIds = [
                             "5c5db6b32e221600102611a0",
                             "58949edd86f77409483e16a9",
@@ -1919,7 +1952,7 @@ namespace TotovBuilder.Model.Test
                 CategoryId = "secondaryWeapon",
                 DefaultPresetId = "5eb2968186f7746d1f1a4fd5",
                 Ergonomics = 75,
-                FireModes = ["SingleFire"],
+                FireModes = ["Single fire"],
                 FireRate = 30,
                 HorizontalRecoil = 355,
                 IconLink = "https://assets.tarkov.dev/5e81c3cbac2bb513793cdc75-icon.webp",
@@ -1929,6 +1962,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Barrel",
                         CompatibleItemIds = [
                             "5e81c519cb2b95385c177551",
                             "5f3e7801153b8571434a924c",
@@ -1939,6 +1973,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Pistol Grip",
                         CompatibleItemIds = [
                             "5e81c6bf763d9f754677beff",
                             "5ef366938cef260c0642acad",
@@ -1949,6 +1984,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Receiver",
                         CompatibleItemIds = [
                             "5e81edc13397a21db957f6a1",
                             "5f3e7823ddc4f03b010e2045"
@@ -1958,6 +1994,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Magazine",
                         CompatibleItemIds = [
                             "5e81c4ca763d9f754677befa",
                             "5f3e77b26cda304dcc634057",
@@ -1968,6 +2005,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Trigger",
                         CompatibleItemIds = [
                             "5ef32e4d1c1fd62aea6a150d",
                             "5e81c6a2ac2bb513793cdc7f",
@@ -1978,6 +2016,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Hammer",
                         CompatibleItemIds = [
                             "5e81c550763d9f754677befd",
                             "5f3e76d86cda304dcc634054",
@@ -1990,6 +2029,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Catch",
                         CompatibleItemIds = [
                             "5e81c539cb2b95385c177553",
                             "5f3e777688ca2d00ad199d25",
@@ -2000,6 +2040,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Mount",
                         CompatibleItemIds = [
                             "5ef5d994dfbc9f3c660ded95"
                         ],
@@ -2008,6 +2049,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Mount",
                         CompatibleItemIds = [
                             "5ef369b08cef260c0642acaf"
                         ],
@@ -2029,8 +2071,8 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 44,
                 FireModes =
                 [
-                    "SingleFire",
-                    "FullAuto"
+                    "Single fire",
+                    "Full auto"
                 ],
                 FireRate = 650,
                 HorizontalRecoil = 373,
@@ -2041,6 +2083,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Pistol Grip",
                         CompatibleItemIds = [
                             "5f6341043ada5942720e2dc5",
                             "6087e663132d4d12c81fd96b",
@@ -2073,6 +2116,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Stock",
                         CompatibleItemIds = [
                             "59ecc28286f7746d7a68aa8c",
                             "5ab626e4d8ce87272e4c6e43",
@@ -2083,6 +2127,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Ch. Handle",
                         CompatibleItemIds = [
                             "6130ca3fd92c473c77020dbd",
                             "5648ac824bdc2ded0b8b457d"
@@ -2092,6 +2137,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Magazine",
                         CompatibleItemIds = [
                             "564ca9df4bdc2d35148b4569",
                             "564ca99c4bdc2d16268b4589",
@@ -2111,6 +2157,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Muzzle",
                         CompatibleItemIds = [
                             "5ac72e945acfc43f3b691116",
                             "5ac7655e5acfc40016339a19",
@@ -2131,6 +2178,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Receiver",
                         CompatibleItemIds = [
                             "57dc334d245977597164366f",
                             "5839a7742459773cf9693481",
@@ -2141,6 +2189,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Gas Block",
                         CompatibleItemIds = [
                             "59d36a0086f7747e673f3946"
                         ],
@@ -2162,8 +2211,8 @@ namespace TotovBuilder.Model.Test
                 Ergonomics = 40,
                 FireModes =
                 [
-                    "SingleFire",
-                    "FullAuto"
+                    "Single fire",
+                    "Full auto"
                 ],
                 FireRate = 850,
                 HorizontalRecoil = 269,
@@ -2174,6 +2223,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Pistol Grip",
                         CompatibleItemIds = [
                             "55d4b9964bdc2d1d4e8b456e",
                             "571659bb2459771fb2755a12",
@@ -2209,6 +2259,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Magazine",
                         CompatibleItemIds = [
                             "5c5db6742e2216000f1b2852",
                             "5c5db6552e2216001026119d",
@@ -2219,6 +2270,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Receiver",
                         CompatibleItemIds = [
                             "5894a5b586f77426d2590767"
                         ],
@@ -2226,6 +2278,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Stock",
                         CompatibleItemIds = [
                             "58ac1bf086f77420ed183f9f",
                             "5894a13e86f7742405482982",
@@ -2239,6 +2292,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Ch. Handle",
                         CompatibleItemIds = [
                             "5c5db6b32e221600102611a0",
                             "58949edd86f77409483e16a9",
@@ -2258,7 +2312,7 @@ namespace TotovBuilder.Model.Test
                 Caliber = "Caliber26x75",
                 CategoryId = "secondaryWeapon",
                 Ergonomics = 51,
-                FireModes = ["SingleFire"],
+                FireModes = ["Single fire"],
                 FireRate = 30,
                 HorizontalRecoil = 400,
                 IconLink = "https://assets.tarkov.dev/620109578d82e67e7911abf2-icon.webp",
@@ -2288,6 +2342,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Muzzle",
                         CompatibleItemIds = [
                             "58aeac1b86f77457c419f475"
                         ],
@@ -2323,6 +2378,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Scope",
                         CompatibleItemIds = [
                             "57ae0171245977343c27bfcf",
                             "58d39d3d86f77445bb794ae7",
@@ -2410,6 +2466,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Scope",
                         CompatibleItemIds = [
                             "57ac965c24597706be5f975c",
                             "57aca93d2459771f2c7e26db",
@@ -2535,6 +2592,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Mount",
                         CompatibleItemIds = [
                             "57ffb0062459777a045af529"
                         ],
@@ -2556,6 +2614,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Handguard",
                         CompatibleItemIds = [
                             "5d15ce51d7ad1a1eff619092",
                             "5a957c3fa2750c00137fa5f7",
@@ -2582,11 +2641,12 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Stock",
                         CompatibleItemIds = [
                             "5a0c59791526d8dba737bba7",
                             "6494094948796d891603e59f"
                         ],
-                        Name = "mod_stock"
+                        Name = "mod_stock_000"
                     }
                 ],
                 Name = "AKS-74U metal skeleton stock (6P26 Sb.5)",
@@ -2660,6 +2720,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Scope",
                         CompatibleItemIds = [
                             "57ac965c24597706be5f975c",
                             "57aca93d2459771f2c7e26db",
@@ -2731,6 +2792,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Barrel",
                         CompatibleItemIds = [
                             "5c5db5852e2216003a0fe71a",
                             "5c5db5962e2216000e5e46eb",
@@ -2743,6 +2805,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Handguard",
                         CompatibleItemIds = [
                             "5c59529a2e221602b177d160",
                             "5c5db6302e2216000e5e47f0",
@@ -2755,6 +2818,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Rear Sight",
                         CompatibleItemIds = [
                             "5ba26b17d4351e00367f9bdd",
                             "5dfa3d7ac41b2312ea33362a",
@@ -2769,6 +2833,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Tactical",
                         CompatibleItemIds = [
                             "57fd23e32459772d0805bcf1",
                             "544909bb4bdc2d6f028b4577",
@@ -2797,6 +2862,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Front Sight",
                         CompatibleItemIds = [
                             "5ba26b01d4351e0085325a51",
                             "5dfa3d950dee1b22f862eae0",
@@ -2811,6 +2877,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Mount",
                         CompatibleItemIds = [
                             "58a56f8d86f774651579314c"
                         ],
@@ -2818,6 +2885,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Mount",
                         CompatibleItemIds = [
                             "58a5c12e86f7745d585a2b9e"
                         ],
@@ -2825,6 +2893,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = "Mount",
                         CompatibleItemIds = [
                             "58a56f8d86f774651579314c"
                         ],
@@ -2874,6 +2943,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Stock",
                         CompatibleItemIds = [
                             "57ade1442459771557167e15",
                             "5a33ca0fc4a282000d72292f",
@@ -2924,6 +2994,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = "Handguard",
                         CompatibleItemIds = [
                             "5d15ce51d7ad1a1eff619092",
                             "5a957c3fa2750c00137fa5f7",
@@ -2944,12 +3015,12 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 2,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE",
-                    "LPLATE",
-                    "RPLATE",
-                    "StomachLeftSide",
-                    "StomachRightSide"
+                    "FR. PLATE",
+                    "BCK. PLATE",
+                    "L. PLATE",
+                    "R. PLATE",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side"
                 ],
                 Capacity = 14,
                 CategoryId = "vest",
@@ -2964,6 +3035,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = null, // TODO : MISSING FROM API
                         CompatibleItemIds =
                         [
                             "656f9d5900d62bcd2e02407c",
@@ -2989,6 +3061,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = null, // TODO : MISSING FROM API
                         CompatibleItemIds =
                         [
                             "656f9d5900d62bcd2e02407c",
@@ -3014,6 +3087,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = null, // TODO : MISSING FROM API
                         CompatibleItemIds =
                         [
                             "6557458f83942d705f0c4962",
@@ -3024,6 +3098,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = null, // TODO : MISSING FROM API
                         CompatibleItemIds =
                         [
                             "6557458f83942d705f0c4962",
@@ -3058,12 +3133,12 @@ namespace TotovBuilder.Model.Test
                 ArmorClass = 2,
                 ArmoredAreas =
                 [
-                    "FRPLATE",
-                    "BCKPLATE",
-                    "LPLATE",
-                    "RPLATE",
-                    "StomachLeftSide",
-                    "StomachRightSide"
+                    "FR. PLATE",
+                    "BCK. PLATE",
+                    "L. PLATE",
+                    "R. PLATE",
+                    "Stomach, Left Side",
+                    "Stomach, Right Side"
                 ],
                 BaseItemId = "61bc85697113f767765c7fe7",
                 Capacity = 14,
@@ -3078,6 +3153,7 @@ namespace TotovBuilder.Model.Test
                 ModSlots = [
                     new ModSlot()
                     {
+                        Caption = null, // TODO : MISSING FROM API
                         CompatibleItemIds =
                         [
                             "656f9d5900d62bcd2e02407c",
@@ -3103,6 +3179,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = null, // TODO : MISSING FROM API
                         CompatibleItemIds =
                         [
                             "656f9d5900d62bcd2e02407c",
@@ -3128,6 +3205,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = null, // TODO : MISSING FROM API
                         CompatibleItemIds =
                         [
                             "6557458f83942d705f0c4962",
@@ -3138,6 +3216,7 @@ namespace TotovBuilder.Model.Test
                     },
                     new ModSlot()
                     {
+                        Caption = null, // TODO : MISSING FROM API
                         CompatibleItemIds =
                         [
                             "6557458f83942d705f0c4962",

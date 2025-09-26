@@ -61,6 +61,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                     [
                         new ModSlot()
                         {
+                            Caption = null, // TODO : MISSING FROM API
                             CompatibleItemIds =
                             [
                                 "656f9d5900d62bcd2e02407c",
@@ -88,6 +89,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                         },
                         new ModSlot()
                         {
+                            Caption = null, // TODO : MISSING FROM API
                             CompatibleItemIds =
                             [
                                 "656f9d5900d62bcd2e02407c",
@@ -115,6 +117,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                         },
                         new ModSlot()
                         {
+                            Caption = null, // TODO : MISSING FROM API
                             CompatibleItemIds =
                             [
                                 "64afd81707e2cf40e903a316",
@@ -125,6 +128,7 @@ namespace TotovBuilder.Model.Test.Utils.JsonConverters.Items
                         },
                         new ModSlot()
                         {
+                            Caption = null, // TODO : MISSING FROM API
                             CompatibleItemIds =
                             [
                                 "6557458f83942d705f0c4962",

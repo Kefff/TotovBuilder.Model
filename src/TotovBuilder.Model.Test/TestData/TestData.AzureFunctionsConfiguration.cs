@@ -1,4 +1,5 @@
 ﻿using TotovBuilder.Model.Configuration;
+using TotovBuilder.Model.Utils;
 
 namespace TotovBuilder.Model.Test
 {
@@ -9,27 +10,43 @@ namespace TotovBuilder.Model.Test
     {
         public static AzureFunctionsConfiguration AzureFunctionsConfiguration { get; } = new AzureFunctionsConfiguration()
         {
-            ApiBartersQuery = "{ barters { level } }",
-            ApiItemsQuery = "{ items { id } }",
+            ApiBartersQuery = "{ barters(gameMode: {0}, lang: {1}) { level } }",
+            ApiItemsQuery = "{ items(lang: {0}) { id } }",
             ApiPresetsQuery = "{ items(type: preset) { id } }",
-            ApiPricesQuery = "{ items { id }",
+            ApiPricesQuery = "{ items(gameMode: {0}, lang: {1}) { id }",
             ApiUrl = "https://localhost/api",
             AzureBlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=;AccountKey=;EndpointSuffix=core.windows.net",
             AzureBlobStorageRawDataContainerName = "totov-builder-raw-data",
             AzureBlobStorageWebsiteContainerName = "$web",
             AzureFunctionsConfigurationBlobName = "azure-functions-configuration.json",
             ExecutionTimeout = 30,
+            GameModes = [
+                new GameMode()
+                {
+                    ApiQueryValue = "regular",
+                    Name = "pvp"
+                },
+                new GameMode()
+                {
+                    ApiQueryValue = "pve",
+                    Name = "pve"
+                }
+            ],
+            ItemsLanguages = [
+                "en",
+                "fr"
+            ],
             RawChangelogBlobName = "changelog.json",
             RawItemCategoriesBlobName = "item-categories.json",
             RawItemMissingPropertiesBlobName = "item-missing-properties.json",
             RawTarkovValuesBlobName = "tarkov-values.json",
             RawWebsiteConfigurationBlobName = "website-configuration.json",
+            WebsiteChangelogBlobName = "data/changelog.json",
             WebsiteDataCacheControl = "max-age=3600, must-revalidate",
             WebsiteFileCacheControl = "max-age=31536000, must-revalidate",
-            WebsiteChangelogBlobName = "data/changelog.json",
-            WebsiteItemsBlobName = "data/items.json",
+            WebsiteItemsBlobName = "data/items_{0}.json",
             WebsitePresetsBlobName = "data/presets.json",
-            WebsitePricesBlobName = "data/prices.json",
+            WebsitePricesBlobName = "data/prices_{0}_{1}.json",
             WebsiteTarkovValuesBlobName = "data/tarkov-values.json",
             WebsiteWebsiteConfigurationBlobName = "data/website-configuration.json"
         };
