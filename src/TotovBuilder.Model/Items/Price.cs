@@ -38,7 +38,7 @@ namespace TotovBuilder.Model.Items
         /// Merchant level.
         /// </summary>
         [JsonPropertyName("ml")]
-        public double MerchantLevel { get; set; }
+        public int MerchantLevel { get; set; }
 
         /// <summary>
         /// ID of the quest unlocking the trade.

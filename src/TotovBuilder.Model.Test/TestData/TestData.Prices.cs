@@ -32,6 +32,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5b432be65acfc433000ed01f",
                 Merchant = "flea-market",
+                MerchantLevel = 58,
                 Value = 7003,
                 ValueInMainCurrency = 7003
             },
@@ -40,6 +41,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5e32f56fcb6d5863cc5e5ee4",
                 Merchant = "flea-market",
+                MerchantLevel = 55,
                 Value = 22864,
                 ValueInMainCurrency = 22864
             },
@@ -57,6 +59,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5a0c27731526d80618476ac4",
                 Merchant = "flea-market",
+                MerchantLevel = 54,
                 Value = 8063,
                 ValueInMainCurrency = 8063
             },
@@ -65,6 +68,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5e4bfc1586f774264f7582d3",
                 Merchant = "flea-market",
+                MerchantLevel = 44,
                 Value = 65774,
                 ValueInMainCurrency = 65774
             },
@@ -91,6 +95,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5e54f76986f7740366043752",
                 Merchant = "flea-market",
+                MerchantLevel = 36,
                 Value = 27131,
                 ValueInMainCurrency = 27131
             },
@@ -108,6 +113,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "628e4e576d783146b124c64d",
                 Merchant = "flea-market",
+                MerchantLevel = 49,
                 Value = 79807,
                 ValueInMainCurrency = 79807
             },
@@ -125,6 +131,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5991b51486f77447b112d44f",
                 Merchant = "flea-market",
+                MerchantLevel = 72,
                 Value = 27571,
                 ValueInMainCurrency = 27571
             },
@@ -142,6 +149,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5e81c4ca763d9f754677befa",
                 Merchant = "flea-market",
+                MerchantLevel = 28,
                 Value = 12148,
                 ValueInMainCurrency = 12148
             },
@@ -150,6 +158,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5c0126f40db834002a125382",
                 Merchant = "flea-market",
+                MerchantLevel = 36,
                 Value = 3892587,
                 ValueInMainCurrency = 3892587
             },
@@ -167,6 +176,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "59d790f486f77403cb06aec6",
                 Merchant = "flea-market",
+                MerchantLevel = 26,
                 Value = 10276,
                 ValueInMainCurrency = 10276
             },
@@ -190,6 +200,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "57dc2fa62459775949412633",
                 Merchant = "flea-market",
+                MerchantLevel = 32,
                 Value = 31666,
                 ValueInMainCurrency = 31666
             },
@@ -207,6 +218,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5e81c3cbac2bb513793cdc75",
                 Merchant = "flea-market",
+                MerchantLevel = 20,
                 Value = 13333,
                 ValueInMainCurrency = 13333
             },
@@ -224,6 +236,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5d2c76ed48f03532f2136169",
                 Merchant = "flea-market",
+                MerchantLevel = 21,
                 Value = 9628,
                 ValueInMainCurrency = 9628
             },
@@ -232,6 +245,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "61714eec290d254f5e6b2ffc",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 41517,
                 ValueInMainCurrency = 41517
             },
@@ -240,6 +254,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "61bc85697113f767765c7fe7",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 31180,
                 ValueInMainCurrency = 31180
             },
@@ -257,6 +272,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "657660eb86f11bca4106d34f",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 65822,
                 ValueInMainCurrency = 65822
             },
@@ -289,6 +305,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "58948c8e86f77409493f7266",
                 Merchant = "flea-market",
+                MerchantLevel = 29,
                 Value = 47085,
                 ValueInMainCurrency = 47085
             },
@@ -306,6 +323,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "57c55efc2459772d2c6271e7",
                 Merchant = "flea-market",
+                MerchantLevel = 36,
                 Value = 17885,
                 ValueInMainCurrency = 17885
             },
@@ -323,6 +341,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5894a05586f774094708ef75",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 7623,
                 ValueInMainCurrency = 7623
             },
@@ -340,6 +359,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5894a5b586f77426d2590767",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 15911,
                 ValueInMainCurrency = 15911
             },
@@ -357,6 +377,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "57adff4f24597737f373b6e6",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 49460,
                 ValueInMainCurrency = 49460
             },
@@ -374,6 +395,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "58d2664f86f7747fec5834f6",
                 Merchant = "flea-market",
+                MerchantLevel = 30,
                 Value = 17381,
                 ValueInMainCurrency = 17381
             },
@@ -391,6 +413,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "58d268fc86f774111273f8c2",
                 Merchant = "flea-market",
+                MerchantLevel = 65,
                 Value = 38056,
                 ValueInMainCurrency = 38056
             },
@@ -408,6 +431,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "58aeaaa886f7744fc1560f81",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 16886,
                 ValueInMainCurrency = 16886
             },
@@ -425,6 +449,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "58aeac1b86f77457c419f475",
                 Merchant = "flea-market",
+                MerchantLevel = 28,
                 Value = 14293,
                 ValueInMainCurrency = 14293
             },
@@ -433,6 +458,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5894a42086f77426d2590762",
                 Merchant = "flea-market",
+                MerchantLevel = 70,
                 Value = 7897,
                 ValueInMainCurrency = 7897
             },
@@ -450,6 +476,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "58a56f8d86f774651579314c",
                 Merchant = "flea-market",
+                MerchantLevel = 55,
                 Value = 17595,
                 ValueInMainCurrency = 17595
             },
@@ -467,6 +494,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "5a7b483fe899ef0016170d15",
                 Merchant = "flea-market",
+                MerchantLevel = 29,
                 Value = 19103,
                 ValueInMainCurrency = 19103
             },
@@ -484,6 +512,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "58a5c12e86f7745d585a2b9e",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 11945,
                 ValueInMainCurrency = 11945
             },
@@ -501,6 +530,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "59f8a37386f7747af3328f06",
                 Merchant = "flea-market",
+                MerchantLevel = 70,
                 Value = 150000,
                 ValueInMainCurrency = 150000
             },
@@ -518,6 +548,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "58ac1bf086f77420ed183f9f",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 50000,
                 ValueInMainCurrency = 50000
             },
@@ -535,6 +566,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "591aef7986f774139d495f03",
                 Merchant = "flea-market",
+                MerchantLevel = 15,
                 Value = 15522,
                 ValueInMainCurrency = 15522
             },
@@ -543,6 +575,7 @@ namespace TotovBuilder.Model.Test
                 CurrencyName = "RUB",
                 ItemId = "58949edd86f77409483e16a9",
                 Merchant = "flea-market",
+                MerchantLevel = 18,
                 Value = 26497,
                 ValueInMainCurrency = 26497
             }

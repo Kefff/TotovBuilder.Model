@@ -78,7 +78,8 @@
             ""price"": 49460,
             ""priceRUB"": 49460,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -103,7 +104,8 @@
             ""price"": 17885,
             ""priceRUB"": 17885,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 36
             }
           }
         ],
@@ -132,7 +134,8 @@
             ""price"": 31666,
             ""priceRUB"": 31666,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 32
             }
           }
         ],
@@ -173,7 +176,8 @@
             ""price"": 47085,
             ""priceRUB"": 47085,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 29
             }
           }
         ],
@@ -186,7 +190,8 @@
             ""price"": 26497,
             ""priceRUB"": 26497,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 18
             }
           }
         ],
@@ -211,7 +216,8 @@
             ""price"": 7623,
             ""priceRUB"": 7623,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -224,7 +230,8 @@
             ""price"": 7897,
             ""priceRUB"": 7897,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 70
             }
           }
         ],
@@ -249,7 +256,8 @@
             ""price"": 15911,
             ""priceRUB"": 15911,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -274,7 +282,8 @@
             ""price"": 17595,
             ""priceRUB"": 17595,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 55
             }
           }
         ],
@@ -299,7 +308,8 @@
             ""price"": 11945,
             ""priceRUB"": 11945,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -324,7 +334,8 @@
             ""price"": 50000,
             ""priceRUB"": 50000,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -349,7 +360,8 @@
             ""price"": 16886,
             ""priceRUB"": 16886,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -374,7 +386,8 @@
             ""price"": 14293,
             ""priceRUB"": 14293,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 28
             }
           }
         ],
@@ -399,7 +412,8 @@
             ""price"": 17381,
             ""priceRUB"": 17381,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 30
             }
           }
         ],
@@ -424,7 +438,8 @@
             ""price"": 38056,
             ""priceRUB"": 38056,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 65
             }
           }
         ],
@@ -449,7 +464,8 @@
             ""price"": 15522,
             ""priceRUB"": 15522,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -474,7 +490,8 @@
             ""price"": 27571,
             ""priceRUB"": 27571,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 72
             }
           }
         ],
@@ -499,7 +516,8 @@
             ""price"": 10276,
             ""priceRUB"": 10276,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 26
             }
           }
         ],
@@ -524,7 +542,8 @@
             ""price"": 150000,
             ""priceRUB"": 150000,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 70
             }
           }
         ],
@@ -549,7 +568,8 @@
             ""price"": 8063,
             ""priceRUB"": 8063,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 54
             }
           }
         ],
@@ -574,7 +594,8 @@
             ""price"": 19103,
             ""priceRUB"": 19103,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 29
             }
           }
         ],
@@ -607,7 +628,8 @@
             ""price"": 7003,
             ""priceRUB"": 7003,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 58
             }
           }
         ],
@@ -620,7 +642,8 @@
             ""price"": 3892587,
             ""priceRUB"": 3892587,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 36
             }
           }
         ],
@@ -637,7 +660,8 @@
             ""price"": 0,
             ""priceRUB"": 0,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -666,7 +690,8 @@
             ""price"": 9628,
             ""priceRUB"": 9628,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 21
             }
           }
         ],
@@ -679,7 +704,8 @@
             ""price"": 22864,
             ""priceRUB"": 22864,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 55
             }
           }
         ],
@@ -692,7 +718,8 @@
             ""price"": 65774,
             ""priceRUB"": 65774,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 44
             }
           }
         ],
@@ -705,7 +732,8 @@
             ""price"": 27131,
             ""priceRUB"": 27131,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 36
             }
           }
         ],
@@ -730,7 +758,8 @@
             ""price"": 13333,
             ""priceRUB"": 13333,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 20
             }
           }
         ],
@@ -755,7 +784,8 @@
             ""price"": 12148,
             ""priceRUB"": 12148,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 28
             }
           }
         ],
@@ -768,7 +798,8 @@
             ""price"": 0,
             ""priceRUB"": 0,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 44
             }
           }
         ],
@@ -785,7 +816,8 @@
             ""price"": 41517,
             ""priceRUB"": 41517,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -798,7 +830,8 @@
             ""price"": 31180,
             ""priceRUB"": 31180,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
@@ -823,7 +856,8 @@
             ""price"": 79807,
             ""priceRUB"": 79807,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 49
             }
           }
         ],
@@ -848,7 +882,8 @@
             ""price"": 65822,
             ""priceRUB"": 65822,
             ""vendor"": {
-              ""normalizedName"": ""flea-market""
+              ""normalizedName"": ""flea-market"",
+              ""minPlayerLevel"": 15
             }
           }
         ],
