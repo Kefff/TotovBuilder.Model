@@ -73,7 +73,7 @@ namespace TotovBuilder.Model.Test
                     new BarterItem()
                     {
                         ItemId = "5e4bfc1586f774264f7582d3",
-                        Quantity = 0.5
+                        Quantity = 1
                     }
                 ],
                 CurrencyName = "barter",

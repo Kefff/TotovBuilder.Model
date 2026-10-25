@@ -7,889 +7,570 @@
     {
         public const string PricesJson = @"{
   ""data"": {
-    ""items"": [
-      {
-        ""buyFor"": [],
-        ""id"": ""545cdb794bdc2d3a198b456a""
+    ""items"": {
+      ""545cdb794bdc2d3a198b456a"": {
+        ""id"": ""545cdb794bdc2d3a198b456a"",
+        ""buyFromTrader"": [],
+        ""types"": [
+          ""noFlea""
+        ]
       },
-      {
-        ""buyFor"": [
+      ""569668774bdc2da2298b4568"": {
+        ""id"": ""569668774bdc2da2298b4568"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""58330581ace78e27b8b10cee"",
             ""price"": 118,
             ""priceRUB"": 118,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""skier""
-              }
-            }
+            ""currency"": ""RUB"",
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""569668774bdc2da2298b4568""
+        ""types"": [
+          ""noFlea""
+        ]
       },
-      {
-        ""buyFor"": [
+      ""5696686a4bdc2da3298b456a"": {
+        ""id"": ""5696686a4bdc2da3298b456a"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 121,
             ""priceRUB"": 121,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          }
-        ],
-        ""id"": ""5696686a4bdc2da3298b456a""
-      },
-      {
-        ""buyFor"": [
-          {
             ""currency"": ""RUB"",
-            ""price"": 18111,
-            ""priceRUB"": 18111,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market""
-            }
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5783c43d2459774bbe137486""
+        ""types"": [
+          ""noFlea""
+        ]
       },
-      {
-        ""buyFor"": [
+      ""5783c43d2459774bbe137486"": {
+        ""id"": ""5783c43d2459774bbe137486"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 18111
+      },
+      ""57adff4f24597737f373b6e6"": {
+        ""id"": ""57adff4f24597737f373b6e6"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 433,
             ""priceRUB"": 51527,
-            ""vendor"": {
-              ""minTraderLevel"": 4,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 49460,
-            ""priceRUB"": 49460,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 4,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""57adff4f24597737f373b6e6""
+        ""types"": [],
+        ""avg24hPrice"": 49460,
+        ""minLevelForFlea"": 15
       },
-      {
-        ""buyFor"": [
+      ""57c55efc2459772d2c6271e7"": {
+        ""id"": ""57c55efc2459772d2c6271e7"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 37,
             ""priceRUB"": 4403,
-            ""vendor"": {
-              ""minTraderLevel"": 3,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 17885,
-            ""priceRUB"": 17885,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 36
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 3,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""57c55efc2459772d2c6271e7""
+        ""types"": [],
+        ""avg24hPrice"": 17885,
+        ""minLevelForFlea"": 36
       },
-      {
-        ""buyFor"": [
+      ""57dc2fa62459775949412633"": {
+        ""id"": ""57dc2fa62459775949412633"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""54cb50c76803fa8b248b4571"",
             ""price"": 24605,
             ""priceRUB"": 24605,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": {
-                ""id"": ""5936d90786f7742b1420ba5b"",
-                ""name"": ""Debut"",
-                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Debut""
-              },
-              ""trader"": {
-                ""normalizedName"": ""prapor""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 31666,
-            ""priceRUB"": 31666,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 32
-            }
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": ""5936d90786f7742b1420ba5b""
           }
         ],
-        ""id"": ""57dc2fa62459775949412633""
+        ""types"": [],
+        ""avg24hPrice"": 31666,
+        ""minLevelForFlea"": 32
       },
-      {
-        ""buyFor"": [
+      ""58948c8e86f77409493f7266"": {
+        ""id"": ""58948c8e86f77409493f7266"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 410,
             ""priceRUB"": 48790,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": null
           },
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 539,
             ""priceRUB"": 64141,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": {
-                ""id"": ""5a27b80086f774429a5d7e20"",
-                ""name"": ""Eagle Eye"",
-                ""wikiLink"": ""https://escapefromtarkov.fandom.com/wiki/Eagle_Eye""
-              },
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 47085,
-            ""priceRUB"": 47085,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 29
-            }
-          }
-        ],
-        ""id"": ""58948c8e86f77409493f7266""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 26497,
-            ""priceRUB"": 26497,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 18
-            }
-          }
-        ],
-        ""id"": ""58949edd86f77409483e16a9""
-      },
-      {
-        ""buyFor"": [
-          {
             ""currency"": ""USD"",
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": ""5a27b80086f774429a5d7e20""
+          }
+        ],
+        ""types"": [],
+        ""avg24hPrice"": 47085,
+        ""minLevelForFlea"": 29
+      },
+      ""58949edd86f77409483e16a9"": {
+        ""id"": ""58949edd86f77409483e16a9"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 26497,
+        ""minLevelForFlea"": 18
+      },
+      ""5894a05586f774094708ef75"": {
+        ""id"": ""5894a05586f774094708ef75"",
+        ""buyFromTrader"": [
+          {
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 22,
             ""priceRUB"": 2618,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 7623,
-            ""priceRUB"": 7623,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5894a05586f774094708ef75""
+        ""types"": [],
+        ""avg24hPrice"": 7623,
+        ""minLevelForFlea"": 15
       },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 7897,
-            ""priceRUB"": 7897,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 70
-            }
-          }
-        ],
-        ""id"": ""5894a42086f77426d2590762""
+      ""5894a42086f77426d2590762"": {
+        ""id"": ""5894a42086f77426d2590762"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 7897,
+        ""minLevelForFlea"": 70
       },
-      {
-        ""buyFor"": [
+      ""5894a5b586f77426d2590767"": {
+        ""id"": ""5894a5b586f77426d2590767"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""EUR"",
+            ""trader"": ""5a7c2eca46aef81a7ca2145d"",
             ""price"": 35,
             ""priceRUB"": 4585,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""mechanic""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 15911,
-            ""priceRUB"": 15911,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
+            ""currency"": ""EUR"",
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5894a5b586f77426d2590767""
+        ""types"": [],
+        ""avg24hPrice"": 15911,
+        ""minLevelForFlea"": 15
       },
-      {
-        ""buyFor"": [
+      ""58a56f8d86f774651579314c"": {
+        ""id"": ""58a56f8d86f774651579314c"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""5a7c2eca46aef81a7ca2145d"",
             ""price"": 2081,
             ""priceRUB"": 2081,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""mechanic""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 17595,
-            ""priceRUB"": 17595,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 55
-            }
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""58a56f8d86f774651579314c""
+        ""types"": [],
+        ""avg24hPrice"": 17595,
+        ""minLevelForFlea"": 55
       },
-      {
-        ""buyFor"": [
+      ""58a5c12e86f7745d585a2b9e"": {
+        ""id"": ""58a5c12e86f7745d585a2b9e"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""5a7c2eca46aef81a7ca2145d"",
             ""price"": 2674,
             ""priceRUB"": 2674,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""mechanic""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 11945,
-            ""priceRUB"": 11945,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""58a5c12e86f7745d585a2b9e""
+        ""types"": [],
+        ""avg24hPrice"": 11945,
+        ""minLevelForFlea"": 15
       },
-      {
-        ""buyFor"": [
+      ""58ac1bf086f77420ed183f9f"": {
+        ""id"": ""58ac1bf086f77420ed183f9f"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 34,
             ""priceRUB"": 4046,
-            ""vendor"": {
-              ""minTraderLevel"": 3,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 50000,
-            ""priceRUB"": 50000,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 3,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""58ac1bf086f77420ed183f9f""
+        ""types"": [],
+        ""avg24hPrice"": 50000,
+        ""minLevelForFlea"": 15
       },
-      {
-        ""buyFor"": [
+      ""58aeaaa886f7744fc1560f81"": {
+        ""id"": ""58aeaaa886f7744fc1560f81"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""EUR"",
+            ""trader"": ""5a7c2eca46aef81a7ca2145d"",
             ""price"": 56,
             ""priceRUB"": 7336,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""mechanic""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 16886,
-            ""priceRUB"": 16886,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
+            ""currency"": ""EUR"",
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""58aeaaa886f7744fc1560f81""
+        ""types"": [],
+        ""avg24hPrice"": 16886,
+        ""minLevelForFlea"": 15
       },
-      {
-        ""buyFor"": [
+      ""58aeac1b86f77457c419f475"": {
+        ""id"": ""58aeac1b86f77457c419f475"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""5a7c2eca46aef81a7ca2145d"",
             ""price"": 24084,
             ""priceRUB"": 24084,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""mechanic""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 14293,
-            ""priceRUB"": 14293,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 28
-            }
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""58aeac1b86f77457c419f475""
+        ""types"": [],
+        ""avg24hPrice"": 14293,
+        ""minLevelForFlea"": 28
       },
-      {
-        ""buyFor"": [
+      ""58d2664f86f7747fec5834f6"": {
+        ""id"": ""58d2664f86f7747fec5834f6"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 17,
             ""priceRUB"": 2023,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 17381,
-            ""priceRUB"": 17381,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 30
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""58d2664f86f7747fec5834f6""
+        ""types"": [],
+        ""avg24hPrice"": 17381,
+        ""minLevelForFlea"": 30
       },
-      {
-        ""buyFor"": [
+      ""58d268fc86f774111273f8c2"": {
+        ""id"": ""58d268fc86f774111273f8c2"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 184,
             ""priceRUB"": 21896,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 38056,
-            ""priceRUB"": 38056,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 65
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""58d268fc86f774111273f8c2""
+        ""types"": [],
+        ""avg24hPrice"": 38056,
+        ""minLevelForFlea"": 65
       },
-      {
-        ""buyFor"": [
+      ""591aef7986f774139d495f03"": {
+        ""id"": ""591aef7986f774139d495f03"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""5a7c2eca46aef81a7ca2145d"",
             ""price"": 6181,
             ""priceRUB"": 6181,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""mechanic""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 15522,
-            ""priceRUB"": 15522,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""591aef7986f774139d495f03""
+        ""types"": [],
+        ""avg24hPrice"": 15522,
+        ""minLevelForFlea"": 15
       },
-      {
-        ""buyFor"": [
+      ""5991b51486f77447b112d44f"": {
+        ""id"": ""5991b51486f77447b112d44f"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""54cb50c76803fa8b248b4571"",
             ""price"": 15177,
             ""priceRUB"": 15177,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""prapor""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 27571,
-            ""priceRUB"": 27571,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 72
-            }
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5991b51486f77447b112d44f""
+        ""types"": [],
+        ""avg24hPrice"": 27571,
+        ""minLevelForFlea"": 72
       },
-      {
-        ""buyFor"": [
+      ""59d790f486f77403cb06aec6"": {
+        ""id"": ""59d790f486f77403cb06aec6"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""58330581ace78e27b8b10cee"",
             ""price"": 6957,
             ""priceRUB"": 6957,
-            ""vendor"": {
-              ""minTraderLevel"": 3,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""skier""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 10276,
-            ""priceRUB"": 10276,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 26
-            }
+            ""minTraderLevel"": 3,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""59d790f486f77403cb06aec6""
+        ""types"": [],
+        ""avg24hPrice"": 10276,
+        ""minLevelForFlea"": 26
       },
-      {
-        ""buyFor"": [
+      ""59f8a37386f7747af3328f06"": {
+        ""id"": ""59f8a37386f7747af3328f06"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 165,
             ""priceRUB"": 19635,
-            ""vendor"": {
-              ""minTraderLevel"": 4,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 150000,
-            ""priceRUB"": 150000,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 70
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 4,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""59f8a37386f7747af3328f06""
+        ""types"": [],
+        ""avg24hPrice"": 150000,
+        ""minLevelForFlea"": 70
       },
-      {
-        ""buyFor"": [
+      ""5a0c27731526d80618476ac4"": {
+        ""id"": ""5a0c27731526d80618476ac4"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""54cb50c76803fa8b248b4571"",
             ""price"": 7320,
             ""priceRUB"": 7320,
-            ""vendor"": {
-              ""minTraderLevel"": 2,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""prapor""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 8063,
-            ""priceRUB"": 8063,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 54
-            }
+            ""minTraderLevel"": 2,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5a0c27731526d80618476ac4""
+        ""types"": [],
+        ""avg24hPrice"": 8063,
+        ""minLevelForFlea"": 54
       },
-      {
-        ""buyFor"": [
+      ""5a7b483fe899ef0016170d15"": {
+        ""id"": ""5a7b483fe899ef0016170d15"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""5a7c2eca46aef81a7ca2145d"",
             ""price"": 18866,
             ""priceRUB"": 18866,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""mechanic""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 19103,
-            ""priceRUB"": 19103,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 29
-            }
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5a7b483fe899ef0016170d15""
+        ""types"": [],
+        ""avg24hPrice"": 19103,
+        ""minLevelForFlea"": 29
       },
-      {
-        ""buyFor"": [],
-        ""id"": ""5a8ae43686f774377b73cfb3""
+      ""5a8ae43686f774377b73cfb3"": {
+        ""id"": ""5a8ae43686f774377b73cfb3"",
+        ""buyFromTrader"": [],
+        ""types"": [
+          ""noFlea""
+        ]
       },
-      {
-        ""buyFor"": [],
-        ""id"": ""5ab8ebf186f7742d8b372e80""
+      ""5ab8ebf186f7742d8b372e80"": {
+        ""id"": ""5ab8ebf186f7742d8b372e80"",
+        ""buyFromTrader"": [],
+        ""types"": [
+          ""noFlea""
+        ]
       },
-      {
-        ""buyFor"": [
+      ""5b432be65acfc433000ed01f"": {
+        ""id"": ""5b432be65acfc433000ed01f"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
+            ""trader"": ""54cb50c76803fa8b248b4571"",
             ""price"": 3003,
             ""priceRUB"": 3003,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""prapor""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 7003,
-            ""priceRUB"": 7003,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 58
-            }
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5b432be65acfc433000ed01f""
+        ""types"": [],
+        ""avg24hPrice"": 7003,
+        ""minLevelForFlea"": 58
       },
-      {
-        ""buyFor"": [
+      ""5c0126f40db834002a125382"": {
+        ""id"": ""5c0126f40db834002a125382"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 3892587,
+        ""minLevelForFlea"": 36
+      },
+      ""5c093ca986f7740a1867ab12"": {
+        ""id"": ""5c093ca986f7740a1867ab12"",
+        ""buyFromTrader"": [],
+        ""types"": [
+          ""noFlea""
+        ]
+      },
+      ""5c1d0c5f86f7744bb2683cf0"": {
+        ""id"": ""5c1d0c5f86f7744bb2683cf0"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 0,
+        ""minLevelForFlea"": 15
+      },
+      ""5ca2113f86f7740b2547e1d2"": {
+        ""id"": ""5ca2113f86f7740b2547e1d2"",
+        ""buyFromTrader"": [],
+        ""types"": [
+          ""noFlea""
+        ]
+      },
+      ""5d2c76ed48f03532f2136169"": {
+        ""id"": ""5d2c76ed48f03532f2136169"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
-            ""price"": 3892587,
-            ""priceRUB"": 3892587,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 36
-            }
-          }
-        ],
-        ""id"": ""5c0126f40db834002a125382""
-      },
-      {
-        ""buyFor"": [],
-        ""id"": ""5c093ca986f7740a1867ab12""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 0,
-            ""priceRUB"": 0,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
-          }
-        ],
-        ""id"": ""5c1d0c5f86f7744bb2683cf0""
-      },
-      {
-        ""buyFor"": [],
-        ""id"": ""5ca2113f86f7740b2547e1d2""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
+            ""trader"": ""58330581ace78e27b8b10cee"",
             ""price"": 6325,
             ""priceRUB"": 6325,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""skier""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 9628,
-            ""priceRUB"": 9628,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 21
-            }
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5d2c76ed48f03532f2136169""
+        ""types"": [],
+        ""avg24hPrice"": 9628,
+        ""minLevelForFlea"": 21
       },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 22864,
-            ""priceRUB"": 22864,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 55
-            }
-          }
-        ],
-        ""id"": ""5e32f56fcb6d5863cc5e5ee4""
+      ""5e32f56fcb6d5863cc5e5ee4"": {
+        ""id"": ""5e32f56fcb6d5863cc5e5ee4"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 22864,
+        ""minLevelForFlea"": 55
       },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 65774,
-            ""priceRUB"": 65774,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 44
-            }
-          }
-        ],
-        ""id"": ""5e4bfc1586f774264f7582d3""
+      ""5e4bfc1586f774264f7582d3"": {
+        ""id"": ""5e4bfc1586f774264f7582d3"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 65774,
+        ""minLevelForFlea"": 44
       },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 27131,
-            ""priceRUB"": 27131,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 36
-            }
-          }
-        ],
-        ""id"": ""5e54f76986f7740366043752""
+      ""5e54f76986f7740366043752"": {
+        ""id"": ""5e54f76986f7740366043752"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 27131,
+        ""minLevelForFlea"": 36
       },
-      {
-        ""buyFor"": [
+      ""5e81c3cbac2bb513793cdc75"": {
+        ""id"": ""5e81c3cbac2bb513793cdc75"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 155,
             ""priceRUB"": 17360,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 13333,
-            ""priceRUB"": 13333,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 20
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5e81c3cbac2bb513793cdc75""
+        ""types"": [],
+        ""avg24hPrice"": 13333,
+        ""minLevelForFlea"": 20
       },
-      {
-        ""buyFor"": [
+      ""5e81c4ca763d9f754677befa"": {
+        ""id"": ""5e81c4ca763d9f754677befa"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 13,
             ""priceRUB"": 1456,
-            ""vendor"": {
-              ""minTraderLevel"": 1,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 12148,
-            ""priceRUB"": 12148,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 28
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 1,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""5e81c4ca763d9f754677befa""
+        ""types"": [],
+        ""avg24hPrice"": 12148,
+        ""minLevelForFlea"": 28
       },
-      {
-        ""buyFor"": [
+      ""5f9949d869e2777a0e779ba5"": {
+        ""id"": ""5f9949d869e2777a0e779ba5"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 0,
+        ""minLevelForFlea"": 44
+      },
+      ""601aa3d2b2bcb34913271e6d"": {
+        ""id"": ""601aa3d2b2bcb34913271e6d"",
+        ""buyFromTrader"": [],
+        ""types"": [
+          ""noFlea""
+        ]
+      },
+      ""61714eec290d254f5e6b2ffc"": {
+        ""id"": ""61714eec290d254f5e6b2ffc"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 41517,
+        ""minLevelForFlea"": 15
+      },
+      ""61bc85697113f767765c7fe7"": {
+        ""id"": ""61bc85697113f767765c7fe7"",
+        ""buyFromTrader"": [],
+        ""types"": [],
+        ""avg24hPrice"": 31180,
+        ""minLevelForFlea"": 15
+      },
+      ""628e4e576d783146b124c64d"": {
+        ""id"": ""628e4e576d783146b124c64d"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""RUB"",
-            ""price"": 0,
-            ""priceRUB"": 0,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 44
-            }
-          }
-        ],
-        ""id"": ""5f9949d869e2777a0e779ba5""
-      },
-      {
-        ""buyFor"": [],
-        ""id"": ""601aa3d2b2bcb34913271e6d""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 41517,
-            ""priceRUB"": 41517,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
-          }
-        ],
-        ""id"": ""61714eec290d254f5e6b2ffc""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
-            ""price"": 31180,
-            ""priceRUB"": 31180,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
-          }
-        ],
-        ""id"": ""61bc85697113f767765c7fe7""
-      },
-      {
-        ""buyFor"": [
-          {
-            ""currency"": ""RUB"",
+            ""trader"": ""5ac3b934156ae10c4430e83c"",
             ""price"": 84249,
             ""priceRUB"": 84249,
-            ""vendor"": {
-              ""minTraderLevel"": 4,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""ragman""
-              }
-            }
-          },
-          {
             ""currency"": ""RUB"",
-            ""price"": 79807,
-            ""priceRUB"": 79807,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 49
-            }
+            ""minTraderLevel"": 4,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""628e4e576d783146b124c64d""
+        ""types"": [],
+        ""avg24hPrice"": 79807,
+        ""minLevelForFlea"": 49
       },
-      {
-        ""buyFor"": [
+      ""657660eb86f11bca4106d34f"": {
+        ""id"": ""657660eb86f11bca4106d34f"",
+        ""buyFromTrader"": [
           {
-            ""currency"": ""USD"",
+            ""trader"": ""5935c25fb3acc3127c3d8cd9"",
             ""price"": 569,
             ""priceRUB"": 83100,
-            ""vendor"": {
-              ""minTraderLevel"": 3,
-              ""taskUnlock"": null,
-              ""trader"": {
-                ""normalizedName"": ""peacekeeper""
-              }
-            }
-          },
-          {
-            ""currency"": ""RUB"",
-            ""price"": 65822,
-            ""priceRUB"": 65822,
-            ""vendor"": {
-              ""normalizedName"": ""flea-market"",
-              ""minPlayerLevel"": 15
-            }
+            ""currency"": ""USD"",
+            ""minTraderLevel"": 3,
+            ""taskUnlock"": null
           }
         ],
-        ""id"": ""657660eb86f11bca4106d34f""
+        ""types"": [],
+        ""avg24hPrice"": 65822,
+        ""minLevelForFlea"": 15
       }
-    ]
+    },
+    ""fleaMarket"": {
+      ""enabled"": true,
+      ""normalizedName"": ""flea-market""
+    }
   }
 }";
     }

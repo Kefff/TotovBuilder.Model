@@ -7,11 +7,14 @@
     {
 
         public const string AzureFunctionsConfigurationJson = @"{
-  ""ApiBartersQuery"": ""{ barters(gameMode: {0}, lang: {1}) { level } }"",
-  ""ApiItemsQuery"": ""{ items(lang: {0}) { id } }"",
-  ""ApiPresetsQuery"": ""{ items(type: preset) { id } }"",
-  ""ApiPricesQuery"": ""{ items(gameMode: {0}, lang: {1}) { id }"",
-  ""ApiUrl"": ""https://localhost/api"",
+  ""ApiBartersPath"": ""/{0}/barters"",
+  ""ApiBaseUrl"": ""https://localhost"",
+  ""ApiItemsPath"": ""/{0}/items"",
+  ""ApiItemsTranslationsPath"": ""/{0}/items_{1}"",
+  ""ApiSeasonPath"": ""/pvp-season/season"",
+  ""ApiTasksPath"": ""/{0}/tasks"",
+  ""ApiTasksTranslationsPath"": ""/{0}/tasks_{1}"",
+  ""ApiTradersPath"": ""/{0}/traders"",
   ""AzureBlobStorageConnectionString"": ""DefaultEndpointsProtocol=https;AccountName=;AccountKey=;EndpointSuffix=core.windows.net"",
   ""AzureBlobStorageRawDataContainerName"": ""totov-builder-raw-data"",
   ""AzureBlobStorageWebsiteContainerName"": ""$web"",
@@ -25,15 +28,20 @@
     {
       ""name"": ""pve"",
       ""apiQueryValue"": ""pve""
+    },
+    {
+      ""name"": ""pvp-season"",
+      ""apiQueryValue"": ""pvp-season"",
+      ""fallbackGameModeName"": ""pvp""
     }
   ],
+  ""ItemsGameMode"": ""regular"",
   ""ItemsLanguages"": [
     ""en"",
     ""fr""
   ],
   ""RawChangelogBlobName"": ""changelog.json"",
   ""RawItemCategoriesBlobName"": ""item-categories.json"",
-  ""RawItemMissingPropertiesBlobName"": ""item-missing-properties.json"",
   ""RawTarkovValuesBlobName"": ""tarkov-values.json"",
   ""RawWebsiteConfigurationBlobName"": ""website-configuration.json"",
   ""WebsiteChangelogBlobName"": ""data/changelog.json"",

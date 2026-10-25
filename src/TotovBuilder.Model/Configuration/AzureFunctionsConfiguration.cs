@@ -9,29 +9,50 @@ namespace TotovBuilder.Model.Configuration
     public class AzureFunctionsConfiguration
     {
         /// <summary>
-        /// API query for getting barters.
+        /// Path of the API file containing barters.
+        /// <c>{0}</c> is replaced by the game mode API value.
         /// </summary>
-        public string ApiBartersQuery { get; set; } = string.Empty;
+        public string ApiBartersPath { get; set; } = string.Empty;
 
         /// <summary>
-        /// API query for getting items.
+        /// Base URL of the API files.
         /// </summary>
-        public string ApiItemsQuery { get; set; } = string.Empty;
+        public string ApiBaseUrl { get; set; } = string.Empty;
 
         /// <summary>
-        /// API query for getting presets.
+        /// Path of the API file containing items.
+        /// <c>{0}</c> is replaced by the game mode API value.
         /// </summary>
-        public string ApiPresetsQuery { get; set; } = string.Empty;
+        public string ApiItemsPath { get; set; } = string.Empty;
 
         /// <summary>
-        /// API query for getting prices.
+        /// Path of the API file containing items translations.
+        /// <c>{0}</c> is replaced by the game mode API value and <c>{1}</c> by the language.
         /// </summary>
-        public string ApiPricesQuery { get; set; } = string.Empty;
+        public string ApiItemsTranslationsPath { get; set; } = string.Empty;
 
         /// <summary>
-        /// API URL.
+        /// Path of the API file containing the current season.
         /// </summary>
-        public string ApiUrl { get; set; } = string.Empty;
+        public string ApiSeasonPath { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Path of the API file containing tasks.
+        /// <c>{0}</c> is replaced by the game mode API value.
+        /// </summary>
+        public string ApiTasksPath { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Path of the API file containing tasks translations.
+        /// <c>{0}</c> is replaced by the game mode API value and <c>{1}</c> by the language.
+        /// </summary>
+        public string ApiTasksTranslationsPath { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Path of the API file containing traders.
+        /// <c>{0}</c> is replaced by the game mode API value.
+        /// </summary>
+        public string ApiTradersPath { get; set; } = string.Empty;
 
         /// <summary>
         /// Connection string to the Azure blob storage containing static data.
@@ -65,6 +86,11 @@ namespace TotovBuilder.Model.Configuration
         public IEnumerable<GameMode> GameModes { get; set; } = [];
 
         /// <summary>
+        /// Game mode API value used to get the items statistics, which are common to all game modes.
+        /// </summary>
+        public string ItemsGameMode { get; set; } = string.Empty;
+
+        /// <summary>
         /// Languages in which items can be retrieved.
         /// </summary>
         public string[] ItemsLanguages { get; set; } = [];
@@ -78,11 +104,6 @@ namespace TotovBuilder.Model.Configuration
         /// Name of the Azure blob containing raw item categories data.
         /// </summary>
         public string RawItemCategoriesBlobName { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Name of the Azure blob containing raw items data missing from the API.
-        /// </summary>
-        public string RawItemMissingPropertiesBlobName { get; set; } = string.Empty;
 
         /// <summary>
         /// Name of the Azure blob containing raw data related to Tarkov gameplay.
