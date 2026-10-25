@@ -26,31 +26,6 @@
         public DeploymentMode? DeployerDeploymentMode { get; set; }
 
         /// <summary>
-        /// String to search to dertemine where the items data ends in the Tarkov resources file when extracting items.
-        /// </summary>
-        public string ItemsExtractionEndSearchString { get; set; } = string.Empty;
-
-        /// <summary>
-        /// String to search to dertemine where the items data starts in the Tarkov resources file when extracting items.
-        /// </summary>
-        public string ItemsExtractionStartSearchString { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Directory for archiving previous data extractions.
-        /// </summary>
-        public string PreviousExtractionsArchiveDirectory { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Path to the Tarkov executable file.
-        /// </summary>
-        public string TarkovLauncherExecutableFilePath { get; set; } = string.Empty;
-
-        /// <summary>
-        /// Path of the Tarkov file data are extracted from.
-        /// </summary>
-        public string TarkovResourcesFilePath { get; set; } = string.Empty;
-
-        /// <summary>
         /// Name of the directory containing the TotovBuilder website build result.
         /// </summary>
         public string WebsiteBuildDirectory { get; set; } = string.Empty;

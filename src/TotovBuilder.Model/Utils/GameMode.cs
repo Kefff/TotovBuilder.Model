@@ -14,5 +14,11 @@
         /// Value to use when make an API request.
         /// </summary>
         public string ApiQueryValue { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Name of the game mode whose prices are used when this game mode is not available.
+        /// Only temporary game modes, like seasons, have one.
+        /// </summary>
+        public string? FallbackGameModeName { get; set; }
     }
 }
